@@ -1,0 +1,2 @@
+# bloghugo
+Blog in Hugo
