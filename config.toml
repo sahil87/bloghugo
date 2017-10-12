@@ -33,10 +33,9 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   url = "/quotes/"
 
 [[menu.main]]
-  name = "About"
+  name = "GMETRI"
   weight = 20
-  identifier = "about"
-  url = "https://github.com/sahil87"
+  url = "https://gmetri.com"
 
 # Add your own params here
 [params]
