@@ -12,6 +12,8 @@ Crazy time trying to figure out differences sections, types and layouts.
 
 Finally the dust settles, with a few compromises.
 
-Need to add tags apart from just categories in the template. A nice challenge!
-
-Also, before that, need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that)
+#####TODOs:
+* Need to add tags apart from just categories in the template. A nice challenge!
+* Need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that)
+* To figure out how to publish to sahil.cc (to a separate github repo to allow https)
+* How are images used in hugo?
