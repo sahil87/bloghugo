@@ -1,51 +1,129 @@
 baseURL = "http://sahil.cc"
-languageCode = "en"
+languageCode = "en-us"
 title = "Sahil's Journal"
-theme = "hugo-nuo"
+theme = "hugo-future-imperfect"
 enableRobotsTXT = true
 pygmentsuseclasses = true
 PygmentsCodeFences = true
 canonifyurls = true
-
-# Disqus Username
 disqusShortname = "sahil-cc"
-
-# Google Analytics UA number
 googleAnalytics = "UA-87967706-1"
+
+#From future imperfect:
+preserveTaxonomyNames = true
+paginate = 3
+pluralizeListTitles = false
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
 
-[permalinks]
-  post = "/:year/:month/:title/"
+#[permalinks]
+#  post = "/:year/:month/:title/"
+
+# Add your own params here
+[params]
+#  author = "Sahil Ahuja"
+#  avatar = "/img/avatar.png"
+#  seotitle = "Sahil's Journal"
+#  subtitle = "~ Keep It Simple & Stupid ~"
+#  paginate = 10
+  # Sets the navbarTitle that appears in the top left of the navigation bar
+  navbarTitle = "sahil.cc"
+  # Sets the meta tag description
+  description = "One day at a time. One problem at a time."
+  # Sets where "View More Posts" links
+  viewMorePostLink     = "/blog/"
+
+# Optional Params
+  # Sets navbarTitle to match the section of the website
+  dynamicTitles        = true
+  # Sets RSS icons to appear on the sidebar with the social media buttons
+  rssAppearAtTop       = true
+  rssAppearAtBottom    = true
+  # Sets Social Media icons to appear on the sidebar
+  socialAppearAtTop    = true
+  socialAppearAtBottom = true
+  # Sets Categories to sort by number of posts instead of alphabetical
+  categoriesByCount    = true
+  # Sets Estimated Reading Time to appear in post headers
+  includeReadingTime   = true
+  # Sets the Favicon and Version for the site. Default support is for
+  # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
+  # These are stored in the favicon folder. See the following for more information:
+  # https://github.com/audreyr/favicon-cheat-sheet
+  loadFavicon          = false
+  faviconVersion       = ""
+  # Sets Social Share links to appear on posts
+  socialShare          = true
+  # Load custom CSS or JavaScript files. The variable is an array so that you
+  # can load multiple files if necessary. You can also load the standard theme
+  # files by adding the value, "default".
+  # customCSS            = ["default", "/path/to/file"]
+  # customJS             = ["default", "/path/to/file"]
+  customCSS            = ["default"]
+  customJS             = ["default"]
+
+
+# These are optional params related to the sidebar. They are recommended, but not
+# required for proper functionality. HTML is supported within the params.
+[params.intro]
+  header    = "Sahil Ahuja"
+  paragraph = "~ Keep It Simple & Stupid ~ <i class='fa fa-hand-peace-o'></i>"
+  about     = "The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination."
+
+  # This appears at the top of the sidebar above params.intro.header.
+  # A width of less than 100px is recommended from a design perspective.
+  [params.intro.pic]
+    src       = "/img/avatar.png"
+    # Sets Image to be a cirlce
+    circle    = false
+    # Sets Image to be Future Imperfect's hexagon
+    imperfect = false
+    width     = "105"
+    alt       = "Coder Dojo"
+
+[params.postAmount]
+# Sets the number of recent posts to show in the sidebar. The default value is 5.
+    sidebar = 2
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
   name = "Home"
-  weight = 10
-  identifier = "home"
   url = "/"
+  identifier = "fa fa-home"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  identifier = "fa fa-id-card-o"
+  weight = 2
 
 [[menu.main]]
   name = "Quotes"
-  weight = 15
-  identifier = "quotes"
   url = "/quotes/"
+  identifier = "fa fa-list"
+  weight = 3
+
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "fa fa-sitemap"
+  weight = 4
 
 [[menu.main]]
   name = "GMETRI"
-  weight = 20
-  url = "https://gmetri.com"
+  url = "https://gmetri.com/"
+  identifier = "fa fa-newspaper-o"
+  weight = 5
 
-# Add your own params here
-[params]
-  author = "Sahil Ahuja"
-  avatar = "/img/avatar.png"
-  seotitle = "Sahil's Journal"
-  subtitle = "~ Keep It Simple & Stupid ~"
-  description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
-  paginate = 10
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  identifier = "fa fa-envelope-o"
+  weight = 6
 
+[social]
   # Choose your social networks
   email = "sahilahuja@gmail.com"
   github = "sahil87"
@@ -68,11 +146,6 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # zhihu = "zhihu_username"
   # douban = "douban_username"
   # bilibili = "bilibili_id_number"
-
-  # Changyan Comments (China Only)
-  changyan = false
-  changyanId = "cyt3toRiB"
-  changyanConf = "prod_0908b1cb9a581501753cce1ed074dbe3"
 
   # Google Webmaster
   # https://www.google.com/webmasters/
