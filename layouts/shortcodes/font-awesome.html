@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+<i class="{{.Get "fa-class" }}"></i>
+{{ else }}
+<i class="{{.Get 0}}"></i>
+{{ end }}

@@ -14,7 +14,7 @@ Finally the dust settles, with a few compromises.
 
 ##### TODOs:
 
-* Need to add tags apart from just categories in the template. A nice challenge!
-* Need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that)
-* To figure out how to publish to sahil.cc (to a separate github repo to allow https)
-* How are images used in hugo?
+- [ ] Need to add tags apart from just categories in the template. A nice challenge!
+- [X] Need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that)
+- [ ] To figure out how to publish to sahil.cc (to a separate github repo to allow https)
+- [ ] How are images used in hugo?
