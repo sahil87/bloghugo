@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://sahil.cc/about/</loc>
+    <lastmod>2016-12-01T02:17:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/quotes/</loc>
+    <lastmod>2016-11-24T13:21:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/about/index-2/</loc>
+    <lastmod>2008-05-03T04:41:33+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/about/index-1/</loc>
+    <lastmod>2007-09-12T15:32:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/</loc>
+    <lastmod>2016-11-24T13:21:15+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://sahil.cc/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

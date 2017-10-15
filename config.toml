@@ -8,6 +8,7 @@ PygmentsCodeFences = true
 canonifyurls = true
 disqusShortname = "sahil-cc"
 googleAnalytics = "UA-87967706-1"
+publishDir = "docs"
 
 #From future imperfect:
 preserveTaxonomyNames = true
