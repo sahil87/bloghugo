@@ -1,4 +1,4 @@
-baseURL = "http://sahil.cc"
+baseURL = "http://test.sahil.cc"
 languageCode = "en-us"
 title = "Sahil's Journal"
 theme = "hugo-future-imperfect"
