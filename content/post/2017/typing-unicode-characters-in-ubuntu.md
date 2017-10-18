@@ -26,9 +26,9 @@ Unfortunately the above methods don't work in Jetbrain IDEs. There's a great Jet
 After installing this plugin, type `\u0060`, select it, and then `Alt + M`, `1`, `D` to convert it to ``` ` ```
 
 #### Important unicode characters:
-| Name        | Unicode | Character |
-| ------------- |:-------------:| -----:|
-| Backtick      |  ```0060```  | ``` ` ``` |
-| Degrees       |  ```00b0```  | ``` ° ``` |
-| Tick      |  ```2714```  | ``` ✔ ``` |
-| Wrong      |  ```2715```  | ``` ✕ ``` |
+| Name        | Unicode       | Character   |
+|:------------|:-------------:|:-----------:|
+| Backtick    |  ```0060```   | ``` ` ```   |
+| Degrees     |  ```00b0```   | ``` ° ```   |
+| Tick        |  ```2714```   | ``` ✔ ```   |
+| Wrong       |  ```2715```   | ``` ✕ ```   |

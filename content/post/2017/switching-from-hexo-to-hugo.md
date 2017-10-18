@@ -19,7 +19,10 @@ Finally the dust settles, with a few compromises.
 - [X] Using image in Hugo
 - [X] Deciding folder and URL structure of posts
 - [X] Finalize default archetype
-- [ ] Copy all posts
+- [X] Copy all posts
+- [ ] Fix all posts
+- [ ] Coyp all drafts
+- [ ] Fix all drafts
 
 #### Learnings
 ##### Categorization:

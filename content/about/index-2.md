@@ -1,5 +1,6 @@
 ---
 title: About
+draft: true
 id: 2
 date: 2008-05-03 04:41:33
 ---
