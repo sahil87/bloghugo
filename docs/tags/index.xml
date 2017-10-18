@@ -7,9 +7,82 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 07 Jan 2017 12:33:08 +0000</lastBuildDate>
     
 	<atom:link href="http://test.sahil.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git</title>
+      <link>http://test.sahil.cc/tags/git/</link>
+      <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Httpd</title>
+      <link>http://test.sahil.cc/tags/httpd/</link>
+      <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/httpd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://test.sahil.cc/tags/hugo/</link>
+      <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shortcuts</title>
+      <link>http://test.sahil.cc/tags/shortcuts/</link>
+      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/shortcuts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>http://test.sahil.cc/tags/test/</link>
+      <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>http://test.sahil.cc/tags/ubuntu/</link>
+      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unicode</title>
+      <link>http://test.sahil.cc/tags/unicode/</link>
+      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/unicode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webstorm</title>
+      <link>http://test.sahil.cc/tags/webstorm/</link>
+      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/tags/webstorm/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -7,10 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Thu, 24 Nov 2016 13:21:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
     
 	<atom:link href="http://test.sahil.cc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Switching From Hexo to Hugo</title>
+      <link>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</link>
+      <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
+      <description>This is the first hugo blog post.
+Crazy time trying to figure out differences sections, types and layouts.
+Finally the dust settles, with a few compromises.
+TODOs Need to add tags apart from just categories in the template. A nice challenge! Need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that) To figure out how to publish to sahil.cc (to a separate github repo to allow https) Using image in Hugo Deciding folder and URL structure of posts Finalize default archetype Copy all posts  Learnings Categorization: Categorization of posts in happen through two concepts:</description>
+    </item>
+    
+    <item>
+      <title>Typing Unicode Characters in Ubuntu</title>
+      <link>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</link>
+      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
+      <description>Ever since I decided that &amp;#96; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &amp;#96; whenever I needed it has been hell.
+After going through a great deal and self doubt, the final outcome deserves being documented.
+The way to type a backtick without using the backtick key is through its unicode.</description>
+    </item>
+    
+    <item>
+      <title>Github 2016 Report Card</title>
+      <link>http://test.sahil.cc/post/2017/github-2016-report-card/</link>
+      <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/github-2016-report-card/</guid>
+      <description> My 2016 Commits A great tool https://githubreportcard.reflect.io/ helped me visualize the same in more detail: In comparison to 2015 </description>
+    </item>
     
     <item>
       <title>Quotes</title>
@@ -25,6 +57,18 @@
  ― William Ralph Inge, from the book &amp;ldquo;Steal Like an Artist&amp;rdquo;
  Documentation should always be written with the assumption that only the examples are read.
  ― Prakhar Srivastav</description>
+    </item>
+    
+    <item>
+      <title>public_html web server - without mod_userdir</title>
+      <link>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
+      <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
+      <description>Hell, what does the title mean??
+It means this :
+Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles
+Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir. I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.</description>
     </item>
     
     <item>

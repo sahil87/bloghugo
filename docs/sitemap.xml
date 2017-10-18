@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</loc>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</loc>
+    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2017/github-2016-report-card/</loc>
+    <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/about/</loc>
     <lastmod>2016-12-01T02:17:41+00:00</lastmod>
   </url>
@@ -10,6 +25,11 @@
   <url>
     <loc>http://test.sahil.cc/quotes/</loc>
     <lastmod>2016-11-24T13:21:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</loc>
+    <lastmod>2008-05-03T08:59:43+00:00</lastmod>
   </url>
   
   <url>
@@ -23,7 +43,14 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/categories/blog/</loc>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/categories/</loc>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,13 +59,85 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/git/</loc>
+    <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/categories/guide/</loc>
+    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/httpd/</loc>
+    <lastmod>2008-05-03T08:59:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/hugo/</loc>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/categories/nitt/</loc>
+    <lastmod>2008-05-03T08:59:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/</loc>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/</loc>
-    <lastmod>2016-11-24T13:21:15+00:00</lastmod>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/shortcuts/</loc>
+    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://test.sahil.cc/tags/</loc>
+    <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/test/</loc>
+    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/ubuntu/</loc>
+    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/unicode/</loc>
+    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/webstorm/</loc>
+    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   

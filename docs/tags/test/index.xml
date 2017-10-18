@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/test/</link>
+    <description>Recent content in Test on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Switching From Hexo to Hugo</title>
+      <link>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</link>
+      <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
+      <description>This is the first hugo blog post.
+Crazy time trying to figure out differences sections, types and layouts.
+Finally the dust settles, with a few compromises.
+TODOs Need to add tags apart from just categories in the template. A nice challenge! Need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that) To figure out how to publish to sahil.cc (to a separate github repo to allow https) Using image in Hugo Deciding folder and URL structure of posts Finalize default archetype Copy all posts  Learnings Categorization: Categorization of posts in happen through two concepts:</description>
+    </item>
+    
+  </channel>
+</rss>

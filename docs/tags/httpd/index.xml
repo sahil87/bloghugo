@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Httpd on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/httpd/</link>
+    <description>Recent content in Httpd on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 03 May 2008 08:59:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/httpd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>public_html web server - without mod_userdir</title>
+      <link>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
+      <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
+      <description>Hell, what does the title mean??
+It means this :
+Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles
+Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir. I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unicode on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/unicode/</link>
+    <description>Recent content in Unicode on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 27 Aug 2017 23:20:16 +0530</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/unicode/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Typing Unicode Characters in Ubuntu</title>
+      <link>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</link>
+      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
+      <description>Ever since I decided that &amp;#96; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &amp;#96; whenever I needed it has been hell.
+After going through a great deal and self doubt, the final outcome deserves being documented.
+The way to type a backtick without using the backtick key is through its unicode.</description>
+    </item>
+    
+  </channel>
+</rss>
