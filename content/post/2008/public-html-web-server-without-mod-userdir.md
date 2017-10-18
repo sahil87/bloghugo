@@ -1,11 +1,10 @@
 ---
 title: public_html web server - without mod_userdir
 author: Sahil Ahuja
-categories: nitt
+date: 2008-05-03 08:59:43
+categories: ["nitt"]
 tags:
   - httpd
-id: 30
-date: 2008-05-03 08:59:43
 ---
 
 Hell, what does the title mean??

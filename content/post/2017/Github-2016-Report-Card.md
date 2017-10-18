@@ -1,9 +1,9 @@
 ---
 title: Github 2016 Report Card
 author: Sahil Ahuja
-categories: blog
 date: 2017-01-07 12:33:08
 tags: [git]
+categories: ["blog"]
 ---
 My 2016 Commits
 ![Github 2016 Commits](/images/github-2016-commits.png)

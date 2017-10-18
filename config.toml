@@ -11,12 +11,17 @@ googleAnalytics = "UA-87967706-1"
 publishDir = "docs"
 
 #From future imperfect:
-preserveTaxonomyNames = true
+#preserveTaxonomyNames = true
 paginate = 3
 pluralizeListTitles = false
 
 # Copyright of your post
 copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
 
 #[permalinks]
 #  post = "/:year/:month/:title/"
@@ -33,7 +38,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # Sets the meta tag description
   description = "One day at a time. One problem at a time."
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/post/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
@@ -85,7 +90,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 2
+    sidebar = 4
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
