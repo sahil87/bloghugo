@@ -18,7 +18,7 @@ Finally the dust settles, with a few compromises.
 - [X] To figure out how to publish to sahil.cc (to a separate github repo to allow https)
 - [X] Using image in Hugo
 - [X] Deciding folder and URL structure of posts
-- [ ] Finalize default archetype
+- [X] Finalize default archetype
 - [ ] Copy all posts
 
 #### Learnings

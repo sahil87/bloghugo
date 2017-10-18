@@ -1,5 +1,5 @@
 ---
-title: "Switching to Hugo from Hexo"
+title: "Typing Unicode Characters in Ubuntu"
 author: Sahil Ahuja
 date: 2017-08-27T23:20:16+05:30
 tags: [ "ubuntu", "webstorm", "unicode", "shortcuts" ]
