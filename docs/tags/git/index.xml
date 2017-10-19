@@ -18,7 +18,18 @@
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
       <guid>http://test.sahil.cc/post/2017/github-2016-report-card/</guid>
-      <description> My 2016 Commits A great tool https://githubreportcard.reflect.io/ helped me visualize the same in more detail: In comparison to 2015 </description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Good Git!</title>
+      <link>http://test.sahil.cc/post/2016/good-git/</link>
+      <pubDate>Tue, 22 Nov 2016 20:26:16 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/good-git/</guid>
+      <description>&lt;p&gt;Most used (but yet unremembered) git commands
+&lt;img src=&#34;http://test.sahil.cc/images/caveman4.jpg&#34; alt=&#34;Caveman Fire&#34; /&gt;
+&lt;/p&gt;</description>
     </item>
     
   </channel>

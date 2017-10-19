@@ -18,9 +18,54 @@
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
       <guid>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
-      <description>Ever since I decided that &amp;#96; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &amp;#96; whenever I needed it has been hell.
-After going through a great deal and self doubt, the final outcome deserves being documented.
-The way to type a backtick without using the backtick key is through its unicode.</description>
+      <description>&lt;p&gt;Ever since I decided that &lt;code&gt;&amp;#96;&lt;/code&gt; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &lt;code&gt;&amp;#96;&lt;/code&gt; whenever I needed it has been hell.
+
+After going through a great deal and self doubt, the final outcome deserves being documented.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>The DevOps Docks</title>
+      <link>http://test.sahil.cc/post/2017/the-devops-docks/</link>
+      <pubDate>Sat, 28 Jan 2017 12:33:35 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/the-devops-docks/</guid>
+      <description>&lt;p&gt;A cool way to vomit out all Ansible variables:
+&lt;a href=&#34;https://coderwall.com/p/13lh6w/dump-all-variables&#34;&gt;https://coderwall.com/p/13lh6w/dump-all-variables&lt;/a&gt;
+
+&lt;!-- ![Ansible Vomit](/images/2017/vomitcartoon.jpg) --&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Live long and prosper - Spock</title>
+      <link>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</link>
+      <pubDate>Mon, 05 Dec 2016 18:05:28 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://spockframework.org/&#34;&gt;Spock&lt;/a&gt; is the new kid in town in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Unit_testing&#34;&gt;crowded&lt;/a&gt; world of testing frameworks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://accu.org/index.php/journals/2203&#34;&gt;Here&lt;/a&gt; is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JWT: JSON Web Token - Passing on the secret without letting the neighours know</title>
+      <link>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
+      <pubDate>Wed, 23 Nov 2016 16:43:52 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
+      <description>&lt;p&gt;Login is still a tough problem! It&amp;rsquo;s been 5 years since I left coding professionally and still parts of this remain unresolved.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Good Git!</title>
+      <link>http://test.sahil.cc/post/2016/good-git/</link>
+      <pubDate>Tue, 22 Nov 2016 20:26:16 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/good-git/</guid>
+      <description>&lt;p&gt;Most used (but yet unremembered) git commands
+&lt;img src=&#34;http://test.sahil.cc/images/caveman4.jpg&#34; alt=&#34;Caveman Fire&#34; /&gt;
+&lt;/p&gt;</description>
     </item>
     
   </channel>

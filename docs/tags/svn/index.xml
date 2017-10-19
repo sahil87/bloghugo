@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Svn on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/svn/</link>
+    <description>Recent content in Svn on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 20 May 2008 02:07:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/svn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
+      <link>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
+Here is how it is done :
+For SVN :
+&amp;lt;VirtualHost *:80&amp;gt; ServerName repos.nitt.edu DocumentRoot &amp;quot;/var/www/svn/DocumentRoot/&amp;quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &amp;lt;Location /pragyan&amp;gt; DAV svn SVNPath /var/www/svn/pragyan &amp;lt;LimitExcept OPTIONS REPORTGET&amp;gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &amp;quot;Pragyan SVN LDAP Authentication&amp;quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</description>
+    </item>
+    
+    <item>
+      <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
+      <link>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
+      <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
+      <description>Yup.
+SVN IS MAD.
+Sorry, SVN and HTTPD team up to drive people crazy.
+I just came across two (or maybe three) of their misdoing in my effort to setup SVN on http://repos.nitt.edu
+1) First, with this nitt.edu.conf in /etc/httpd/conf.d directory :
+&amp;lt;VirtualHost *:80&amp;gt; ServerName repos.nitt.edu DocumentRoot &amp;quot;/var/www/html&amp;quot;&amp;lt;/pre&amp;gt; I got an error &amp;lt;pre&amp;gt;&amp;lt;span style=&amp;quot;color:#ff0000;&amp;quot;&amp;gt;RA layer request failed svn: PROPFIND request failed on &#39;/pragyan&#39; svn: PROPFIND of &#39;/pragyan&#39;: 302 Found (http://repos.nitt.edu)&amp;lt;/span&amp;gt;  I found this article : http://ynniv.</description>
+    </item>
+    
+  </channel>
+</rss>

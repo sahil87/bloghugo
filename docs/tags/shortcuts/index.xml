@@ -18,9 +18,9 @@
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
       <guid>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
-      <description>Ever since I decided that &amp;#96; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &amp;#96; whenever I needed it has been hell.
-After going through a great deal and self doubt, the final outcome deserves being documented.
-The way to type a backtick without using the backtick key is through its unicode.</description>
+      <description>&lt;p&gt;Ever since I decided that &lt;code&gt;&amp;#96;&lt;/code&gt; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &lt;code&gt;&amp;#96;&lt;/code&gt; whenever I needed it has been hell.
+
+After going through a great deal and self doubt, the final outcome deserves being documented.&lt;/p&gt;</description>
     </item>
     
   </channel>

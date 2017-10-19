@@ -18,10 +18,47 @@
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
       <guid>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
-      <description>This is the first hugo blog post.
-Crazy time trying to figure out differences sections, types and layouts.
-Finally the dust settles, with a few compromises.
-TODOs Need to add tags apart from just categories in the template. A nice challenge! Need to figure out shortcodes for youtube and fontawesome. (About us page dependent on that) To figure out how to publish to sahil.cc (to a separate github repo to allow https) Using image in Hugo Deciding folder and URL structure of posts Finalize default archetype Copy all posts  Learnings Categorization: Categorization of posts in happen through two concepts:</description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tracking hostname in Google Analytics</title>
+      <link>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</link>
+      <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
+      <description>&lt;p&gt;Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>To Frame or Not to Frame</title>
+      <link>http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/</link>
+      <pubDate>Wed, 01 Mar 2017 20:46:28 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/</guid>
+      <description>I recently had to decide whether to create our widget as an &amp;lt;iframe&amp;gt; or a &amp;lt;script&amp;gt; tag. The following link resolved it: http://krasimirtsonev.com/blog/article/iframe-or-not-that-is-the-question
+&amp;lt;iframe&amp;gt; it is!</description>
+    </item>
+    
+    <item>
+      <title>This too happens</title>
+      <link>http://test.sahil.cc/post/2017/this-too-happens/</link>
+      <pubDate>Thu, 02 Feb 2017 07:50:04 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/this-too-happens/</guid>
+      <description>This is really unbelievable. Just goes to show how easy it is sit back and relax while the world is drowning.
+https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/
+NEVER TRUST BACKUP METHODS!!!</description>
+    </item>
+    
+    <item>
+      <title>J(u)S Rants</title>
+      <link>http://test.sahil.cc/post/2017/jus-rants/</link>
+      <pubDate>Fri, 20 Jan 2017 12:33:25 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/jus-rants/</guid>
+      <description>A few cool JS articles: It&amp;rsquo;s The Future How it feels to learn JavaScript in 2016 JavaScript Fatigue Fatigue</description>
     </item>
     
     <item>
@@ -30,7 +67,230 @@ TODOs Need to add tags apart from just categories in the template. A nice challe
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
       <guid>http://test.sahil.cc/post/2017/github-2016-report-card/</guid>
-      <description> My 2016 Commits A great tool https://githubreportcard.reflect.io/ helped me visualize the same in more detail: In comparison to 2015 </description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring the ripples - cross domain tracking</title>
+      <link>http://test.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</link>
+      <pubDate>Sun, 25 Dec 2016 14:24:56 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</guid>
+      <description>About cross domain tracking: https://support.google.com/analytics/answer/1033876
+To setup cross domain tracking from either Google Analytics or Google Tag Manager: https://support.google.com/analytics/answer/1034342
+To setup Analytic Reports to include the domain name: https://support.google.com/analytics/answer/1034342#Next</description>
+    </item>
+    
+    <item>
+      <title>The Nodejs Toolbox (TNT)</title>
+      <link>http://test.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</link>
+      <pubDate>Tue, 20 Dec 2016 01:48:40 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</guid>
+      <description>&lt;p&gt;An opinionated list of great tools for NodeJS tooling.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Not funny one of every six times</title>
+      <link>http://test.sahil.cc/post/2016/not-funny-one-of-every-six-times/</link>
+      <pubDate>Sat, 17 Dec 2016 14:27:54 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/not-funny-one-of-every-six-times/</guid>
+      <description>&lt;p&gt;A few things NOT to try at home.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>DNS redirection to URL through Route 53 and S3</title>
+      <link>http://test.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</link>
+      <pubDate>Sat, 17 Dec 2016 03:33:51 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</guid>
+      <description>&lt;p&gt;I recently needed to redirect a DNS (like links.sportscafe.in) to a path (like &lt;a href=&#34;http://trello.com/abc&#34;&gt;http://trello.com/abc&lt;/a&gt;). Here is what finally helped me: &lt;a href=&#34;http://stackoverflow.com/a/14289082/1233476&#34;&gt;http://stackoverflow.com/a/14289082/1233476&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rube Goldberg Machine - Gradle Setup</title>
+      <link>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</link>
+      <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</guid>
+      <description>&lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Rube Goldberg machine&lt;/a&gt; is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.
+
+&lt;img src=&#34;http://test.sahil.cc/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif&#34; alt=&#34;Self Operating Napkin&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://test.sahil.cc/post/2016/hello-world/</link>
+      <pubDate>Fri, 18 Nov 2016 00:51:14 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/hello-world/</guid>
+      <description>My very first post after a very very long haitus!
+Too much has happened. It&amp;rsquo;s overwhelming. The hope is with this blog sanity prevails the world becomes a happier place.
+First things first : 1. Test the powers of Hexo and come up with a URL scheme 1. Import all previous blog (or at-leat point to them) 1. Ensure all DNS setting are properly set 1. Test if the blog works online 1.</description>
+    </item>
+    
+    <item>
+      <title>AILA! Automatic Inventory and Logistics Analysis (Intel IoT)</title>
+      <link>http://test.sahil.cc/post/2016/intel-edison-arduino-project/</link>
+      <pubDate>Sun, 20 Mar 2016 01:19:13 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/intel-edison-arduino-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The point of living</title>
+      <link>http://test.sahil.cc/post/2010/the-point-of-living/</link>
+      <pubDate>Mon, 06 Dec 2010 16:41:23 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2010/the-point-of-living/</guid>
+      <description>You have been warned. These are random thoughts.
+After a lot of self evaluation, (or by asking a 5 year old kid), one realizes that the point of living is just being happy.
+&amp;ldquo;Don&amp;rsquo;t worry, be happy!&amp;rdquo;  
+But then, why us? Any one else could have been happy in our place.
+One answer to this argument could be: Why bring about a change? You think you are special? Let the world be as it is.</description>
+    </item>
+    
+    <item>
+      <title>Bangalore International Airport Shuttle service timings and route</title>
+      <link>http://test.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</link>
+      <pubDate>Mon, 25 Jan 2010 01:48:06 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</guid>
+      <description>Their website sucks. [as on January 25th 2009].
+And collecting information from different sources was NOT fun.
+So here I am assimilating all steps at one place:
+For routes: http://www.btis.in/airport# or http://www.flickr.com/photos/rednivaram/2541783270/ 
+For timings: From airport to Bangalore, here&amp;rsquo;s the pic: http://www.flickr.com/photos/rednivaram/2540963595/ 
+from Bangalore to airport, there&amp;rsquo;s no website. I called up Just Dial (080 23333333) and they mailed me this info:
+Building : Bangalore International Airport Area : Devanahalli Pin : 562110 Tel.</description>
+    </item>
+    
+    <item>
+      <title>Creating a super-pendrive</title>
+      <link>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</link>
+      <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</guid>
+      <description>Hi,
+Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.
+This, however, is my experience/guide for creating a super pen drive (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive).</description>
+    </item>
+    
+    <item>
+      <title>Digikam Caveats - things to make sure using Digikam</title>
+      <link>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
+      <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
+      <description>I have been bitten. And so I post this in the hope that some needy soul finds this before he/she/it gets bitten too.
+Problem: Digikam saves image tags (ratings/captions that you spend hours editing) in its internal database. When you switch to a newer linux version, lose this information - unless you are careful enough to copy over the digikam.db4 file - which I was. The second problem is that if you move around or copy your files using a file browser, you lose this information ( !</description>
+    </item>
+    
+    <item>
+      <title>httpd with SElinux</title>
+      <link>http://test.sahil.cc/post/2009/httpd-with-selinux/</link>
+      <pubDate>Thu, 22 Oct 2009 14:47:13 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2009/httpd-with-selinux/</guid>
+      <description>Giving httpd access to other folders (apart from default SElinux allowed folders):
+ system-config-selinux rocks!! Go to System-&amp;gt; Administration -&amp;gt; SELinux Management (or system-config-selinux from command line). Type httpd in Filter and press enter. You will see that files that allow httpd write access have the Selinux File Type httpd_cache_t:s0. So.. now you know what to do right? Say you want to give httpd write access to folder /var/lib/dokuwiki/data/cache, then add a new file labelling using the Add button with the following details: File specifications: /var/lib/dokuwiki/data/cache(/.</description>
+    </item>
+    
+    <item>
+      <title>Making Fedora rpms/yum work - Offline</title>
+      <link>http://test.sahil.cc/post/2009/making-fedora-work-offline/</link>
+      <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2009/making-fedora-work-offline/</guid>
+      <description>This is guide relevant to those who wish to spread fedora to friends and loved ones who don&amp;rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.</description>
+    </item>
+    
+    <item>
+      <title>India, and Mr. God</title>
+      <link>http://test.sahil.cc/post/2008/india-and-mr-god/</link>
+      <pubDate>Wed, 29 Oct 2008 11:38:57 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/india-and-mr-god/</guid>
+      <description>So long since I have written anything. And there&amp;rsquo;s so much I want to write.
+But I ll write about what&amp;rsquo;s on the top of my mind right now.
+Yesterday (Diwali), Rajni aunty, mom&amp;rsquo;s friend, came to our house. Her son, (Mr. X we&amp;rsquo;ll call him) went straight to everyone&amp;rsquo;s feet wishing them Happy Diwali, conjuring a smile on everyone&amp;rsquo;s face as they blessed him (I know, a strange custom. Hopefully will be prevalent only for one more generation).</description>
+    </item>
+    
+    <item>
+      <title>Talk about punctuality!!</title>
+      <link>http://test.sahil.cc/post/2008/talk-about-punctuality/</link>
+      <pubDate>Mon, 30 Jun 2008 01:40:05 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/talk-about-punctuality/</guid>
+      <description>This wednesday, working at Goldman Sachs, I got a call from Santa Fe. The guy asked me when I wanted him to bring my luggage to my house. I said Saturday (yesterday) around 10 am.
+Yesterday, he reached here at 9:55. After everything was brought in and kept at the wanted places, he gave me a feedback form. And boy, the first question was :
+Were we on time?
+The options were :</description>
+    </item>
+    
+    <item>
+      <title>So many things... so less time...</title>
+      <link>http://test.sahil.cc/post/2008/so-many-things-so-less-time/</link>
+      <pubDate>Mon, 30 Jun 2008 00:57:48 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/so-many-things-so-less-time/</guid>
+      <description>Hello Banagalore!!!
+Anshu came here last week. We had a gr8 time!! He reached here last Saturday. We had an Italian brunch here at a great place named Casa Picolo on CMH road.
+We asked Sriram where we could go. He told us about a great place to shop - Brigade road. Me and Anshu first went to MG road and set about searching for his memory card. We found a great lane there to shop which joined M.</description>
+    </item>
+    
+    <item>
+      <title>Fedora 9 Released!!!</title>
+      <link>http://test.sahil.cc/post/2008/fedora-9-released/</link>
+      <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/fedora-9-released/</guid>
+      <description>And it rocks!!
+The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
+Now, before I say anything else about Fedora 9, here are a few screenshots :
+Here&amp;rsquo;s Gnome in F9 :
+
+And here is KDE 4 (finally !!):
+
+KDE 4 seems to be following the footsteps of some of its latest applications like Basket. The new start menu now acts like that of IPOD.</description>
+    </item>
+    
+    <item>
+      <title>The Gods must be crazy..</title>
+      <link>http://test.sahil.cc/post/2008/the-gods-must-be-crazy/</link>
+      <pubDate>Thu, 22 May 2008 11:23:10 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/the-gods-must-be-crazy/</guid>
+      <description>Really.
+I mean, this is Faridabad.. in MAY!!! Last year this time, it was blazing hot with loo making it&amp;rsquo;s rounds all over India, with people dying of brain fever.
+And now, when I come to Faridabad for 10 days, the last time before my job starts, the weather decides to become stormy, windy and rainy.
+I caught a throat infection while coming home via Bhilai from NIT Trichy. I was hoping the heat here would cure the infection.</description>
+    </item>
+    
+    <item>
+      <title>There are websites for everything, even washing your clothes..</title>
+      <link>http://test.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</link>
+      <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</guid>
+      <description>What Makes Married Men Want to Have Affairs? &amp;ndash; New York Magazine &amp;gt; Consider the Website meet2cheat, in which married people find one another for recreational sex; it charges $59 for a man’s three-month entry fee, $9 for a woman. Cheating wives are harder to come by. Wow. Nice article. Says men are more prone to infidelity (cheating on someone). Quite right.</description>
+    </item>
+    
+    <item>
+      <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
+      <link>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
+Here is how it is done :
+For SVN :
+&amp;lt;VirtualHost *:80&amp;gt; ServerName repos.nitt.edu DocumentRoot &amp;quot;/var/www/svn/DocumentRoot/&amp;quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &amp;lt;Location /pragyan&amp;gt; DAV svn SVNPath /var/www/svn/pragyan &amp;lt;LimitExcept OPTIONS REPORTGET&amp;gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &amp;quot;Pragyan SVN LDAP Authentication&amp;quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</description>
     </item>
     
   </channel>

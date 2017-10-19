@@ -1,0 +1,1031 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Making Fedora rpms/yum work - Offline</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.29" />
+        
+
+
+        
+            <meta name="author" content="Sahil Ahuja">
+        
+        
+            
+                <meta name="description" content="One day at a time. One problem at a time.">
+            
+        
+
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Making Fedora rpms/yum work - Offline"/>
+<meta name="twitter:description" content="This is guide relevant to those who wish to spread fedora to friends and loved ones who don&rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc."/>
+<meta name="twitter:site" content="@_sahilahuja"/>
+
+        <meta property="og:title" content="Making Fedora rpms/yum work - Offline" />
+<meta property="og:description" content="This is guide relevant to those who wish to spread fedora to friends and loved ones who don&rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://test.sahil.cc/post/2009/making-fedora-work-offline/" />
+
+
+
+<meta property="article:published_time" content="2009-10-22T01:00:44&#43;00:00"/>
+<meta property="article:modified_time" content="2009-10-22T01:00:44&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Making Fedora rpms/yum work - Offline">
+<meta itemprop="description" content="This is guide relevant to those who wish to spread fedora to friends and loved ones who don&rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.">
+
+
+<meta itemprop="dateModified" content="2009-10-22T01:00:44&#43;00:00" />
+<meta itemprop="wordCount" content="600">
+
+
+
+<meta itemprop="keywords" content="fedora,offline,update,yum," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+            <link rel="stylesheet" href="http://test.sahil.cc/css/main.css">
+            <link rel="stylesheet" href="http://test.sahil.cc/css/add-on.css">
+        
+
+        
+            
+                
+            
+        
+
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87967706-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="http://test.sahil.cc/">post</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="http://test.sahil.cc/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/quotes/">
+                            <i class="fa fa-list">&nbsp;</i>Quotes
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://gmetri.com/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>GMETRI
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="http://test.sahil.cc">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="http://test.sahil.cc">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="http://test.sahil.cc/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/quotes/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Quotes
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://gmetri.com/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>GMETRI
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-10-18'>
+                                    October 18, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/">Typing Unicode Characters in Ubuntu</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-27'>
+                                    August 27, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/">Tracking hostname in Google Analytics</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-03-28'>
+                                    March 28, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
+            <img src="http://test.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/">To Frame or Not to Frame</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-03-01'>
+                                    March 1, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /post/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f&text=Making%20Fedora%20rpms%2fyum%20work%20-%20Offline&via=_sahilahuja" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f&title=Making%20Fedora%20rpms%2fyum%20work%20-%20Offline" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f&title=Making%20Fedora%20rpms%2fyum%20work%20-%20Offline" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="http://test.sahil.cc/post/2009/making-fedora-work-offline/">Making Fedora rpms/yum work - Offline</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2009-10-22'>
+            October 22, 2009</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f&text=Making%20Fedora%20rpms%2fyum%20work%20-%20Offline&via=_sahilahuja" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f&title=Making%20Fedora%20rpms%2fyum%20work%20-%20Offline" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f&title=Making%20Fedora%20rpms%2fyum%20work%20-%20Offline" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fmaking-fedora-work-offline%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    <p>This is guide relevant to those who wish to spread fedora to friends and loved ones who don&rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.</p>
+
+<p>This isn&rsquo;t always possible with the skimpy internet connections that our not-so-tech-savvy aunts have. (We&rsquo;ll assume that it is our aunt on whose system we need to install fedora for the sake of this guide.)</p>
+
+<p>So, I devised a way of spreading fedora to our aunt&rsquo;s system, without getting embarrassed  by that fact that we weren&rsquo;t able to run mp3 on their system.</p>
+
+<p>The way to do this, is to <strong>install a fresh copy of fedora</strong> on our system, and then bring it to perfect shape by <strong>installing many more rpms</strong>, and while doing this, <strong>keeping a copy of the rpms</strong> required, and then copying this repository of rpms (which we are sure don&rsquo;t require any more rpms as dependencies as we install them on our own system in offline mode) on a pen drive and taking it along with the fedora installation media to our aunt&rsquo;s home. And after installing fedora on her system, we simply <strong>install all the rpms on her system</strong>.</p>
+
+<p><strong>Steps:</strong>
+<strong>On our system:</strong>
+Download all rpms required for the extra packages (the package rpms + dependencies)
+<code>yumdownloader --destdir=rpmsForAunt --resolve rpmName(s)</code></p>
+
+<p>OR</p>
+
+<p>create a service pack of all pending updates or certain rpms using gpk-service-pack
+<code>yum install gnome-packagekit-extra</code></p>
+
+<p>OR</p>
+
+<p>Edit /etc/yum.conf and change the value of keepcache to 1. After the update is done, the downloaded rpm files then can be found in (and copied from) subfolders named &ldquo;packages&rdquo; in /var/cache/yum. When you&rsquo;re done with them you can get rid of them to save disk space with yum clean packages.
+<strong>On our aunt&rsquo;s system:</strong></p>
+
+<ol>
+<li>Install fedora.</li>
+
+<li><p>Install the extra downloaded rpms:</p>
+
+<ol>
+<li>You need to disable all repositories before yum localinstall will work without net access. To do so,
+go to System &gt; Administration &gt; Add/Remove Software and go the System &gt; Software Sources and **uncheck **all sources.</li>
+<li>Installing the rpms:(1 : see footnote)
+<code>cd rpmsForAunt; yumlocalinstall --nogpgcheck *</code>
+The above command is to be run for every category of rpms below after copying the resultant directories on our Aunt&rsquo;s system.
+<strong>For getting all updates:</strong>
+I wrote a script for downloading all updates (after a fresh install) to a directory:
+<code>
+for i in `yum list updates | grep fc11 | cut -d ' ' -f 1`
+do
+echo Now downloading rpms for package $i
+yumdownloader --destdir=localUpdate --resolve $i
+done
+</code>
+<strong>For getting all media rpms:</strong>
+<code>
+rpm -ivh http://rpm.livna.org/livna-release.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-livna
+rpm -ivh http://linuxdownload.adobe.com/adobe-release/adobe-release-i386-1.0-1.noarch.rpm
+rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux
+</code>
+(the above is required only so that _you (and not your aunt) _can download the rpms)</li>
+</ol></li>
+</ol>
+
+<p><code>yumdownloader --destdir=localRpmsForMedia --resolve libdvdcss vlc flash-plugin xine xine-lib-extras xine-lib-extras-freeworld mplayer mplayer-gui gecko-mediaplayer mencoder amarok rhythmbox gstreamer-plugins-ugly gstreamer-plugins-bad gstreamer-ffmpeg audacious audacious-plugins-freeworld* k3b</code></p>
+
+<p><strong>A few more rpms that I use:</strong></p>
+
+<p><code>yumdownloader --destdir=localRpmsOther system-config-lvm gparted digikam m17n-db-*</code>
+&gt; (1)I faced an issue while bash was updated using this method. It said transaction failed.
+&gt;
+&gt; To resolve this, I ran
+&gt;
+&gt; <code>yum-complete-transaction --clean
+&gt; rpm -e bash
+&gt;</code>
+&gt;
+&gt; The above command listed two bash versions (I don&rsquo;t remember the version numbers), on saying rpm -e bash.version1, it said there are many dependencies, then I tried rpm -e bash.version and it worked. Then, I went back to the yumlocalinstall step and then that worked.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://test.sahil.cc/categories/blog'>blog</a></li>
+    
+</ul>
+
+  </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://test.sahil.cc/post/2008/india-and-mr-god/"
+                class="button big previous">India, and Mr. God</a></li>
+    
+
+    
+        <li><a href="http://test.sahil.cc/post/2009/httpd-with-selinux/"
+                class="button big next">httpd with SElinux</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <img src="http://test.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo" />
+      
+    
+    
+      <header>
+        <h2>Sahil Ahuja</h2>
+        <p>~ Keep It Simple & Stupid ~ <i class='fa fa-hand-peace-o'></i></p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@sahilahuja" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/ahujasahil" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/_sahilahuja" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a>
+              </h3>
+              
+              <time class="published" datetime='2017-10-18'>
+                October 18, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/">Typing Unicode Characters in Ubuntu</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-27'>
+                August 27, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/">Tracking hostname in Google Analytics</a>
+              </h3>
+              
+              <time class="published" datetime='2017-03-28'>
+                March 28, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
+            <img src="http://test.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/">To Frame or Not to Frame</a>
+              </h3>
+              
+              <time class="published" datetime='2017-03-01'>
+                March 1, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /post/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="http://test.sahil.cc/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/blog/">blog</a>
+                <span style="float:right;">26</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/guide/">guide</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        
+    </section>
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h1>
+      <p>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.</p>
+      <a href="http://test.sahil.cc/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@sahilahuja" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/ahujasahil" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/_sahilahuja" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+</div>
+<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+
+
+
+  
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+  <script src="http://test.sahil.cc/js/util.js"></script>
+  <script src="http://test.sahil.cc/js/main.js"></script>
+  <script src="http://test.sahil.cc/js/backToTop.js"></script>
+
+
+
+
+      
+  
+
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/google/</link>
+    <description>Recent content in Google on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 28 Mar 2017 11:00:26 +0000</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tracking hostname in Google Analytics</title>
+      <link>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</link>
+      <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
+      <description>&lt;p&gt;Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

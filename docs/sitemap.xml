@@ -13,8 +13,63 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</loc>
+    <lastmod>2017-03-28T11:00:26+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/</loc>
+    <lastmod>2017-03-01T20:46:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2017/this-too-happens/</loc>
+    <lastmod>2017-02-02T07:50:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2017/the-devops-docks/</loc>
+    <lastmod>2017-01-28T12:33:35+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2017/jus-rants/</loc>
+    <lastmod>2017-01-20T12:33:25+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/post/2017/github-2016-report-card/</loc>
     <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</loc>
+    <lastmod>2016-12-25T14:24:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</loc>
+    <lastmod>2016-12-20T01:48:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/not-funny-one-of-every-six-times/</loc>
+    <lastmod>2016-12-17T14:27:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</loc>
+    <lastmod>2016-12-17T03:33:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</loc>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</loc>
+    <lastmod>2016-12-05T18:05:28+00:00</lastmod>
   </url>
   
   <url>
@@ -23,8 +78,123 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</loc>
+    <lastmod>2016-11-25T05:24:39+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/quotes/</loc>
     <lastmod>2016-11-24T13:21:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/a-good-hexo-tutorial/</loc>
+    <lastmod>2016-11-24T11:24:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</loc>
+    <lastmod>2016-11-23T16:43:52+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/good-git/</loc>
+    <lastmod>2016-11-22T20:26:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/hello-world/</loc>
+    <lastmod>2016-11-18T00:51:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2016/intel-edison-arduino-project/</loc>
+    <lastmod>2016-03-20T01:19:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2010/the-point-of-living/</loc>
+    <lastmod>2010-12-06T16:41:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</loc>
+    <lastmod>2010-01-25T01:48:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</loc>
+    <lastmod>2009-11-15T01:11:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</loc>
+    <lastmod>2009-11-14T19:19:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2009/httpd-with-selinux/</loc>
+    <lastmod>2009-10-22T14:47:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2009/making-fedora-work-offline/</loc>
+    <lastmod>2009-10-22T01:00:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/india-and-mr-god/</loc>
+    <lastmod>2008-10-29T11:38:57+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/talk-about-punctuality/</loc>
+    <lastmod>2008-06-30T01:40:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/so-many-things-so-less-time/</loc>
+    <lastmod>2008-06-30T00:57:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/fedora-9-released/</loc>
+    <lastmod>2008-05-22T16:50:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/college-nostalgia/</loc>
+    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/the-gods-must-be-crazy/</loc>
+    <lastmod>2008-05-22T11:23:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</loc>
+    <lastmod>2008-05-22T11:12:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</loc>
+    <lastmod>2008-05-20T03:12:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/things-done-in-college-technology/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</loc>
+    <lastmod>2008-05-20T02:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</loc>
+    <lastmod>2008-05-11T14:47:18+00:00</lastmod>
   </url>
   
   <url>
@@ -33,13 +203,57 @@
   </url>
   
   <url>
-    <loc>http://test.sahil.cc/about/index-2/</loc>
-    <lastmod>2008-05-03T04:41:33+00:00</lastmod>
+    <loc>http://test.sahil.cc/tags/algorithms/</loc>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://test.sahil.cc/about/index-1/</loc>
-    <lastmod>2007-09-12T15:32:14+00:00</lastmod>
+    <loc>http://test.sahil.cc/tags/analytics/</loc>
+    <lastmod>2017-03-28T11:00:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/ansible/</loc>
+    <lastmod>2017-01-28T12:33:35+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/arduino/</loc>
+    <lastmod>2016-03-20T01:19:13+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/authentication/</loc>
+    <lastmod>2016-11-25T05:24:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/aws/</loc>
+    <lastmod>2016-12-17T03:33:51+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/backup/</loc>
+    <lastmod>2009-11-14T19:19:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/bangalore/</loc>
+    <lastmod>2010-01-25T01:48:06+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/bash/</loc>
+    <lastmod>2016-12-17T14:27:54+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -59,8 +273,92 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/dalal/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/delta/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/digikam/</loc>
+    <lastmod>2009-11-14T19:19:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/errors/</loc>
+    <lastmod>2008-05-11T14:47:18+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/es6/</loc>
+    <lastmod>2017-01-20T12:33:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/express/</loc>
+    <lastmod>2016-11-25T05:24:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/faridabad/</loc>
+    <lastmod>2008-05-22T11:23:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/fedora/</loc>
+    <lastmod>2009-11-15T01:11:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/fun/</loc>
+    <lastmod>2016-12-17T14:27:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/tags/git/</loc>
     <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/god/</loc>
+    <lastmod>2008-10-29T11:38:57+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/google/</loc>
+    <lastmod>2017-03-28T11:00:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/gparted/</loc>
+    <lastmod>2009-11-15T01:11:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/gradle/</loc>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/grub/</loc>
+    <lastmod>2009-11-15T01:11:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -71,8 +369,26 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/hexo/</loc>
+    <lastmod>2016-11-24T11:24:14+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/home/</loc>
+    <lastmod>2008-05-22T11:23:10+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/html/</loc>
+    <lastmod>2017-03-01T20:46:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/tags/httpd/</loc>
-    <lastmod>2008-05-03T08:59:43+00:00</lastmod>
+    <lastmod>2009-10-22T14:47:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -83,14 +399,128 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/java/</loc>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/js/</loc>
+    <lastmod>2017-03-01T20:46:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/jwt/</loc>
+    <lastmod>2016-11-23T16:43:52+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/ldap/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/life/</loc>
+    <lastmod>2010-12-06T16:41:23+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/linux/</loc>
+    <lastmod>2009-11-14T19:19:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/live/</loc>
+    <lastmod>2009-11-15T01:11:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/men/</loc>
+    <lastmod>2008-05-22T11:12:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/nfs/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/nitt/</loc>
+    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/categories/nitt/</loc>
-    <lastmod>2008-05-03T08:59:43+00:00</lastmod>
+    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/node/</loc>
+    <lastmod>2016-12-20T01:48:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/octa/</loc>
+    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/offline/</loc>
+    <lastmod>2009-10-22T01:00:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/pcbo/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/photography/</loc>
+    <lastmod>2009-11-14T19:19:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://test.sahil.cc/post/</loc>
     <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/pragyan/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/rants/</loc>
+    <lastmod>2017-01-20T12:33:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/categories/review/</loc>
+    <lastmod>2016-11-25T05:24:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/s3/</loc>
+    <lastmod>2016-12-17T03:33:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,20 +536,74 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/sex/</loc>
+    <lastmod>2008-05-22T11:12:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/tags/shortcuts/</loc>
     <lastmod>2017-08-27T23:20:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/spock/</loc>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/ssl/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/svn/</loc>
+    <lastmod>2008-05-20T02:07:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/tags/</loc>
-    <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://test.sahil.cc/tags/test/</loc>
     <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/testing/</loc>
+    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/tools/</loc>
+    <lastmod>2016-12-20T01:48:40+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/trac/</loc>
+    <lastmod>2008-05-20T02:07:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/tracking/</loc>
+    <lastmod>2017-03-28T11:00:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/tutorial/</loc>
+    <lastmod>2016-03-20T01:19:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,8 +620,38 @@
   </url>
   
   <url>
+    <loc>http://test.sahil.cc/tags/update/</loc>
+    <lastmod>2009-10-22T01:00:44+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/usb/</loc>
+    <lastmod>2009-11-15T01:11:27+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/web/</loc>
+    <lastmod>2016-11-25T05:24:39+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://test.sahil.cc/tags/webstorm/</loc>
     <lastmod>2017-08-27T23:20:16+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/women/</loc>
+    <lastmod>2008-05-22T11:12:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://test.sahil.cc/tags/yum/</loc>
+    <lastmod>2009-10-22T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   

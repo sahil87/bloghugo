@@ -12,24 +12,5 @@
 	<atom:link href="http://test.sahil.cc/about/index.xml" rel="self" type="application/rss+xml" />
     
     
-    <item>
-      <title>About</title>
-      <link>http://test.sahil.cc/about/index-2/</link>
-      <pubDate>Sat, 03 May 2008 04:41:33 +0000</pubDate>
-      
-      <guid>http://test.sahil.cc/about/index-2/</guid>
-      <description>This is a blog about how Nitin Isloorkar, Sumit Mathur and I went 2006 about our summer project in IIT Bombay.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://test.sahil.cc/about/index-1/</link>
-      <pubDate>Wed, 12 Sep 2007 15:32:14 +0000</pubDate>
-      
-      <guid>http://test.sahil.cc/about/index-1/</guid>
-      <description>I am a freak, an atheist, a thinker, a problem sniffer, a workaholic, a music nerd, a free software advocate, a virus, a bathroom singer, a woman lover, a photographer, a chess player, an idiot, a clown, and alive.
-I was born in 1987 at Ahmedabad, Gujrat (India). The part after that gets very confusing. So, I have organized the names of the places I have lived in (for myself):   Place Period School   Ahmedabad 7 yrs Thumblina (Nursery, KG1 KG2), St.</description>
-    </item>
-    
   </channel>
 </rss>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/testing/</link>
+    <description>Recent content in Testing on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Tue, 06 Dec 2016 02:44:45 +0000</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rube Goldberg Machine - Gradle Setup</title>
+      <link>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</link>
+      <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</guid>
+      <description>&lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Rube Goldberg machine&lt;/a&gt; is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.
+
+&lt;img src=&#34;http://test.sahil.cc/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif&#34; alt=&#34;Self Operating Napkin&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Live long and prosper - Spock</title>
+      <link>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</link>
+      <pubDate>Mon, 05 Dec 2016 18:05:28 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://spockframework.org/&#34;&gt;Spock&lt;/a&gt; is the new kid in town in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Unit_testing&#34;&gt;crowded&lt;/a&gt; world of testing frameworks.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://accu.org/index.php/journals/2203&#34;&gt;Here&lt;/a&gt; is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

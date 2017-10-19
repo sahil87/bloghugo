@@ -1,0 +1,1052 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Creating a super-pendrive</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.29" />
+        
+
+
+        
+            <meta name="author" content="Sahil Ahuja">
+        
+        
+            
+                <meta name="description" content="One day at a time. One problem at a time.">
+            
+        
+
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Creating a super-pendrive"/>
+<meta name="twitter:description" content="Hi,
+Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.
+This, however, is my experience/guide for creating a super pen drive (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive)."/>
+<meta name="twitter:site" content="@_sahilahuja"/>
+
+        <meta property="og:title" content="Creating a super-pendrive" />
+<meta property="og:description" content="Hi,
+Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.
+This, however, is my experience/guide for creating a super pen drive (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://test.sahil.cc/post/2009/creating-a-super-pendrive/" />
+
+
+
+<meta property="article:published_time" content="2009-11-15T01:11:27&#43;00:00"/>
+<meta property="article:modified_time" content="2009-11-15T01:11:27&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Creating a super-pendrive">
+<meta itemprop="description" content="Hi,
+Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.
+This, however, is my experience/guide for creating a super pen drive (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive).">
+
+
+<meta itemprop="dateModified" content="2009-11-15T01:11:27&#43;00:00" />
+<meta itemprop="wordCount" content="474">
+
+
+
+<meta itemprop="keywords" content="fedora,gparted,grub,live,usb," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+            <link rel="stylesheet" href="http://test.sahil.cc/css/main.css">
+            <link rel="stylesheet" href="http://test.sahil.cc/css/add-on.css">
+        
+
+        
+            
+                
+            
+        
+
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87967706-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="http://test.sahil.cc/">post</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="http://test.sahil.cc/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/quotes/">
+                            <i class="fa fa-list">&nbsp;</i>Quotes
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://gmetri.com/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>GMETRI
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://test.sahil.cc/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="http://test.sahil.cc">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="http://test.sahil.cc">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="http://test.sahil.cc/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/quotes/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Quotes
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://gmetri.com/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>GMETRI
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://test.sahil.cc/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-10-18'>
+                                    October 18, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/">Typing Unicode Characters in Ubuntu</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-27'>
+                                    August 27, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/">Tracking hostname in Google Analytics</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-03-28'>
+                                    March 28, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+    
+
+
+        
+
+        <a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
+            <img src="http://test.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/">To Frame or Not to Frame</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-03-01'>
+                                    March 1, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /post/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f&text=Creating%20a%20super-pendrive&via=_sahilahuja" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f&title=Creating%20a%20super-pendrive" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f&title=Creating%20a%20super-pendrive" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="http://test.sahil.cc/post/2009/creating-a-super-pendrive/">Creating a super-pendrive</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2009-11-15'>
+            November 15, 2009</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f&text=Creating%20a%20super-pendrive&via=_sahilahuja" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f&title=Creating%20a%20super-pendrive" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f&title=Creating%20a%20super-pendrive" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2ftest.sahil.cc%2fpost%2f2009%2fcreating-a-super-pendrive%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    <p>Hi,</p>
+
+<p>Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.</p>
+
+<p>This, however, is my experience/guide for creating a super pen drive  (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive).</p>
+
+<p>It wasn&rsquo;t as straight forward as I thought (like&hellip; all other things).</p>
+
+<p><strong>Steps:</strong></p>
+
+<ol>
+<li>Decide the partitioning layout and partition the pen drive.</li>
+<li>Install grub on one partition</li>
+<li>Install GParted on another</li>
+<li>Install Fedora on another</li>
+<li>Install grub again on the partition in step 2 :P, and setup grub.conf</li>
+<li>Sit back, and enjoy (may need to crouch forward in some cases.. )
+A super neat trick:</li>
+</ol>
+
+<p>To check at any time how you pen drive would behave if you boot from it, use the command : <code>qemu -hda /dev/sdb -m 256 -vga std</code></p>
+
+<p>This command reduced my research time to one third.</p>
+
+<p><strong>1) Decide the partitioning layout</strong></p>
+
+<p>I used GParted on my Fedora installation (on my harddisk) to set up the partition of the pen drive.</p>
+
+<p><strong>2) Install grub on one partition</strong></p>
+
+<p>Make sure you manually mount the grub partition. The /media/something folder in which it gets mounted automatically gave me some trouble. So unmounted it from there, and mounted /dev/sdb5 to /mnt/usbgrub</p>
+
+<p><code>grub-install --no-floppy --root-directory=/mnt/usbgrub/ /dev/sdb</code></p>
+
+<p><strong>3) Install GParted on another</strong></p>
+
+<p>Use UNetbootin for GParted</p>
+
+<p><strong>4) Install Fedora on another</strong></p>
+
+<p>Need to make sure that usb disk is ext3 before doing this. When I did this on a vfat disk, I got an &ldquo;error 22&rdquo; when trying to boot from the usb disk.</p>
+
+<p>Use liveusb-creator or live-iso-to-disk for Fedora.</p>
+
+<p>Persistence is buggy according to <a href="http://forums.fedoraforum.org/archive/index.php/t-219250.html">http://forums.fedoraforum.org/archive/index.php/t-219250.html</a> so instead, a better solution is to directly install fedora on the pen drive on a separate partition, like in <a href="http://linuxsoftwareblog.com/blog/?p=156">http://linuxsoftwareblog.com/blog/?p=156</a></p>
+
+<p><strong>5) Install grub again on the partition in step 2 :P, and setup grub.conf</strong></p>
+
+<pre><code>mount /dev/sdb5 /mnt/usbgrub/
+grub-install --no-floppy --root-directory=usbgrub/ /dev/sdb
+Now, to setup the grub menu:
+cd /mnt/usbgrub/boot/grub/
+cp /boot/grub/grub.conf .
+cp /boot/grub/splash.xpm.gz .
+</code></pre>
+
+<p>gedit grub.conf</p>
+
+<pre><code># grub.conf generated by anaconda
+#
+# Note that you do not have to rerun grub after making changes to this file
+# NOTICE:  You have a /boot partition.  This means that
+#          all kernel and initrd paths are relative to /boot/, eg.
+#          root (hd0,1)
+#          kernel /vmlinuz-version ro root=/dev/mapper/VGSahil-LVRoot
+#          initrd /initrd-version.img
+#boot=/dev/sda
+default=0
+timeout=5
+splashimage=(hd0,4)/boot/grub/splash.xpm.gz
+hiddenmenu
+title Fedora (2.6.30.8-64.fc11.i686.PAE)
+root (hd1,1)
+kernel /vmlinuz-2.6.30.8-64.fc11.i686.PAE ro root=/dev/mapper/VGSahil-LVRoot rhgb quiet
+initrd /initrd-2.6.30.8-64.fc11.i686.PAE.img
+
+title GParted Live
+root (hd0,5)
+kernel /live/vmlinuz1 boot=live union=aufs    noswap noprompt acpi=off irqpoll noapic noapm nodma nomce nolapic nosmp ip=frommedia vga=normal
+initrd /live/initrd1.img
+
+title Omega 11 Live
+root (hd0,6)
+kernel /syslinux/vmlinuz0 root=/dev/sdb7  rw liveimg quiet  rhgb
+initrd /syslinux/initrd0.img
+</code></pre>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://test.sahil.cc/categories/blog'>blog</a></li>
+    
+</ul>
+
+  </footer>
+</article>
+<ul class="actions pagination">
+    
+        <li><a href="http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/"
+                class="button big previous">Digikam Caveats - things to make sure using Digikam</a></li>
+    
+
+    
+        <li><a href="http://test.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/"
+                class="button big next">Bangalore International Airport Shuttle service timings and route</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <img src="http://test.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo" />
+      
+    
+    
+      <header>
+        <h2>Sahil Ahuja</h2>
+        <p>~ Keep It Simple & Stupid ~ <i class='fa fa-hand-peace-o'></i></p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@sahilahuja" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/ahujasahil" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/_sahilahuja" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a>
+              </h3>
+              
+              <time class="published" datetime='2017-10-18'>
+                October 18, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/">Typing Unicode Characters in Ubuntu</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-27'>
+                August 27, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/">Tracking hostname in Google Analytics</a>
+              </h3>
+              
+              <time class="published" datetime='2017-03-28'>
+                March 28, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
+            <img src="http://test.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/">To Frame or Not to Frame</a>
+              </h3>
+              
+              <time class="published" datetime='2017-03-01'>
+                March 1, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /post/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="http://test.sahil.cc/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/blog/">blog</a>
+                <span style="float:right;">26</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/guide/">guide</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://test.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        
+    </section>
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h1>
+      <p>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.</p>
+      <a href="http://test.sahil.cc/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@sahilahuja" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/ahujasahil" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/_sahilahuja" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+</div>
+<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+
+
+
+  
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+  <script src="http://test.sahil.cc/js/util.js"></script>
+  <script src="http://test.sahil.cc/js/main.js"></script>
+  <script src="http://test.sahil.cc/js/backToTop.js"></script>
+
+
+
+
+      
+  
+
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+

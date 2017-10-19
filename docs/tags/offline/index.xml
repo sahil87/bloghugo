@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Offline on Sahil&#39;s Journal</title>
+    <link>http://test.sahil.cc/tags/offline/</link>
+    <description>Recent content in Offline on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 22 Oct 2009 01:00:44 +0000</lastBuildDate>
+    
+	<atom:link href="http://test.sahil.cc/tags/offline/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Making Fedora rpms/yum work - Offline</title>
+      <link>http://test.sahil.cc/post/2009/making-fedora-work-offline/</link>
+      <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
+      
+      <guid>http://test.sahil.cc/post/2009/making-fedora-work-offline/</guid>
+      <description>This is guide relevant to those who wish to spread fedora to friends and loved ones who don&amp;rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.</description>
+    </item>
+    
+  </channel>
+</rss>
