@@ -5,8 +5,8 @@ date: 2017-10-18T23:56:14+05:30
 tags: [ "test", "hugo" ]
 categories: [ "blog" ]
 ---
-This is the first hugo blog post.
-
+My first *hugo* blog post.
+<!--more-->
 Crazy time trying to figure out differences sections, types and layouts. 
 
 Finally the dust settles, with a few compromises.
@@ -19,9 +19,10 @@ Finally the dust settles, with a few compromises.
 - [X] Using image in Hugo
 - [X] Deciding folder and URL structure of posts
 - [X] Finalize default archetype
+- [X] Galleries in Hugo (https://github.com/liwenyip/hugo-easy-gallery)
 - [X] Copy all posts
 - [ ] Fix all posts
-- [ ] Coyp all drafts
+- [ ] Copy all drafts
 - [ ] Fix all drafts
 
 #### Learnings

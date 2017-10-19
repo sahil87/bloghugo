@@ -11,5 +11,5 @@ featuredpath: "date"
 
 A cool way to vomit out all Ansible variables:
 https://coderwall.com/p/13lh6w/dump-all-variables
-
+<!--more-->
 <!-- ![Ansible Vomit](/images/2017/vomitcartoon.jpg) -->

@@ -9,9 +9,9 @@ featuredalt: "Github 2016 Commits"
 featuredpath: "date"
 ---
 My 2016 Commits
+<!--more-->
 ![Github 2016 Commits](/images/2017/github-2016-commits.png)
- <!-- more -->
- 
+  
 A great tool https://githubreportcard.reflect.io/ helped me visualize the same in more detail:
 ![Github Report Card 216](/images/2017/github-report-card-2016.png)
 

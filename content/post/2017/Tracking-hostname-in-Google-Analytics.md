@@ -9,7 +9,7 @@ featuredalt: "Google Analytics Filter"
 featuredpath: "date"
 ---
 Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
-<!-- more -->
+<!--more-->
  
 ![Google Analytics Filter](/images/2017/google_analytics_filter.png)
 
