@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/categories/</link>
+    <link>http://www.sahil.cc/categories/</link>
     <description>Recent content in Categories on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://test.sahil.cc/categories/blog/</link>
+      <link>http://www.sahil.cc/categories/blog/</link>
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/categories/blog/</guid>
+      <guid>http://www.sahil.cc/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guide</title>
-      <link>http://test.sahil.cc/categories/guide/</link>
+      <link>http://www.sahil.cc/categories/guide/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/categories/guide/</guid>
+      <guid>http://www.sahil.cc/categories/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nitt</title>
-      <link>http://test.sahil.cc/categories/nitt/</link>
+      <link>http://www.sahil.cc/categories/nitt/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/categories/nitt/</guid>
+      <guid>http://www.sahil.cc/categories/nitt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review</title>
-      <link>http://test.sahil.cc/categories/review/</link>
+      <link>http://www.sahil.cc/categories/review/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/categories/review/</guid>
+      <guid>http://www.sahil.cc/categories/review/</guid>
       <description></description>
     </item>
     

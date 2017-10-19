@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hexo on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/hexo/</link>
+    <link>http://www.sahil.cc/tags/hexo/</link>
     <description>Recent content in Hexo on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Thu, 24 Nov 2016 11:24:14 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/hexo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>A Good Hexo Tutorial</title>
-      <link>http://test.sahil.cc/post/2016/a-good-hexo-tutorial/</link>
+      <link>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</link>
       <pubDate>Thu, 24 Nov 2016 11:24:14 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/a-good-hexo-tutorial/</guid>
+      <guid>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</guid>
       <description>&lt;p&gt;No I am not going to write a tutorial for everything under the sun if it already exists.&lt;/p&gt;
 
 &lt;p&gt;Just recently found a great tutorial for Hexo - &lt;a href=&#34;https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/&#34;&gt;https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/&lt;/a&gt;&lt;/p&gt;

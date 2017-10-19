@@ -2,607 +2,607 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/</link>
+    <link>http://www.sahil.cc/tags/</link>
     <description>Recent content in Tags on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 06 Dec 2016 02:44:45 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Algorithms</title>
-      <link>http://test.sahil.cc/tags/algorithms/</link>
+      <link>http://www.sahil.cc/tags/algorithms/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/algorithms/</guid>
+      <guid>http://www.sahil.cc/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analytics</title>
-      <link>http://test.sahil.cc/tags/analytics/</link>
+      <link>http://www.sahil.cc/tags/analytics/</link>
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/analytics/</guid>
+      <guid>http://www.sahil.cc/tags/analytics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ansible</title>
-      <link>http://test.sahil.cc/tags/ansible/</link>
+      <link>http://www.sahil.cc/tags/ansible/</link>
       <pubDate>Sat, 28 Jan 2017 12:33:35 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/ansible/</guid>
+      <guid>http://www.sahil.cc/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Arduino</title>
-      <link>http://test.sahil.cc/tags/arduino/</link>
+      <link>http://www.sahil.cc/tags/arduino/</link>
       <pubDate>Sun, 20 Mar 2016 01:19:13 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/arduino/</guid>
+      <guid>http://www.sahil.cc/tags/arduino/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authentication</title>
-      <link>http://test.sahil.cc/tags/authentication/</link>
+      <link>http://www.sahil.cc/tags/authentication/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/authentication/</guid>
+      <guid>http://www.sahil.cc/tags/authentication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Aws</title>
-      <link>http://test.sahil.cc/tags/aws/</link>
+      <link>http://www.sahil.cc/tags/aws/</link>
       <pubDate>Sat, 17 Dec 2016 03:33:51 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/aws/</guid>
+      <guid>http://www.sahil.cc/tags/aws/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Backup</title>
-      <link>http://test.sahil.cc/tags/backup/</link>
+      <link>http://www.sahil.cc/tags/backup/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/backup/</guid>
+      <guid>http://www.sahil.cc/tags/backup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bangalore</title>
-      <link>http://test.sahil.cc/tags/bangalore/</link>
+      <link>http://www.sahil.cc/tags/bangalore/</link>
       <pubDate>Mon, 25 Jan 2010 01:48:06 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/bangalore/</guid>
+      <guid>http://www.sahil.cc/tags/bangalore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Bash</title>
-      <link>http://test.sahil.cc/tags/bash/</link>
+      <link>http://www.sahil.cc/tags/bash/</link>
       <pubDate>Sat, 17 Dec 2016 14:27:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/bash/</guid>
+      <guid>http://www.sahil.cc/tags/bash/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dalal</title>
-      <link>http://test.sahil.cc/tags/dalal/</link>
+      <link>http://www.sahil.cc/tags/dalal/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/dalal/</guid>
+      <guid>http://www.sahil.cc/tags/dalal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Delta</title>
-      <link>http://test.sahil.cc/tags/delta/</link>
+      <link>http://www.sahil.cc/tags/delta/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/delta/</guid>
+      <guid>http://www.sahil.cc/tags/delta/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digikam</title>
-      <link>http://test.sahil.cc/tags/digikam/</link>
+      <link>http://www.sahil.cc/tags/digikam/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/digikam/</guid>
+      <guid>http://www.sahil.cc/tags/digikam/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Errors</title>
-      <link>http://test.sahil.cc/tags/errors/</link>
+      <link>http://www.sahil.cc/tags/errors/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/errors/</guid>
+      <guid>http://www.sahil.cc/tags/errors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Es6</title>
-      <link>http://test.sahil.cc/tags/es6/</link>
+      <link>http://www.sahil.cc/tags/es6/</link>
       <pubDate>Fri, 20 Jan 2017 12:33:25 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/es6/</guid>
+      <guid>http://www.sahil.cc/tags/es6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Express</title>
-      <link>http://test.sahil.cc/tags/express/</link>
+      <link>http://www.sahil.cc/tags/express/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/express/</guid>
+      <guid>http://www.sahil.cc/tags/express/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Faridabad</title>
-      <link>http://test.sahil.cc/tags/faridabad/</link>
+      <link>http://www.sahil.cc/tags/faridabad/</link>
       <pubDate>Thu, 22 May 2008 11:23:10 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/faridabad/</guid>
+      <guid>http://www.sahil.cc/tags/faridabad/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fedora</title>
-      <link>http://test.sahil.cc/tags/fedora/</link>
+      <link>http://www.sahil.cc/tags/fedora/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/fedora/</guid>
+      <guid>http://www.sahil.cc/tags/fedora/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fun</title>
-      <link>http://test.sahil.cc/tags/fun/</link>
+      <link>http://www.sahil.cc/tags/fun/</link>
       <pubDate>Sat, 17 Dec 2016 14:27:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/fun/</guid>
+      <guid>http://www.sahil.cc/tags/fun/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>http://test.sahil.cc/tags/git/</link>
+      <link>http://www.sahil.cc/tags/git/</link>
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/git/</guid>
+      <guid>http://www.sahil.cc/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>God</title>
-      <link>http://test.sahil.cc/tags/god/</link>
+      <link>http://www.sahil.cc/tags/god/</link>
       <pubDate>Wed, 29 Oct 2008 11:38:57 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/god/</guid>
+      <guid>http://www.sahil.cc/tags/god/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Google</title>
-      <link>http://test.sahil.cc/tags/google/</link>
+      <link>http://www.sahil.cc/tags/google/</link>
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/google/</guid>
+      <guid>http://www.sahil.cc/tags/google/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gparted</title>
-      <link>http://test.sahil.cc/tags/gparted/</link>
+      <link>http://www.sahil.cc/tags/gparted/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/gparted/</guid>
+      <guid>http://www.sahil.cc/tags/gparted/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gradle</title>
-      <link>http://test.sahil.cc/tags/gradle/</link>
+      <link>http://www.sahil.cc/tags/gradle/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/gradle/</guid>
+      <guid>http://www.sahil.cc/tags/gradle/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Grub</title>
-      <link>http://test.sahil.cc/tags/grub/</link>
+      <link>http://www.sahil.cc/tags/grub/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/grub/</guid>
+      <guid>http://www.sahil.cc/tags/grub/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hexo</title>
-      <link>http://test.sahil.cc/tags/hexo/</link>
+      <link>http://www.sahil.cc/tags/hexo/</link>
       <pubDate>Thu, 24 Nov 2016 11:24:14 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/hexo/</guid>
+      <guid>http://www.sahil.cc/tags/hexo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home</title>
-      <link>http://test.sahil.cc/tags/home/</link>
+      <link>http://www.sahil.cc/tags/home/</link>
       <pubDate>Thu, 22 May 2008 11:23:10 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/home/</guid>
+      <guid>http://www.sahil.cc/tags/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>http://test.sahil.cc/tags/html/</link>
+      <link>http://www.sahil.cc/tags/html/</link>
       <pubDate>Wed, 01 Mar 2017 20:46:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/html/</guid>
+      <guid>http://www.sahil.cc/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Httpd</title>
-      <link>http://test.sahil.cc/tags/httpd/</link>
+      <link>http://www.sahil.cc/tags/httpd/</link>
       <pubDate>Thu, 22 Oct 2009 14:47:13 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/httpd/</guid>
+      <guid>http://www.sahil.cc/tags/httpd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>http://test.sahil.cc/tags/hugo/</link>
+      <link>http://www.sahil.cc/tags/hugo/</link>
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/tags/hugo/</guid>
+      <guid>http://www.sahil.cc/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>http://test.sahil.cc/tags/java/</link>
+      <link>http://www.sahil.cc/tags/java/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/java/</guid>
+      <guid>http://www.sahil.cc/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Js</title>
-      <link>http://test.sahil.cc/tags/js/</link>
+      <link>http://www.sahil.cc/tags/js/</link>
       <pubDate>Wed, 01 Mar 2017 20:46:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/js/</guid>
+      <guid>http://www.sahil.cc/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Jwt</title>
-      <link>http://test.sahil.cc/tags/jwt/</link>
+      <link>http://www.sahil.cc/tags/jwt/</link>
       <pubDate>Wed, 23 Nov 2016 16:43:52 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/jwt/</guid>
+      <guid>http://www.sahil.cc/tags/jwt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ldap</title>
-      <link>http://test.sahil.cc/tags/ldap/</link>
+      <link>http://www.sahil.cc/tags/ldap/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/ldap/</guid>
+      <guid>http://www.sahil.cc/tags/ldap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>http://test.sahil.cc/tags/life/</link>
+      <link>http://www.sahil.cc/tags/life/</link>
       <pubDate>Mon, 06 Dec 2010 16:41:23 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/life/</guid>
+      <guid>http://www.sahil.cc/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>http://test.sahil.cc/tags/linux/</link>
+      <link>http://www.sahil.cc/tags/linux/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/linux/</guid>
+      <guid>http://www.sahil.cc/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Live</title>
-      <link>http://test.sahil.cc/tags/live/</link>
+      <link>http://www.sahil.cc/tags/live/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/live/</guid>
+      <guid>http://www.sahil.cc/tags/live/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Men</title>
-      <link>http://test.sahil.cc/tags/men/</link>
+      <link>http://www.sahil.cc/tags/men/</link>
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/men/</guid>
+      <guid>http://www.sahil.cc/tags/men/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nfs</title>
-      <link>http://test.sahil.cc/tags/nfs/</link>
+      <link>http://www.sahil.cc/tags/nfs/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/nfs/</guid>
+      <guid>http://www.sahil.cc/tags/nfs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nitt</title>
-      <link>http://test.sahil.cc/tags/nitt/</link>
+      <link>http://www.sahil.cc/tags/nitt/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/nitt/</guid>
+      <guid>http://www.sahil.cc/tags/nitt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Node</title>
-      <link>http://test.sahil.cc/tags/node/</link>
+      <link>http://www.sahil.cc/tags/node/</link>
       <pubDate>Tue, 20 Dec 2016 01:48:40 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/node/</guid>
+      <guid>http://www.sahil.cc/tags/node/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Octa</title>
-      <link>http://test.sahil.cc/tags/octa/</link>
+      <link>http://www.sahil.cc/tags/octa/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/octa/</guid>
+      <guid>http://www.sahil.cc/tags/octa/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Offline</title>
-      <link>http://test.sahil.cc/tags/offline/</link>
+      <link>http://www.sahil.cc/tags/offline/</link>
       <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/offline/</guid>
+      <guid>http://www.sahil.cc/tags/offline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pcbo</title>
-      <link>http://test.sahil.cc/tags/pcbo/</link>
+      <link>http://www.sahil.cc/tags/pcbo/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/pcbo/</guid>
+      <guid>http://www.sahil.cc/tags/pcbo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photography</title>
-      <link>http://test.sahil.cc/tags/photography/</link>
+      <link>http://www.sahil.cc/tags/photography/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/photography/</guid>
+      <guid>http://www.sahil.cc/tags/photography/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pragyan</title>
-      <link>http://test.sahil.cc/tags/pragyan/</link>
+      <link>http://www.sahil.cc/tags/pragyan/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/pragyan/</guid>
+      <guid>http://www.sahil.cc/tags/pragyan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rants</title>
-      <link>http://test.sahil.cc/tags/rants/</link>
+      <link>http://www.sahil.cc/tags/rants/</link>
       <pubDate>Fri, 20 Jan 2017 12:33:25 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/rants/</guid>
+      <guid>http://www.sahil.cc/tags/rants/</guid>
       <description></description>
     </item>
     
     <item>
       <title>S3</title>
-      <link>http://test.sahil.cc/tags/s3/</link>
+      <link>http://www.sahil.cc/tags/s3/</link>
       <pubDate>Sat, 17 Dec 2016 03:33:51 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/s3/</guid>
+      <guid>http://www.sahil.cc/tags/s3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sex</title>
-      <link>http://test.sahil.cc/tags/sex/</link>
+      <link>http://www.sahil.cc/tags/sex/</link>
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/sex/</guid>
+      <guid>http://www.sahil.cc/tags/sex/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortcuts</title>
-      <link>http://test.sahil.cc/tags/shortcuts/</link>
+      <link>http://www.sahil.cc/tags/shortcuts/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/tags/shortcuts/</guid>
+      <guid>http://www.sahil.cc/tags/shortcuts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Spock</title>
-      <link>http://test.sahil.cc/tags/spock/</link>
+      <link>http://www.sahil.cc/tags/spock/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/spock/</guid>
+      <guid>http://www.sahil.cc/tags/spock/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ssl</title>
-      <link>http://test.sahil.cc/tags/ssl/</link>
+      <link>http://www.sahil.cc/tags/ssl/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/ssl/</guid>
+      <guid>http://www.sahil.cc/tags/ssl/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Svn</title>
-      <link>http://test.sahil.cc/tags/svn/</link>
+      <link>http://www.sahil.cc/tags/svn/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/svn/</guid>
+      <guid>http://www.sahil.cc/tags/svn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>http://test.sahil.cc/tags/test/</link>
+      <link>http://www.sahil.cc/tags/test/</link>
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/tags/test/</guid>
+      <guid>http://www.sahil.cc/tags/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Testing</title>
-      <link>http://test.sahil.cc/tags/testing/</link>
+      <link>http://www.sahil.cc/tags/testing/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/testing/</guid>
+      <guid>http://www.sahil.cc/tags/testing/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tools</title>
-      <link>http://test.sahil.cc/tags/tools/</link>
+      <link>http://www.sahil.cc/tags/tools/</link>
       <pubDate>Tue, 20 Dec 2016 01:48:40 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/tools/</guid>
+      <guid>http://www.sahil.cc/tags/tools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Trac</title>
-      <link>http://test.sahil.cc/tags/trac/</link>
+      <link>http://www.sahil.cc/tags/trac/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/trac/</guid>
+      <guid>http://www.sahil.cc/tags/trac/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tracking</title>
-      <link>http://test.sahil.cc/tags/tracking/</link>
+      <link>http://www.sahil.cc/tags/tracking/</link>
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/tracking/</guid>
+      <guid>http://www.sahil.cc/tags/tracking/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorial</title>
-      <link>http://test.sahil.cc/tags/tutorial/</link>
+      <link>http://www.sahil.cc/tags/tutorial/</link>
       <pubDate>Sun, 20 Mar 2016 01:19:13 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/tutorial/</guid>
+      <guid>http://www.sahil.cc/tags/tutorial/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ubuntu</title>
-      <link>http://test.sahil.cc/tags/ubuntu/</link>
+      <link>http://www.sahil.cc/tags/ubuntu/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/tags/ubuntu/</guid>
+      <guid>http://www.sahil.cc/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unicode</title>
-      <link>http://test.sahil.cc/tags/unicode/</link>
+      <link>http://www.sahil.cc/tags/unicode/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/tags/unicode/</guid>
+      <guid>http://www.sahil.cc/tags/unicode/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Update</title>
-      <link>http://test.sahil.cc/tags/update/</link>
+      <link>http://www.sahil.cc/tags/update/</link>
       <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/update/</guid>
+      <guid>http://www.sahil.cc/tags/update/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Usb</title>
-      <link>http://test.sahil.cc/tags/usb/</link>
+      <link>http://www.sahil.cc/tags/usb/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/usb/</guid>
+      <guid>http://www.sahil.cc/tags/usb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>http://test.sahil.cc/tags/web/</link>
+      <link>http://www.sahil.cc/tags/web/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/web/</guid>
+      <guid>http://www.sahil.cc/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Webstorm</title>
-      <link>http://test.sahil.cc/tags/webstorm/</link>
+      <link>http://www.sahil.cc/tags/webstorm/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/tags/webstorm/</guid>
+      <guid>http://www.sahil.cc/tags/webstorm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Women</title>
-      <link>http://test.sahil.cc/tags/women/</link>
+      <link>http://www.sahil.cc/tags/women/</link>
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/women/</guid>
+      <guid>http://www.sahil.cc/tags/women/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yum</title>
-      <link>http://test.sahil.cc/tags/yum/</link>
+      <link>http://www.sahil.cc/tags/yum/</link>
       <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/tags/yum/</guid>
+      <guid>http://www.sahil.cc/tags/yum/</guid>
       <description></description>
     </item>
     

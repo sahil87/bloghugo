@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/about/</link>
+    <link>http://www.sahil.cc/about/</link>
     <description>Recent content in About on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Thu, 01 Dec 2016 02:17:41 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/about/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/about/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

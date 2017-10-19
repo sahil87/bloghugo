@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/hugo/</link>
+    <link>http://www.sahil.cc/tags/hugo/</link>
     <description>Recent content in Hugo on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Switching From Hexo to Hugo</title>
-      <link>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</link>
+      <link>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</link>
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
+      <guid>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
       <description></description>
     </item>
     

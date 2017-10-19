@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nitt on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/categories/nitt/</link>
+    <link>http://www.sahil.cc/categories/nitt/</link>
     <description>Recent content in Nitt on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Thu, 22 May 2008 12:06:54 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/categories/nitt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/categories/nitt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>College Nostalgia...</title>
-      <link>http://test.sahil.cc/post/2008/college-nostalgia/</link>
+      <link>http://www.sahil.cc/post/2008/college-nostalgia/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/college-nostalgia/</guid>
+      <guid>http://www.sahil.cc/post/2008/college-nostalgia/</guid>
       <description>Here are a few pics and videos I took on the last day of college :
   Dsc09076
       Dsc09086
@@ -27,29 +27,29 @@
     
     <item>
       <title>Adios College!!!</title>
-      <link>http://test.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</link>
+      <link>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</link>
       <pubDate>Tue, 20 May 2008 03:12:59 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</guid>
+      <guid>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</guid>
       <description>Here&amp;rsquo;s the farewell cake we gave our juniors. It was DELICIOUS.</description>
     </item>
     
     <item>
       <title>Things done in college - technology</title>
-      <link>http://test.sahil.cc/post/2008/things-done-in-college-technology/</link>
+      <link>http://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/things-done-in-college-technology/</guid>
+      <guid>http://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
       <description>Here is a list of things I have done in the past three years. I have written for the sake of personal record.
 As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.</description>
     </item>
     
     <item>
       <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
-      <link>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
+      <link>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
+      <guid>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
       <description>Yup.
 SVN IS MAD.
 Sorry, SVN and HTTPD team up to drive people crazy.
@@ -60,10 +60,10 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     
     <item>
       <title>public_html web server - without mod_userdir</title>
-      <link>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
+      <link>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
       <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
+      <guid>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
       <description>Hell, what does the title mean??
 It means this :
 Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles

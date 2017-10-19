@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fedora on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/fedora/</link>
+    <link>http://www.sahil.cc/tags/fedora/</link>
     <description>Recent content in Fedora on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 15 Nov 2009 01:11:27 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Creating a super-pendrive</title>
-      <link>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</link>
+      <link>http://www.sahil.cc/post/2009/creating-a-super-pendrive/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</guid>
+      <guid>http://www.sahil.cc/post/2009/creating-a-super-pendrive/</guid>
       <description>Hi,
 Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.
 This, however, is my experience/guide for creating a super pen drive (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive).</description>
@@ -25,19 +25,19 @@ This, however, is my experience/guide for creating a super pen drive (a.k.a. a u
     
     <item>
       <title>Making Fedora rpms/yum work - Offline</title>
-      <link>http://test.sahil.cc/post/2009/making-fedora-work-offline/</link>
+      <link>http://www.sahil.cc/post/2009/making-fedora-work-offline/</link>
       <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/making-fedora-work-offline/</guid>
+      <guid>http://www.sahil.cc/post/2009/making-fedora-work-offline/</guid>
       <description>This is guide relevant to those who wish to spread fedora to friends and loved ones who don&amp;rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.</description>
     </item>
     
     <item>
       <title>Fedora 9 Released!!!</title>
-      <link>http://test.sahil.cc/post/2008/fedora-9-released/</link>
+      <link>http://www.sahil.cc/post/2008/fedora-9-released/</link>
       <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/fedora-9-released/</guid>
+      <guid>http://www.sahil.cc/post/2008/fedora-9-released/</guid>
       <description>And it rocks!!
 The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
 Now, before I say anything else about Fedora 9, here are a few screenshots :
@@ -50,10 +50,10 @@ KDE 4 seems to be following the footsteps of some of its latest applications lik
     
     <item>
       <title>Things done in college - technology</title>
-      <link>http://test.sahil.cc/post/2008/things-done-in-college-technology/</link>
+      <link>http://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/things-done-in-college-technology/</guid>
+      <guid>http://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
       <description>Here is a list of things I have done in the past three years. I have written for the sake of personal record.
 As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.</description>
     </item>

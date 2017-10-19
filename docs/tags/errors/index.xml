@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Errors on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/errors/</link>
+    <link>http://www.sahil.cc/tags/errors/</link>
     <description>Recent content in Errors on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 11 May 2008 14:47:18 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/errors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/errors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
-      <link>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
+      <link>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
+      <guid>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
       <description>Yup.
 SVN IS MAD.
 Sorry, SVN and HTTPD team up to drive people crazy.

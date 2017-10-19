@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jwt on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/jwt/</link>
+    <link>http://www.sahil.cc/tags/jwt/</link>
     <description>Recent content in Jwt on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 23 Nov 2016 16:43:52 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/jwt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/jwt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>JWT: JSON Web Token - Passing on the secret without letting the neighours know</title>
-      <link>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
+      <link>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
       <pubDate>Wed, 23 Nov 2016 16:43:52 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
+      <guid>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
       <description>&lt;p&gt;Login is still a tough problem! It&amp;rsquo;s been 5 years since I left coding professionally and still parts of this remain unresolved.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>

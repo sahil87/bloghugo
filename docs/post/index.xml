@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/post/</link>
+    <link>http://www.sahil.cc/post/</link>
     <description>Recent content in Post on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Switching From Hexo to Hugo</title>
-      <link>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</link>
+      <link>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</link>
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
+      <guid>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typing Unicode Characters in Ubuntu</title>
-      <link>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</link>
+      <link>http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
+      <guid>http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
       <description>&lt;p&gt;Ever since I decided that &lt;code&gt;&amp;#96;&lt;/code&gt; was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &lt;code&gt;&amp;#96;&lt;/code&gt; whenever I needed it has been hell.
 
 After going through a great deal and self doubt, the final outcome deserves being documented.&lt;/p&gt;</description>
@@ -34,30 +34,30 @@ After going through a great deal and self doubt, the final outcome deserves bein
     
     <item>
       <title>Tracking hostname in Google Analytics</title>
-      <link>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</link>
+      <link>http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</link>
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
+      <guid>http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
       <description>&lt;p&gt;Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>To Frame or Not to Frame</title>
-      <link>http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/</link>
+      <link>http://www.sahil.cc/post/2017/to-frame-or-not-to-frame/</link>
       <pubDate>Wed, 01 Mar 2017 20:46:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/to-frame-or-not-to-frame/</guid>
+      <guid>http://www.sahil.cc/post/2017/to-frame-or-not-to-frame/</guid>
       <description>I recently had to decide whether to create our widget as an &amp;lt;iframe&amp;gt; or a &amp;lt;script&amp;gt; tag. The following link resolved it: http://krasimirtsonev.com/blog/article/iframe-or-not-that-is-the-question
 &amp;lt;iframe&amp;gt; it is!</description>
     </item>
     
     <item>
       <title>This too happens</title>
-      <link>http://test.sahil.cc/post/2017/this-too-happens/</link>
+      <link>http://www.sahil.cc/post/2017/this-too-happens/</link>
       <pubDate>Thu, 02 Feb 2017 07:50:04 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/this-too-happens/</guid>
+      <guid>http://www.sahil.cc/post/2017/this-too-happens/</guid>
       <description>This is really unbelievable. Just goes to show how easy it is sit back and relax while the world is drowning.
 https://www.theregister.co.uk/2017/02/01/gitlab_data_loss/
 NEVER TRUST BACKUP METHODS!!!</description>
@@ -65,10 +65,10 @@ NEVER TRUST BACKUP METHODS!!!</description>
     
     <item>
       <title>The DevOps Docks</title>
-      <link>http://test.sahil.cc/post/2017/the-devops-docks/</link>
+      <link>http://www.sahil.cc/post/2017/the-devops-docks/</link>
       <pubDate>Sat, 28 Jan 2017 12:33:35 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/the-devops-docks/</guid>
+      <guid>http://www.sahil.cc/post/2017/the-devops-docks/</guid>
       <description>&lt;p&gt;A cool way to vomit out all Ansible variables:
 &lt;a href=&#34;https://coderwall.com/p/13lh6w/dump-all-variables&#34;&gt;https://coderwall.com/p/13lh6w/dump-all-variables&lt;/a&gt;
 
@@ -77,28 +77,28 @@ NEVER TRUST BACKUP METHODS!!!</description>
     
     <item>
       <title>J(u)S Rants</title>
-      <link>http://test.sahil.cc/post/2017/jus-rants/</link>
+      <link>http://www.sahil.cc/post/2017/jus-rants/</link>
       <pubDate>Fri, 20 Jan 2017 12:33:25 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/jus-rants/</guid>
+      <guid>http://www.sahil.cc/post/2017/jus-rants/</guid>
       <description>A few cool JS articles: It&amp;rsquo;s The Future How it feels to learn JavaScript in 2016 JavaScript Fatigue Fatigue</description>
     </item>
     
     <item>
       <title>Github 2016 Report Card</title>
-      <link>http://test.sahil.cc/post/2017/github-2016-report-card/</link>
+      <link>http://www.sahil.cc/post/2017/github-2016-report-card/</link>
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2017/github-2016-report-card/</guid>
+      <guid>http://www.sahil.cc/post/2017/github-2016-report-card/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Measuring the ripples - cross domain tracking</title>
-      <link>http://test.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</link>
+      <link>http://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</link>
       <pubDate>Sun, 25 Dec 2016 14:24:56 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</guid>
+      <guid>http://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</guid>
       <description>About cross domain tracking: https://support.google.com/analytics/answer/1033876
 To setup cross domain tracking from either Google Analytics or Google Tag Manager: https://support.google.com/analytics/answer/1034342
 To setup Analytic Reports to include the domain name: https://support.google.com/analytics/answer/1034342#Next</description>
@@ -106,51 +106,51 @@ To setup Analytic Reports to include the domain name: https://support.google.com
     
     <item>
       <title>The Nodejs Toolbox (TNT)</title>
-      <link>http://test.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</link>
+      <link>http://www.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</link>
       <pubDate>Tue, 20 Dec 2016 01:48:40 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</guid>
+      <guid>http://www.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</guid>
       <description>&lt;p&gt;An opinionated list of great tools for NodeJS tooling.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Not funny one of every six times</title>
-      <link>http://test.sahil.cc/post/2016/not-funny-one-of-every-six-times/</link>
+      <link>http://www.sahil.cc/post/2016/not-funny-one-of-every-six-times/</link>
       <pubDate>Sat, 17 Dec 2016 14:27:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/not-funny-one-of-every-six-times/</guid>
+      <guid>http://www.sahil.cc/post/2016/not-funny-one-of-every-six-times/</guid>
       <description>&lt;p&gt;A few things NOT to try at home.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>DNS redirection to URL through Route 53 and S3</title>
-      <link>http://test.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</link>
+      <link>http://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</link>
       <pubDate>Sat, 17 Dec 2016 03:33:51 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</guid>
+      <guid>http://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</guid>
       <description>&lt;p&gt;I recently needed to redirect a DNS (like links.sportscafe.in) to a path (like &lt;a href=&#34;http://trello.com/abc&#34;&gt;http://trello.com/abc&lt;/a&gt;). Here is what finally helped me: &lt;a href=&#34;http://stackoverflow.com/a/14289082/1233476&#34;&gt;http://stackoverflow.com/a/14289082/1233476&lt;/a&gt;
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Rube Goldberg Machine - Gradle Setup</title>
-      <link>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</link>
+      <link>http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</guid>
+      <guid>http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</guid>
       <description>&lt;p&gt;A &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Rube Goldberg machine&lt;/a&gt; is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.
 
-&lt;img src=&#34;http://test.sahil.cc/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif&#34; alt=&#34;Self Operating Napkin&#34; /&gt;&lt;/p&gt;</description>
+&lt;img src=&#34;http://www.sahil.cc/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif&#34; alt=&#34;Self Operating Napkin&#34; /&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Live long and prosper - Spock</title>
-      <link>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</link>
+      <link>http://www.sahil.cc/post/2016/live-long-and-prosper-spock/</link>
       <pubDate>Mon, 05 Dec 2016 18:05:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/live-long-and-prosper-spock/</guid>
+      <guid>http://www.sahil.cc/post/2016/live-long-and-prosper-spock/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://spockframework.org/&#34;&gt;Spock&lt;/a&gt; is the new kid in town in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Unit_testing&#34;&gt;crowded&lt;/a&gt; world of testing frameworks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://accu.org/index.php/journals/2203&#34;&gt;Here&lt;/a&gt; is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.&lt;/p&gt;</description>
@@ -158,20 +158,20 @@ To setup Analytic Reports to include the domain name: https://support.google.com
     
     <item>
       <title>Issues while renewing Passport - the JS one</title>
-      <link>http://test.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
+      <link>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
+      <guid>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
       <description>&lt;p&gt;No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Good Hexo Tutorial</title>
-      <link>http://test.sahil.cc/post/2016/a-good-hexo-tutorial/</link>
+      <link>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</link>
       <pubDate>Thu, 24 Nov 2016 11:24:14 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/a-good-hexo-tutorial/</guid>
+      <guid>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</guid>
       <description>&lt;p&gt;No I am not going to write a tutorial for everything under the sun if it already exists.&lt;/p&gt;
 
 &lt;p&gt;Just recently found a great tutorial for Hexo - &lt;a href=&#34;https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/&#34;&gt;https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/&lt;/a&gt;&lt;/p&gt;
@@ -186,10 +186,10 @@ To setup Analytic Reports to include the domain name: https://support.google.com
     
     <item>
       <title>JWT: JSON Web Token - Passing on the secret without letting the neighours know</title>
-      <link>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
+      <link>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
       <pubDate>Wed, 23 Nov 2016 16:43:52 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
+      <guid>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
       <description>&lt;p&gt;Login is still a tough problem! It&amp;rsquo;s been 5 years since I left coding professionally and still parts of this remain unresolved.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -197,21 +197,21 @@ To setup Analytic Reports to include the domain name: https://support.google.com
     
     <item>
       <title>Good Git!</title>
-      <link>http://test.sahil.cc/post/2016/good-git/</link>
+      <link>http://www.sahil.cc/post/2016/good-git/</link>
       <pubDate>Tue, 22 Nov 2016 20:26:16 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/good-git/</guid>
+      <guid>http://www.sahil.cc/post/2016/good-git/</guid>
       <description>&lt;p&gt;Most used (but yet unremembered) git commands
-&lt;img src=&#34;http://test.sahil.cc/images/caveman4.jpg&#34; alt=&#34;Caveman Fire&#34; /&gt;
+&lt;img src=&#34;http://www.sahil.cc/images/caveman4.jpg&#34; alt=&#34;Caveman Fire&#34; /&gt;
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://test.sahil.cc/post/2016/hello-world/</link>
+      <link>http://www.sahil.cc/post/2016/hello-world/</link>
       <pubDate>Fri, 18 Nov 2016 00:51:14 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/hello-world/</guid>
+      <guid>http://www.sahil.cc/post/2016/hello-world/</guid>
       <description>My very first post after a very very long haitus!
 Too much has happened. It&amp;rsquo;s overwhelming. The hope is with this blog sanity prevails the world becomes a happier place.
 First things first : 1. Test the powers of Hexo and come up with a URL scheme 1. Import all previous blog (or at-leat point to them) 1. Ensure all DNS setting are properly set 1. Test if the blog works online 1.</description>
@@ -219,19 +219,19 @@ First things first : 1. Test the powers of Hexo and come up with a URL scheme 1.
     
     <item>
       <title>AILA! Automatic Inventory and Logistics Analysis (Intel IoT)</title>
-      <link>http://test.sahil.cc/post/2016/intel-edison-arduino-project/</link>
+      <link>http://www.sahil.cc/post/2016/intel-edison-arduino-project/</link>
       <pubDate>Sun, 20 Mar 2016 01:19:13 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/intel-edison-arduino-project/</guid>
+      <guid>http://www.sahil.cc/post/2016/intel-edison-arduino-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The point of living</title>
-      <link>http://test.sahil.cc/post/2010/the-point-of-living/</link>
+      <link>http://www.sahil.cc/post/2010/the-point-of-living/</link>
       <pubDate>Mon, 06 Dec 2010 16:41:23 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2010/the-point-of-living/</guid>
+      <guid>http://www.sahil.cc/post/2010/the-point-of-living/</guid>
       <description>You have been warned. These are random thoughts.
 After a lot of self evaluation, (or by asking a 5 year old kid), one realizes that the point of living is just being happy.
 &amp;ldquo;Don&amp;rsquo;t worry, be happy!&amp;rdquo;  
@@ -241,10 +241,10 @@ One answer to this argument could be: Why bring about a change? You think you ar
     
     <item>
       <title>Bangalore International Airport Shuttle service timings and route</title>
-      <link>http://test.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</link>
+      <link>http://www.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</link>
       <pubDate>Mon, 25 Jan 2010 01:48:06 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</guid>
+      <guid>http://www.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</guid>
       <description>Their website sucks. [as on January 25th 2009].
 And collecting information from different sources was NOT fun.
 So here I am assimilating all steps at one place:
@@ -256,10 +256,10 @@ Building : Bangalore International Airport Area : Devanahalli Pin : 562110 Tel.<
     
     <item>
       <title>Creating a super-pendrive</title>
-      <link>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</link>
+      <link>http://www.sahil.cc/post/2009/creating-a-super-pendrive/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/creating-a-super-pendrive/</guid>
+      <guid>http://www.sahil.cc/post/2009/creating-a-super-pendrive/</guid>
       <description>Hi,
 Its been really long since I blogged. Before going ahead, want to tell you that will be posting my endeavours on running virtual machines soon.
 This, however, is my experience/guide for creating a super pen drive (a.k.a. a usb disk that if booted from presents a grub menu with options - GParted, Fedora, .. and any other linux distro hopefully, and has Fedora persistence, and has a spare partition too for you to use it as a normal pen drive).</description>
@@ -267,39 +267,39 @@ This, however, is my experience/guide for creating a super pen drive (a.k.a. a u
     
     <item>
       <title>Digikam Caveats - things to make sure using Digikam</title>
-      <link>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
+      <link>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
+      <guid>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
       <description>I have been bitten. And so I post this in the hope that some needy soul finds this before he/she/it gets bitten too.
 Problem: Digikam saves image tags (ratings/captions that you spend hours editing) in its internal database. When you switch to a newer linux version, lose this information - unless you are careful enough to copy over the digikam.db4 file - which I was. The second problem is that if you move around or copy your files using a file browser, you lose this information ( !</description>
     </item>
     
     <item>
       <title>httpd with SElinux</title>
-      <link>http://test.sahil.cc/post/2009/httpd-with-selinux/</link>
+      <link>http://www.sahil.cc/post/2009/httpd-with-selinux/</link>
       <pubDate>Thu, 22 Oct 2009 14:47:13 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/httpd-with-selinux/</guid>
+      <guid>http://www.sahil.cc/post/2009/httpd-with-selinux/</guid>
       <description>Giving httpd access to other folders (apart from default SElinux allowed folders):
  system-config-selinux rocks!! Go to System-&amp;gt; Administration -&amp;gt; SELinux Management (or system-config-selinux from command line). Type httpd in Filter and press enter. You will see that files that allow httpd write access have the Selinux File Type httpd_cache_t:s0. So.. now you know what to do right? Say you want to give httpd write access to folder /var/lib/dokuwiki/data/cache, then add a new file labelling using the Add button with the following details: File specifications: /var/lib/dokuwiki/data/cache(/.</description>
     </item>
     
     <item>
       <title>Making Fedora rpms/yum work - Offline</title>
-      <link>http://test.sahil.cc/post/2009/making-fedora-work-offline/</link>
+      <link>http://www.sahil.cc/post/2009/making-fedora-work-offline/</link>
       <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/making-fedora-work-offline/</guid>
+      <guid>http://www.sahil.cc/post/2009/making-fedora-work-offline/</guid>
       <description>This is guide relevant to those who wish to spread fedora to friends and loved ones who don&amp;rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.</description>
     </item>
     
     <item>
       <title>India, and Mr. God</title>
-      <link>http://test.sahil.cc/post/2008/india-and-mr-god/</link>
+      <link>http://www.sahil.cc/post/2008/india-and-mr-god/</link>
       <pubDate>Wed, 29 Oct 2008 11:38:57 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/india-and-mr-god/</guid>
+      <guid>http://www.sahil.cc/post/2008/india-and-mr-god/</guid>
       <description>So long since I have written anything. And there&amp;rsquo;s so much I want to write.
 But I ll write about what&amp;rsquo;s on the top of my mind right now.
 Yesterday (Diwali), Rajni aunty, mom&amp;rsquo;s friend, came to our house. Her son, (Mr. X we&amp;rsquo;ll call him) went straight to everyone&amp;rsquo;s feet wishing them Happy Diwali, conjuring a smile on everyone&amp;rsquo;s face as they blessed him (I know, a strange custom. Hopefully will be prevalent only for one more generation).</description>
@@ -307,10 +307,10 @@ Yesterday (Diwali), Rajni aunty, mom&amp;rsquo;s friend, came to our house. Her 
     
     <item>
       <title>Talk about punctuality!!</title>
-      <link>http://test.sahil.cc/post/2008/talk-about-punctuality/</link>
+      <link>http://www.sahil.cc/post/2008/talk-about-punctuality/</link>
       <pubDate>Mon, 30 Jun 2008 01:40:05 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/talk-about-punctuality/</guid>
+      <guid>http://www.sahil.cc/post/2008/talk-about-punctuality/</guid>
       <description>This wednesday, working at Goldman Sachs, I got a call from Santa Fe. The guy asked me when I wanted him to bring my luggage to my house. I said Saturday (yesterday) around 10 am.
 Yesterday, he reached here at 9:55. After everything was brought in and kept at the wanted places, he gave me a feedback form. And boy, the first question was :
 Were we on time?
@@ -319,10 +319,10 @@ The options were :</description>
     
     <item>
       <title>So many things... so less time...</title>
-      <link>http://test.sahil.cc/post/2008/so-many-things-so-less-time/</link>
+      <link>http://www.sahil.cc/post/2008/so-many-things-so-less-time/</link>
       <pubDate>Mon, 30 Jun 2008 00:57:48 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/so-many-things-so-less-time/</guid>
+      <guid>http://www.sahil.cc/post/2008/so-many-things-so-less-time/</guid>
       <description>Hello Banagalore!!!
 Anshu came here last week. We had a gr8 time!! He reached here last Saturday. We had an Italian brunch here at a great place named Casa Picolo on CMH road.
 We asked Sriram where we could go. He told us about a great place to shop - Brigade road. Me and Anshu first went to MG road and set about searching for his memory card. We found a great lane there to shop which joined M.</description>
@@ -330,10 +330,10 @@ We asked Sriram where we could go. He told us about a great place to shop - Brig
     
     <item>
       <title>Fedora 9 Released!!!</title>
-      <link>http://test.sahil.cc/post/2008/fedora-9-released/</link>
+      <link>http://www.sahil.cc/post/2008/fedora-9-released/</link>
       <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/fedora-9-released/</guid>
+      <guid>http://www.sahil.cc/post/2008/fedora-9-released/</guid>
       <description>And it rocks!!
 The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
 Now, before I say anything else about Fedora 9, here are a few screenshots :
@@ -346,10 +346,10 @@ KDE 4 seems to be following the footsteps of some of its latest applications lik
     
     <item>
       <title>College Nostalgia...</title>
-      <link>http://test.sahil.cc/post/2008/college-nostalgia/</link>
+      <link>http://www.sahil.cc/post/2008/college-nostalgia/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/college-nostalgia/</guid>
+      <guid>http://www.sahil.cc/post/2008/college-nostalgia/</guid>
       <description>Here are a few pics and videos I took on the last day of college :
   Dsc09076
       Dsc09086
@@ -359,10 +359,10 @@ KDE 4 seems to be following the footsteps of some of its latest applications lik
     
     <item>
       <title>The Gods must be crazy..</title>
-      <link>http://test.sahil.cc/post/2008/the-gods-must-be-crazy/</link>
+      <link>http://www.sahil.cc/post/2008/the-gods-must-be-crazy/</link>
       <pubDate>Thu, 22 May 2008 11:23:10 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/the-gods-must-be-crazy/</guid>
+      <guid>http://www.sahil.cc/post/2008/the-gods-must-be-crazy/</guid>
       <description>Really.
 I mean, this is Faridabad.. in MAY!!! Last year this time, it was blazing hot with loo making it&amp;rsquo;s rounds all over India, with people dying of brain fever.
 And now, when I come to Faridabad for 10 days, the last time before my job starts, the weather decides to become stormy, windy and rainy.
@@ -371,38 +371,38 @@ I caught a throat infection while coming home via Bhilai from NIT Trichy. I was 
     
     <item>
       <title>There are websites for everything, even washing your clothes..</title>
-      <link>http://test.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</link>
+      <link>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</link>
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</guid>
+      <guid>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</guid>
       <description>What Makes Married Men Want to Have Affairs? &amp;ndash; New York Magazine &amp;gt; Consider the Website meet2cheat, in which married people find one another for recreational sex; it charges $59 for a man’s three-month entry fee, $9 for a woman. Cheating wives are harder to come by. Wow. Nice article. Says men are more prone to infidelity (cheating on someone). Quite right.</description>
     </item>
     
     <item>
       <title>Adios College!!!</title>
-      <link>http://test.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</link>
+      <link>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</link>
       <pubDate>Tue, 20 May 2008 03:12:59 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</guid>
+      <guid>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</guid>
       <description>Here&amp;rsquo;s the farewell cake we gave our juniors. It was DELICIOUS.</description>
     </item>
     
     <item>
       <title>Things done in college - technology</title>
-      <link>http://test.sahil.cc/post/2008/things-done-in-college-technology/</link>
+      <link>http://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/things-done-in-college-technology/</guid>
+      <guid>http://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
       <description>Here is a list of things I have done in the past three years. I have written for the sake of personal record.
 As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.</description>
     </item>
     
     <item>
       <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
-      <link>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <link>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <guid>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
       <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
 Here is how it is done :
 For SVN :
@@ -411,10 +411,10 @@ For SVN :
     
     <item>
       <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
-      <link>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
+      <link>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
+      <guid>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
       <description>Yup.
 SVN IS MAD.
 Sorry, SVN and HTTPD team up to drive people crazy.
@@ -425,10 +425,10 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     
     <item>
       <title>public_html web server - without mod_userdir</title>
-      <link>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
+      <link>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
       <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
+      <guid>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
       <description>Hell, what does the title mean??
 It means this :
 Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/linux/</link>
+    <link>http://www.sahil.cc/tags/linux/</link>
     <description>Recent content in Linux on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 14 Nov 2009 19:19:03 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Digikam Caveats - things to make sure using Digikam</title>
-      <link>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
+      <link>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
+      <guid>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
       <description>I have been bitten. And so I post this in the hope that some needy soul finds this before he/she/it gets bitten too.
 Problem: Digikam saves image tags (ratings/captions that you spend hours editing) in its internal database. When you switch to a newer linux version, lose this information - unless you are careful enough to copy over the digikam.db4 file - which I was. The second problem is that if you move around or copy your files using a file browser, you lose this information ( !</description>
     </item>

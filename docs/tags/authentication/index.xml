@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authentication on Sahil&#39;s Journal</title>
-    <link>http://test.sahil.cc/tags/authentication/</link>
+    <link>http://www.sahil.cc/tags/authentication/</link>
     <description>Recent content in Authentication on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 25 Nov 2016 05:24:39 +0000</lastBuildDate>
     
-	<atom:link href="http://test.sahil.cc/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.sahil.cc/tags/authentication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Issues while renewing Passport - the JS one</title>
-      <link>http://test.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
+      <link>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://test.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
+      <guid>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
       <description>&lt;p&gt;No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
 &lt;/p&gt;</description>
     </item>
