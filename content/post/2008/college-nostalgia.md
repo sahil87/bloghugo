@@ -7,10 +7,10 @@ tags:
   - octa
 date: 2008-05-22 12:06:54
 ---
-
+{{< load-photoswipe >}}
 Here are a few pics and videos I took on the last day of college :
 
-<!-- {{< gallery dir="images/2008/last-day/" />}} {{< load-photoswipe >}} -->
+<!-- {{< gallery dir="images/2008/last-day/" />}} -->
 
 {{< gallery >}}
 {{< figure link="/images/2008/last-day/dsc09076.jpg" caption="Shishir, Abhishek and Me, Hemant peeping" >}}

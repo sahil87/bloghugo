@@ -8,8 +8,9 @@ featured: "caveman4.jpg"
 featuredalt: "Git Caveman"
 featuredpath: "date"
 ---
+{{< load-photoswipe >}}
 Most used (but yet unremembered) git commands
-![Caveman Fire](/images/caveman4.jpg)
+{{< figure src="/images/2016/caveman4.jpg" title="Caveman Fire" width="300px">}}
 <!--more-->
 ### Delete remote branches
 ```

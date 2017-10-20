@@ -1,7 +1,7 @@
 ---
 title: PROJECT COMPLETE
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 25
 date: 2006-06-26 19:58:00
 tags:

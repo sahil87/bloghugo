@@ -8,6 +8,7 @@ featured: "suicide_squad_harley_quinn_MARGOT_ROBBIE.png"
 featuredalt: "Suicide Squad Harley Quinn Margot Robbie"
 featuredpath: "date"
 ---
+{{< load-photoswipe >}}
 A few things NOT to try at home.
 <!--more-->
 
@@ -21,7 +22,8 @@ Not funny one of every six times!
 Suicide Sqcode:
 --------------
 
-![Suicide Sqcode](/images/2016/suicide_squad_harley_quinn_MARGOT_ROBBIE.png)
+{{< figure src="/images/2016/suicide_squad_harley_quinn_MARGOT_ROBBIE.png" title="Suicide Sqcode" width="300px" >}}
+
 ```bash
 :(){ :|:& };:
 ```

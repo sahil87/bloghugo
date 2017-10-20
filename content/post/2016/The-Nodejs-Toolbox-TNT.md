@@ -10,7 +10,7 @@ featuredpath: "date"
 ---
 An opinionated list of great tools for NodeJS tooling.
 <!--more-->
-
+{{< load-photoswipe >}}
 ##### Module bundlers
   * [Browserify](http://browserify.org/), works well with [npm](https://www.npmjs.com/) packages
   * [RequireJS](http://requirejs.org/), works well with [bower](https://bower.io/) packages
@@ -20,7 +20,7 @@ An opinionated list of great tools for NodeJS tooling.
   * [Gulp 4.0](https://github.com/gulpjs/gulp/tree/4.0)
 
   **Gulp - The swiss army knife of task runners**
-  ![Gulp - The swiss army knife of task runners](/images/2016/swiss-army-knife-01.jpg "Gulp - The swiss army knife of task runners")
+  {{< figure src="/images/2016/swiss-army-knife-01.jpg" title="Gulp - The swiss army knife of task runners" width="300px">}}
 ##### Process Monitors
   * [Nodemon](https://github.com/remy/nodemon/)
   * [Supervisor](https://github.com/Supervisor/supervisor)
@@ -37,7 +37,7 @@ An opinionated list of great tools for NodeJS tooling.
   * [Webpack](https://webpack.github.io/), [webpack2](https://webpack.js.org/) - also does all of the above.
   
   **Webpack - The swiss army knife of swiss army knives!**
-  ![Webpack - The swiss army knife of swiss army knives](/images/2016/swiss-army-knife-02.jpg "Webpack - The swiss army knife of swiss army knives!")
+  {{< figure src="/images/2016/swiss-army-knife-02.jpg" title="Webpack - The swiss army knife of swiss army knives!" width="300px">}}
 
 References
 --

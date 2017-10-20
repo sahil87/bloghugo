@@ -1,7 +1,7 @@
 ---
 title: Coming back home
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 61
 date: 2006-11-25 03:28:00
 tags:

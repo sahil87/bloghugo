@@ -1,7 +1,7 @@
 ---
 title: A Glimpse of what's about to come...
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 12
 date: 2006-05-26 06:36:00
 tags:

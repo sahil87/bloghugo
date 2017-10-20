@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30" />
         
 
 
@@ -72,6 +72,14 @@
 
         
             
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
                 
             
         
@@ -461,7 +469,7 @@ For SVN :
 
     
     
-        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
     
 </ul>
 
@@ -543,6 +551,78 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
 </article>
 
         
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/">public_html web server - without mod_userdir</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-03'>
+            May 3, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        Hell, what does the title mean??
+It means this :
+Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : <a href="http://servername/~username/hisorherfiles">http://servername/~username/hisorherfiles</a>
+Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir. I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
 
         
 <ul class="actions pagination">
@@ -551,8 +631,7 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     
 
     
-        <li><a href="http://www.sahil.cc/tags/httpd/page/2/"
-                class="button big next">Next Page</a></li>
+        <li><a href="#" class="disabled button big next">Next Page</a></li>
     
 </ul>
 
@@ -788,7 +867,16 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">26</span>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
               
             </header>
           </article>
@@ -805,8 +893,8 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">5</span>
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -814,8 +902,8 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -925,7 +1013,7 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     
     <p class="copyright">
       
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
       .
       Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>

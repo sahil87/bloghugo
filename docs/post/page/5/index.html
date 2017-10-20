@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30" />
         
 
 
@@ -38,7 +38,7 @@
 
 
 
-<meta property="og:updated_time" content="2016-12-06T02:44:45&#43;00:00"/>
+<meta property="og:updated_time" content="2009-10-22T14:47:13&#43;00:00"/>
 
 
 
@@ -72,6 +72,14 @@
 
         
             
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
                 
             
         
@@ -331,7 +339,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/">Rube Goldberg Machine - Gradle Setup</a></h2>
+            <h2><a href="http://www.sahil.cc/post/2009/httpd-with-selinux/">httpd with SElinux</a></h2>
         
         
     </div>
@@ -339,8 +347,8 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2016-12-06'>
-            December 6, 2016</time>
+            datetime='2009-10-22'>
+            October 22, 2009</time>
         <span class="author">Sahil Ahuja</span>
         
             <p>1 minute read</p>
@@ -350,40 +358,17 @@ ga('send', 'pageview');
 </header>
 
     
-    
-
-    
-        
-        
-
-
-
-
-    
-    
-        
-    
-
-
-        
-
-        <a href="http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/" class="image featured">
-            <img src="http://www.sahil.cc/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif" alt="Rube Goldberg Self Operating Napkin" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
-        </a>
-    
-
 
     <p>
     
-        A <a href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">Rube Goldberg machine</a> is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.
-
-<img src="http://www.sahil.cc/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif" alt="Self Operating Napkin" />
+        Giving httpd access to other folders (apart from default SElinux allowed folders):
+ system-config-selinux rocks!! Go to System-&gt; Administration -&gt; SELinux Management (or system-config-selinux from command line). Type httpd in Filter and press enter. You will see that files that allow httpd write access have the Selinux File Type httpd_cache_t:s0. So.. now you know what to do right? Say you want to give httpd write access to folder /var/lib/dokuwiki/data/cache, then add a new file labelling using the Add button with the following details: File specifications: /var/lib/dokuwiki/data/cache(/.
     
     </p>
 
     <footer>
         <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/" class="button big">Continue Reading</a></li>
+            <li><a href="http://www.sahil.cc/post/2009/httpd-with-selinux/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -424,7 +409,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="http://www.sahil.cc/post/2016/live-long-and-prosper-spock/">Live long and prosper - Spock</a></h2>
+            <h2><a href="http://www.sahil.cc/post/2009/making-fedora-work-offline/">Making Fedora rpms/yum work - Offline</a></h2>
         
         
     </div>
@@ -432,52 +417,27 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2016-12-05'>
-            December 5, 2016</time>
+            datetime='2009-10-22'>
+            October 22, 2009</time>
         <span class="author">Sahil Ahuja</span>
         
-            <p>1 minute read</p>
+            <p>3 minute read</p>
         
         
     </div>
 </header>
 
     
-    
-
-    
-        
-        
-
-
-
-
-    
-    
-        
-    
-
-
-        
-
-        <a href="http://www.sahil.cc/post/2016/live-long-and-prosper-spock/" class="image featured">
-            <img src="http://www.sahil.cc/images/2016/mr-spock.jpg" alt="Mr. Spock" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
-        </a>
-    
-
 
     <p>
     
-        <p><a href="http://spockframework.org/">Spock</a> is the new kid in town in the <a href="https://en.wikipedia.org/wiki/Unit_testing">crowded</a> world of testing frameworks.</p>
-
-<p><a href="https://accu.org/index.php/journals/2203">Here</a> is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.</p>
-
+        This is guide relevant to those who wish to spread fedora to friends and loved ones who don&rsquo;t necessarily always have an internet connection (or a good one atleast). The problem faced in such situations, almost always (talking from my experience), is that there are a huge number of rpms that need to be downloaded to make fedora capable of playing media, and fill it with good stuff like k3b, amarok etc.
     
     </p>
 
     <footer>
         <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2016/live-long-and-prosper-spock/" class="button big">Continue Reading</a></li>
+            <li><a href="http://www.sahil.cc/post/2009/making-fedora-work-offline/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -506,7 +466,7 @@ ga('send', 'pageview');
 
     
     
-        <li><a href='http://www.sahil.cc/categories/guide'>guide</a></li>
+        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
     
 </ul>
 
@@ -518,7 +478,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/">Issues while renewing Passport - the JS one</a></h2>
+            <h2><a href="http://www.sahil.cc/post/2008/india-and-mr-god/">India, and Mr. God</a></h2>
         
         
     </div>
@@ -526,8 +486,8 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2016-11-25'>
-            November 25, 2016</time>
+            datetime='2008-10-29'>
+            October 29, 2008</time>
         <span class="author">Sahil Ahuja</span>
         
             <p>2 minute read</p>
@@ -540,14 +500,15 @@ ga('send', 'pageview');
 
     <p>
     
-        No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
-
+        So long since I have written anything. And there&rsquo;s so much I want to write.
+But I ll write about what&rsquo;s on the top of my mind right now.
+Yesterday (Diwali), Rajni aunty, mom&rsquo;s friend, came to our house. Her son, (Mr. X we&rsquo;ll call him) went straight to everyone&rsquo;s feet wishing them Happy Diwali, conjuring a smile on everyone&rsquo;s face as they blessed him (I know, a strange custom. Hopefully will be prevalent only for one more generation).
     
     </p>
 
     <footer>
         <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/" class="button big">Continue Reading</a></li>
+            <li><a href="http://www.sahil.cc/post/2008/india-and-mr-god/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -576,7 +537,223 @@ ga('send', 'pageview');
 
     
     
-        <li><a href='http://www.sahil.cc/categories/review'>review</a></li>
+        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/talk-about-punctuality/">Talk about punctuality!!</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-06-30'>
+            June 30, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        This wednesday, working at Goldman Sachs, I got a call from Santa Fe. The guy asked me when I wanted him to bring my luggage to my house. I said Saturday (yesterday) around 10 am.
+Yesterday, he reached here at 9:55. After everything was brought in and kept at the wanted places, he gave me a feedback form. And boy, the first question was :
+Were we on time?
+The options were :
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/talk-about-punctuality/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/so-many-things-so-less-time/">So many things... so less time...</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-06-30'>
+            June 30, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        Hello Banagalore!!!
+Anshu came here last week. We had a gr8 time!! He reached here last Saturday. We had an Italian brunch here at a great place named Casa Picolo on CMH road.
+We asked Sriram where we could go. He told us about a great place to shop - Brigade road. Me and Anshu first went to MG road and set about searching for his memory card. We found a great lane there to shop which joined M.
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/so-many-things-so-less-time/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/fedora-9-released/">Fedora 9 Released!!!</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-22'>
+            May 22, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>2 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        And it rocks!!
+The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
+Now, before I say anything else about Fedora 9, here are a few screenshots :
+Here&rsquo;s Gnome in F9 :
+   Gnome Preview    And here is KDE 4 (finally !
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/fedora-9-released/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
     
 </ul>
 
@@ -830,7 +1007,16 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">26</span>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
               
             </header>
           </article>
@@ -847,8 +1033,8 @@ ga('send', 'pageview');
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">5</span>
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -856,8 +1042,8 @@ ga('send', 'pageview');
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -967,7 +1153,7 @@ ga('send', 'pageview');
     
     <p class="copyright">
       
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
       .
       Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>

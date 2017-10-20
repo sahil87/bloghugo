@@ -6,7 +6,7 @@
     <description>Recent content in Test on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/tags/test/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +18,9 @@
       <pubDate>Wed, 18 Oct 2017 23:56:14 +0530</pubDate>
       
       <guid>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</guid>
-      <description></description>
+      <description>&lt;p&gt;My first &lt;em&gt;hugo&lt;/em&gt; blog post.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

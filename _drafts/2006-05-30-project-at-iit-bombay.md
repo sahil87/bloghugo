@@ -1,7 +1,7 @@
 ---
 title: Project at IIT Bombay
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 58
 date: 2006-05-30 02:01:00
 tags:

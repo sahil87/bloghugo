@@ -1,7 +1,7 @@
 ---
 title: Started Report
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 20
 date: 2006-06-06 13:14:00
 tags:

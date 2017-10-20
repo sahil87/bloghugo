@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pcbo on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/categories/pcbo/</link>
+    <description>Recent content in Pcbo on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 03 May 2008 04:34:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/categories/pcbo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Final report and files</title>
+      <link>http://www.sahil.cc/post/2008/final-report-and-files/</link>
+      <pubDate>Sat, 03 May 2008 04:34:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/final-report-and-files/</guid>
+      <description>Here is the final project :
+ Source code Project report Installation guide                                  IITB Canteen
+      Our Circuit connected to the power supply
+      Our Circuit
+    </description>
+    </item>
+    
+  </channel>
+</rss>

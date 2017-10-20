@@ -6,7 +6,7 @@
     <description>Recent content in Ldap on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 20 May 2008 02:35:28 +0000</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/tags/ldap/index.xml" rel="self" type="application/rss+xml" />
@@ -32,6 +32,40 @@ As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in 
 Here is how it is done :
 For SVN :
 &amp;lt;VirtualHost *:80&amp;gt; ServerName repos.nitt.edu DocumentRoot &amp;quot;/var/www/svn/DocumentRoot/&amp;quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &amp;lt;Location /pragyan&amp;gt; DAV svn SVNPath /var/www/svn/pragyan &amp;lt;LimitExcept OPTIONS REPORTGET&amp;gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &amp;quot;Pragyan SVN LDAP Authentication&amp;quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</description>
+    </item>
+    
+    <item>
+      <title>Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</title>
+      <link>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</link>
+      <pubDate>Mon, 05 May 2008 15:58:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</guid>
+      <description>What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.</description>
+    </item>
+    
+    <item>
+      <title>Mail with postfix and ldap</title>
+      <link>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</link>
+      <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</guid>
+      <description>Yes, it&amp;rsquo;s possible. I did it for the pragyan.org server.
+The setup we used was :
+ /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&amp;rsquo;s much easily setup than one thinks initially.
+HOW?? Here&amp;rsquo;s how:
+But, as with anything else, basics first
+ SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).</description>
+    </item>
+    
+    <item>
+      <title>Fedora Directory Server Rocks!!!</title>
+      <link>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</link>
+      <pubDate>Fri, 04 Apr 2008 01:18:08 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</guid>
+      <description>Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
+Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
+First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &amp;quot;cn=Manager,dc=pragyan,dc=org&amp;quot; -f base.ldif **invalid credentials (49)**</description>
     </item>
     
   </channel>

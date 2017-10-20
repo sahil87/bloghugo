@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30" />
         
 
 
@@ -72,6 +72,14 @@
 
         
             
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
                 
             
         
@@ -493,15 +501,11 @@ This, however, is my experience/guide for creating a super pen drive (a.k.a. a u
 
     <p>
     
-        <p>And it rocks!!
+        And it rocks!!
 The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
 Now, before I say anything else about Fedora 9, here are a few screenshots :
-Here&rsquo;s Gnome in F9 :</p>
-
-<p>And here is KDE 4 (finally !!):</p>
-
-<p>KDE 4 seems to be following the footsteps of some of its latest applications like Basket. The new start menu now acts like that of IPOD.</p>
-
+Here&rsquo;s Gnome in F9 :
+   Gnome Preview    And here is KDE 4 (finally !
     
     </p>
 
@@ -536,7 +540,220 @@ Here&rsquo;s Gnome in F9 :</p>
 
     
     
-        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/things-done-in-college-technology/">Things done in college - technology</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-20'>
+            May 20, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        Here is a list of things I have done in the past three years. I have written for the sake of personal record.
+As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/things-done-in-college-technology/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/">Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-05'>
+            May 5, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/">Mail with postfix and ldap</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-03'>
+            May 3, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>6 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>
+    
+        Yes, it&rsquo;s possible. I did it for the pragyan.org server.
+The setup we used was :
+ /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&rsquo;s much easily setup than one thinks initially.
+HOW?? Here&rsquo;s how:
+But, as with anything else, basics first
+ SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).
+    
+    </p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
     
 </ul>
 
@@ -789,7 +1006,16 @@ Here&rsquo;s Gnome in F9 :</p>
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">26</span>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
               
             </header>
           </article>
@@ -806,8 +1032,8 @@ Here&rsquo;s Gnome in F9 :</p>
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">5</span>
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -815,8 +1041,8 @@ Here&rsquo;s Gnome in F9 :</p>
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -926,7 +1152,7 @@ Here&rsquo;s Gnome in F9 :</p>
     
     <p class="copyright">
       
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
       .
       Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>

@@ -1,7 +1,7 @@
 ---
 title: Things I have done in the past 6 months..
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 60
 date: 2006-11-24 13:46:00
 tags:

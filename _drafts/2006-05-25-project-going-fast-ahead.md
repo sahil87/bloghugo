@@ -1,7 +1,7 @@
 ---
 title: Project going fast ahead!!
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 11
 date: 2006-05-25 04:30:00
 tags:

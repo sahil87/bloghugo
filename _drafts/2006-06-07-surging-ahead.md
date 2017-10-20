@@ -1,7 +1,7 @@
 ---
 title: Surging Ahead!
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 24
 date: 2006-06-07 08:44:00
 tags:

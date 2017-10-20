@@ -1,0 +1,1180 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Normal forms</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.30" />
+        
+
+
+        
+            <meta name="author" content="Sahil Ahuja">
+        
+        
+            
+                <meta name="description" content="One day at a time. One problem at a time.">
+            
+        
+
+        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Normal forms"/>
+<meta name="twitter:description" content="Sitting here in Morgan Stanley, it&rsquo;s hard to find free time. Things are always on the run.
+But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.
+Here is what I gathered from these websites :
+ http://www.serverwatch.com/tutorials/article.php/1549781 http://en.wikipedia.org/wiki/Database_normalization http://www.datamodel.org/NormalizationRules.html
+1st Normal Form:   No multivalued attribute
+   StudID Course     12345 3100,3600,3900   54321 1300,2300,3400    (Wrong)"/>
+<meta name="twitter:site" content="@_sahilahuja"/>
+
+        <meta property="og:title" content="Normal forms" />
+<meta property="og:description" content="Sitting here in Morgan Stanley, it&rsquo;s hard to find free time. Things are always on the run.
+But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.
+Here is what I gathered from these websites :
+ http://www.serverwatch.com/tutorials/article.php/1549781 http://en.wikipedia.org/wiki/Database_normalization http://www.datamodel.org/NormalizationRules.html
+1st Normal Form:   No multivalued attribute
+   StudID Course     12345 3100,3600,3900   54321 1300,2300,3400    (Wrong)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.sahil.cc/post/2007/normal-forms/" />
+
+
+
+<meta property="article:published_time" content="2007-06-04T10:47:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2007-06-04T10:47:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Normal forms">
+<meta itemprop="description" content="Sitting here in Morgan Stanley, it&rsquo;s hard to find free time. Things are always on the run.
+But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.
+Here is what I gathered from these websites :
+ http://www.serverwatch.com/tutorials/article.php/1549781 http://en.wikipedia.org/wiki/Database_normalization http://www.datamodel.org/NormalizationRules.html
+1st Normal Form:   No multivalued attribute
+   StudID Course     12345 3100,3600,3900   54321 1300,2300,3400    (Wrong)">
+
+
+<meta itemprop="datePublished" content="2007-06-04T10:47:00&#43;00:00" />
+<meta itemprop="dateModified" content="2007-06-04T10:47:00&#43;00:00" />
+<meta itemprop="wordCount" content="736">
+
+
+
+<meta itemprop="keywords" content="database," />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+            <link rel="stylesheet" href="http://www.sahil.cc/css/main.css">
+            <link rel="stylesheet" href="http://www.sahil.cc/css/add-on.css">
+        
+
+        
+            
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
+                
+            
+        
+
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-87967706-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="http://www.sahil.cc/">post</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="http://www.sahil.cc/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.sahil.cc/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.sahil.cc/quotes/">
+                            <i class="fa fa-list">&nbsp;</i>Quotes
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.sahil.cc/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="https://gmetri.com/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>GMETRI
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://www.sahil.cc/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="http://www.sahil.cc">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="http://www.sahil.cc">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="http://www.sahil.cc/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.sahil.cc/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.sahil.cc/quotes/">
+                            <h3>
+                                <i class="fa fa-list">&nbsp;</i>Quotes
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.sahil.cc/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="https://gmetri.com/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>GMETRI
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://www.sahil.cc/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-10-18'>
+                                    October 18, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/">Typing Unicode Characters in Ubuntu</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-08-27'>
+                                    August 27, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/">Tracking hostname in Google Analytics</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-03-28'>
+                                    March 28, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
+            <img src="http://www.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/to-frame-or-not-to-frame/">To Frame or Not to Frame</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-03-01'>
+                                    March 1, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /post/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f&text=Normal%20forms&via=_sahilahuja" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f&title=Normal%20forms" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f&title=Normal%20forms" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="http://www.sahil.cc/post/2007/normal-forms/">Normal forms</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2007-06-04'>
+            June 4, 2007</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>4 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f&text=Normal%20forms&via=_sahilahuja" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f&title=Normal%20forms" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f&title=Normal%20forms" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+  
+    
+    
+  
+
+
+
+
+  
+    
+    
+  
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2fwww.sahil.cc%2fpost%2f2007%2fnormal-forms%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+
+  <div id="content">
+    
+
+<p>Sitting here in Morgan Stanley, it&rsquo;s hard to find free time. Things are always on the run.</p>
+
+<p>But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.</p>
+
+<p>Here is what I gathered from these websites :</p>
+
+<ul>
+<li><a href="http://www.blogger.com/post-create.g?blogID=27948672#%20http://www.serverwatch.com/tutorials/article.php/1549781">http://www.serverwatch.com/tutorials/article.php/1549781</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Database_normalization">http://en.wikipedia.org/wiki/Database_normalization</a></li>
+
+<li><p><a href="http://www.datamodel.org/NormalizationRules.html">http://www.datamodel.org/NormalizationRules.html</a></p>
+
+<h2 id="1st-normal-form-http-en-wikipedia-org-wiki-first-normal-form"><a href="http://en.wikipedia.org/wiki/First_normal_form">1st Normal Form</a>:</h2></li>
+</ul>
+
+<ol>
+<li><p><strong>No multivalued attribute</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>StudID</th>
+<th>Course</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>12345</td>
+<td>3100,3600,3900</td>
+</tr>
+
+<tr>
+<td>54321</td>
+<td>1300,2300,3400</td>
+</tr>
+</tbody>
+</table>
+
+<p>(Wrong)</p></li>
+
+<li><p><strong>No repeating group</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>StudID</th>
+<th>Course1</th>
+<th>Course2</th>
+<th>Course3</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>12345</td>
+<td>3100</td>
+<td>3600</td>
+<td>3900</td>
+</tr>
+
+<tr>
+<td>54321</td>
+<td>1300</td>
+<td>2300</td>
+<td>3400</td>
+</tr>
+</tbody>
+</table>
+
+<p>(Wrong)</p></li>
+
+<li><p><strong>Presence of atleast one unique identifier (addn of ID field)</strong></p>
+
+<table>
+<thead>
+<tr>
+<th>StudID</th>
+<th>Course</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>12345</td>
+<td>3100</td>
+</tr>
+
+<tr>
+<td>12345</td>
+<td>3600</td>
+</tr>
+
+<tr>
+<td>54321</td>
+<td>1300</td>
+</tr>
+
+<tr>
+<td>54321</td>
+<td>2300</td>
+</tr>
+</tbody>
+</table>
+
+<p>(Right)</p></li>
+</ol>
+
+<p>There needs to be one composite key atleast. (One or more fields that can be used to distinguish every row uniquely). In the above example, if it was possible for the same student to take the same course twice, then we would have to add another uID field to bring the DB to the first normal form.</p>
+
+<h2 id="2nd-normal-form-http-en-wikipedia-org-wiki-second-normal-form"><a href="http://en.wikipedia.org/wiki/Second_normal_form">2nd Normal Form</a>:</h2>
+
+<p>The DB is in this if all non-prime attributes are completely dependent on a candidate key. (and not on a part of it).</p>
+
+<p>i.e. no repetition of key detail in one detail</p>
+
+<table>
+<thead>
+<tr>
+<th>StudID  CourseID</th>
+<th>StudNm  ProfID  ProfName</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>123456 310000</td>
+<td>April00 6789  David</td>
+</tr>
+
+<tr>
+<td>123456 410000</td>
+<td>April00 2345  David</td>
+</tr>
+
+<tr>
+<td>123456 210000</td>
+<td>April00 6789  David</td>
+</tr>
+</tbody>
+</table>
+
+<p>Candidate Key = StidID + CourseID</p>
+
+<p>But StudNm (student name) depends only on StudID (and not on StudID + CourseID)
+Had prof been just a function of course, even that would have to be removed.
+Hence it is not in 2nd NF.
+The ProfName-ProfID dependency is removed in the 3rd NF (where no attribute can be dependent on a non-key attribute in that table).
+No part key dependencies can exist in 2nd NF.</p>
+
+<p>None of the non-prime attributes of the table are functionally dependent on a part (proper subset) of a candidate key; in other words, all functional dependencies of non-prime attributes on candidate keys are full functional dependencies. For example, in an &ldquo;Employees&rsquo; Skills&rdquo; table whose attributes are Employee ID, Employee Address, and Skill, the combination of Employee ID and Skill uniquely identifies records within the table. Given that Employee Address depends on only one of those attributes – namely, Employee ID – the table is not in 2NF.</p>
+
+<ul>
+<li><strong>Candidate key</strong>: A <a href="http://en.wikipedia.org/wiki/Candidate_key" title="Candidate key">candidate key</a> is a minimal superkey, that is, a superkey for which we can say that no proper subset of it is also a superkey. {Employee Id, Skill} would be a candidate key for the &ldquo;Employees&rsquo; Skills&rdquo; table.</li>
+<li><strong>uperkey</strong>: A <a href="http://en.wikipedia.org/wiki/Superkey" title="Superkey">superkey</a> is an attribute or set of attributes that uniquely identifies rows within a table; in other words, two distinct rows are always guaranteed to have distinct superkeys. {Employee ID, Employee Address, Skill} would be a superkey for the &ldquo;Employees&rsquo; Skills&rdquo; table; {Employee ID, Skill} would also be a superkey.</li>
+<li><strong>Non-prime attribute</strong>: A non-prime attribute is an attribute that does not occur in any candidate key. Employee Address would be a non-prime attribute in the &ldquo;Employees&rsquo; Skills&rdquo; table.</li>
+
+<li><p><strong>Primary key</strong>: Most <a href="http://en.wikipedia.org/wiki/Database_management_system" title="Database management system">DBMSs</a> require a table to be defined as having a single unique key, rather than a number of possible unique keys. A <a href="http://en.wikipedia.org/wiki/Primary_key" title="Primary key">primary key</a> is a candidate key which the database designer has designated for this purpose.
+Some thoughts :</p></li>
+
+<li><p>In and after 2nd NF, all tables have only one candidate key. -&gt; FALSE</p></li>
+
+<li><p>All candidate keys in a table map to each other one to one. -&gt; TRUE</p></li>
+
+<li><p>What normalization stage ensures that only one candidate key is remaining?</p>
+
+<ul>
+<li>None. Beacause <a href="http://en.wikipedia.org/wiki/Database_normalization">normalization</a> aims at reducing data duplication and inconsistencies. Candidate keys in a table causes no redundency.</li>
+</ul></li>
+
+<li><p>If a table in 1st NF has no composite candidate keys (candidate keys consisting of more then one attributes), then it is automatically in 2nd NF.</p></li>
+</ul>
+
+<h2 id="3rd-normal-form-http-en-wikipedia-org-wiki-third-normal-form"><a href="http://en.wikipedia.org/wiki/Third_normal_form">3rd Normal Form</a>:</h2>
+
+<p>No non-transitive dependencies:
+A non-transitive dependency is one in which an attribute is dependent on a non-key attribute in that table.
+For example, in the ProfID example given above, to bring it to 3rd normal form, ProfName and ProfID would have to brought to a separate table. Because ProfName is a non-transitive dependency.</p>
+
+<ul>
+<li>In 2nd Normal form, all candidate keys become mutually independent. FALSE</li>
+<li>In 2nd Normal form, any candidate key is a candidate key (i.e. is a sufficient and necessary dependency) for all other attributes. FALSE - this happens in 3rd NF.</li>
+<li>In 3rd Normal form, non-prime attributes become dependent on a candidate key. TRUE</li>
+</ul>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+  </footer>
+</article>
+<ul class="actions pagination">
+    
+
+    
+        <li><a href="http://www.sahil.cc/post/2007/stereoscopy/"
+                class="button big next">Stereoscopy</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <img src="http://www.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo" />
+      
+    
+    
+      <header>
+        <h2>Sahil Ahuja</h2>
+        <p>~ Keep It Simple & Stupid ~ <i class='fa fa-hand-peace-o'></i></p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@sahilahuja" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/ahujasahil" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/_sahilahuja" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a>
+              </h3>
+              
+              <time class="published" datetime='2017-10-18'>
+                October 18, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/">Typing Unicode Characters in Ubuntu</a>
+              </h3>
+              
+              <time class="published" datetime='2017-08-27'>
+                August 27, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/">Tracking hostname in Google Analytics</a>
+              </h3>
+              
+              <time class="published" datetime='2017-03-28'>
+                March 28, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
+            <img src="http://www.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://www.sahil.cc/post/2017/to-frame-or-not-to-frame/">To Frame or Not to Frame</a>
+              </h3>
+              
+              <time class="published" datetime='2017-03-01'>
+                March 1, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /post/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="http://www.sahil.cc/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/blog/">blog</a>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/guide/">guide</a>
+                <span style="float:right;">5</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        
+    </section>
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h1>
+      <p>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.</p>
+      <a href="http://www.sahil.cc/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//medium.com/@sahilahuja" target="_blank" title="Medium" class="fa fa-medium"></a></li>
+
+
+
+  <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+  <li><a href="//facebook.com/ahujasahil" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/_sahilahuja" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+</div>
+<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+
+
+
+  
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+  <script src="http://www.sahil.cc/js/util.js"></script>
+  <script src="http://www.sahil.cc/js/main.js"></script>
+  <script src="http://www.sahil.cc/js/backToTop.js"></script>
+
+
+
+
+      
+  
+
+
+
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+

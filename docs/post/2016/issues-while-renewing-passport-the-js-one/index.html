@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30" />
         
 
 
@@ -37,6 +37,7 @@
 
 
 <meta property="article:published_time" content="2016-11-25T05:24:39&#43;00:00"/>
+
 <meta property="article:modified_time" content="2016-11-25T05:24:39&#43;00:00"/>
 
 
@@ -55,8 +56,9 @@
 ">
 
 
+<meta itemprop="datePublished" content="2016-11-25T05:24:39&#43;00:00" />
 <meta itemprop="dateModified" content="2016-11-25T05:24:39&#43;00:00" />
-<meta itemprop="wordCount" content="247">
+<meta itemprop="wordCount" content="260">
 
 
 
@@ -80,6 +82,14 @@
 
         
             
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
                 
             
         
@@ -536,13 +546,12 @@ When a request is made to the above URLs, a response code of 200 signifies that 
 <p>And now for the cool features of Passport that weren&rsquo;t that obvious at first:
 1. <strong>Normalized profiles</strong>: When authenticating using a third-party service such as Facebook or Twitter, user profile information is often available. Each service tends to have a different way of encoding this information. To make integration easier, Passport <a href="http://passportjs.org/docs/profile">normalizes profile information</a>.
 1. Probably not the place for this, but express supports <a href="http://expressjs.com/en/api.html#router.METHOD">callback chaining</a>. So potentially before the final route callback we can put many as many authentication/authorization callbacks as we want.  Eg:</p>
-<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript"><span class="s1f40">   </span><span class="s7df">router</span><span class="s1388">.</span><span class="s7df">get</span><span class="s1388">(</span><span class="s1f40">
-</span><span class="s1f40">     </span><span class="sc1c">&#39;/authenticated/route/&#39;</span><span class="s1388">,</span><span class="s1f40"> 
-</span><span class="s1f40">     </span><span class="s1388">(</span><span class="s7df">req</span><span class="s1388">,</span><span class="s1f40"> </span><span class="s7df">res</span><span class="s1388">,</span><span class="s1f40"> </span><span class="s7df">next</span><span class="s1388">)=&gt;{</span><span class="s7df">doAuthentication</span><span class="s1388">();</span><span class="s1f40"> </span><span class="s7df">next</span><span class="s1388">();},</span><span class="s1f40">
-</span><span class="s1f40">     </span><span class="s1388">(</span><span class="s7df">req</span><span class="s1388">,</span><span class="s1f40"> </span><span class="s7df">res</span><span class="s1388">,</span><span class="s1f40"> </span><span class="s7df">next</span><span class="s1388">)=&gt;{</span><span class="s7df">doAuthorization</span><span class="s1388">();</span><span class="s1f40"> </span><span class="s7df">next</span><span class="s1388">();},</span><span class="s1f40">
-</span><span class="s1f40">     </span><span class="s1388">(</span><span class="s7df">req</span><span class="s1388">,</span><span class="s1f40"> </span><span class="s7df">res</span><span class="s1388">,</span><span class="s1f40"> </span><span class="s7df">next</span><span class="s1388">)=&gt;{</span><span class="s7df">res</span><span class="s1388">.</span><span class="s7df">render</span><span class="s1388">(</span><span class="s7df">page</span><span class="s1388">);},</span><span class="s1f40">
-</span><span class="s1f40">   </span><span class="s1388">);</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-javascript" data-lang="javascript">   <span class="nx">router</span><span class="p">.</span><span class="nx">get</span><span class="p">(</span>
+     <span class="s1">&#39;/authenticated/route/&#39;</span><span class="p">,</span> 
+     <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)=&gt;{</span><span class="nx">doAuthentication</span><span class="p">();</span> <span class="nx">next</span><span class="p">();},</span>
+     <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)=&gt;{</span><span class="nx">doAuthorization</span><span class="p">();</span> <span class="nx">next</span><span class="p">();},</span>
+     <span class="p">(</span><span class="nx">req</span><span class="p">,</span> <span class="nx">res</span><span class="p">,</span> <span class="nx">next</span><span class="p">)=&gt;{</span><span class="nx">res</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span><span class="nx">page</span><span class="p">);},</span>
+   <span class="p">);</span></code></pre></div>
 <p>which is what passport.authenticate is - one of these callbacks</p>
   </div>
 
@@ -821,7 +830,16 @@ When a request is made to the above URLs, a response code of 200 signifies that 
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">26</span>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
               
             </header>
           </article>
@@ -838,8 +856,8 @@ When a request is made to the above URLs, a response code of 200 signifies that 
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">5</span>
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -847,8 +865,8 @@ When a request is made to the above URLs, a response code of 200 signifies that 
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -954,7 +972,7 @@ When a request is made to the above URLs, a response code of 200 signifies that 
     
     <p class="copyright">
       
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
       .
       Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>

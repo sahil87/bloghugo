@@ -1,7 +1,7 @@
 ---
 title: File Sharing on LAN
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - lan
   - p2p

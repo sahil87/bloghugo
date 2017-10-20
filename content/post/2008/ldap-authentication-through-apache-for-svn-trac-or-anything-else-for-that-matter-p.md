@@ -3,7 +3,7 @@ title: >-
   LDAP authentication through Apache for svn, trac or anything else for that
   matter :P
 author: Sahil Ahuja
-categories: [blog]
+categories: [nitt]
 tags:
   - delta
   - httpd

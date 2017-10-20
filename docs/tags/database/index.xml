@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/tags/database/</link>
+    <description>Recent content in Database on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 04 Jun 2007 10:47:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/tags/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Normal forms</title>
+      <link>http://www.sahil.cc/post/2007/normal-forms/</link>
+      <pubDate>Mon, 04 Jun 2007 10:47:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2007/normal-forms/</guid>
+      <description>Sitting here in Morgan Stanley, it&amp;rsquo;s hard to find free time. Things are always on the run.
+But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.
+Here is what I gathered from these websites :
+ http://www.serverwatch.com/tutorials/article.php/1549781 http://en.wikipedia.org/wiki/Database_normalization http://www.datamodel.org/NormalizationRules.html
+1st Normal Form:   No multivalued attribute
+   StudID Course     12345 3100,3600,3900   54321 1300,2300,3400    (Wrong)</description>
+    </item>
+    
+  </channel>
+</rss>

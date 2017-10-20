@@ -3,8 +3,9 @@ languageCode = "en-us"
 title = "Sahil's Journal"
 theme = "hugo-future-imperfect"
 enableRobotsTXT = true
-pygmentsuseclasses = true
-PygmentsCodeFences = true
+pygmentsuseclasses = true #Run https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css by
+#hugo gen chromastyles --style=default > static/css/syntax.css
+pygmentsCodeFences = true  #https://gohugo.io/content-management/syntax-highlighting/#highlight-in-code-fences
 canonifyurls = true
 disqusShortname = "sahil-cc"
 googleAnalytics = "UA-87967706-1"
@@ -12,11 +13,11 @@ publishDir = "docs"
 
 #From future imperfect:
 #preserveTaxonomyNames = true
-paginate = 3
+paginate = 6
 pluralizeListTitles = false
 
 # Copyright of your post
-copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce."
+copyright = "© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce."
 
 [taxonomies]
   tag = "tags"
@@ -64,9 +65,8 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # Load custom CSS or JavaScript files. The variable is an array so that you
   # can load multiple files if necessary. You can also load the standard theme
   # files by adding the value, "default".
-  # customCSS            = ["default", "/path/to/file"]
+  customCSS            = ["default", "/css/syntax.css", "/css/bugfix.css"]
   # customJS             = ["default", "/path/to/file"]
-  customCSS            = ["default"]
   customJS             = ["default"]
 
 

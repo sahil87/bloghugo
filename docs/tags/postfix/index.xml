@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Postfix on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/tags/postfix/</link>
+    <description>Recent content in Postfix on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 05 May 2008 15:58:25 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/tags/postfix/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</title>
+      <link>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</link>
+      <pubDate>Mon, 05 May 2008 15:58:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</guid>
+      <description>What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.</description>
+    </item>
+    
+    <item>
+      <title>Mail with postfix and ldap</title>
+      <link>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</link>
+      <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</guid>
+      <description>Yes, it&amp;rsquo;s possible. I did it for the pragyan.org server.
+The setup we used was :
+ /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&amp;rsquo;s much easily setup than one thinks initially.
+HOW?? Here&amp;rsquo;s how:
+But, as with anything else, basics first
+ SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).</description>
+    </item>
+    
+  </channel>
+</rss>

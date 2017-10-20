@@ -1,7 +1,7 @@
 ---
 title: Going Ahead
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 19
 date: 2006-06-06 13:07:00
 tags:

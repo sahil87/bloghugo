@@ -1,7 +1,7 @@
 ---
 title: Installing xgnokii for n-gage (in Fedora Core 5)
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - gnokii
   - ngage

@@ -1,7 +1,7 @@
 ---
 title: 'My sister, my inspiration'
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 63
 date: 2006-12-14 05:14:00
 tags:

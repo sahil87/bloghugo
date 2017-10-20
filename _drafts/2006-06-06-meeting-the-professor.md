@@ -1,7 +1,7 @@
 ---
 title: Meeting the Professor
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 22
 date: 2006-06-06 13:21:00
 tags:

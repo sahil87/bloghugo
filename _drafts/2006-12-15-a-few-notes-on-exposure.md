@@ -1,7 +1,7 @@
 ---
 title: A few notes on exposure
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - exposure
   - technology

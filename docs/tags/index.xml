@@ -6,11 +6,20 @@
     <description>Recent content in Tags on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Tue, 06 Dec 2016 02:44:45 +0000</lastBuildDate>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 06 Jun 2007 22:21:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3d</title>
+      <link>http://www.sahil.cc/tags/3d/</link>
+      <pubDate>Wed, 06 Jun 2007 22:21:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/3d/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Algorithms</title>
@@ -94,11 +103,38 @@
     </item>
     
     <item>
+      <title>Chat</title>
+      <link>http://www.sahil.cc/tags/chat/</link>
+      <pubDate>Sat, 08 Dec 2007 15:18:31 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/chat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chennai</title>
+      <link>http://www.sahil.cc/tags/chennai/</link>
+      <pubDate>Sun, 16 Dec 2007 19:03:03 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/chennai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dalal</title>
       <link>http://www.sahil.cc/tags/dalal/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/dalal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>http://www.sahil.cc/tags/database/</link>
+      <pubDate>Mon, 04 Jun 2007 10:47:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/database/</guid>
       <description></description>
     </item>
     
@@ -117,6 +153,15 @@
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/digikam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dovecot</title>
+      <link>http://www.sahil.cc/tags/dovecot/</link>
+      <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/dovecot/</guid>
       <description></description>
     </item>
     
@@ -157,6 +202,15 @@
     </item>
     
     <item>
+      <title>Fds</title>
+      <link>http://www.sahil.cc/tags/fds/</link>
+      <pubDate>Fri, 04 Apr 2008 01:18:08 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/fds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fedora</title>
       <link>http://www.sahil.cc/tags/fedora/</link>
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
@@ -180,6 +234,15 @@
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Goa</title>
+      <link>http://www.sahil.cc/tags/goa/</link>
+      <pubDate>Sat, 08 Dec 2007 15:49:31 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/goa/</guid>
       <description></description>
     </item>
     
@@ -337,6 +400,15 @@
     </item>
     
     <item>
+      <title>Mail</title>
+      <link>http://www.sahil.cc/tags/mail/</link>
+      <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/mail/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Men</title>
       <link>http://www.sahil.cc/tags/men/</link>
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
@@ -409,11 +481,29 @@
     </item>
     
     <item>
+      <title>Postfix</title>
+      <link>http://www.sahil.cc/tags/postfix/</link>
+      <pubDate>Mon, 05 May 2008 15:58:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/postfix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Pragyan</title>
       <link>http://www.sahil.cc/tags/pragyan/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/pragyan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Quotes</title>
+      <link>http://www.sahil.cc/tags/quotes/</link>
+      <pubDate>Mon, 14 Apr 2008 23:39:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/quotes/</guid>
       <description></description>
     </item>
     
@@ -472,6 +562,15 @@
     </item>
     
     <item>
+      <title>Stereoscopy</title>
+      <link>http://www.sahil.cc/tags/stereoscopy/</link>
+      <pubDate>Wed, 06 Jun 2007 22:21:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/stereoscopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Svn</title>
       <link>http://www.sahil.cc/tags/svn/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
@@ -522,6 +621,24 @@
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trichy</title>
+      <link>http://www.sahil.cc/tags/trichy/</link>
+      <pubDate>Sun, 16 Dec 2007 19:03:03 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/trichy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tshirt</title>
+      <link>http://www.sahil.cc/tags/tshirt/</link>
+      <pubDate>Mon, 14 Apr 2008 23:39:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/tshirt/</guid>
       <description></description>
     </item>
     
@@ -594,6 +711,15 @@
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/women/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Worth</title>
+      <link>http://www.sahil.cc/tags/worth/</link>
+      <pubDate>Thu, 10 Apr 2008 12:49:58 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/worth/</guid>
       <description></description>
     </item>
     

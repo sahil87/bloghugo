@@ -6,11 +6,24 @@
     <description>Recent content in Nitt on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
-    <lastBuildDate>Thu, 22 May 2008 12:06:54 +0000</lastBuildDate>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 22 May 2008 16:50:28 +0000</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/categories/nitt/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fedora 9 Released!!!</title>
+      <link>http://www.sahil.cc/post/2008/fedora-9-released/</link>
+      <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/fedora-9-released/</guid>
+      <description>And it rocks!!
+The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
+Now, before I say anything else about Fedora 9, here are a few screenshots :
+Here&amp;rsquo;s Gnome in F9 :
+   Gnome Preview    And here is KDE 4 (finally !</description>
+    </item>
     
     <item>
       <title>College Nostalgia...</title>
@@ -22,7 +35,16 @@
   Dsc09076
       Dsc09086
       Dsc09205
-                                 --     Shishir, Abhishek and Me, Hemant peeping</description>
+     --     Shishir, Abhishek and Me, Hemant peeping</description>
+    </item>
+    
+    <item>
+      <title>There are websites for everything, even washing your clothes..</title>
+      <link>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</link>
+      <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</guid>
+      <description>What Makes Married Men Want to Have Affairs? &amp;ndash; New York Magazine &amp;gt; Consider the Website meet2cheat, in which married people find one another for recreational sex; it charges $59 for a man’s three-month entry fee, $9 for a woman. Cheating wives are harder to come by. Wow. Nice article. Says men are more prone to infidelity (cheating on someone). Quite right.</description>
     </item>
     
     <item>
@@ -45,6 +67,18 @@ As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in 
     </item>
     
     <item>
+      <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
+      <link>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
+Here is how it is done :
+For SVN :
+&amp;lt;VirtualHost *:80&amp;gt; ServerName repos.nitt.edu DocumentRoot &amp;quot;/var/www/svn/DocumentRoot/&amp;quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &amp;lt;Location /pragyan&amp;gt; DAV svn SVNPath /var/www/svn/pragyan &amp;lt;LimitExcept OPTIONS REPORTGET&amp;gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &amp;quot;Pragyan SVN LDAP Authentication&amp;quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</description>
+    </item>
+    
+    <item>
       <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
       <link>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
@@ -59,6 +93,15 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     </item>
     
     <item>
+      <title>Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</title>
+      <link>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</link>
+      <pubDate>Mon, 05 May 2008 15:58:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</guid>
+      <description>What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.</description>
+    </item>
+    
+    <item>
       <title>public_html web server - without mod_userdir</title>
       <link>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
       <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
@@ -68,6 +111,103 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
 It means this :
 Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles
 Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir. I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.</description>
+    </item>
+    
+    <item>
+      <title>Mail with postfix and ldap</title>
+      <link>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</link>
+      <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</guid>
+      <description>Yes, it&amp;rsquo;s possible. I did it for the pragyan.org server.
+The setup we used was :
+ /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&amp;rsquo;s much easily setup than one thinks initially.
+HOW?? Here&amp;rsquo;s how:
+But, as with anything else, basics first
+ SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).</description>
+    </item>
+    
+    <item>
+      <title>T-shirt Quotes</title>
+      <link>http://www.sahil.cc/post/2008/t-shirt-quotes/</link>
+      <pubDate>Mon, 14 Apr 2008 23:39:25 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/t-shirt-quotes/</guid>
+      <description>I was asked by Piyush Mundhra to come up with a one-liner for my personlized Pragyan Core T-Shirt. These are the ones I liked :
+Smile. It confuses People.
+I am not BOSSY! I just have better ideas.
+I don&amp;rsquo;t suffer from insanity. I enjoy every minute of it.
+Has any of this time-saving technology ever let you go home one minute early?
+The nice thing about standards is that you have so many to choose from.</description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>http://www.sahil.cc/post/2008/life/</link>
+      <pubDate>Thu, 10 Apr 2008 12:49:58 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/life/</guid>
+      <description>Only yesterday I was having a discussion with Purnima on the way while escorting her to the station. How should you spend your life such that you have no regrets about it in your death bed?
+I haven&amp;rsquo;t figured out the answer for myself yet.
+I tend to try to achieve as much as possible. But why?
+A part of the answer is my thirst for knowledge, my unending desire to make sure things work and another part is, I fear, to make others look up to me.</description>
+    </item>
+    
+    <item>
+      <title>Fedora Directory Server Rocks!!!</title>
+      <link>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</link>
+      <pubDate>Fri, 04 Apr 2008 01:18:08 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</guid>
+      <description>Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
+Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
+First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &amp;quot;cn=Manager,dc=pragyan,dc=org&amp;quot; -f base.ldif **invalid credentials (49)**</description>
+    </item>
+    
+    <item>
+      <title>A tryst with a first year :)</title>
+      <link>http://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</link>
+      <pubDate>Sat, 08 Dec 2007 15:18:31 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</guid>
+      <description>(08:51:38 PM) lucky:hi..
+(08:51:44 PM) sahil:hi
+(08:51:48 PM) sahil:who are you?
+(08:52:01 PM) lucky:which year?????
+(08:52:08 PM) sahil:who are you?
+(08:52:13 PM) sahil:one year &amp;hellip;
+(08:52:17 PM) sahil:from 1 to 4
+(08:52:23 PM) lucky:i am a nittian
+(08:52:29 PM) lucky:1st yr..
+(08:52:29 PM) sahil:probability of 0.25 being in each year
+(08:52:32 PM) sahil:really?
+(08:52:36 PM) lucky:ya
+(08:52:51 PM) lucky:which hostel???
+(08:52:53 PM) sahil:coz I thot irc address delta.nitt.edu is also available to non nittans</description>
+    </item>
+    
+    <item>
+      <title>Stereoscopy</title>
+      <link>http://www.sahil.cc/post/2007/stereoscopy/</link>
+      <pubDate>Wed, 06 Jun 2007 22:21:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2007/stereoscopy/</guid>
+      <description>Today is a great day!!
+For the first time I was able to cross view. And only today I found out the type of stereograms I used to play with were parallel viewing. To find the difference between them go here or here.</description>
+    </item>
+    
+    <item>
+      <title>Normal forms</title>
+      <link>http://www.sahil.cc/post/2007/normal-forms/</link>
+      <pubDate>Mon, 04 Jun 2007 10:47:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2007/normal-forms/</guid>
+      <description>Sitting here in Morgan Stanley, it&amp;rsquo;s hard to find free time. Things are always on the run.
+But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.
+Here is what I gathered from these websites :
+ http://www.serverwatch.com/tutorials/article.php/1549781 http://en.wikipedia.org/wiki/Database_normalization http://www.datamodel.org/NormalizationRules.html
+1st Normal Form:   No multivalued attribute
+   StudID Course     12345 3100,3600,3900   54321 1300,2300,3400    (Wrong)</description>
     </item>
     
   </channel>

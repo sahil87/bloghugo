@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30" />
         
 
 
@@ -38,7 +38,7 @@
 
 
 
-<meta property="og:updated_time" content="2008-05-20T02:35:28&#43;00:00"/>
+<meta property="og:updated_time" content="2008-04-04T01:18:08&#43;00:00"/>
 
 
 
@@ -72,6 +72,14 @@
 
         
             
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
                 
             
         
@@ -331,7 +339,7 @@ ga('send', 'pageview');
     <header>
     <div class="title">
         
-            <h2><a href="http://www.sahil.cc/post/2008/things-done-in-college-technology/">Things done in college - technology</a></h2>
+            <h2><a href="http://www.sahil.cc/post/2008/fedora-directory-server-rocks/">Fedora Directory Server Rocks!!!</a></h2>
         
         
     </div>
@@ -339,11 +347,11 @@ ga('send', 'pageview');
         
 
         <time class="published"
-            datetime='2008-05-20'>
-            May 20, 2008</time>
+            datetime='2008-04-04'>
+            April 4, 2008</time>
         <span class="author">Sahil Ahuja</span>
         
-            <p>3 minute read</p>
+            <p>2 minute read</p>
         
         
     </div>
@@ -353,14 +361,15 @@ ga('send', 'pageview');
 
     <p>
     
-        Here is a list of things I have done in the past three years. I have written for the sake of personal record.
-As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.
+        Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
+Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
+First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &quot;cn=Manager,dc=pragyan,dc=org&quot; -f base.ldif <strong>invalid credentials (49)</strong>
     
     </p>
 
     <footer>
         <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2008/things-done-in-college-technology/" class="button big">Continue Reading</a></li>
+            <li><a href="http://www.sahil.cc/post/2008/fedora-directory-server-rocks/" class="button big">Continue Reading</a></li>
         </ul>
         <ul class="stats">
     
@@ -642,7 +651,16 @@ As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bomb
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">26</span>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
               
             </header>
           </article>
@@ -659,8 +677,8 @@ As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bomb
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">5</span>
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -668,8 +686,8 @@ As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bomb
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -779,7 +797,7 @@ As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bomb
     
     <p class="copyright">
       
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
       .
       Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>

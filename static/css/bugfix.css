@@ -1,0 +1,5 @@
+/*For fixing https://github.com/digitalcraftsman/hugo-type-theme/issues/6 */
+#main #content .highlight table td,th{padding:0;border:0;}
+#main #content .highlight table td:nth-child(1){width:5%; min-width: 50px; text-align: left;}
+#main #content .highlight table td:nth-child(2){width:95%; text-align: left;}
+#main #content .highlight table td pre {margin:0;}

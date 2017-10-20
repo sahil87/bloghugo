@@ -1,7 +1,7 @@
 ---
 title: GPL Hijacking
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - gpl
   - lgpl

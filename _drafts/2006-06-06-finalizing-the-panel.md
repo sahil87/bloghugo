@@ -1,7 +1,7 @@
 ---
 title: Finalizing the Panel
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 23
 date: 2006-06-06 13:27:00
 tags:

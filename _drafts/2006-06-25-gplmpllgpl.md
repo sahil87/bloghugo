@@ -1,7 +1,7 @@
 ---
 title: GPL/MPL/LGPL
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - gpl
   - lgpl

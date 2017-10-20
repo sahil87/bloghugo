@@ -1,7 +1,7 @@
 ---
 title: Report Presentation
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 14
 date: 2006-06-06 12:58:00
 tags:

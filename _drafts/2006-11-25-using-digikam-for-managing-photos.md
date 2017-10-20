@@ -1,7 +1,7 @@
 ---
 title: Using digiKam for managing photos.
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - camera
   - digikam

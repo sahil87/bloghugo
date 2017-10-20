@@ -1,7 +1,7 @@
 ---
 title: Designing the Panel
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 21
 date: 2006-06-06 13:16:00
 tags:

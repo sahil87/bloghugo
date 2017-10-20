@@ -1,7 +1,7 @@
 ---
 title: A digital photographer's heaven
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - digikam
   - digital

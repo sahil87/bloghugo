@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
     <loc>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</loc>
@@ -198,8 +197,69 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</loc>
+    <lastmod>2008-05-05T15:58:25+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</loc>
     <lastmod>2008-05-03T08:59:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</loc>
+    <lastmod>2008-05-03T08:39:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2008/final-report-and-files/</loc>
+    <lastmod>2008-05-03T04:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2008/t-shirt-quotes/</loc>
+    <lastmod>2008-04-14T23:39:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2008/life/</loc>
+    <lastmod>2008-04-10T12:49:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</loc>
+    <lastmod>2008-04-04T01:18:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2007/back-to-square-one/</loc>
+    <lastmod>2007-12-16T19:03:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2007/trip-to-goa/</loc>
+    <lastmod>2007-12-08T15:49:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</loc>
+    <lastmod>2007-12-08T15:18:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2007/stereoscopy/</loc>
+    <lastmod>2007-06-06T22:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/post/2007/normal-forms/</loc>
+    <lastmod>2007-06-04T10:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/3d/</loc>
+    <lastmod>2007-06-06T22:21:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -269,12 +329,30 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/tags/chat/</loc>
+    <lastmod>2007-12-08T15:18:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/chennai/</loc>
+    <lastmod>2007-12-16T19:03:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/contact/</loc>
   </url>
   
   <url>
     <loc>http://www.sahil.cc/tags/dalal/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/database/</loc>
+    <lastmod>2007-06-04T10:47:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -287,6 +365,12 @@
   <url>
     <loc>http://www.sahil.cc/tags/digikam/</loc>
     <lastmod>2009-11-14T19:19:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/dovecot/</loc>
+    <lastmod>2008-05-03T08:39:43+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -315,6 +399,12 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/tags/fds/</loc>
+    <lastmod>2008-04-04T01:18:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/tags/fedora/</loc>
     <lastmod>2009-11-15T01:11:27+00:00</lastmod>
     <priority>0</priority>
@@ -329,6 +419,12 @@
   <url>
     <loc>http://www.sahil.cc/tags/git/</loc>
     <lastmod>2017-01-07T12:33:08+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/goa/</loc>
+    <lastmod>2007-12-08T15:49:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,6 +537,12 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/tags/mail/</loc>
+    <lastmod>2008-05-03T08:39:43+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/tags/men/</loc>
     <lastmod>2008-05-22T11:12:34+00:00</lastmod>
     <priority>0</priority>
@@ -453,14 +555,14 @@
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/nitt/</loc>
+    <loc>http://www.sahil.cc/tags/nitt/</loc>
     <lastmod>2008-05-22T12:06:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/nitt/</loc>
-    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
+    <loc>http://www.sahil.cc/categories/nitt/</loc>
+    <lastmod>2008-05-22T16:50:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -489,6 +591,12 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/categories/pcbo/</loc>
+    <lastmod>2008-05-03T04:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/tags/photography/</loc>
     <lastmod>2009-11-14T19:19:03+00:00</lastmod>
     <priority>0</priority>
@@ -501,8 +609,20 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/tags/postfix/</loc>
+    <lastmod>2008-05-05T15:58:25+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/tags/pragyan/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/quotes/</loc>
+    <lastmod>2008-04-14T23:39:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -560,6 +680,12 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/tags/stereoscopy/</loc>
+    <lastmod>2007-06-06T22:21:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/tags/svn/</loc>
     <lastmod>2008-05-20T02:07:00+00:00</lastmod>
     <priority>0</priority>
@@ -567,7 +693,7 @@
   
   <url>
     <loc>http://www.sahil.cc/tags/</loc>
-    <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <lastmod>2007-06-06T22:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -598,6 +724,18 @@
   <url>
     <loc>http://www.sahil.cc/tags/tracking/</loc>
     <lastmod>2017-03-28T11:00:26+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/trichy/</loc>
+    <lastmod>2007-12-16T19:03:03+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/tshirt/</loc>
+    <lastmod>2008-04-14T23:39:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -646,6 +784,12 @@
   <url>
     <loc>http://www.sahil.cc/tags/women/</loc>
     <lastmod>2008-05-22T11:12:34+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/worth/</loc>
+    <lastmod>2008-04-10T12:49:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   

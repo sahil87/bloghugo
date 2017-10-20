@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30" />
         
 
 
@@ -37,6 +37,7 @@
 
 
 <meta property="article:published_time" content="2016-12-17T03:33:51&#43;00:00"/>
+
 <meta property="article:modified_time" content="2016-12-17T03:33:51&#43;00:00"/>
 
 
@@ -55,8 +56,9 @@
 ">
 
 
+<meta itemprop="datePublished" content="2016-12-17T03:33:51&#43;00:00" />
 <meta itemprop="dateModified" content="2016-12-17T03:33:51&#43;00:00" />
-<meta itemprop="wordCount" content="94">
+<meta itemprop="wordCount" content="130">
 
 
 
@@ -80,6 +82,14 @@
 
         
             
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                
+            
+                
+                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
                 
             
         
@@ -520,44 +530,41 @@ ga('send', 'pageview');
 </p>
 
 <p>The TTCBER (Thing That Cannot Be Easily Replicated) was the following redirection rule in S3:</p>
-<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="s7e2">&lt;RoutingRules&gt;</span><span class="s1f40">
-</span><span class="s1f40">  </span><span class="s7e2">&lt;RoutingRule&gt;</span><span class="s1f40">
-</span><span class="s1f40">    </span><span class="s7e2">&lt;Redirect&gt;</span><span class="s1f40">
-</span><span class="s1f40">      </span><span class="s7e2">&lt;Protocol&gt;</span><span class="s1f40">https</span><span class="s7e2">&lt;/Protocol&gt;</span><span class="s1f40">
-</span><span class="s1f40">      </span><span class="s7e2">&lt;HostName&gt;</span><span class="s1f40">myaccount.signin.aws.amazon.com</span><span class="s7e2">&lt;/HostName&gt;</span><span class="s1f40">
-</span><span class="s1f40">      </span><span class="s7e2">&lt;ReplaceKeyPrefixWith&gt;</span><span class="s1f40">console/</span><span class="s7e2">&lt;/ReplaceKeyPrefixWith&gt;</span><span class="s1f40">
-</span><span class="s1f40">      </span><span class="s7e2">&lt;HttpRedirectCode&gt;</span><span class="s1f40">301</span><span class="s7e2">&lt;/HttpRedirectCode&gt;</span><span class="s1f40">
-</span><span class="s1f40">    </span><span class="s7e2">&lt;/Redirect&gt;</span><span class="s1f40">
-</span><span class="s1f40">  </span><span class="s7e2">&lt;/RoutingRule&gt;</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s7e2">&lt;/RoutingRules&gt;</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;RoutingRules&gt;</span>
+  <span class="nt">&lt;RoutingRule&gt;</span>
+    <span class="nt">&lt;Redirect&gt;</span>
+      <span class="nt">&lt;Protocol&gt;</span>https<span class="nt">&lt;/Protocol&gt;</span>
+      <span class="nt">&lt;HostName&gt;</span>myaccount.signin.aws.amazon.com<span class="nt">&lt;/HostName&gt;</span>
+      <span class="nt">&lt;ReplaceKeyPrefixWith&gt;</span>console/<span class="nt">&lt;/ReplaceKeyPrefixWith&gt;</span>
+      <span class="nt">&lt;HttpRedirectCode&gt;</span>301<span class="nt">&lt;/HttpRedirectCode&gt;</span>
+    <span class="nt">&lt;/Redirect&gt;</span>
+  <span class="nt">&lt;/RoutingRule&gt;</span>
+<span class="nt">&lt;/RoutingRules&gt;</span></code></pre></div>
 <h2 id="other-ttcbers">Other TTCBERs:</h2>
 
 <p>To allow public access to S3 resources from any webpage (which you may would want in case hosting public assets for a website), we need to add the following bucket policy to the bucket:</p>
-<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="s1388">{</span><span class="s1f40">
-</span><span class="s1f40">	</span><span class="s7e2">&#34;Version&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="sc1c">&#34;2012-10-17&#34;</span><span class="s1388">,</span><span class="s1f40">
-</span><span class="s1f40">	</span><span class="s7e2">&#34;Statement&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="s1388">[</span><span class="s1f40">
-</span><span class="s1f40">		</span><span class="s1388">{</span><span class="s1f40">
-</span><span class="s1f40">			</span><span class="s7e2">&#34;Sid&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="sc1c">&#34;AddPerm&#34;</span><span class="s1388">,</span><span class="s1f40">
-</span><span class="s1f40">			</span><span class="s7e2">&#34;Effect&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="sc1c">&#34;Allow&#34;</span><span class="s1388">,</span><span class="s1f40">
-</span><span class="s1f40">			</span><span class="s7e2">&#34;Principal&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="sc1c">&#34;*&#34;</span><span class="s1388">,</span><span class="s1f40">
-</span><span class="s1f40">			</span><span class="s7e2">&#34;Action&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="sc1c">&#34;s3:GetObject&#34;</span><span class="s1388">,</span><span class="s1f40">
-</span><span class="s1f40">			</span><span class="s7e2">&#34;Resource&#34;</span><span class="s1388">:</span><span class="s1f40"> </span><span class="sc1c">&#34;arn:aws:s3:::cdn-static.mybucket.name/*&#34;</span><span class="s1f40">
-</span><span class="s1f40">		</span><span class="s1388">}</span><span class="s1f40">
-</span><span class="s1f40">	</span><span class="s1388">]</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s1388">}</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+	<span class="nt">&#34;Version&#34;</span><span class="p">:</span> <span class="s2">&#34;2012-10-17&#34;</span><span class="p">,</span>
+	<span class="nt">&#34;Statement&#34;</span><span class="p">:</span> <span class="p">[</span>
+		<span class="p">{</span>
+			<span class="nt">&#34;Sid&#34;</span><span class="p">:</span> <span class="s2">&#34;AddPerm&#34;</span><span class="p">,</span>
+			<span class="nt">&#34;Effect&#34;</span><span class="p">:</span> <span class="s2">&#34;Allow&#34;</span><span class="p">,</span>
+			<span class="nt">&#34;Principal&#34;</span><span class="p">:</span> <span class="s2">&#34;*&#34;</span><span class="p">,</span>
+			<span class="nt">&#34;Action&#34;</span><span class="p">:</span> <span class="s2">&#34;s3:GetObject&#34;</span><span class="p">,</span>
+			<span class="nt">&#34;Resource&#34;</span><span class="p">:</span> <span class="s2">&#34;arn:aws:s3:::cdn-static.mybucket.name/*&#34;</span>
+		<span class="p">}</span>
+	<span class="p">]</span>
+<span class="p">}</span></code></pre></div>
 <p>To allow these resources to be embedded in all websites, add CORS configuration to the S3 bucket:</p>
-<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="s1770">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s7e2">&lt;CORSConfiguration</span><span class="s1f40"> </span><span class="s7d1">xmlns=</span><span class="sc1c">&#34;http://s3.amazonaws.com/doc/2006-03-01/&#34;</span><span class="s7e2">&gt;</span><span class="s1f40">
-</span><span class="s1f40">    </span><span class="s7e2">&lt;CORSRule&gt;</span><span class="s1f40">
-</span><span class="s1f40">        </span><span class="s7e2">&lt;AllowedOrigin&gt;</span><span class="s1f40">*</span><span class="s7e2">&lt;/AllowedOrigin&gt;</span><span class="s1f40">
-</span><span class="s1f40">        </span><span class="s7e2">&lt;AllowedMethod&gt;</span><span class="s1f40">GET</span><span class="s7e2">&lt;/AllowedMethod&gt;</span><span class="s1f40">
-</span><span class="s1f40">        </span><span class="s7e2">&lt;MaxAgeSeconds&gt;</span><span class="s1f40">3000</span><span class="s7e2">&lt;/MaxAgeSeconds&gt;</span><span class="s1f40">
-</span><span class="s1f40">        </span><span class="s7e2">&lt;AllowedHeader&gt;</span><span class="s1f40">Authorization</span><span class="s7e2">&lt;/AllowedHeader&gt;</span><span class="s1f40">
-</span><span class="s1f40">    </span><span class="s7e2">&lt;/CORSRule&gt;</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s7e2">&lt;/CORSConfiguration&gt;</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+<span class="nt">&lt;CORSConfiguration</span> <span class="na">xmlns=</span><span class="s">&#34;http://s3.amazonaws.com/doc/2006-03-01/&#34;</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;CORSRule&gt;</span>
+        <span class="nt">&lt;AllowedOrigin&gt;</span>*<span class="nt">&lt;/AllowedOrigin&gt;</span>
+        <span class="nt">&lt;AllowedMethod&gt;</span>GET<span class="nt">&lt;/AllowedMethod&gt;</span>
+        <span class="nt">&lt;MaxAgeSeconds&gt;</span>3000<span class="nt">&lt;/MaxAgeSeconds&gt;</span>
+        <span class="nt">&lt;AllowedHeader&gt;</span>Authorization<span class="nt">&lt;/AllowedHeader&gt;</span>
+    <span class="nt">&lt;/CORSRule&gt;</span>
+<span class="nt">&lt;/CORSConfiguration&gt;</span></code></pre></div>
   </div>
 
   <footer>
@@ -835,7 +842,16 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">26</span>
+                <span style="float:right;">25</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
+                <span style="float:right;">16</span>
               
             </header>
           </article>
@@ -852,8 +868,8 @@ ga('send', 'pageview');
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">5</span>
+                <a href="http://www.sahil.cc/categories/review/">review</a>
+                <span style="float:right;">2</span>
               
             </header>
           </article>
@@ -861,8 +877,8 @@ ga('send', 'pageview');
           <article>
             <header>
               
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">1</span>
               
             </header>
           </article>
@@ -968,7 +984,7 @@ ga('send', 'pageview');
     
     <p class="copyright">
       
-        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.
+        © This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.
       .
       Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
     </p>

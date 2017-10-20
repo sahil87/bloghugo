@@ -1,7 +1,7 @@
 ---
 title: Aamchi Mumbai - Kelon ka din
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 8
 date: 2006-05-20 20:13:00
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Tomcat Started!
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 10
 date: 2006-05-24 04:29:00
 tags:

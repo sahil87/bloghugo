@@ -1,7 +1,7 @@
 ---
 title: 'There are websites for everything, even washing your clothes..'
 author: Sahil Ahuja
-categories: [blog]
+categories: [nitt]
 tags:
   - men
   - sex

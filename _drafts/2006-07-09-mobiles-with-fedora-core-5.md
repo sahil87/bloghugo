@@ -1,7 +1,7 @@
 ---
 title: Mobile(s) with Fedora Core 5
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - gnokii
   - mobile

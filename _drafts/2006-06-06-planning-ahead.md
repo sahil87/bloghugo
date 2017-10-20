@@ -1,7 +1,7 @@
 ---
 title: Planning Ahead
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 16
 date: 2006-06-06 13:02:00
 tags:

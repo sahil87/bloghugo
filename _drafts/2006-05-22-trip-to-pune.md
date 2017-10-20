@@ -1,7 +1,7 @@
 ---
 title: Trip to Pune..
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 9
 date: 2006-05-22 03:56:00
 tags:

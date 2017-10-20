@@ -1,7 +1,7 @@
 ---
 title: Programs like these make life easy - Fedora Frog
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 tags:
   - fedora
 id: 17

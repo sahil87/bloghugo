@@ -1,11 +1,12 @@
 ---
 title: Fedora 9 Released!!!
 author: Sahil Ahuja
-categories: [blog]
+categories: [nitt]
 date: 2008-05-22 16:50:28
 tags:
   - fedora
 ---
+{{< load-photoswipe >}}
 
 And it rocks!!
 
@@ -15,11 +16,11 @@ Now, before I say anything else about [Fedora 9](http://fedoraproject.org/), her
 
 Here's Gnome  in F9 :
 
-[![Gnome Preview](/images/screenshot.png)](/images/2008/screenshot.png)
+{{< figure src="/images/2008/screenshot.png" title="Gnome Preview" width="300px">}}
 
 And here is [KDE 4](http://www.kde.org/) (finally !!):
 
-[![KDE 4 Preview](/images/snapshot2.png)](/images/2008/snapshot2.png)
+{{< figure src="/images/2008/snapshot2.png" title="KDE 4 Preview" width="300px">}}
 
 KDE 4 seems to be following the footsteps of some of its latest applications like [Basket](http://basket.kde.org/). The new start menu now acts like that of IPOD. And the inbuilt search as shown in the following video is simply amazing!. The whole desktop has been given a major revamp. And so has been the theme. The widgets on the desktop now act a bit like widgets on Vista.
 

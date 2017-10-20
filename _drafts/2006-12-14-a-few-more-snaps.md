@@ -1,7 +1,7 @@
 ---
 title: A few more snaps
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 64
 date: 2006-12-14 06:10:00
 tags:

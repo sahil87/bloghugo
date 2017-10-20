@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you likes to quote or reproduce.</copyright>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -33,9 +33,18 @@
     <item>
       <title>Nitt</title>
       <link>http://www.sahil.cc/categories/nitt/</link>
-      <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
+      <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
       
       <guid>http://www.sahil.cc/categories/nitt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pcbo</title>
+      <link>http://www.sahil.cc/categories/pcbo/</link>
+      <pubDate>Sat, 03 May 2008 04:34:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/categories/pcbo/</guid>
       <description></description>
     </item>
     

@@ -1,7 +1,7 @@
 ---
 title: IIT B project
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 59
 date: 2006-06-21 18:24:00
 tags:

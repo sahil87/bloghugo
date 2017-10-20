@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dovecot on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/tags/dovecot/</link>
+    <description>Recent content in Dovecot on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Sat, 03 May 2008 08:39:43 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/tags/dovecot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mail with postfix and ldap</title>
+      <link>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</link>
+      <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</guid>
+      <description>Yes, it&amp;rsquo;s possible. I did it for the pragyan.org server.
+The setup we used was :
+ /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&amp;rsquo;s much easily setup than one thinks initially.
+HOW?? Here&amp;rsquo;s how:
+But, as with anything else, basics first
+ SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,7 +1,7 @@
 ---
 title: Playing Around
 author: Sahil Ahuja
-categories: blog
+categories: [blog]
 id: 13
 date: 2006-06-06 12:56:00
 tags:
