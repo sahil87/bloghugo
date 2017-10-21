@@ -1,10 +1,8 @@
 ---
-title: '3'
+title: 'Blog for tracking development of PCBO'
 author: Sahil Ahuja
-categories: [blog]
-id: 3
+categories: [pcbo]
 date: 2006-05-12 14:09:00
-tags:
 ---
 
 This is a blog for tracking the development of our PC Based Oscilloscope...

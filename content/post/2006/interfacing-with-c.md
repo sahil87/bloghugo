@@ -1,10 +1,8 @@
 ---
-title: '4'
+title: 'Interfacing with C'
 author: Sahil Ahuja
-categories: [blog]
-id: 4
+categories: [pcbo]
 date: 2006-05-13 13:31:00
-tags:
 ---
 
 Today we interfaced C with MySQL successfully (even though we got up at 12 in the afternoon). We haven't been able to contact Prof. T. S. Rathore and Mrs. Solanki was absent the whole week, due to which we are working in two teams, Sahil in H13 on Rohan's comp and Sumit and me in H4 on my laptop. I had put the mysql.h file in /usr/include which was not the proper way of doing it, so Sahil downloaded the rpm from the internet and it worked like magic!

@@ -1,10 +1,8 @@
 ---
 title: Tomcat Started!
 author: Sahil Ahuja
-categories: [blog]
-id: 10
+categories: [pcbo]
 date: 2006-05-24 04:29:00
-tags:
 ---
 
 Today we successfully interfaced parallel port buffer through C.

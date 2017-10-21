@@ -1,10 +1,8 @@
 ---
-title: '5'
+title: 'JAVA with MySQL'
 author: Sahil Ahuja
-categories: [blog]
-id: 5
+categories: [pcbo]
 date: 2006-05-15 20:58:00
-tags:
 ---
 
 Today we successfully made <span style="font-weight:bold;">JAVA query MySql</span>!!!

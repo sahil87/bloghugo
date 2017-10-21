@@ -1,10 +1,8 @@
 ---
-title: '7'
+title: 'Day 7'
 author: Sahil Ahuja
-categories: [blog]
-id: 7
+categories: [pcbo]
 date: 2006-05-17 20:53:00
-tags:
 ---
 
 Today we got up at 9 in the morning and hurried without breakfast for fear that we were late. The lab was closed. We <span style="font-weight:bold;">successfully installed FC5 </span>on the computer by using the CD-ROM of another computer.
