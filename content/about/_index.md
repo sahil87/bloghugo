@@ -16,15 +16,3 @@ Learning how to play [Violin](https://en.wikipedia.org/wiki/Violin) and [Piano](
 I graduated from [NIT Trichy](http://www.nitt.edu/home/students/clubsnassocs/computing/delta/alumni/up208/), did MBA from [IIM-C](https://www.iimcal.ac.in/about/campus-life/life-iimc/clubs-and-sigs/isg-internet-solutions-group) with a knack for building systems from ground up. Co-founder/CTO of [SportsCafe](https://sportscafe.in) since mid-2015.
 
 ---
-
-<center style="display: flex; justify-content: space-between; ">
-[ {{< font-awesome fa-class="fa fa-envelope fa-2x" >}} ](mailto:sahilahuja@gmail.com)
-[ {{< font-awesome fa-class="fa fa-medium fa-2x" >}} ](https://medium.com/@sahilahuja)
-[ {{< font-awesome fa-class="fa fa-linkedin fa-2x" >}} ](https://in.linkedin.com/in/ahujasahil)
-[ {{< font-awesome fa-class="fa fa-github fa-2x" >}} ](https://github.com/sahil87)
-[ {{< font-awesome fa-class="fa fa-stack-overflow fa-2x" >}} ](http://stackoverflow.com/story/sahilahuja)
-[ {{< font-awesome fa-class="fa fa-facebook-square fa-2x" >}} ](https://www.facebook.com/ahujasahil)
-[ {{< font-awesome fa-class="fa fa-twitter fa-2x" >}} ](https://twitter.com/_sahilahuja)
-[ {{< font-awesome fa-class="fa fa-flickr fa-2x" >}} ](http://flickr.com/sahilahuja)
-[ {{< font-awesome fa-class="fa fa-rss fa-2x" >}} ](http://www.sahil.cc/atom.xml)
-</center>

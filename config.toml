@@ -133,8 +133,11 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # Choose your social networks
   email = "sahilahuja@gmail.com"
   github = "sahil87"
+  stackoverflow = "1233476"
   twitter = "_sahilahuja"
   linkedin = "ahujasahil"
+  flickr = "sahilahuja"
+
   #weibo = "weibo_username"
   #wechat= "/img/qrcode.jpg" # Replace with your wechat qrcode image
   facebook = "ahujasahil"
