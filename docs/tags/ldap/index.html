@@ -363,12 +363,8 @@ ga('send', 'pageview');
 
     
 
-    <p>
-    
-        Here is a list of things I have done in the past three years. I have written for the sake of personal record.
-As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.
-    
-    </p>
+    <p>Here is a list of things I have done in the past three years. I have written for the sake of personal record.
+As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.</p>
 
     <footer>
         <ul class="actions">
@@ -433,14 +429,10 @@ As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bomb
 
     
 
-    <p>
-    
-        Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
+    <p>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
 Here is how it is done :
 For SVN :
-&lt;VirtualHost *:80&gt; ServerName repos.nitt.edu DocumentRoot &quot;/var/www/svn/DocumentRoot/&quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &lt;Location /pragyan&gt; DAV svn SVNPath /var/www/svn/pragyan &lt;LimitExcept OPTIONS REPORTGET&gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &quot;Pragyan SVN LDAP Authentication&quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?
-    
-    </p>
+&lt;VirtualHost *:80&gt; ServerName repos.nitt.edu DocumentRoot &quot;/var/www/svn/DocumentRoot/&quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &lt;Location /pragyan&gt; DAV svn SVNPath /var/www/svn/pragyan &lt;LimitExcept OPTIONS REPORTGET&gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &quot;Pragyan SVN LDAP Authentication&quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</p>
 
     <footer>
         <ul class="actions">
@@ -505,11 +497,7 @@ For SVN :
 
     
 
-    <p>
-    
-        What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.
-    
-    </p>
+    <p>What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.</p>
 
     <footer>
         <ul class="actions">
@@ -574,16 +562,12 @@ For SVN :
 
     
 
-    <p>
-    
-        Yes, it&rsquo;s possible. I did it for the pragyan.org server.
+    <p>Yes, it&rsquo;s possible. I did it for the pragyan.org server.
 The setup we used was :
  /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&rsquo;s much easily setup than one thinks initially.
 HOW?? Here&rsquo;s how:
 But, as with anything else, basics first
- SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).
-    
-    </p>
+ SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).</p>
 
     <footer>
         <ul class="actions">
@@ -648,13 +632,9 @@ But, as with anything else, basics first
 
     
 
-    <p>
-    
-        Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
+    <p>Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
 Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
-First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &quot;cn=Manager,dc=pragyan,dc=org&quot; -f base.ldif <strong>invalid credentials (49)</strong>
-    
-    </p>
+First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &quot;cn=Manager,dc=pragyan,dc=org&quot; -f base.ldif <strong>invalid credentials (49)</strong></p>
 
     <footer>
         <ul class="actions">

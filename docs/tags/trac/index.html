@@ -301,7 +301,7 @@ ga('send', 'pageview');
         
 
         <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
-            <img src="http://www.sahil.cc/images/2017/google_analytics_filter.png" alt="" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'>
+            <img src="date/google_analytics_filter.png" alt="" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'>
         </a>
     
 
@@ -363,14 +363,10 @@ ga('send', 'pageview');
 
     
 
-    <p>
-    
-        Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
+    <p>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
 Here is how it is done :
 For SVN :
-&lt;VirtualHost *:80&gt; ServerName repos.nitt.edu DocumentRoot &quot;/var/www/svn/DocumentRoot/&quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &lt;Location /pragyan&gt; DAV svn SVNPath /var/www/svn/pragyan &lt;LimitExcept OPTIONS REPORTGET&gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &quot;Pragyan SVN LDAP Authentication&quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?
-    
-    </p>
+&lt;VirtualHost *:80&gt; ServerName repos.nitt.edu DocumentRoot &quot;/var/www/svn/DocumentRoot/&quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &lt;Location /pragyan&gt; DAV svn SVNPath /var/www/svn/pragyan &lt;LimitExcept OPTIONS REPORTGET&gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &quot;Pragyan SVN LDAP Authentication&quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</p>
 
     <footer>
         <ul class="actions">
