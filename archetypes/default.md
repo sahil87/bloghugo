@@ -33,6 +33,9 @@ More content for the body
 {{< youtube n2_BVgWMa1c >}}
 
 #### Code highlight
+<!-- https://gohugo.io/content-management/syntax-highlighting/ and
+https://github.com/alecthomas/chroma -->
+
 {{< highlight toml "linenos=table,linenostart=50,hl_lines=2 4-5" >}}
 server_host = 10.0.0.126
 search_base = ou=Groups,ou=Pragyan,dc=delta,dc=nitt.edu

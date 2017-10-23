@@ -8,23 +8,41 @@ featured: "caveman4.jpg"
 featuredalt: "Git Caveman"
 featuredpath: "date"
 ---
-{{< load-photoswipe >}}
-Most used (but yet unremembered) git commands
-{{< figure src="/images/2016/caveman4.jpg" title="Caveman Fire" width="300px">}}
+## Most used (but yet unremembered) git commands
+
+<!-- {{< figure src="/images/2016/caveman4.jpg" title="Caveman Fire" width="300px">}} -->
+
 <!--more-->
-### Delete remote branches
-```
-git push origin --delete branch_to_delete
-```
 
-### Remove git tracked files without removing them from filesystem
-```
-git rm --cached --force ".idea"
-```
+### Push your currently detached HEAD
+`git push origin HEAD:master` 
 
-### Push your current detached HEAD
-* `git push origin HEAD:master` 
 
+### Delete remote branches only
+`git push origin --delete branch_to_delete`
+
+### Changes in git index vs. local filesystem
+{{< highlight bash >}}
+git commit -m "Something terribly misguided"
+git reset --soft HEAD~
+<< edit files as necessary >> 
+git add ... 
+git commit -c ORIG_HEAD
+{{< /highlight >}}
+* `git reset --soft HEAD~1` doesn't remove the changes from index (i.e. `git commit` adds them again, no need to git add.).
+* `git reset HEAD~1` undoes the commit, removes changes from index but keeps the changes locally
+* `git reset --hard HEAD~1` removes the changes from the filesystem too.
+
+#### Remove git tracked files without removing them from filesystem
+`git rm --cached --force ".idea"`
+
+## Specific Usecases
+
+### Patch related
+```bash
+#To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476
+git diff COMMIT^ COMMIT
+```
 
 ### Submodules
 ```bash
@@ -56,18 +74,6 @@ git show v1.4
 git push --delete origin tagname #For remote
 git tag --delete tagname #To remove local tag
 ```
-
-### To undo commit
-```bash
-git commit -m "Something terribly misguided"
-git reset --soft HEAD~
-<< edit files as necessary >> 
-git add ... 
-git commit -c ORIG_HEAD
-```
-* `git reset --soft HEAD~1` doesn't remove the changes from index (i.e. `git commit` adds them again, no need to git add.).
-* `git reset HEAD~1` undoes the commit, removes changes from index but keeps the changes locally
-* `git reset --hard HEAD~1` removes the changes from the filesystem too.
 
 ### More awesome references:
 * How to use git: https://guides.github.com/activities/contributing-to-open-source/#contributing
