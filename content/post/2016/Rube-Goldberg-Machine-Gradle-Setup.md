@@ -8,9 +8,10 @@ featured: "Rube_Goldberg_Self_Operating_Napkin.gif"
 featuredalt: "Rube Goldberg Self Operating Napkin"
 featuredpath: "date"
 ---
-{{< load-photoswipe >}}
+
 A [Rube Goldberg machine](https://en.wikipedia.org/wiki/Rube_Goldberg_machine) is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.
 <!--more-->
+{{< load-photoswipe >}}
 {{< figure src="/images/2016/Rube_Goldberg_Self_Operating_Napkin.gif" title="Self Operating Napkin" width="300px">}}
 
 My Convolution:

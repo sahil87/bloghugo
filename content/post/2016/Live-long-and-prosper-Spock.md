@@ -8,7 +8,6 @@ featured: "mr-spock.jpg"
 featuredalt: "Mr. Spock"
 featuredpath: "date"
 ---
-{{< load-photoswipe >}}
 [Spock](http://spockframework.org/) is the new kid in town in the [crowded](https://en.wikipedia.org/wiki/Unit_testing) world of testing frameworks.
 
 [Here](https://accu.org/index.php/journals/2203) is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.
@@ -43,7 +42,7 @@ class Test_Factorial_Spock_Parameterized_Groovy extends Specification {
   }
 }
 ```
-
+{{< load-photoswipe >}}
 {{< figure src="/images/2016/mr-spock.jpg" title="Mr. Spock" width="300px" >}}
 
 And I was sold.
