@@ -6,7 +6,7 @@ tags: [ "ubuntu", "webstorm", "unicode", "shortcuts" ]
 categories: [ "guide" ]
 ---
 
-Ever since I decided that <code>&#96;</code> was he best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing <code>&#96;</code> whenever I needed it has been hell.
+Ever since I decided that <code>&#96;</code> was the best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing <code>&#96;</code> whenever I needed it has been hell.
 <!--more-->
 After going through a great deal and self doubt, the final outcome deserves being documented.
 
