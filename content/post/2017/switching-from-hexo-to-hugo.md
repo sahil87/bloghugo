@@ -24,9 +24,11 @@ Finally the dust settles, with a few compromises.
 - [X] Finalize default archetype
 - [X] Galleries in Hugo (https://github.com/liwenyip/hugo-easy-gallery)
 - [X] Copy all posts
-- [ ] Fix all posts
-- [ ] Copy all drafts
+- [X] Fix all posts
+- [X] Copy all drafts
 - [ ] Fix all drafts
+- [ ] Move remaining blogs from [here]({{<ref "post/2016/Hello-World.md" >}})
+- [ ] Post in all old blogs that the new blog is now [sahil.cc](http://www.sahil.cc). List [here]({{<relref "post/2016/Hello-World.md#first-things-first" >}})
 
 #### Learnings
 ##### Categorization:
