@@ -10,14 +10,16 @@ featured: "image-name.png"
 featuredalt: "Image Name Alt"
 description: Optional description
 ---
-{{< load-photoswipe >}} <!-- needed only once -->
-
 Summary Line used if description not given above
 {{< figure src="/images/2008/snapshot2.png" title="KDE 4 Preview" width="300px">}}
 
 <!--more-->
 
 More content for the body
+
+{{< load-photoswipe >}} <!-- needed only once, include after -more- else loads multiple times in list pages ;) -->
+<!-- From https://github.com/liwenyip/hugo-easy-gallery -->
+
 {{< figure src="/images/2008/screenshot.png" title="Gnome Preview" width="300px">}}
 
 ### Gallery

@@ -8,8 +8,8 @@ featured: "vomitcartoon.jpg"
 featuredalt: "Vomit Commits"
 featuredpath: "date"
 ---
-{{< load-photoswipe >}}
 A cool way to vomit out all Ansible variables:
 https://coderwall.com/p/13lh6w/dump-all-variables
 <!--more-->
+{{< load-photoswipe >}}
 {{< figure src="/images/2017/vomitcartoon.jpg" title="Ansible Vomit" width="300px">}}

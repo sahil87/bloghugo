@@ -2,9 +2,8 @@
 title: 'My sister, my inspiration'
 author: Sahil Ahuja
 categories: [blog]
-id: 63
 date: 2006-12-14 05:14:00
-tags:
+tags: [rants]
 ---
 
 <div style="text-align:center;">[![](http://photos1.blogger.com/x/blogger/6089/2676/320/401681/DSC01455.jpg)](http://photos1.blogger.com/x/blogger/6089/2676/1600/391528/DSC01455.jpg)My bro and my sis

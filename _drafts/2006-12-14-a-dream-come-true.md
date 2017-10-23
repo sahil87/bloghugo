@@ -2,9 +2,9 @@
 title: A dream come true
 author: Sahil Ahuja
 categories: [blog]
-id: 65
 date: 2006-12-14 06:11:00
 tags:
+  - camera
 ---
 
 I had always wanted to take photos since I was a child. This wish was fulfilled during these holidays.

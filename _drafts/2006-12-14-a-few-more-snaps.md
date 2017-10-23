@@ -2,9 +2,9 @@
 title: A few more snaps
 author: Sahil Ahuja
 categories: [blog]
-id: 64
 date: 2006-12-14 06:10:00
 tags:
+  - camera
 ---
 
 <div style="text-align:center;">[![](http://photos1.blogger.com/x/blogger/6089/2676/320/85877/DSC00655.jpg)](http://photos1.blogger.com/x/blogger/6089/2676/1600/225566/DSC00655.jpg)My mom.. a second ago

@@ -4,9 +4,7 @@ author: Sahil Ahuja
 categories: [blog]
 tags:
   - digikam
-  - digital
-  - image
-id: 21
+  - camera
 date: 2006-12-15 02:33:00
 ---
 

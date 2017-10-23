@@ -3,9 +3,7 @@ title: A few notes on exposure
 author: Sahil Ahuja
 categories: [blog]
 tags:
-  - exposure
-  - technology
-id: 22
+  - camera
 date: 2006-12-15 03:13:00
 ---
 

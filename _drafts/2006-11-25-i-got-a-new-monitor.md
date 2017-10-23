@@ -2,9 +2,7 @@
 title: I got a new monitor!
 author: Sahil Ahuja
 categories: [blog]
-id: 62
 date: 2006-11-25 04:09:00
-tags:
 ---
 
 My old monitor : LG 775FT

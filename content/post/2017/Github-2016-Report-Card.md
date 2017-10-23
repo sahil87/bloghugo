@@ -8,9 +8,9 @@ featured: "github-2016-commits.png"
 featuredalt: "Github 2016 Commits"
 featuredpath: "date"
 ---
-{{< load-photoswipe >}}
 My 2016 Commits
 <!--more-->
+{{< load-photoswipe >}}
 {{< figure src="/images/2017/github-2016-commits.png" title="Github 2016 Commits" width="300px">}}
   
 A great tool https://githubreportcard.reflect.io/ helped me visualize the same in more detail:
