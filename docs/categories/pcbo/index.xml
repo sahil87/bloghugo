@@ -25,5 +25,280 @@
     </description>
     </item>
     
+    <item>
+      <title>PROJECT COMPLETE</title>
+      <link>http://www.sahil.cc/post/2006/project-complete/</link>
+      <pubDate>Mon, 26 Jun 2006 19:58:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/project-complete/</guid>
+      <description>&lt;p&gt;Our work was over on 9th June but the professor made us stay..&lt;/p&gt;
+
+&lt;p&gt;So&amp;hellip; At last I announce that OUR PROJECT IS COMPLETE!!!!!!&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the screenshot :
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>GPL Hijacking</title>
+      <link>http://www.sahil.cc/post/2006/gpl-hijacking/</link>
+      <pubDate>Sun, 25 Jun 2006 09:17:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/gpl-hijacking/</guid>
+      <description>LGPL looked like the obvious choice for PCBO when the following problem cropped up - GPL Hijacking.
+ LGPL doesn&amp;rsquo;t spread to other parts of an application and it does allow being linked with closed-source programs. LGPL is &amp;ldquo;compatible&amp;rdquo; with GPL in the sense that you can, at your option, convert a LGPLed program to a GPL one any time you want. Such a change is irreversible. For a small project, this is a risk.</description>
+    </item>
+    
+    <item>
+      <title>GPL/MPL/LGPL</title>
+      <link>http://www.sahil.cc/post/2006/gplmpllgpl/</link>
+      <pubDate>Sun, 25 Jun 2006 07:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/gplmpllgpl/</guid>
+      <description>I was trying to decide which license to use for my PCBO.
+So I had to do a bit of research on the usable licenses. These two sites were very helpful -
+ http://en.wikipedia.org/wiki/Open-source_license http://www.opensource.org/licenses/ Basically GPL is like a virus. All derived and any larger work of which a GPL code is part of, must be open sourced and licensed under GPL.  But this imposes a lot of restriction on libraries like glibc which are used in almost every project.</description>
+    </item>
+    
+    <item>
+      <title>IIT B project</title>
+      <link>http://www.sahil.cc/post/2006/iit-b-project/</link>
+      <pubDate>Wed, 21 Jun 2006 18:24:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/iit-b-project/</guid>
+      <description>The IIT B project here at IIT B turned out to be more work than play |=( .
+Of course, I learnt loads of things - java tomcat server installation, java applet, java servlet, got to know about online website development, made full use of del.icio.us and a lot more&amp;hellip;
+I found out IITs are not that much different from NITs.. Except the mess I dont find much difference in the work environment.</description>
+    </item>
+    
+    <item>
+      <title>Surging Ahead!</title>
+      <link>http://www.sahil.cc/post/2006/surging-ahead/</link>
+      <pubDate>Wed, 07 Jun 2006 08:44:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/surging-ahead/</guid>
+      <description>Today we combined the front end design of the oscilloscope with the plotting program. We also integrated the slider and the volt/div controls. We also took 10^6 readings of an input waveform with varying frequency and voltages.
+                                 Our report is expected to be only around 12 pages, so that made our job a lot easier.</description>
+    </item>
+    
+    <item>
+      <title>Finalizing the Panel</title>
+      <link>http://www.sahil.cc/post/2006/finalizing-the-panel/</link>
+      <pubDate>Tue, 06 Jun 2006 13:27:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/finalizing-the-panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting the Professor</title>
+      <link>http://www.sahil.cc/post/2006/meeting-the-professor/</link>
+      <pubDate>Tue, 06 Jun 2006 13:21:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/meeting-the-professor/</guid>
+      <description>&lt;p&gt;Today we met the professor and decided to talk about the RAM and our leaving date. He was under the impression that we were final year students. That was why he had given us the RDS assignment. We corrected him immediately.
+
+We discussed Op-amp networks and Schmitt triggers for almost an hour. He told us the pitiful state of education in engineering, the marks-oriented study condition, about how the teachers also were not so up-to-date.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Designing the Panel</title>
+      <link>http://www.sahil.cc/post/2006/designing-the-panel/</link>
+      <pubDate>Tue, 06 Jun 2006 13:16:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/designing-the-panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Started Report</title>
+      <link>http://www.sahil.cc/post/2006/started-report/</link>
+      <pubDate>Tue, 06 Jun 2006 13:14:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/started-report/</guid>
+      <description>Today we started writing the project report. We started putting whatever we could find relevent in a document and planned to trim it off later. We planned the size of the report to about 35 pages.
+We also discussed the front end of the applet.
+Today Tushar came in the evening and Nitin spent the evening with him.</description>
+    </item>
+    
+    <item>
+      <title>Going Ahead</title>
+      <link>http://www.sahil.cc/post/2006/going-ahead/</link>
+      <pubDate>Tue, 06 Jun 2006 13:07:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/going-ahead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plan B</title>
+      <link>http://www.sahil.cc/post/2006/plan-b/</link>
+      <pubDate>Tue, 06 Jun 2006 13:06:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/plan-b/</guid>
+      <description>Today we went back to work. Mr. Pandit had told the professor that we had gone to Lamington Road to look for RAM in the torrential rain. We suggested a solution for solving the RDS network solver he had asked us.
+We were facing problems in implementing the queues and they also were inefficient, so we decided to implement direct streaming of data from the database.</description>
+    </item>
+    
+    <item>
+      <title>Relaxing</title>
+      <link>http://www.sahil.cc/post/2006/relaxing/</link>
+      <pubDate>Tue, 06 Jun 2006 13:04:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/relaxing/</guid>
+      <description>Today we did nothing. We were fed up, it was raining like hell and we were all aleepy. We got up in the evening. We watched Being Cyrus and Kung fu Hustle in the night. Both were too good.</description>
+    </item>
+    
+    <item>
+      <title>Planning Ahead</title>
+      <link>http://www.sahil.cc/post/2006/planning-ahead/</link>
+      <pubDate>Tue, 06 Jun 2006 13:02:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/planning-ahead/</guid>
+      <description>Today we formed an idea about how to proceed in the project. We planned on using queues as internal buffers for plotting the data. We also decided on running two threads in Java. One thread would handle the queue and the other would take care of plotting the values.
+We also used the drawLine() function in Java for joining the points to make the graph look continuous. We studied threads more.</description>
+    </item>
+    
+    <item>
+      <title>Stuck</title>
+      <link>http://www.sahil.cc/post/2006/stuck/</link>
+      <pubDate>Tue, 06 Jun 2006 13:01:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/stuck/</guid>
+      <description>Now we had a major task in hand, to query MySQL from the applet through the servlet. This took us the whole day to work out. We also read about threads and how to manipulate them.</description>
+    </item>
+    
+    <item>
+      <title>Report Presentation</title>
+      <link>http://www.sahil.cc/post/2006/report-presentation/</link>
+      <pubDate>Tue, 06 Jun 2006 12:58:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/report-presentation/</guid>
+      <description>We had to give a presentation on our project to Prof. T. S. Rathore, about what we had achieved and what we planned to achieve further in our project. He saw everyone&amp;rsquo;s presentations and didn&amp;rsquo;t comment much on our presentation.
+We also played with the C code introducing a sleep to reduce the processor load. The code took about 20s instead of the usual 10s. The reason for today&amp;rsquo;s small blog is we spent yesterday night watching Aladdin and Swordfish.</description>
+    </item>
+    
+    <item>
+      <title>Playing Around</title>
+      <link>http://www.sahil.cc/post/2006/playing-around/</link>
+      <pubDate>Tue, 06 Jun 2006 12:56:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/playing-around/</guid>
+      <description>We realised the transfer of data through php and JavaScript made the process of plotting too slow, giving a plotting rate of only 1 frame/s. We had to take a different path, so we decided to use a Java Servlet. The applet was allowed to interact with the servlet through the sandbox. The servlet interacted with the MySQL databse. The implication of this was that we could achieve frame rates of upto 20 frames/s as the Tomcat server was fast.</description>
+    </item>
+    
+    <item>
+      <title>Project at IIT Bombay</title>
+      <link>http://www.sahil.cc/post/2006/project-at-iit-bombay/</link>
+      <pubDate>Tue, 30 May 2006 02:01:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/project-at-iit-bombay/</guid>
+      <description>Guess what&amp;hellip; I am currently doing a project in IIT Bomabay. Can&amp;rsquo;t believe it myself.
+(And I googled out the topic PC Based Oscilloscope to select it. !!!!!!!!)
+And we are even maintaining a blog on the project. Well&amp;hellip;. what can you say?</description>
+    </item>
+    
+    <item>
+      <title>A Glimpse of what&#39;s about to come...</title>
+      <link>http://www.sahil.cc/post/2006/a-glimpse-of-whats-about-to-come/</link>
+      <pubDate>Fri, 26 May 2006 06:36:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/a-glimpse-of-whats-about-to-come/</guid>
+      <description>&lt;p&gt;These are just some of the initial images ;) &amp;hellip;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Project going fast ahead!!</title>
+      <link>http://www.sahil.cc/post/2006/project-going-fast-ahead/</link>
+      <pubDate>Thu, 25 May 2006 04:30:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/project-going-fast-ahead/</guid>
+      <description>Today&amp;hellip; For the first time we saw values change in the monitor with us changing a knob in our hands!!! (instantaneously) We plotted the graph of the actual and observed readings.. IT WAS BEAUTIFUL!!!
+We made a prog for querying C with MySQL and integrated it with PARAPIN.
+Mr. Pandit told us to ponder more on the diode circuit problem he gave us.
+Then.. I decided.. The following approaches are available for giving the data to the JAVA-APPLET:</description>
+    </item>
+    
+    <item>
+      <title>Tomcat Started!</title>
+      <link>http://www.sahil.cc/post/2006/tomcat-started/</link>
+      <pubDate>Wed, 24 May 2006 04:29:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/tomcat-started/</guid>
+      <description>Today we successfully interfaced parallel port buffer through C.
+We started the day late as usual.Vidyadhar Kamble, who was to give us lab equipments had gone on leave and was supposed to return on the next Monday. Then the lab was in hands of Vinod who was quite (damn) unhelpful and refused(!!!) to give us equipments till Vidyadhar returned. So, we went back to our lab and asked Mr. Pandit for help.</description>
+    </item>
+    
+    <item>
+      <title>Trip to Pune..</title>
+      <link>http://www.sahil.cc/post/2006/trip-to-pune/</link>
+      <pubDate>Mon, 22 May 2006 03:56:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/trip-to-pune/</guid>
+      <description>Today is Sunday. We decided on Friday that we&amp;rsquo;ll be going to Pune.. We reached Pune at 11 P.M. by bus..
+On Saturday.. We brought all our clothes to Pune to use Isli&amp;rsquo;s washing machine to wash our clothes. Turned out his washing machine hadn&amp;rsquo;t been used for 3 months :P . We spent an hour cleaning his washing machine. When Sahil washed his clothes in the washing machine.. and returned after 15 min, the water had turned darker than slum water.</description>
+    </item>
+    
+    <item>
+      <title>Aamchi Mumbai - Kelon ka din</title>
+      <link>http://www.sahil.cc/post/2006/aamchi-mumbai-kelon-ka-din/</link>
+      <pubDate>Sat, 20 May 2006 20:13:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/aamchi-mumbai-kelon-ka-din/</guid>
+      <description>Today we were beaten up and looted. Well actually we broke the law. The day started with Sahil getting up late. Ladki finally aa gayi. We deposited our login forms. We then took our notebook and set off for Lamington Road to shop for an ADC with a list of 15 prospect ADC&amp;rsquo;s. Sahil wanted to recharge his mobile. Five buses left for Andheri in front of us. We then waited for an hour till we got a bus.</description>
+    </item>
+    
+    <item>
+      <title>Day 7</title>
+      <link>http://www.sahil.cc/post/2006/day-7/</link>
+      <pubDate>Wed, 17 May 2006 20:53:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/day-7/</guid>
+      <description>Today we got up at 9 in the morning and hurried without breakfast for fear that we were late. The lab was closed. We successfully installed FC5 on the computer by using the CD-ROM of another computer.
+We also installed the MySQL libraries for C and Java and tested the code of the laptop on the PC. It was working fine.
+We came to know that we were allowed 24-hours access to the department lab with AC.</description>
+    </item>
+    
+    <item>
+      <title>Starting Work</title>
+      <link>http://www.sahil.cc/post/2006/starting-work/</link>
+      <pubDate>Wed, 17 May 2006 17:59:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/starting-work/</guid>
+      <description>Today we went to the lab and started work properly. We surfed the internet for two hours in the afternoon and searched for an appropriate ADC for our project, though we didn&amp;rsquo;t come to any satisfactory conclusion. We also collected the ID cards in the evening.
+The day was cool but we didn&amp;rsquo;t do any work. We were sleepy in the afternoon. ladki bhaag gayi. We discussed about a diode resistor circuit solver in C in the evening.</description>
+    </item>
+    
+    <item>
+      <title>JAVA with MySQL</title>
+      <link>http://www.sahil.cc/post/2006/java-with-mysql/</link>
+      <pubDate>Mon, 15 May 2006 20:58:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/java-with-mysql/</guid>
+      <description>Today we successfully made JAVA query MySql!!!
+At last&amp;hellip; Solanki Ma&amp;rsquo;am (the office person in the academic section) finally came back from her holiday (which delayed us by 10 days). We got the project form signed from the Dean which opened many doors for us -&amp;gt;
+ We were able to pay the project fees (Rs. 2000/- each).
+ The fees reciept enabled us to step inside the department lab.</description>
+    </item>
+    
+    <item>
+      <title>Interfacing with C</title>
+      <link>http://www.sahil.cc/post/2006/interfacing-with-c/</link>
+      <pubDate>Sat, 13 May 2006 13:31:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/interfacing-with-c/</guid>
+      <description>Today we interfaced C with MySQL successfully (even though we got up at 12 in the afternoon). We haven&amp;rsquo;t been able to contact Prof. T. S. Rathore and Mrs. Solanki was absent the whole week, due to which we are working in two teams, Sahil in H13 on Rohan&amp;rsquo;s comp and Sumit and me in H4 on my laptop. I had put the mysql.h file in /usr/include which was not the proper way of doing it, so Sahil downloaded the rpm from the internet and it worked like magic!</description>
+    </item>
+    
+    <item>
+      <title>Blog for tracking development of PCBO</title>
+      <link>http://www.sahil.cc/post/2006/blog-for-tracking-development-of-pcbo/</link>
+      <pubDate>Fri, 12 May 2006 14:09:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/blog-for-tracking-development-of-pcbo/</guid>
+      <description>This is a blog for tracking the development of our PC Based Oscilloscope&amp;hellip; Creators : Nitin Isloorkar Sahil Ahuja Sumit Mathur</description>
+    </item>
+    
   </channel>
 </rss>

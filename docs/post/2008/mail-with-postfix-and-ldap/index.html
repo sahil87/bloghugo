@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.30" />
+        <meta name="generator" content="Hugo 0.29" />
         
 
 
@@ -45,7 +45,6 @@ But, as with anything else, basics first
 
 
 <meta property="article:published_time" content="2008-05-03T08:39:43&#43;00:00"/>
-
 <meta property="article:modified_time" content="2008-05-03T08:39:43&#43;00:00"/>
 
 
@@ -68,7 +67,6 @@ But, as with anything else, basics first
  SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).">
 
 
-<meta itemprop="datePublished" content="2008-05-03T08:39:43&#43;00:00" />
 <meta itemprop="dateModified" content="2008-05-03T08:39:43&#43;00:00" />
 <meta itemprop="wordCount" content="1099">
 
@@ -646,14 +644,15 @@ listName (single) : list name : coding
 </pre></li>
 
 <li><p>main.cf entry : <code>virtual_alias_maps = ldap:/etc/postfix/ldap-aliases.cf</code>. Contents of ldap-aliases.cf :</p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">server_host</span> <span class="p">=</span> <span class="mf">10.0</span><span class="p">.</span><span class="mf">0.126</span>
-<span class="nx">search_base</span> <span class="p">=</span> <span class="nx">ou</span><span class="p">=</span><span class="nx">Groups</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>
-<span class="nx">query_filter</span> <span class="p">=</span> <span class="err">(&amp;(</span><span class="nx">objectClass</span><span class="p">=</span><span class="err">*)(</span><span class="nx">listName</span><span class="p">=</span><span class="err">%</span><span class="nx">u</span><span class="err">))</span>
-<span class="nx">result_attribute</span> <span class="p">=</span> <span class="nx">mail</span>
-<span class="nx">special_result_attribute</span> <span class="p">=</span> <span class="nx">contact</span>
-<span class="nx">bind</span> <span class="p">=</span> <span class="nx">yes</span>
-<span class="nx">bind_dn</span> <span class="p">=</span> <span class="nx">cn</span><span class="p">=</span><span class="nx">dovecot</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>
-<span class="nx">bind_pw</span> <span class="p">=</span> <span class="err">******</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="s1f40">server_host = 10.0.0.126
+</span><span class="s1f40">search_base = ou=Groups,ou=Pragyan,dc=delta,dc=nitt.edu
+</span><span class="s1f40">query_filter = (&amp;(objectClass=*)(listName=%u))
+</span><span class="s1f40">result_attribute = mail
+</span><span class="s1f40">special_result_attribute = contact
+</span><span class="s1f40">bind = yes
+</span><span class="s1f40">bind_dn = cn=dovecot,ou=Pragyan,dc=delta,dc=nitt.edu
+</span><span class="s1f40">bind_pw = ******</span></code></pre>
+</div>
 <ul>
 <li>The field matched is <strong>listName</strong>.</li>
 <li>The query runs recursively runs on field “contact”.</li>
@@ -663,13 +662,14 @@ listName (single) : list name : coding
 <li><p>Ldap entry <strong>evolutionPerson</strong> . Important thing in it is the mapping between uid and mail. It’s a proof to postfix the user is a real virtual user.</p></li>
 
 <li><p>main.cf entry <code>virtual_mailbox_maps = ldap:/etc/postfix/accountsmap.cf</code>. Contents of accountsmap.cf :</p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">server_host</span> <span class="p">=</span> <span class="mf">10.0</span><span class="p">.</span><span class="mf">0.126</span>
-<span class="nx">search_base</span> <span class="p">=</span> <span class="nx">ou</span><span class="p">=</span><span class="nx">People</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>
-<span class="nx">query_filter</span> <span class="p">=</span> <span class="err">(&amp;(</span><span class="nx">objectClass</span><span class="p">=</span><span class="err">*)(</span><span class="nx">mail</span><span class="p">=</span><span class="err">%</span><span class="nx">s</span><span class="err">))</span>
-<span class="nx">result_attribute</span> <span class="p">=</span> <span class="nx">uid</span>
-<span class="nx">bind</span> <span class="p">=</span> <span class="nx">yes</span>
-<span class="nx">bind_dn</span> <span class="p">=</span> <span class="nx">cn</span><span class="p">=</span><span class="nx">dovecot</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>
-<span class="p">[</span><span class="nx">gallery</span><span class="p">]</span><span class="nx">bind_pw</span> <span class="p">=</span> <span class="err">******</span></code></pre></div></li>
+<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="s1f40">server_host = 10.0.0.126
+</span><span class="s1f40">search_base = ou=People,ou=Pragyan,dc=delta,dc=nitt.edu
+</span><span class="s1f40">query_filter = (&amp;(objectClass=*)(mail=%s))
+</span><span class="s1f40">result_attribute = uid
+</span><span class="s1f40">bind = yes
+</span><span class="s1f40">bind_dn = cn=dovecot,ou=Pragyan,dc=delta,dc=nitt.edu
+</span><span class="s1f40">[gallery]bind_pw = ******</span></code></pre>
+</div></li>
 
 <li><p>The final main.cf entry that fits it all : virtual_mailbox_base = /var/spool/mail/virtual . A file with the name that is a result of the previous query (<strong>uid</strong>), gets created in this directory as the inbox of the user.
 Workflow is mailid → getaliases → Use alias result to get mail ids → deliver. That is, first alaises get processed, then accountsmap.</p></li>
@@ -962,7 +962,16 @@ Workflow is mailid → getaliases → Use alias result to get mail ids → deliv
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">25</span>
+                <span style="float:right;">34</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">28</span>
               
             </header>
           </article>
@@ -971,7 +980,7 @@ Workflow is mailid → getaliases → Use alias result to get mail ids → deliv
             <header>
               
                 <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">16</span>
+                <span style="float:right;">17</span>
               
             </header>
           </article>
@@ -990,15 +999,6 @@ Workflow is mailid → getaliases → Use alias result to get mail ids → deliv
               
                 <a href="http://www.sahil.cc/categories/review/">review</a>
                 <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
-                <span style="float:right;">1</span>
               
             </header>
           </article>

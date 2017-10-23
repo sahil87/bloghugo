@@ -29,68 +29,7 @@
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
       <guid>http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
-      <description>&lt;p&gt;
-
-
-
-  
-
-
-&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://www.sahil.cc/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-
-
-&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
-
-&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
-
-&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
-    
-    &lt;div class=&#34;pswp__container&#34;&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
-    &lt;div class=&#34;pswp__top-bar&#34;&gt;
-      
-      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
-      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
-      
-      
-      &lt;div class=&#34;pswp__preloader&#34;&gt;
-        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
-          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
-            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
-      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
-    &lt;/button&gt;
-    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
-    &lt;/button&gt;
-    &lt;div class=&#34;pswp__caption&#34;&gt;
-      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
+      <description>&lt;p&gt;Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
 &lt;/p&gt;</description>
     </item>
     
@@ -130,82 +69,7 @@ NEVER TRUST BACKUP METHODS!!!</description>
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
       <guid>http://www.sahil.cc/post/2017/github-2016-report-card/</guid>
-      <description>&lt;p&gt;
-
-
-
-  
-
-
-&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;http://www.sahil.cc/js/load-photoswipe.js&#34;&gt;&lt;/script&gt;
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
-&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-
-
-&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
-
-&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
-
-&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
-    
-    &lt;div class=&#34;pswp__container&#34;&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    
-    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
-    &lt;div class=&#34;pswp__top-bar&#34;&gt;
-      
-      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
-      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
-      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
-      
-      
-      &lt;div class=&#34;pswp__preloader&#34;&gt;
-        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
-          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
-            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
-      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
-    &lt;/button&gt;
-    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
-    &lt;/button&gt;
-    &lt;div class=&#34;pswp__caption&#34;&gt;
-      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-My 2016 Commits
-
-
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.sahil.cc/css/hugo-easy-gallery.css&#34; /&gt;
-&lt;div class=&#34;box&#34; style=&#34;max-width:300px&#34;&gt;
-  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
-    &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.sahil.cc/images/2017/github-2016-commits.png&#34; /&gt;
-    &lt;/div&gt;
-    &lt;a href=&#34;http://www.sahil.cc/images/2017/github-2016-commits.png&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
-      &lt;figcaption&gt;&lt;h4&gt;Github 2016 Commits&lt;/h4&gt;
-      &lt;/figcaption&gt;
-  &lt;/figure&gt;
-&lt;/div&gt;
-&lt;/p&gt;</description>
+      <description></description>
     </item>
     
     <item>
@@ -401,7 +265,7 @@ A &lt;a href=&#34;https://en.wikipedia.org/wiki/Rube_Goldberg_machine&#34;&gt;Ru
       <guid>http://www.sahil.cc/post/2016/hello-world/</guid>
       <description>My very first post after a very very long haitus!
 Too much has happened. It&amp;rsquo;s overwhelming. The hope is with this blog sanity prevails the world becomes a happier place.
-First things first : 1. Test the powers of Hexo and come up with a URL scheme 1. Import all previous blog (or at-leat point to them) 1. Ensure all DNS setting are properly set 1. Test if the blog works online 1.</description>
+First things first :  Test the powers of Hexo and come up with a URL scheme Import all previous blog (or at-leat point to them) Ensure all DNS setting are properly set Test if the blog works online First write about why it took me so long to write a blog and how and why I am so thankful hexo exists  Of course - if you know me you know that 3 happens first!</description>
     </item>
     
     <item>
@@ -619,6 +483,94 @@ It was a great journey form Trichy to here. Me and Ankit came together. We caugh
       <guid>http://www.sahil.cc/post/2007/trip-to-goa/</guid>
       <description>I just came back from Goa today morning.
 It was the best trip of my life. We stayed there 3 days (3rd dec to 5th dec) in a guest house that Saurabh Shirolkar (a.k.a. Badri) had booked for us. We got a really nice deal. After that (5th dec) I went to my tayaji&amp;rsquo;s (Jayant Rai) house to stay there for 1 day. The next day on 6th dec, I left.</description>
+    </item>
+    
+    <item>
+      <title>Using digiKam for managing photos.</title>
+      <link>http://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</link>
+      <pubDate>Sat, 25 Nov 2006 03:48:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</guid>
+      <description>Today I discovered one of the coolest softwares to manage photos from a digicam! The software&amp;rsquo;s name is digiKam.
+The thing I liked the most about the software is the date view and the album view.
+I own a Sony W70. It has 2 modes of connecting to the computer (both use the USB connecting cable provided with the camera). One is the &amp;ldquo;USB Mass Storage mode&amp;rdquo; and the other is the &amp;ldquo;PTP/IP Camera&amp;rdquo; mode.</description>
+    </item>
+    
+    <item>
+      <title>Coming back home</title>
+      <link>http://www.sahil.cc/post/2006/coming-back-home/</link>
+      <pubDate>Sat, 25 Nov 2006 03:28:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/coming-back-home/</guid>
+      <description>Now I am back home after what seems to be a very long time. (During the last sem hols I was doing a project at IITB and could come home for only 2 weeks. The hols before that I had come for 2 weeks but those had gone by in training at ABB. So this is one time when i am really home.)
+One reason I am delibrately writing this blog is Hari&amp;rsquo;s suggestion of writing blogs regularly.</description>
+    </item>
+    
+    <item>
+      <title>Things I have done in the past 6 months..</title>
+      <link>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</link>
+      <pubDate>Fri, 24 Nov 2006 13:46:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</guid>
+      <description> Become central webteam member. Become the manager of Pragyan and Dalal Street. Give shape to delta. To make it at least be able to stand in comparison with Spider. Coin up the concept of Neo&amp;hellip; A portal to test and implement new delta services. Suggest the concept of pingufest.  </description>
+    </item>
+    
+    <item>
+      <title>File Sharing on LAN</title>
+      <link>http://www.sahil.cc/post/2006/file-sharing-on-lan/</link>
+      <pubDate>Mon, 10 Jul 2006 03:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/file-sharing-on-lan/</guid>
+      <description>I was thinking of various ways of sharing stuff (movies, mp3&amp;rsquo;s&amp;hellip; you know.. the illegal kind) on our lan&amp;hellip;  And here is what I came up with :
+ Use ftp - Create ftp servers, have a central site having the list of these servers. Use nothing - a revolutionary way of simply sharing through windows &amp;ldquo;share file&amp;rdquo; feature and setting up samba servers in linux. Use p2p file-sharing - by using one of the protocols listed here.</description>
+    </item>
+    
+    <item>
+      <title>It&#39;s so easy!!! (Resetting the root password I mean)...</title>
+      <link>http://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/</link>
+      <pubDate>Mon, 10 Jul 2006 03:01:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/</guid>
+      <description>Look at this from Fedora FAQ - &amp;gt; Q:How do I reset my root password?  &amp;gt; &amp;gt; A: If you&amp;rsquo;ve forgotten your root password, and you want to change it, don&amp;rsquo;t worry! It&amp;rsquo;s possible. You need to boot into what&amp;rsquo;s called &amp;ldquo;single-user mode.&amp;rdquo; You must be in front of the computer to do this &amp;ndash; you can not do it remotely:  &amp;gt; &amp;gt; &amp;gt; 1. Using the instructions in the runlevel question (under the &amp;ldquo;While You Are Booting the Computer&amp;rdquo; section), boot into runlevel 1.</description>
+    </item>
+    
+    <item>
+      <title>Programs like these make life easy - Fedora Frog</title>
+      <link>http://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/</link>
+      <pubDate>Sun, 09 Jul 2006 22:33:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/</guid>
+      <description>Man!! This really is great! Here is what the site says - &amp;gt; Fedora Frog is GUI install script that jumps your Fedora Core 5 to life in no time&amp;hellip; Fedora Frog supports 32 bit installations, some parts may work also on 64 bit installations. This script installs most of the stuff you will ever need to get things really working in Fedora Core 5. Here&amp;rsquo;s what it can do (Hold your breath!</description>
+    </item>
+    
+    <item>
+      <title>Installing xgnokii for n-gage (in Fedora Core 5)</title>
+      <link>http://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</link>
+      <pubDate>Sun, 09 Jul 2006 07:58:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</guid>
+      <description>There&amp;rsquo;s no nice guide for this!! So, I made one for myself. I own a Nokia N-Gage RH-29 (The one for Asia &amp;hellip; or something like that). Now, I refuse to use windows for seeing all my contacts on the computer. But for using the tool for linux (xgnokii) for Nokia phone doesn&amp;rsquo;t work right away for Nokia N-Gage.
+Here is how to make it work -
+ Install gnokii and xgnokii - &amp;ldquo;yum install gnokii xgnokii&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Mobile(s) with Fedora Core 5</title>
+      <link>http://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</link>
+      <pubDate>Sun, 09 Jul 2006 01:56:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</guid>
+      <description>Easy Teq.: Connecting your Nokia 2112 with your Fedora Core 5 - a guide for connecting (a) Nokia phone with Fedora Core 5.
+But what is wanted to know is how to connect my N-Gage with FC5 &amp;gt;=l</description>
+    </item>
+    
+    <item>
+      <title>Intro.</title>
+      <link>http://www.sahil.cc/post/2006/intro/</link>
+      <pubDate>Sun, 25 Jun 2006 07:54:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/intro/</guid>
+      <description>Gud4Nothin is the name I use while playing UT in the Octagon. It&amp;rsquo;s my alias. It represents me in my fullness.</description>
     </item>
     
   </channel>

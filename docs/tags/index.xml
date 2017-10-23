@@ -103,6 +103,15 @@
     </item>
     
     <item>
+      <title>Camera</title>
+      <link>http://www.sahil.cc/tags/camera/</link>
+      <pubDate>Sat, 25 Nov 2006 03:48:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/camera/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chat</title>
       <link>http://www.sahil.cc/tags/chat/</link>
       <pubDate>Sat, 08 Dec 2007 15:18:31 +0000</pubDate>
@@ -238,6 +247,15 @@
     </item>
     
     <item>
+      <title>Gnokii</title>
+      <link>http://www.sahil.cc/tags/gnokii/</link>
+      <pubDate>Sun, 09 Jul 2006 07:58:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/gnokii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Goa</title>
       <link>http://www.sahil.cc/tags/goa/</link>
       <pubDate>Sat, 08 Dec 2007 15:49:31 +0000</pubDate>
@@ -270,6 +288,15 @@
       <pubDate>Sun, 15 Nov 2009 01:11:27 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/gparted/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gpl</title>
+      <link>http://www.sahil.cc/tags/gpl/</link>
+      <pubDate>Sun, 25 Jun 2006 09:17:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/gpl/</guid>
       <description></description>
     </item>
     
@@ -364,6 +391,15 @@
     </item>
     
     <item>
+      <title>Lan</title>
+      <link>http://www.sahil.cc/tags/lan/</link>
+      <pubDate>Mon, 10 Jul 2006 03:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/lan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ldap</title>
       <link>http://www.sahil.cc/tags/ldap/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
@@ -418,6 +454,15 @@
     </item>
     
     <item>
+      <title>Mobile</title>
+      <link>http://www.sahil.cc/tags/mobile/</link>
+      <pubDate>Sun, 09 Jul 2006 01:56:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nfs</title>
       <link>http://www.sahil.cc/tags/nfs/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
@@ -445,6 +490,15 @@
     </item>
     
     <item>
+      <title>Nokia</title>
+      <link>http://www.sahil.cc/tags/nokia/</link>
+      <pubDate>Sun, 09 Jul 2006 07:58:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/nokia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Octa</title>
       <link>http://www.sahil.cc/tags/octa/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
@@ -459,6 +513,33 @@
       <pubDate>Thu, 22 Oct 2009 01:00:44 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/offline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://www.sahil.cc/tags/open-source/</link>
+      <pubDate>Sun, 25 Jun 2006 09:17:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opensource</title>
+      <link>http://www.sahil.cc/tags/opensource/</link>
+      <pubDate>Sun, 25 Jun 2006 07:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/opensource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P2p</title>
+      <link>http://www.sahil.cc/tags/p2p/</link>
+      <pubDate>Mon, 10 Jul 2006 03:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/p2p/</guid>
       <description></description>
     </item>
     
@@ -517,6 +598,24 @@
     </item>
     
     <item>
+      <title>Reset</title>
+      <link>http://www.sahil.cc/tags/reset/</link>
+      <pubDate>Mon, 10 Jul 2006 03:01:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/reset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Root</title>
+      <link>http://www.sahil.cc/tags/root/</link>
+      <pubDate>Mon, 10 Jul 2006 03:01:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/root/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>S3</title>
       <link>http://www.sahil.cc/tags/s3/</link>
       <pubDate>Sat, 17 Dec 2016 03:33:51 +0000</pubDate>
@@ -531,6 +630,15 @@
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
       <guid>http://www.sahil.cc/tags/sex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Share</title>
+      <link>http://www.sahil.cc/tags/share/</link>
+      <pubDate>Mon, 10 Jul 2006 03:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/tags/share/</guid>
       <description></description>
     </item>
     

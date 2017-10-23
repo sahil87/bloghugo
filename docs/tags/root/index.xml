@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Root on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/tags/root/</link>
+    <description>Recent content in Root on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Mon, 10 Jul 2006 03:01:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/tags/root/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>It&#39;s so easy!!! (Resetting the root password I mean)...</title>
+      <link>http://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/</link>
+      <pubDate>Mon, 10 Jul 2006 03:01:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/</guid>
+      <description>Look at this from Fedora FAQ - &amp;gt; Q:How do I reset my root password?  &amp;gt; &amp;gt; A: If you&amp;rsquo;ve forgotten your root password, and you want to change it, don&amp;rsquo;t worry! It&amp;rsquo;s possible. You need to boot into what&amp;rsquo;s called &amp;ldquo;single-user mode.&amp;rdquo; You must be in front of the computer to do this &amp;ndash; you can not do it remotely:  &amp;gt; &amp;gt; &amp;gt; 1. Using the instructions in the runlevel question (under the &amp;ldquo;While You Are Booting the Computer&amp;rdquo; section), boot into runlevel 1.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gpl on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/tags/gpl/</link>
+    <description>Recent content in Gpl on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Sun, 25 Jun 2006 09:17:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/tags/gpl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GPL Hijacking</title>
+      <link>http://www.sahil.cc/post/2006/gpl-hijacking/</link>
+      <pubDate>Sun, 25 Jun 2006 09:17:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/gpl-hijacking/</guid>
+      <description>LGPL looked like the obvious choice for PCBO when the following problem cropped up - GPL Hijacking.
+ LGPL doesn&amp;rsquo;t spread to other parts of an application and it does allow being linked with closed-source programs. LGPL is &amp;ldquo;compatible&amp;rdquo; with GPL in the sense that you can, at your option, convert a LGPLed program to a GPL one any time you want. Such a change is irreversible. For a small project, this is a risk.</description>
+    </item>
+    
+    <item>
+      <title>GPL/MPL/LGPL</title>
+      <link>http://www.sahil.cc/post/2006/gplmpllgpl/</link>
+      <pubDate>Sun, 25 Jun 2006 07:57:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/gplmpllgpl/</guid>
+      <description>I was trying to decide which license to use for my PCBO.
+So I had to do a bit of research on the usable licenses. These two sites were very helpful -
+ http://en.wikipedia.org/wiki/Open-source_license http://www.opensource.org/licenses/ Basically GPL is like a virus. All derived and any larger work of which a GPL code is part of, must be open sourced and licensed under GPL.  But this imposes a lot of restriction on libraries like glibc which are used in almost every project.</description>
+    </item>
+    
+  </channel>
+</rss>

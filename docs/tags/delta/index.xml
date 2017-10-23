@@ -34,5 +34,14 @@ For SVN :
 &amp;lt;VirtualHost *:80&amp;gt; ServerName repos.nitt.edu DocumentRoot &amp;quot;/var/www/svn/DocumentRoot/&amp;quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &amp;lt;Location /pragyan&amp;gt; DAV svn SVNPath /var/www/svn/pragyan &amp;lt;LimitExcept OPTIONS REPORTGET&amp;gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &amp;quot;Pragyan SVN LDAP Authentication&amp;quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?</description>
     </item>
     
+    <item>
+      <title>Things I have done in the past 6 months..</title>
+      <link>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</link>
+      <pubDate>Fri, 24 Nov 2006 13:46:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</guid>
+      <description> Become central webteam member. Become the manager of Pragyan and Dalal Street. Give shape to delta. To make it at least be able to stand in comparison with Spider. Coin up the concept of Neo&amp;hellip; A portal to test and implement new delta services. Suggest the concept of pingufest.  </description>
+    </item>
+    
   </channel>
 </rss>

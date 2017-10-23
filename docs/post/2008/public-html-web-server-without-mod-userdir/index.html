@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.30" />
+        <meta name="generator" content="Hugo 0.29" />
         
 
 
@@ -41,7 +41,6 @@ Most people use mod_userdir to allow ~username directories in their webservers. 
 
 
 <meta property="article:published_time" content="2008-05-03T08:59:43&#43;00:00"/>
-
 <meta property="article:modified_time" content="2008-05-03T08:59:43&#43;00:00"/>
 
 
@@ -62,9 +61,8 @@ Allow people to put files in the public_html folder in their home directories an
 Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir. I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.">
 
 
-<meta itemprop="datePublished" content="2008-05-03T08:59:43&#43;00:00" />
 <meta itemprop="dateModified" content="2008-05-03T08:59:43&#43;00:00" />
-<meta itemprop="wordCount" content="162">
+<meta itemprop="wordCount" content="137">
 
 
 
@@ -542,27 +540,28 @@ ga('send', 'pageview');
 
 <p>Here is how it goes :</p>
 
-<div class="highlight"><pre class="chroma"><code class="language-ApacheConf" data-lang="ApacheConf"><span class="c">#First, disable the default thing : </span>
-<span class="nt">&lt;IfModule</span> <span class="s">mod_userdir.c</span><span class="nt">&gt;</span>
-    <span class="nb">UserDir</span> disable
-<span class="nt">&lt;/IfModule</span><span class="s"></span><span class="nt">&gt;</span>
-<span class="c">#Then the rewrite rule</span>
-<span class="nt">&lt;/pre</span><span class="s"></span><span class="nt">&gt;</span>
-<span class="nt">&lt;pre</span><span class="s"></span><span class="nt">&gt;</span><span class="c">#To prevent access to files ~something.html and #something.html#</span>
-<span class="nt">&lt;Files</span> <span class="s">~ &#34;.*(~|#)$&#34;</span><span class="nt">&gt;</span>
-    	   <span class="nb">Order</span> allow,deny
-    	   <span class="nb">Deny</span> from <span class="k">all</span>
-<span class="nt">&lt;/Files</span><span class="s"></span><span class="nt">&gt;</span>
-<span class="c">#To show public_html access</span>
-    <span class="nb">RewriteEngine</span> <span class="k">On</span>
-    <span class="nb">RewriteCond</span> %{REQUEST_URI}	^/~\w+/.*$
-    <span class="nb">RewriteRule</span> /~(\w+)/(.*)	<span class="sx">/webteam/</span>$1/public_html/$2
-    <span class="nb">RewriteCond</span> %{REQUEST_URI}	^/~\w+$
-    <span class="nb">RewriteRule</span> /~(\w+)		<span class="sx">/webteam/</span>$1/public_html/
-<span class="c">#To enable .htaccess rules in public_html</span>
-<span class="nt">&lt;Directory</span> <span class="s">/webteam/*/public_html</span><span class="nt">&gt;</span>
-    <span class="nb">AllowOverride</span> <span class="k">All</span>
-<span class="nt">&lt;/Directory</span><span class="s"></span><span class="nt">&gt;</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-ApacheConf" data-lang="ApacheConf"><span class="s1770">#First, disable the default thing : </span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;IfModule</span><span class="s1f40"> </span><span class="sc1c">mod_userdir.c</span><span class="s7e2">&gt;</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">UserDir</span><span class="s1f40"> disable
+</span><span class="s1f40"></span><span class="s7e2">&lt;/IfModule</span><span class="s1f40"></span><span class="sc1c"></span><span class="s7e2">&gt;</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s1770">#Then the rewrite rule</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;/pre</span><span class="s1f40"></span><span class="sc1c"></span><span class="s7e2">&gt;</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;pre</span><span class="s1f40"></span><span class="sc1c"></span><span class="s7e2">&gt;</span><span class="s1770">#To prevent access to files ~something.html and #something.html#</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;Files</span><span class="s1f40"> </span><span class="sc1c">~ &#34;.*(~|#)$&#34;</span><span class="s7e2">&gt;</span><span class="s1f40">
+</span><span class="s1f40">    	   </span><span class="s7d0">Order</span><span class="s1f40"> allow,deny
+</span><span class="s1f40">    	   </span><span class="s7d0">Deny</span><span class="s1f40"> from </span><span class="s3e8">all</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;/Files</span><span class="s1f40"></span><span class="sc1c"></span><span class="s7e2">&gt;</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s1770">#To show public_html access</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">RewriteEngine</span><span class="s1f40"> </span><span class="s3e8">On</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">RewriteCond</span><span class="s1f40"> %{REQUEST_URI}	^/~\w+/.*$
+</span><span class="s1f40">    </span><span class="s7d0">RewriteRule</span><span class="s1f40"> /~(\w+)/(.*)	</span><span class="sc1c">/webteam/</span><span class="s1f40">$1/public_html/$2
+</span><span class="s1f40">    </span><span class="s7d0">RewriteCond</span><span class="s1f40"> %{REQUEST_URI}	^/~\w+$
+</span><span class="s1f40">    </span><span class="s7d0">RewriteRule</span><span class="s1f40"> /~(\w+)		</span><span class="sc1c">/webteam/</span><span class="s1f40">$1/public_html/
+</span><span class="s1f40"></span><span class="s1770">#To enable .htaccess rules in public_html</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;Directory</span><span class="s1f40"> </span><span class="sc1c">/webteam/*/public_html</span><span class="s7e2">&gt;</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">AllowOverride</span><span class="s1f40"> </span><span class="s3e8">All</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="s7e2">&lt;/Directory</span><span class="s1f40"></span><span class="sc1c"></span><span class="s7e2">&gt;</span></code></pre>
+</div>
 
   </div>
 
@@ -789,7 +788,7 @@ ga('send', 'pageview');
         
 
         <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
-            <img src="http://www.sahil.cc/images/20172017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+            <img src="http://www.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
         </a>
     
 
@@ -841,7 +840,16 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">25</span>
+                <span style="float:right;">34</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">28</span>
               
             </header>
           </article>
@@ -850,7 +858,7 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">16</span>
+                <span style="float:right;">17</span>
               
             </header>
           </article>
@@ -869,15 +877,6 @@ ga('send', 'pageview');
               
                 <a href="http://www.sahil.cc/categories/review/">review</a>
                 <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
-                <span style="float:right;">1</span>
               
             </header>
           </article>

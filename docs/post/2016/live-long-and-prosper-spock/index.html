@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.30" />
+        <meta name="generator" content="Hugo 0.29" />
         
 
 
@@ -161,7 +161,6 @@ Here is an article on Spock where the author tries to vent out years in frustrat
 
 
 <meta property="article:published_time" content="2016-12-05T18:05:28&#43;00:00"/>
-
 <meta property="article:modified_time" content="2016-12-05T18:05:28&#43;00:00"/>
 
 
@@ -242,9 +241,8 @@ Spock is the new kid in town in the crowded world of testing frameworks.
 Here is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.">
 
 
-<meta itemprop="datePublished" content="2016-12-05T18:05:28&#43;00:00" />
 <meta itemprop="dateModified" content="2016-12-05T18:05:28&#43;00:00" />
-<meta itemprop="wordCount" content="150">
+<meta itemprop="wordCount" content="96">
 
 
 
@@ -803,30 +801,31 @@ ga('send', 'pageview');
 
 1. The way JUnits are written is laborious
 1. With Spock you can do this:</p>
-<div class="highlight"><pre class="chroma"><code class="language-Groovy" data-lang="Groovy"><span class="kd">class</span> <span class="nc">Test_Factorial_Spock_Parameterized_Groovy</span> <span class="kd">extends</span> <span class="n">Specification</span> <span class="o">{</span>
-  <span class="nd">@Unroll</span>
-  <span class="kt">def</span> <span class="s1">&#39;iterative(#i) succeeds&#39;</span><span class="o">()</span> <span class="o">{</span>
-    <span class="nl">expect:</span>
-    <span class="n">iterative</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">==</span> <span class="n">r</span>
-    <span class="nl">where:</span>
-    <span class="n">i</span> <span class="o">|</span> <span class="n">r</span>
-    <span class="mi">0</span> <span class="o">|</span> <span class="mi">1</span><span class="n">G</span>
-    <span class="mi">1</span> <span class="o">|</span> <span class="mi">1</span><span class="n">G</span>
-    <span class="mi">7</span> <span class="o">|</span> <span class="mi">5040</span><span class="n">G</span>
-    <span class="mi">12</span> <span class="o">|</span> <span class="mi">479001600</span><span class="n">G</span>
-    <span class="mi">20</span> <span class="o">|</span> <span class="mi">2432902008176640000</span><span class="n">G</span>
-    <span class="mi">40</span> <span class="o">|</span> <span class="mi">815915283247897734345611269596115894272000000000</span>
-  <span class="o">}</span>
-  <span class="nd">@Unroll</span>
-  <span class="kt">def</span> <span class="s1">&#39;iterative(#i) throws exception&#39;</span><span class="o">()</span> <span class="o">{</span>
-    <span class="nl">when:</span>
-    <span class="n">iterative</span><span class="o">(</span><span class="n">i</span><span class="o">)</span>
-    <span class="nl">then:</span>
-    <span class="n">thrown</span><span class="o">(</span><span class="n">IllegalArgumentException</span><span class="o">)</span>
-    <span class="nl">where:</span>
-    <span class="n">i</span> <span class="o">&lt;&lt;</span> <span class="o">[-</span><span class="mi">1</span><span class="o">,</span> <span class="o">-</span><span class="mi">2</span><span class="o">,</span> <span class="o">-</span><span class="mi">5</span><span class="o">,</span> <span class="o">-</span><span class="mi">10</span><span class="o">,</span> <span class="o">-</span><span class="mi">20</span><span class="o">,</span> <span class="o">-</span><span class="mi">100</span><span class="o">]</span>
-  <span class="o">}</span>
-<span class="o">}</span></code></pre></div>
+<div class="highlight"><pre class="chroma"><code class="language-Groovy" data-lang="Groovy"><span class="s3e8">class</span><span class="s1f40"> </span><span class="s7d4">Test_Factorial_Spock_Parameterized_Groovy</span><span class="s1f40"> </span><span class="s3e8">extends</span><span class="s1f40"> </span><span class="s7d0">Specification</span><span class="s1f40"> </span><span class="sfa0">{</span><span class="s1f40">
+</span><span class="s1f40">  </span><span class="s7d6">@Unroll</span><span class="s1f40">
+</span><span class="s1f40">  </span><span class="s3e8">def</span><span class="s1f40"> </span><span class="sc1c">&#39;iterative(#i) succeeds&#39;</span><span class="sfa0">()</span><span class="s1f40"> </span><span class="sfa0">{</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">expect:</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">iterative</span><span class="sfa0">(</span><span class="s7d0">i</span><span class="sfa0">)</span><span class="s1f40"> </span><span class="sfa0">==</span><span class="s1f40"> </span><span class="s7d0">r</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">where:</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">i</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="s7d0">r</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="sc80">0</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="sc80">1</span><span class="s7d0">G</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="sc80">1</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="sc80">1</span><span class="s7d0">G</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="sc80">7</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="sc80">5040</span><span class="s7d0">G</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="sc80">12</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="sc80">479001600</span><span class="s7d0">G</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="sc80">20</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="sc80">2432902008176640000</span><span class="s7d0">G</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="sc80">40</span><span class="s1f40"> </span><span class="sfa0">|</span><span class="s1f40"> </span><span class="sc80">815915283247897734345611269596115894272000000000</span><span class="s1f40">
+</span><span class="s1f40">  </span><span class="sfa0">}</span><span class="s1f40">
+</span><span class="s1f40">  </span><span class="s7d6">@Unroll</span><span class="s1f40">
+</span><span class="s1f40">  </span><span class="s3e8">def</span><span class="s1f40"> </span><span class="sc1c">&#39;iterative(#i) throws exception&#39;</span><span class="sfa0">()</span><span class="s1f40"> </span><span class="sfa0">{</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">when:</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">iterative</span><span class="sfa0">(</span><span class="s7d0">i</span><span class="sfa0">)</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">then:</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">thrown</span><span class="sfa0">(</span><span class="s7d0">IllegalArgumentException</span><span class="sfa0">)</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">where:</span><span class="s1f40">
+</span><span class="s1f40">    </span><span class="s7d0">i</span><span class="s1f40"> </span><span class="sfa0">&lt;&lt;</span><span class="s1f40"> </span><span class="sfa0">[-</span><span class="sc80">1</span><span class="sfa0">,</span><span class="s1f40"> </span><span class="sfa0">-</span><span class="sc80">2</span><span class="sfa0">,</span><span class="s1f40"> </span><span class="sfa0">-</span><span class="sc80">5</span><span class="sfa0">,</span><span class="s1f40"> </span><span class="sfa0">-</span><span class="sc80">10</span><span class="sfa0">,</span><span class="s1f40"> </span><span class="sfa0">-</span><span class="sc80">20</span><span class="sfa0">,</span><span class="s1f40"> </span><span class="sfa0">-</span><span class="sc80">100</span><span class="sfa0">]</span><span class="s1f40">
+</span><span class="s1f40">  </span><span class="sfa0">}</span><span class="s1f40">
+</span><span class="s1f40"></span><span class="sfa0">}</span></code></pre>
+</div>
 <p>
 <link rel="stylesheet" href="http://www.sahil.cc/css/hugo-easy-gallery.css" />
 <div class="box" style="max-width:300px">
@@ -1128,7 +1127,16 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">25</span>
+                <span style="float:right;">34</span>
+              
+            </header>
+          </article>
+        
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
+                <span style="float:right;">28</span>
               
             </header>
           </article>
@@ -1137,7 +1145,7 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">16</span>
+                <span style="float:right;">17</span>
               
             </header>
           </article>
@@ -1156,15 +1164,6 @@ ga('send', 'pageview');
               
                 <a href="http://www.sahil.cc/categories/review/">review</a>
                 <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
-                <span style="float:right;">1</span>
               
             </header>
           </article>

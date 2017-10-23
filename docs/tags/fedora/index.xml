@@ -89,5 +89,14 @@ Anshu had already broken his head on it and was at the verge of losing his sanit
 First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &amp;quot;cn=Manager,dc=pragyan,dc=org&amp;quot; -f base.ldif **invalid credentials (49)**</description>
     </item>
     
+    <item>
+      <title>Programs like these make life easy - Fedora Frog</title>
+      <link>http://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/</link>
+      <pubDate>Sun, 09 Jul 2006 22:33:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/</guid>
+      <description>Man!! This really is great! Here is what the site says - &amp;gt; Fedora Frog is GUI install script that jumps your Fedora Core 5 to life in no time&amp;hellip; Fedora Frog supports 32 bit installations, some parts may work also on 64 bit installations. This script installs most of the stuff you will ever need to get things really working in Fedora Core 5. Here&amp;rsquo;s what it can do (Hold your breath!</description>
+    </item>
+    
   </channel>
 </rss>
