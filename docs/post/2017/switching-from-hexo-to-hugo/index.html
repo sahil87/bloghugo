@@ -535,7 +535,7 @@ ga('send', 'pageview');
 
 <p>Finally the dust settles, with a few compromises.</p>
 
-<h4 id="todos">TODOs</h4>
+<h3 id="todos">TODOs</h3>
 
 <ul class="task-list">
 <li><label><input type="checkbox" disabled class="task-list-item"> Need to add tags apart from just categories in the template. A nice challenge!</label></li>
@@ -553,9 +553,9 @@ ga('send', 'pageview');
 <li><label><input type="checkbox" disabled class="task-list-item"> Post in all old blogs that the new blog is now <a href="http://www.sahil.cc">sahil.cc</a>. List <a href="http://www.sahil.cc/post/2016/hello-world/#first-things-first">here</a></label></li>
 </ul>
 
-<h4 id="learnings">Learnings</h4>
+<h3 id="learnings">Learnings</h3>
 
-<h5 id="categorization">Categorization:</h5>
+<h4 id="categorization">Categorization:</h4>
 
 <p>Categorization of posts in happen through two concepts:</p>
 
@@ -570,7 +570,7 @@ The 1st level folder under which a post is created in the folder &ldquo;content&
 Taxonomies are user defined groupings of content. Taxonomies have to be defined in the config file except for <code>tags</code> and <code>categories</code> which exist by default.</li>
 </ol>
 
-<h5 id="section-structure">Section Structure:</h5>
+<h4 id="section-structure">Section Structure:</h4>
 
 <p>There are ways to disconnect the folder structure from the URL structure in Hugo. Per post this can be accomplished through <a href="https://gohugo.io/content-management/front-matter/">front matter</a> named url and on a website level the following config achieves the same:</p>
 
@@ -582,7 +582,7 @@ Taxonomies are user defined groupings of content. Taxonomies have to be defined 
 
 <p>This allows one to achieve the minimum level of segregation required at the filesystem layer, prevents the URL from looking really bad and also informs the user if the post being read is too old (going for month in this case is an overkill). This also allows for zero manipulation of the path to url conversion.</p>
 
-<h5 id="creating-new-posts">Creating new posts:</h5>
+<h4 id="creating-new-posts">Creating new posts:</h4>
 
 <p>See <a href="https://gohugo.io/content-management/archetypes/">archetypes</a>.</p>
 
@@ -594,7 +594,6 @@ Taxonomies are user defined groupings of content. Taxonomies have to be defined 
 <pre><code>Eg: `hugo new post/2017/switching-from-hexo-to-hugo.md`
 </code></pre>
   </div>
-
   <footer>
     <ul class="stats">
     
@@ -628,6 +627,26 @@ Taxonomies are user defined groupings of content. Taxonomies have to be defined 
 </ul>
 
   </footer>
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "sahil-cc" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </article>
 <ul class="actions pagination">
     
@@ -737,6 +756,10 @@ Taxonomies are user defined groupings of content. Taxonomies have to be defined 
 
 
 
+<li><a href="//www.quora.com/profile/sahilahuja@gmail.com" target="_blank" title="Quora" class="fa fa-quora"></a></li>
+
+
+
   <li><a href="mailto:sahilahuja@gmail.com" title="Email" class="fa fa-envelope"></a></li>
 
 
@@ -815,7 +838,7 @@ Taxonomies are user defined groupings of content. Taxonomies have to be defined 
         
 
         <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
-            <img src="http://www.sahil.cc/images/2017/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
+            <img src="date/google_analytics_filter.png" alt="Google Analytics Filter" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'/>
         </a>
     
 
@@ -999,6 +1022,10 @@ Taxonomies are user defined groupings of content. Taxonomies have to be defined 
 
 
 
+
+
+
+<li><a href="//www.quora.com/profile/sahilahuja@gmail.com" target="_blank" title="Quora" class="fa fa-quora"></a></li>
 
 
 
