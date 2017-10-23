@@ -591,7 +591,7 @@ What I needed for mailman like functioning while making postfix work with ldap w
 <p>In openldap, I used a schemas called evolutionPerson and evolutionPersonList (available with my fedora openldap distribution by moving evolutionperson.schema in /usr/share/evolution-data-server-1.12/ to /etc/opanldap/schemas/). evolutionPerson is very similar to inetOrgPerson class, which stores basically everything that could ever be used to describe a person. The reason I chose evolutionPerson over inetOrgPerson was the availablity of the evolutionPersonList class. Its attributes are : mail, contact and listnName, where both mail and contact can contain more than one values. mail and listName attribute type is text, and contact attribute type is DN. contact&rsquo;s were used to create groups, and mail&rsquo;s were used to forward the email to a third party server. Here is a screenshot of the same in action :</p>
 
 <p>
-
+<link rel="stylesheet" href="http://www.sahil.cc/css/hugo-easy-gallery.css" />
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
@@ -660,7 +660,7 @@ What I needed for mailman like functioning while making postfix work with ldap w
 </ul>
 
 
-<link rel="stylesheet" href="http://www.sahil.cc/css/hugo-easy-gallery.css" />
+
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
@@ -712,7 +712,10 @@ That&rsquo;s it!!</li>
 </ul>
 
   </footer>
-  <div id="disqus_thread"></div>
+
+  
+    <article class="post">
+        <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
     
@@ -732,6 +735,10 @@ That&rsquo;s it!!</li>
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+
 </article>
 <ul class="actions pagination">
     
