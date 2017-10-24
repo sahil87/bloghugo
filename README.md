@@ -1,9 +1,21 @@
 # bloghugo
 Blog in Hugo
 
+### Install/Update Hugo
+```
+wget https://github.com/gohugoio/hugo/releases/download/v0.30.2/hugo_0.30.2_Linux-64bit.deb
+sudo apt install ./hugo_0.30.2_Linux-64bit.deb
+```
+
 ##### Create a new site: 
 `hugo new site quickstart`
 
+##### Create a new post: 
+`hugo new post/2017/switching-from-hexo-to-hugo.md`
+
+##### Run local server: 
+`hugo server -D`
+    
 ##### Create a new theme:
 ```
 cd quickstart;\
@@ -14,11 +26,3 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 # and add the Ananke theme.
 echo 'theme = "ananke"' >> config.toml
 ```
-
-##### Create a new post: 
-`hugo new posts/my-first-post.md`
-
-
-##### Run local server: 
-`hugo server -D`
-    
