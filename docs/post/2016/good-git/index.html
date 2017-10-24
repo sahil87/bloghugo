@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.29" />
+        <meta name="generator" content="Hugo 0.30.2" />
         
 
 
@@ -43,6 +43,7 @@
 
 
 <meta property="article:published_time" content="2016-11-22T20:26:16&#43;00:00"/>
+
 <meta property="article:modified_time" content="2016-11-22T20:26:16&#43;00:00"/>
 
 
@@ -64,8 +65,9 @@
 ">
 
 
+<meta itemprop="datePublished" content="2016-11-22T20:26:16&#43;00:00" />
 <meta itemprop="dateModified" content="2016-11-22T20:26:16&#43;00:00" />
-<meta itemprop="wordCount" content="297">
+<meta itemprop="wordCount" content="307">
 
 
 
@@ -591,12 +593,11 @@ ga('send', 'pageview');
 
 <h3 id="changes-in-git-index-vs-local-filesystem">Changes in git index vs. local filesystem</h3>
 
-<p><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="s1f40">git commit -m </span><span class="sc1c">&#34;Something terribly misguided&#34;</span><span class="s1f40">
-</span><span class="s1f40">git reset --soft HEAD~
-</span><span class="s1f40"></span><span class="sc1c">&lt;&lt; edit file</span><span class="s1f40">s as necessary &gt;&gt; 
-</span><span class="s1f40">git add ... 
-</span><span class="s1f40">git commit -c ORIG_HEAD</span></code></pre>
-</div>
+<p><div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git commit -m <span class="s2">&#34;Something terribly misguided&#34;</span>
+git reset --soft HEAD~
+<span class="s">&lt;&lt; edit file</span>s as necessary &gt;&gt; 
+git add ... 
+git commit -c ORIG_HEAD</code></pre></div>
 * <code>git reset --soft HEAD~1</code> doesn&rsquo;t remove the changes from index (i.e. <code>git commit</code> adds them again, no need to git add.).
 * <code>git reset HEAD~1</code> undoes the commit, removes changes from index but keeps the changes locally
 * <code>git reset --hard HEAD~1</code> removes the changes from the filesystem too.</p>
@@ -608,36 +609,33 @@ ga('send', 'pageview');
 <h2 id="specific-usecases">Specific Usecases</h2>
 
 <h3 id="patch-related">Patch related</h3>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="s1770">#To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476
-</span><span class="s1770"></span><span class="s1f40">git diff COMMIT^ COMMIT</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476
+</span><span class="c1"></span>git diff COMMIT^ COMMIT</code></pre></div>
 <h3 id="submodules">Submodules</h3>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="s1770">#to checkout already existing submodules in an existing project
-</span><span class="s1770"></span><span class="s1f40">git submodule update --init --recursive
-</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s1770">#To clone a project along with its submodules
-</span><span class="s1770"></span><span class="s1f40">git clone --recursive &lt;project url&gt;
-</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s1770">#add a submodule in a repo
-</span><span class="s1770"></span><span class="sc1c">`</span><span class="s1f40">git submodule add https://github.com/&lt;user&gt;/rock rock</span><span class="sc1c">`</span><span class="s1f40"> 
-</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s1770">#remove a submodule
-</span><span class="s1770"></span><span class="s1f40">git submodule deinit rock
-</span><span class="s1f40">
-</span><span class="s1f40"></span><span class="s1770">#list existing submodules
-</span><span class="s1770"></span><span class="s1f40">git submodule status</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#to checkout already existing submodules in an existing project
+</span><span class="c1"></span>git submodule update --init --recursive
+
+<span class="c1">#To clone a project along with its submodules
+</span><span class="c1"></span>git clone --recursive &lt;project url&gt;
+
+<span class="c1">#add a submodule in a repo
+</span><span class="c1"></span><span class="sb">`</span>git submodule add https://github.com/&lt;user&gt;/rock rock<span class="sb">`</span> 
+
+<span class="c1">#remove a submodule
+</span><span class="c1"></span>git submodule deinit rock
+
+<span class="c1">#list existing submodules
+</span><span class="c1"></span>git submodule status</code></pre></div>
 <h3 id="tags">Tags</h3>
-<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="s1f40">npm version patch/minor/major </span><span class="s1770">#Changes packages.json and applies git tag
-</span><span class="s1770"></span><span class="s1f40">git push origin v1.5 </span><span class="sfa0">(</span><span class="s1f40">or</span><span class="sfa0">)</span><span class="s1f40"> git push origin --tags
-</span><span class="s1f40">git tag v1.5 </span><span class="sfa0">(</span><span class="s1f40">lightweight tag</span><span class="sfa0">)</span><span class="s1f40">
-</span><span class="s1f40">git tag -a -f -m </span><span class="sc1c">&#34;my version 1.4&#34;</span><span class="s1f40"> v1.6 </span><span class="sfa0">(</span><span class="s1f40">annotated tag</span><span class="sfa0">)</span><span class="s1f40">
-</span><span class="s1f40">git push --tags </span><span class="sfa0">(</span><span class="s1f40">or</span><span class="sfa0">)</span><span class="s1f40"> git push upstream v2.3.3
-</span><span class="s1f40">git tag -l </span><span class="sc1c">&#34;v1.8.5*&#34;</span><span class="s1f40"> </span><span class="sfa0">(</span><span class="s1f40">list tags</span><span class="sfa0">)</span><span class="s1f40">
-</span><span class="s1f40">git show v1.4
-</span><span class="s1f40">git push --delete origin tagname </span><span class="s1770">#For remote
-</span><span class="s1770"></span><span class="s1f40">git tag --delete tagname #To remove </span><span class="s7d0">local</span><span class="s1f40"> tag</span></code></pre>
-</div>
+<div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">npm version patch/minor/major <span class="c1">#Changes packages.json and applies git tag
+</span><span class="c1"></span>git push origin v1.5 <span class="o">(</span>or<span class="o">)</span> git push origin --tags
+git tag v1.5 <span class="o">(</span>lightweight tag<span class="o">)</span>
+git tag -a -f -m <span class="s2">&#34;my version 1.4&#34;</span> v1.6 <span class="o">(</span>annotated tag<span class="o">)</span>
+git push --tags <span class="o">(</span>or<span class="o">)</span> git push upstream v2.3.3
+git tag -l <span class="s2">&#34;v1.8.5*&#34;</span> <span class="o">(</span>list tags<span class="o">)</span>
+git show v1.4
+git push --delete origin tagname <span class="c1">#For remote
+</span><span class="c1"></span>git tag --delete tagname #To remove <span class="nb">local</span> tag</code></pre></div>
 <h3 id="more-awesome-references">More awesome references:</h3>
 
 <ul>
@@ -914,7 +912,7 @@ ga('send', 'pageview');
         
 
         <a href="http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/" class="image featured">
-            <img src="date2017/google_analytics_filter.png" alt="" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'>
+            <img src="http://www.sahil.cc/images/2017/google_analytics_filter.png" alt="" style='height: 100%; width: 300px; object-fit: contain; margin: auto;'>
         </a>
     
 
@@ -967,7 +965,7 @@ ga('send', 'pageview');
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">34</span>
+                <span style="float:right;">39</span>
               
             </header>
           </article>
