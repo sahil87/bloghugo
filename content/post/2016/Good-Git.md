@@ -30,8 +30,8 @@ git add ...
 git commit -c ORIG_HEAD
 {{< /highlight >}}
 * `git reset --soft HEAD~1` doesn't remove the changes from index (i.e. `git commit` adds them again, no need to git add.).
-* `git reset HEAD~1` undoes the commit, removes changes from index but keeps the changes locally
-* `git reset --hard HEAD~1` removes the changes from the filesystem too.
+* `git reset HEAD~1` undoes the commit, removes changes from index but keeps the changes locally (working tree)
+* `git reset --hard HEAD~1` removes the changes from the filesystem (working tree) too.
 
 #### Remove git tracked files without removing them from filesystem
 `git rm --cached --force ".idea"`
@@ -42,6 +42,10 @@ git commit -c ORIG_HEAD
 ```bash
 #To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476
 git diff COMMIT^ COMMIT
+
+#To remove untracked files from working tree
+git clean -n; #To check
+git clean -f -d; #To delete
 ```
 
 ### Submodules

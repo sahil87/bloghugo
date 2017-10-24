@@ -28,8 +28,18 @@ Finally the dust settles, with a few compromises.
 - [X] Copy all drafts
 - [X] Fix disqus comments in theme (TODO: postback a pull request to fix in main theme)
 - [X] Fix all drafts
-- [ ] Move remaining blogs from [here]({{<ref "post/2016/Hello-World.md" >}})
-- [ ] Post in all old blogs that the new blog is now [sahil.cc](http://www.sahil.cc). List [here]({{<relref "post/2016/Hello-World.md#first-things-first" >}})
+- [X] Move remaining blogs from [here]({{<ref "post/2016/Hello-World.md" >}})
+- [X] Post in all old blogs that the new blog is now [sahil.cc](http://www.sahil.cc). List [here]({{<relref "post/2016/Hello-World.md#first-things-first" >}})
+  - [X] https://sahilahuja.wordpress.com/
+  - [X] [An outdated (b)log](http://sahilahuja.blogspot.com/)
+  - [X] [Net smart @ NITT!!](http://nittnet.blogspot.com/)
+  - [X] [Gud4Nothin](http://gud4nothin.blogspot.com/)
+  - [X] [PC Based Oscilloscope](http://pcbasedoscilloscope.blogspot.com/)
+  - [X] [Pragyan Development](http://pragyandev.blogspot.com/)
+  - [X] [Pragyan '08](http://pragyan08.blogspot.com/) - All applicable posts
+  - [ ] [Is there God?](http://aretheregods.blogspot.com/) - NA, no posts
+
+And the move is officially done!
 
 ### Learnings
 
