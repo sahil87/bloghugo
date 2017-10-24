@@ -531,6 +531,16 @@ First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. lda
     </item>
     
     <item>
+      <title>Woes of a Pragyan Girlfriend</title>
+      <link>http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</link>
+      <pubDate>Mon, 11 Feb 2008 07:50:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</guid>
+      <description>Why it is the biggest mistake of your lifetime to go out with a member of the website development team of one of the most spectacular technical festivals in India..
+Springtime is here- a season of new beginnings, love, laughter and happiness. A great situation for budding relationships you may think. But will the blossom stand the frost of the web team lab of NIT Trichy. I can assure you that it is a trial by fire.</description>
+    </item>
+    
+    <item>
       <title>Back to square one</title>
       <link>http://www.sahil.cc/post/2007/back-to-square-one/</link>
       <pubDate>Sun, 16 Dec 2007 19:03:03 +0000</pubDate>
@@ -706,6 +716,16 @@ One reason I am delibrately writing this blog is Hari&amp;rsquo;s suggestion of 
     </item>
     
     <item>
+      <title>Just a thought....</title>
+      <link>http://www.sahil.cc/post/2006/just-a-thought..../</link>
+      <pubDate>Sun, 09 Jul 2006 16:12:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/just-a-thought..../</guid>
+      <description>We could document the development of pragyan by setting up a wiki, just for that, on our lan.
+Please comment&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Installing xgnokii for n-gage (in Fedora Core 5)</title>
       <link>http://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</link>
       <pubDate>Sun, 09 Jul 2006 07:58:00 +0000</pubDate>
@@ -724,6 +744,17 @@ Here is how to make it work -
       <guid>http://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</guid>
       <description>Easy Teq.: Connecting your Nokia 2112 with your Fedora Core 5 - a guide for connecting (a) Nokia phone with Fedora Core 5.
 But what is wanted to know is how to connect my N-Gage with FC5 &amp;gt;=l</description>
+    </item>
+    
+    <item>
+      <title>Things to Remember</title>
+      <link>http://www.sahil.cc/post/2006/things-to-remember/</link>
+      <pubDate>Wed, 05 Jul 2006 10:39:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/things-to-remember/</guid>
+      <description>To make the following modules :
+A picture gallery (For events such as laser show)regms - registration management (To be used for making any kind of forms)quizms - quizesforumarticle (a normal page)tbms - a mangement system for mysql tables - a standardized way of displaying values in a table - for example, displaying results in quizms
+All these moudules must be accessible from the main site builder. (Thats the main idea of having modules - a list of types of pages to choose from)</description>
     </item>
     
     <item>
@@ -771,6 +802,17 @@ So I had to do a bit of research on the usable licenses. These two sites were ve
     </item>
     
     <item>
+      <title>Programming Ethics to be followed...</title>
+      <link>http://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</link>
+      <pubDate>Sat, 24 Jun 2006 20:26:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</guid>
+      <description>It is high time that we at Octa start following standard programming practices.
+Two major steps to be followed this time during Pragyan coding are:
+To develop pragyan using CVS.To make use of the DOxygen documentation system for automatic documentation and will develop our code in accordance with the DOxygen system.We will have to be absolutely sure that the above mentioned guidelines are followed before commencing any work.</description>
+    </item>
+    
+    <item>
       <title>IIT B project</title>
       <link>http://www.sahil.cc/post/2006/iit-b-project/</link>
       <pubDate>Wed, 21 Jun 2006 18:24:00 +0000</pubDate>
@@ -779,6 +821,26 @@ So I had to do a bit of research on the usable licenses. These two sites were ve
       <description>The IIT B project here at IIT B turned out to be more work than play |=( .
 Of course, I learnt loads of things - java tomcat server installation, java applet, java servlet, got to know about online website development, made full use of del.icio.us and a lot more&amp;hellip;
 I found out IITs are not that much different from NITs.. Except the mess I dont find much difference in the work environment.</description>
+    </item>
+    
+    <item>
+      <title>Why we would make a new cms.....</title>
+      <link>http://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</link>
+      <pubDate>Wed, 21 Jun 2006 05:37:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</guid>
+      <description>Because we want extreme customisability&amp;hellip;..
+There are many open source cms available but - none of them supports the amount of customizability we require. Our aim here is to make a website which will be used only in the course event. But the cms available are built for web-site management. We don&amp;rsquo;t want that. We want to host an event, that calls for rapid updates, browsing of online files, edited source code AND having a WYSIWYG editor at the same time, not to mention extensive support for features like quiz, report, user-management etc.</description>
+    </item>
+    
+    <item>
+      <title>PRAYAN ROCKS!!!!</title>
+      <link>http://www.sahil.cc/post/2006/prayan-rocks/</link>
+      <pubDate>Wed, 21 Jun 2006 05:30:00 +0000</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/prayan-rocks/</guid>
+      <description>Hi guys&amp;hellip;
+This is a new blog to keep track of pragyan&amp;rsquo;s website development..</description>
     </item>
     
     <item>
@@ -1017,6 +1079,16 @@ At last&amp;hellip; Solanki Ma&amp;rsquo;am (the office person in the academic s
       
       <guid>http://www.sahil.cc/post/2006/blog-for-tracking-development-of-pcbo/</guid>
       <description>This is a blog for tracking the development of our PC Based Oscilloscope&amp;hellip; Creators : Nitin Isloorkar Sahil Ahuja Sumit Mathur</description>
+    </item>
+    
+    <item>
+      <title>Here is a way to Search Great Things through Google</title>
+      <link>http://www.sahil.cc/post/2006/here-is-a-way-to-search-great-things-through-google/</link>
+      <pubDate>Sat, 22 Apr 2006 11:21:00 +0530</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2006/here-is-a-way-to-search-great-things-through-google/</guid>
+      <description>&lt;p&gt;I got it from &lt;a href=&#34;http://www.googletutor.com/2005/04/15/voyeur-heaven/&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

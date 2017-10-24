@@ -67,7 +67,7 @@
 
 <meta itemprop="datePublished" content="2016-11-22T20:26:16&#43;00:00" />
 <meta itemprop="dateModified" content="2016-11-22T20:26:16&#43;00:00" />
-<meta itemprop="wordCount" content="307">
+<meta itemprop="wordCount" content="329">
 
 
 
@@ -599,8 +599,8 @@ git reset --soft HEAD~
 git add ... 
 git commit -c ORIG_HEAD</code></pre></div>
 * <code>git reset --soft HEAD~1</code> doesn&rsquo;t remove the changes from index (i.e. <code>git commit</code> adds them again, no need to git add.).
-* <code>git reset HEAD~1</code> undoes the commit, removes changes from index but keeps the changes locally
-* <code>git reset --hard HEAD~1</code> removes the changes from the filesystem too.</p>
+* <code>git reset HEAD~1</code> undoes the commit, removes changes from index but keeps the changes locally (working tree)
+* <code>git reset --hard HEAD~1</code> removes the changes from the filesystem (working tree) too.</p>
 
 <h4 id="remove-git-tracked-files-without-removing-them-from-filesystem">Remove git tracked files without removing them from filesystem</h4>
 
@@ -610,7 +610,11 @@ git commit -c ORIG_HEAD</code></pre></div>
 
 <h3 id="patch-related">Patch related</h3>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#To see diff for a particular commit https://stackoverflow.com/a/17563740/1233476
-</span><span class="c1"></span>git diff COMMIT^ COMMIT</code></pre></div>
+</span><span class="c1"></span>git diff COMMIT^ COMMIT
+
+<span class="c1">#To remove untracked files from working tree
+</span><span class="c1"></span>git clean -n<span class="p">;</span> <span class="c1">#To check
+</span><span class="c1"></span>git clean -f -d<span class="p">;</span> #To delete</code></pre></div>
 <h3 id="submodules">Submodules</h3>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash"><span class="c1">#to checkout already existing submodules in an existing project
 </span><span class="c1"></span>git submodule update --init --recursive
@@ -965,7 +969,7 @@ git push --delete origin tagname <span class="c1">#For remote
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">39</span>
+                <span style="float:right;">40</span>
               
             </header>
           </article>
@@ -988,6 +992,17 @@ git push --delete origin tagname <span class="c1">#For remote
               
                 <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
                 <span style="float:right;">17</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="http://www.sahil.cc/categories/pragyan/">pragyan</a>
+                <span style="float:right;">6</span>
               
             </header>
           </article>
