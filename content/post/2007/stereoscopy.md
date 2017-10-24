@@ -7,15 +7,15 @@ tags:
   - stereoscopy
 date: 2007-06-06 22:21:00
 ---
-{{< load-photoswipe >}}
+
 Today is a great day!!
 
 For the first time I was able to cross view. And only today I found out the type of stereograms I used to play with were parallel viewing. To find the difference between them go [here](http://phillips.personal.nccu.edu.tw/3d/3-D.html) or [here](http://www.angelfire.com/ca/erker/freeview.html). (Gosh! [wikipedia](http://en.wikipedia.org/) articles for cross view and parallel view don't exist. I could create one someday!)
-
+<!--more-->
 [Here](http://www.vision3d.com/methd04.html) is a great tutorial to get you started with crossviewing.
 
 ####  Normal viewing :
-
+{{< load-photoswipe >}}
 {{< figure link="/images/2007/norm.gif" caption="Normal Viewing"  width="500px" >}}
 
 #### Parallel viewing :

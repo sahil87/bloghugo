@@ -17,12 +17,13 @@ Summary Line used if description not given above
 
 More content for the body
 
-{{< load-photoswipe >}} <!-- needed only once, include after -more- else loads multiple times in list pages ;) -->
 <!-- From https://github.com/liwenyip/hugo-easy-gallery -->
-
+{{< load-photoswipe >}} <!-- needed only once, include after -more- else loads multiple times in list pages ;) -->
+{{< figure link="/images/2006/Screenshot-4.png" thumb="-thumb" title="Screenshot 4">}}
 {{< figure src="/images/2008/screenshot.png" title="Gnome Preview" width="300px">}}
 
 ### Gallery
+{{/* {{< load-photoswipe >}} Make sure used just once*/}}
 {{< gallery >}}
 {{< figure link="/images/2008/pcbo/canteen-pic.jpg" caption="IITB Canteen" >}}
 {{< figure link="/images/2008/pcbo/103_0169.jpg" caption="Our Circuit connected to the power supply" >}}
