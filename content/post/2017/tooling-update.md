@@ -2,7 +2,7 @@
 title: "Tooling Update"
 date: 2017-10-24T20:56:23+05:30
 author: Sahil Ahuja
-tags: [ "devops" ]
+tags: [ "devops", "react", "mobx", "reactvr" ]
 categories: [ "blog" ]
 ---
 
