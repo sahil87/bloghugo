@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.sahil.cc/post/2017/researching-png-resizing/</loc>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</loc>
     <lastmod>2017-10-18T23:56:14+05:30</lastmod>
   </url>
@@ -564,7 +569,7 @@
   
   <url>
     <loc>http://www.sahil.cc/categories/blog/</loc>
-    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -576,7 +581,7 @@
   
   <url>
     <loc>http://www.sahil.cc/categories/</loc>
-    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -903,8 +908,14 @@
   </url>
   
   <url>
+    <loc>http://www.sahil.cc/tags/png/</loc>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.sahil.cc/post/</loc>
-    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -964,7 +975,7 @@
   
   <url>
     <loc>http://www.sahil.cc/</loc>
-    <lastmod>2017-10-18T23:56:14+05:30</lastmod>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -1030,6 +1041,12 @@
   <url>
     <loc>http://www.sahil.cc/tags/testing/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.sahil.cc/tags/todo/</loc>
+    <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   

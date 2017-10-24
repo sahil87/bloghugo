@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 18 Oct 2017 23:56:14 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 24 Oct 2017 13:33:58 +0530</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Researching PNG Resizing</title>
+      <link>http://www.sahil.cc/post/2017/researching-png-resizing/</link>
+      <pubDate>Tue, 24 Oct 2017 13:33:58 +0530</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2017/researching-png-resizing/</guid>
+      <description>&lt;p&gt;A lot has been written about resizing PNGs and the comparison of different tools that allow it.&lt;/p&gt;
+
+&lt;p&gt;The following are my top picks:
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Switching From Hexo to Hugo</title>
