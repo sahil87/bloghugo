@@ -22,6 +22,7 @@ On a personal front am planning to create a simple game to give me a taste of th
 On the tooling front a search on React yielded a [gold mine](https://codeburst.io/angular-vs-react-which-is-better-for-web-development-e0dd1fefab5b). This article is an opinionated piece on every new building block that I was searching for. Also a very interesting piece of information was that Angular 4 is something that can be seriously looked at for future projects. The only fear is the cost of context switching.
 
 #### Pieces Missing in our current flow — Solution
+* Type Checking — [Flow](https://flow.org/en/docs/types/)
 * State Manager — [MobX](https://mobx.js.org/)
 * Material Design for React — [React Toolbox](http://react-toolbox.com/)
 * Form validations — [FormState](https://formstate.github.io/)
