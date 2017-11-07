@@ -14,7 +14,7 @@ Still a draft
 
 * [X] Redux
 * [X] Saga
-* [X] Redux with React
+* [ ] [Redux with React](https://redux.js.org/docs/basics/UsageWithReact.html) 
 * [ ] Understand linking redux-react linking in [react boilerplate](https://github.com/react-boilerplate/react-boilerplate)
 * [ ] Learn [React Routing](https://reacttraining.com/react-router/web/guides/philosophy)
 * [ ] FB's [create-react-app](https://github.com/facebookincubator/create-react-app)
