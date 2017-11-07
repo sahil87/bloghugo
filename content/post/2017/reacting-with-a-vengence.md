@@ -1,12 +1,12 @@
 ---
 title: "Reacting With a Vengence"
 date: 2017-11-07T13:23:33+05:30
-draft: true
+draft: false
 author: Sahil Ahuja
 tags: [ "react" ]
 categories: [ "blog"]
 ---
-Still a draft
+Things being worked on
 
 <!--more-->
 
