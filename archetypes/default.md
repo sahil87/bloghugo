@@ -47,3 +47,5 @@ bind = yes
 bind_dn = cn=dovecot,ou=Pragyan,dc=delta,dc=nitt.edu
 bind_pw = ******
 {{< /highlight >}}
+
+Always wondered if there is way in SELinux to disable the [deadly]({{< ref "post/2016/Not-funny-one-of-every-six-times.md" >}}) `rm -rf` at `/` path.

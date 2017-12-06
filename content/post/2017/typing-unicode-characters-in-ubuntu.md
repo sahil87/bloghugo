@@ -25,10 +25,16 @@ Unfortunately the above methods don't work in Jetbrain IDEs. There's a great Jet
 
 After installing this plugin, type `\u0060`, select it, and then `Alt + M`, `1`, `D` to convert it to ``` ` ```
 
+### In Emacs
+
+`C-x 8` followed by either the Unicode code point or the Unicode name of the character.
+
+For example, `C-x 8 RET degree cel TAB` completes to `DEGREE CELSIUS` and inserts `℃`.
+
 #### Important unicode characters:
-| Name        | Unicode       | Character   |
-|:------------|:-------------:|:-----------:|
-| Backtick    |  ```0060```   | ``` ` ```   |
-| Degrees     |  ```00b0```   | ``` ° ```   |
-| Tick        |  ```2714```   | ``` ✔ ```   |
-| Wrong       |  ```2715```   | ``` ✕ ```   |
+| Name        | Unicode       | Character   |Name for Emacs  |
+|:------------|:-------------:|:-----------:|:---------------|
+| Backtick    |  ```0060```   | ``` ` ```   |GRAVE ACCENT    |
+| Degrees     |  ```00b0```   | ``` ° ```   |DEGREE SIGN     |
+| Tick        |  ```2714```   | ``` ✔ ```   |HEAVY CHECK MARK|
+| Wrong       |  ```2715```   | ``` ✕ ```   |MULTIPLICATION X|
