@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
-    <lastBuildDate>Sun, 15 Nov 2009 01:11:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Dec 2017 23:00:00 +0530</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Does SELinux save you against rm -rf ?</title>
+      <link>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</link>
+      <pubDate>Wed, 06 Dec 2017 23:00:00 +0530</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</guid>
+      <description>Always wondered if there is way in SELinux to disable the deadly rm -rf at / path.
+Could never find the time to experiment in a VM to find out. Have you?
+Oh, and the best thing about Hugo is that can now type blogs directly from the terminal =:D</description>
+    </item>
     
     <item>
       <title>Creating a super-pendrive</title>

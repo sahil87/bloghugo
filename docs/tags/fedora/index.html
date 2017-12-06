@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.30.2" />
+        <meta name="generator" content="Hugo 0.31.1" />
         
 
 
@@ -38,7 +38,7 @@
 
 
 
-<meta property="og:updated_time" content="2009-11-15T01:11:27&#43;00:00"/>
+<meta property="og:updated_time" content="2017-12-06T23:00:00&#43;05:30"/>
 
 
 
@@ -106,7 +106,7 @@ ga('send', 'pageview');
     
 <header id="header">
     
-      <h1><a href="http://www.sahil.cc/">Fedora</a></h1>
+      <h1><a href="http://www.sahil.cc/">tags</a></h1>
     
 
     <nav class="links">
@@ -248,6 +248,30 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-06'>
+                                    December 6, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-06'>
+                                    December 6, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a></h3>
                                 
                                 <time class="published" datetime=
@@ -265,30 +289,6 @@ ga('send', 'pageview');
                                 <time class="published" datetime=
                                     '2017-10-24'>
                                     October 24, 2017</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/researching-png-resizing/">Researching PNG Resizing</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2017-10-24'>
-                                    October 24, 2017</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2017-10-18'>
-                                    October 18, 2017</time>
                             </header>
                             
 
@@ -312,6 +312,73 @@ ga('send', 'pageview');
     
     <div id="main">
         
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-12-06'>
+            December 6, 2017</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Always wondered if there is way in SELinux to disable the deadly rm -rf at / path.
+Could never find the time to experiment in a VM to find out. Have you?
+Oh, and the best thing about Hugo is that can now type blogs directly from the terminal =:D</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/blog'>blog</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
         
             <article class="post">
     <header>
@@ -645,76 +712,6 @@ As a member of Delta : Created a &ldquo;PC Based Oscilloscope&rdquo; in IIT Bomb
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/">Mail with postfix and ldap</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-
-        <time class="published"
-            datetime='2008-05-03'>
-            May 3, 2008</time>
-        <span class="author">Sahil Ahuja</span>
-        
-            <p>6 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>Yes, it&rsquo;s possible. I did it for the pragyan.org server.
-The setup we used was :
- /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&rsquo;s much easily setup than one thinks initially.
-HOW?? Here&rsquo;s how:
-But, as with anything else, basics first
- SMTP server : Simple Mail Transfer Protocol : The server which sends and receives mails. Postfix (or smtp).</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-                        <i class="fa fa-sitemap">&nbsp;</i>
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -862,6 +859,34 @@ But, as with anything else, basics first
           <article class="mini-post">
             <header>
               <h3>
+                <a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-06'>
+                December 6, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-06'>
+                December 6, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a>
               </h3>
               
@@ -881,34 +906,6 @@ But, as with anything else, basics first
               
               <time class="published" datetime='2017-10-24'>
                 October 24, 2017
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="http://www.sahil.cc/post/2017/researching-png-resizing/">Researching PNG Resizing</a>
-              </h3>
-              
-              <time class="published" datetime='2017-10-24'>
-                October 24, 2017
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a>
-              </h3>
-              
-              <time class="published" datetime='2017-10-18'>
-                October 18, 2017
               </time>
             </header>
             
@@ -947,7 +944,7 @@ But, as with anything else, basics first
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">43</span>
+                <span style="float:right;">45</span>
               
             </header>
           </article>

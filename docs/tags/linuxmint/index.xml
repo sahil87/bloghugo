@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linuxmint on Sahil&#39;s Journal</title>
+    <link>http://www.sahil.cc/tags/linuxmint/</link>
+    <description>Recent content in Linuxmint on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 06 Dec 2017 23:54:46 +0530</lastBuildDate>
+    
+	<atom:link href="http://www.sahil.cc/tags/linuxmint/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UEFI Secureboot Hell</title>
+      <link>http://www.sahil.cc/post/2017/uefi-secureboot-hell/</link>
+      <pubDate>Wed, 06 Dec 2017 23:54:46 +0530</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2017/uefi-secureboot-hell/</guid>
+      <description>Spent a really long time yesterday trying to figure out how to edit UEFI boot options after my old Intel Core 2 Duo comp refused to bootup on intstalling LinuxMint 18.3 on it.
+Had to get into the internal of the EFI FAT32 partition at /dev/sda1 to fix it. The efibootmgr command proved to be a lifesaver. And so did the script provided in this superuser.com post. May the person who wrote it live long and prosper.</description>
+    </item>
+    
+  </channel>
+</rss>

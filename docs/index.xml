@@ -7,10 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
-    <lastBuildDate>Tue, 07 Nov 2017 13:23:33 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 06 Dec 2017 23:54:46 +0530</lastBuildDate>
     
 	<atom:link href="http://www.sahil.cc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UEFI Secureboot Hell</title>
+      <link>http://www.sahil.cc/post/2017/uefi-secureboot-hell/</link>
+      <pubDate>Wed, 06 Dec 2017 23:54:46 +0530</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2017/uefi-secureboot-hell/</guid>
+      <description>Spent a really long time yesterday trying to figure out how to edit UEFI boot options after my old Intel Core 2 Duo comp refused to bootup on intstalling LinuxMint 18.3 on it.
+Had to get into the internal of the EFI FAT32 partition at /dev/sda1 to fix it. The efibootmgr command proved to be a lifesaver. And so did the script provided in this superuser.com post. May the person who wrote it live long and prosper.</description>
+    </item>
+    
+    <item>
+      <title>Does SELinux save you against rm -rf ?</title>
+      <link>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</link>
+      <pubDate>Wed, 06 Dec 2017 23:00:00 +0530</pubDate>
+      
+      <guid>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</guid>
+      <description>Always wondered if there is way in SELinux to disable the deadly rm -rf at / path.
+Could never find the time to experiment in a VM to find out. Have you?
+Oh, and the best thing about Hugo is that can now type blogs directly from the terminal =:D</description>
+    </item>
     
     <item>
       <title>Reacting With a Vengence</title>

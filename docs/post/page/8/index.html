@@ -16,7 +16,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.30.2" />
+        <meta name="generator" content="Hugo 0.31.1" />
         
 
 
@@ -38,7 +38,7 @@
 
 
 
-<meta property="og:updated_time" content="2008-05-03T08:39:43&#43;00:00"/>
+<meta property="og:updated_time" content="2008-05-05T15:58:25&#43;00:00"/>
 
 
 
@@ -248,6 +248,30 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-06'>
+                                    December 6, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-06'>
+                                    December 6, 2017</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
                                 <h3><a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a></h3>
                                 
                                 <time class="published" datetime=
@@ -265,30 +289,6 @@ ga('send', 'pageview');
                                 <time class="published" datetime=
                                     '2017-10-24'>
                                     October 24, 2017</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/researching-png-resizing/">Researching PNG Resizing</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2017-10-24'>
-                                    October 24, 2017</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2017-10-18'>
-                                    October 18, 2017</time>
                             </header>
                             
 
@@ -312,6 +312,139 @@ ga('send', 'pageview');
     
     <div id="main">
         
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/">Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-05'>
+            May 5, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
+        
+            <article class="post">
+    <header>
+    <div class="title">
+        
+            <h2><a href="http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/">public_html web server - without mod_userdir</a></h2>
+        
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2008-05-03'>
+            May 3, 2008</time>
+        <span class="author">Sahil Ahuja</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+    
+
+    <p>Hell, what does the title mean??
+It means this :
+Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : <a href="http://servername/~username/hisorherfiles">http://servername/~username/hisorherfiles</a>
+Most people use mod_userdir to allow ~username directories in their webservers. However, there is simple rewrite rule workaround that eliminates the need for mod_userdir. I needed this because we had the home directories on the server, but the users had no login accounts on the server and they needed their public_html to work.</p>
+
+    <footer>
+        <ul class="actions">
+            <li><a href="http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/" class="button big">Continue Reading</a></li>
+        </ul>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+
         
             <article class="post">
     <header>
@@ -589,139 +722,6 @@ A part of the answer is my thirst for knowledge, my unending desire to make sure
 </article>
 
         
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://www.sahil.cc/post/2008/fedora-directory-server-rocks/">Fedora Directory Server Rocks!!!</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-
-        <time class="published"
-            datetime='2008-04-04'>
-            April 4, 2008</time>
-        <span class="author">Sahil Ahuja</span>
-        
-            <p>2 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
-Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
-First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &quot;cn=Manager,dc=pragyan,dc=org&quot; -f base.ldif <strong>invalid credentials (49)</strong></p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2008/fedora-directory-server-rocks/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-                        <i class="fa fa-sitemap">&nbsp;</i>
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
-            <article class="post">
-    <header>
-    <div class="title">
-        
-            <h2><a href="http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/">Woes of a Pragyan Girlfriend</a></h2>
-        
-        
-    </div>
-    <div class="meta">
-        
-
-        <time class="published"
-            datetime='2008-02-11'>
-            February 11, 2008</time>
-        <span class="author">Purnima</span>
-        
-            <p>3 minute read</p>
-        
-        
-    </div>
-</header>
-
-    
-
-    <p>Why it is the biggest mistake of your lifetime to go out with a member of the website development team of one of the most spectacular technical festivals in India..
-Springtime is here- a season of new beginnings, love, laughter and happiness. A great situation for budding relationships you may think. But will the blossom stand the frost of the web team lab of NIT Trichy. I can assure you that it is a trial by fire.</p>
-
-    <footer>
-        <ul class="actions">
-            <li><a href="http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/" class="button big">Continue Reading</a></li>
-        </ul>
-        <ul class="stats">
-    
-        
-
-        
-        
-            <li>
-                
-                
-                    
-
-                    
-
-                    
-                        <i class="fa fa-sitemap">&nbsp;</i>
-                    
-
-                    
-                        Category
-                    
-                
-            </li>
-        
-    
-
-    
-    
-        <li><a href='http://www.sahil.cc/categories/pragyan'>pragyan</a></li>
-    
-</ul>
-
-    </footer>
-</article>
-
-        
 
         
 <ul class="actions pagination">
@@ -870,6 +870,34 @@ Springtime is here- a season of new beginnings, love, laughter and happiness. A 
           <article class="mini-post">
             <header>
               <h3>
+                <a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-06'>
+                December 6, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-06'>
+                December 6, 2017
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
                 <a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a>
               </h3>
               
@@ -889,34 +917,6 @@ Springtime is here- a season of new beginnings, love, laughter and happiness. A 
               
               <time class="published" datetime='2017-10-24'>
                 October 24, 2017
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="http://www.sahil.cc/post/2017/researching-png-resizing/">Researching PNG Resizing</a>
-              </h3>
-              
-              <time class="published" datetime='2017-10-24'>
-                October 24, 2017
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/">Switching From Hexo to Hugo</a>
-              </h3>
-              
-              <time class="published" datetime='2017-10-18'>
-                October 18, 2017
               </time>
             </header>
             
@@ -955,7 +955,7 @@ Springtime is here- a season of new beginnings, love, laughter and happiness. A 
             <header>
               
                 <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">43</span>
+                <span style="float:right;">45</span>
               
             </header>
           </article>
