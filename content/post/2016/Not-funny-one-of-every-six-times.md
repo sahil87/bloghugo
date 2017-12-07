@@ -15,7 +15,7 @@ Not funny one of every six times!
 --------------------------------
 
 ```bash
-[ $[ $RANDOM % 6 ] == 0 ] && sudo rm -rf / || echo *Click*
+[ $[ $RANDOM % 6 ] = 0 ] && sudo rm -rf / || echo "*Click*"
 ```
 
 Suicide Sqcode:
