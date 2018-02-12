@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.31.1" />
+        <meta name="generator" content="Hugo 0.36" />
         
 
 
@@ -23,7 +23,8 @@
             
         
 
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Mail with postfix and ldap"/>
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mail with postfix and ldap"/>
 <meta name="twitter:description" content="Yes, it&rsquo;s possible. I did it for the pragyan.org server.
 The setup we used was :
  /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&rsquo;s much easily setup than one thinks initially.
@@ -626,7 +627,7 @@ listName (single) : list name : coding
 <li><p>main.cf entry : <code>virtual_alias_maps = ldap:/etc/postfix/ldap-aliases.cf</code>. Contents of ldap-aliases.cf :</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">server_host</span> <span class="p">=</span> <span class="mf">10.0</span><span class="p">.</span><span class="mf">0.126</span>
 <span class="nx">search_base</span> <span class="p">=</span> <span class="nx">ou</span><span class="p">=</span><span class="nx">Groups</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>
-<span class="nx">query_filter</span> <span class="p">=</span> <span class="err">(&amp;(</span><span class="nx">objectClass</span><span class="p">=</span><span class="err">*)(</span><span class="nx">listName</span><span class="p">=</span><span class="err">%</span><span class="nx">u</span><span class="err">))</span>
+<span class="nx">query_filter</span> <span class="p">=</span> <span class="err">(&amp;</span><span class="nx">amp</span><span class="err">;(</span><span class="nx">objectClass</span><span class="p">=</span><span class="err">*)(</span><span class="nx">listName</span><span class="p">=</span><span class="err">%</span><span class="nx">u</span><span class="err">))</span>
 <span class="nx">result_attribute</span> <span class="p">=</span> <span class="nx">mail</span>
 <span class="nx">special_result_attribute</span> <span class="p">=</span> <span class="nx">contact</span>
 <span class="nx">bind</span> <span class="p">=</span> <span class="nx">yes</span>
@@ -643,7 +644,7 @@ listName (single) : list name : coding
 <li><p>main.cf entry <code>virtual_mailbox_maps = ldap:/etc/postfix/accountsmap.cf</code>. Contents of accountsmap.cf :</p>
 <div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">server_host</span> <span class="p">=</span> <span class="mf">10.0</span><span class="p">.</span><span class="mf">0.126</span>
 <span class="nx">search_base</span> <span class="p">=</span> <span class="nx">ou</span><span class="p">=</span><span class="nx">People</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>
-<span class="nx">query_filter</span> <span class="p">=</span> <span class="err">(&amp;(</span><span class="nx">objectClass</span><span class="p">=</span><span class="err">*)(</span><span class="nx">mail</span><span class="p">=</span><span class="err">%</span><span class="nx">s</span><span class="err">))</span>
+<span class="nx">query_filter</span> <span class="p">=</span> <span class="err">(&amp;</span><span class="nx">amp</span><span class="err">;(</span><span class="nx">objectClass</span><span class="p">=</span><span class="err">*)(</span><span class="nx">mail</span><span class="p">=</span><span class="err">%</span><span class="nx">s</span><span class="err">))</span>
 <span class="nx">result_attribute</span> <span class="p">=</span> <span class="nx">uid</span>
 <span class="nx">bind</span> <span class="p">=</span> <span class="nx">yes</span>
 <span class="nx">bind_dn</span> <span class="p">=</span> <span class="nx">cn</span><span class="p">=</span><span class="nx">dovecot</span><span class="p">,</span><span class="nx">ou</span><span class="p">=</span><span class="nx">Pragyan</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">delta</span><span class="p">,</span><span class="nx">dc</span><span class="p">=</span><span class="nx">nitt</span><span class="p">.</span><span class="nx">edu</span>

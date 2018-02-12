@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.31.1" />
+        <meta name="generator" content="Hugo 0.36" />
         
 
 
@@ -23,7 +23,8 @@
             
         
 
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P"/>
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P"/>
 <meta name="twitter:description" content="What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself."/>
 <meta name="twitter:site" content="@_sahilahuja"/>
 
@@ -567,7 +568,7 @@ What I needed for mailman like functioning while making postfix work with ldap w
 <p>In openldap, I used a schemas called evolutionPerson and evolutionPersonList (available with my fedora openldap distribution by moving evolutionperson.schema in /usr/share/evolution-data-server-1.12/ to /etc/opanldap/schemas/). evolutionPerson is very similar to inetOrgPerson class, which stores basically everything that could ever be used to describe a person. The reason I chose evolutionPerson over inetOrgPerson was the availablity of the evolutionPersonList class. Its attributes are : mail, contact and listnName, where both mail and contact can contain more than one values. mail and listName attribute type is text, and contact attribute type is DN. contact&rsquo;s were used to create groups, and mail&rsquo;s were used to forward the email to a third party server. Here is a screenshot of the same in action :</p>
 
 <p>
-
+<link rel="stylesheet" href="http://www.sahil.cc/css/hugo-easy-gallery.css" />
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
@@ -636,7 +637,7 @@ What I needed for mailman like functioning while making postfix work with ldap w
 </ul>
 
 
-<link rel="stylesheet" href="http://www.sahil.cc/css/hugo-easy-gallery.css" />
+
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">

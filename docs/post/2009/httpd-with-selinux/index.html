@@ -10,7 +10,7 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.31.1" />
+        <meta name="generator" content="Hugo 0.36" />
         
 
 
@@ -23,7 +23,8 @@
             
         
 
-        <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="httpd with SElinux"/>
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="httpd with SElinux"/>
 <meta name="twitter:description" content="Giving httpd access to other folders (apart from default SElinux allowed folders):
  system-config-selinux rocks!! Go to System-&gt; Administration -&gt; SELinux Management (or system-config-selinux from command line). Type httpd in Filter and press enter. You will see that files that allow httpd write access have the Selinux File Type httpd_cache_t:s0. So.. now you know what to do right? Say you want to give httpd write access to folder /var/lib/dokuwiki/data/cache, then add a new file labelling using the Add button with the following details: File specifications: /var/lib/dokuwiki/data/cache(/."/>
 <meta name="twitter:site" content="@_sahilahuja"/>
