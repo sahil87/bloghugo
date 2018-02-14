@@ -11,7 +11,7 @@ sudo apt install ./hugo_0.30.2_Linux-64bit.deb
 `hugo new site quickstart`
 
 ##### Create a new post: 
-`hugo new post/2017/switching-from-hexo-to-hugo.md`
+`hugo new post/2017/switching-from-hexo-to-hugo.md` #Note the .md at the end
 
 ##### Run local server: 
 `hugo server -D`
