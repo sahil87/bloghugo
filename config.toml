@@ -1,4 +1,4 @@
-baseURL = "http://www.sahil.cc"
+baseURL = "https://www.sahil.cc"
 languageCode = "en-us"
 title = "Sahil's Journal"
 theme = "hugo-future-imperfect"
@@ -58,7 +58,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
   # apple-touch-icon-precomposed.png, favicon.png, favicon.ico, and mstile.png.
   # These are stored in the favicon folder. See the following for more information:
   # https://github.com/audreyr/favicon-cheat-sheet
-  loadFavicon          = false
+  loadFavicon          = true
   faviconVersion       = ""
   # Sets Social Share links to appear on posts
   socialShare          = true
@@ -90,7 +90,7 @@ copyright = "© This post is licensed under a Creative Commons Attribution-NonCo
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 4
+    sidebar = 5
 
 # Initial site menu, you can extend menu with content.
 [[menu.main]]
