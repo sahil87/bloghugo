@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nokia on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/nokia/</link>
+    <link>https://www.sahil.cc/tags/nokia/</link>
     <description>Recent content in Nokia on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Sun, 09 Jul 2006 07:58:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/nokia/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/nokia/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Installing xgnokii for n-gage (in Fedora Core 5)</title>
-      <link>http://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</link>
+      <link>https://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</link>
       <pubDate>Sun, 09 Jul 2006 07:58:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</guid>
+      <guid>https://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</guid>
       <description>There&amp;rsquo;s no nice guide for this!! So, I made one for myself. I own a Nokia N-Gage RH-29 (The one for Asia &amp;hellip; or something like that). Now, I refuse to use windows for seeing all my contacts on the computer. But for using the tool for linux (xgnokii) for Nokia phone doesn&amp;rsquo;t work right away for Nokia N-Gage.
 Here is how to make it work -
  Install gnokii and xgnokii - &amp;ldquo;yum install gnokii xgnokii&amp;rdquo;.</description>
@@ -25,10 +25,10 @@ Here is how to make it work -
     
     <item>
       <title>Mobile(s) with Fedora Core 5</title>
-      <link>http://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</link>
+      <link>https://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</link>
       <pubDate>Sun, 09 Jul 2006 01:56:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</guid>
+      <guid>https://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</guid>
       <description>Easy Teq.: Connecting your Nokia 2112 with your Fedora Core 5 - a guide for connecting (a) Nokia phone with Fedora Core 5.
 But what is wanted to know is how to connect my N-Gage with FC5 &amp;gt;=l</description>
     </item>

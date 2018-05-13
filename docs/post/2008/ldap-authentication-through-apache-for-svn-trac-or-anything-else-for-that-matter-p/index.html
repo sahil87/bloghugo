@@ -2,6 +2,35 @@
 
 <html>
     <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://www.sahil.cc"
+        },
+        "articleSection" : "post",
+        "name" : "LDAP authentication through Apache for svn, trac or anything else for that matter :P",
+        "headline" : "LDAP authentication through Apache for svn, trac or anything else for that matter :P",
+        "description" : "Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
+Here is how it is done :
+For SVN :
+&lt;VirtualHost *:80&gt; ServerName repos.nitt.edu DocumentRoot &quot;/var/www/svn/DocumentRoot/&quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &lt;Location /pragyan&gt; DAV svn SVNPath /var/www/svn/pragyan &lt;LimitExcept OPTIONS REPORTGET&gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &quot;Pragyan SVN LDAP Authentication&quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2008",
+        "datePublished": "2008-05-20 02:07:00 &#43;0000 UTC",
+        "dateModified" : "2008-05-20 02:07:00 &#43;0000 UTC",
+        "url" : "https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/",
+        "wordCount" : "121",
+        "keywords" : [ "delta","httpd","ldap","svn","trac","Blog" ]
+    }
+    </script>
         
             
                 <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
@@ -10,8 +39,23 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.36" />
+        <meta name="generator" content="Hugo 0.40.3" />
         
+  
+    
+  
+
+  
+
+  <link rel="apple-touch-icon-precomposed" href='https://www.sahil.cc/favicon/apple-touch-icon-precomposed.png'>
+  <link rel="icon" href='https://www.sahil.cc/favicon/favicon.png'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/favicon/mstile.png'>
+  <meta name="application-name" content="Sahil&#39;s Journal">
+  <meta name="msapplication-tooltip" content="One day at a time. One problem at a time.">
+  <meta name="msapplication-config" content='/favicon/ieconfig.xml'>
+
 
 
         
@@ -37,7 +81,7 @@ Here is how it is done :
 For SVN :
 &lt;VirtualHost *:80&gt; ServerName repos.nitt.edu DocumentRoot &quot;/var/www/svn/DocumentRoot/&quot; ErrorLog logs/repos.nitt.edu-error_log CustomLog logs/repos.nitt.edu-access_log combined &lt;Location /pragyan&gt; DAV svn SVNPath /var/www/svn/pragyan &lt;LimitExcept OPTIONS REPORTGET&gt; AuthType Basic AuthBasicProvider ldap AuthzLDAPAuthoritative off AuthName &quot;Pragyan SVN LDAP Authentication&quot; AuthLDAPURL ldap://localhost:389/ou=Pragyan,dc=www,dc=nitt,dc=edu?" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/" />
+<meta property="og:url" content="https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/" />
 
 
 
@@ -55,6 +99,10 @@ For SVN :
 
 
 
+        <meta property="og:image" content="https://www.sahil.cc/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
         
 <meta itemprop="name" content="LDAP authentication through Apache for svn, trac or anything else for that matter :P">
 <meta itemprop="description" content="Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
@@ -83,8 +131,9 @@ For SVN :
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
-            <link rel="stylesheet" href="http://www.sahil.cc/css/main.css">
-            <link rel="stylesheet" href="http://www.sahil.cc/css/add-on.css">
+            <link rel="stylesheet" href="https://www.sahil.cc/css/main.css">
+            <link rel="stylesheet" href="https://www.sahil.cc/css/add-on.css">
+            <link rel="stylesheet" href="https://www.sahil.cc/css/academicons.min.css">
         
 
         
@@ -92,17 +141,21 @@ For SVN :
                 
             
                 
-                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                    <link rel="stylesheet" href="https://www.sahil.cc/css/syntax.css">
                 
             
                 
-                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
+                    <link rel="stylesheet" href="https://www.sahil.cc/css/bugfix.css">
                 
             
         
 
-        
-            
+
+  
+    
+
+
+      
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -113,7 +166,6 @@ ga('create', 'UA-87967706-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-        
     </head>
     <body>
 
@@ -124,32 +176,32 @@ ga('send', 'pageview');
     
 <header id="header">
     
-      <h1><a href="http://www.sahil.cc/">post</a></h1>
+      <h1><a href="https://www.sahil.cc/">post</a></h1>
     
 
     <nav class="links">
         <ul>
             
                 <li>
-                    <a href="http://www.sahil.cc/">
+                    <a href="https://www.sahil.cc/">
                             <i class="fa fa-home">&nbsp;</i>Home
                     </a>
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/about/">
+                    <a href="https://www.sahil.cc/about/">
                             <i class="fa fa-id-card-o">&nbsp;</i>About
                     </a>
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/quotes/">
+                    <a href="https://www.sahil.cc/quotes/">
                             <i class="fa fa-list">&nbsp;</i>Quotes
                     </a>
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/categories/">
+                    <a href="https://www.sahil.cc/categories/">
                             <i class="fa fa-sitemap">&nbsp;</i>Categories
                     </a>
                 </li>
@@ -161,7 +213,7 @@ ga('send', 'pageview');
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/contact/">
+                    <a href="https://www.sahil.cc/contact/">
                             <i class="fa fa-envelope-o">&nbsp;</i>Contact
                     </a>
                 </li>
@@ -179,7 +231,7 @@ ga('send', 'pageview');
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="http://www.sahil.cc">
+                    <input type="hidden" name="as_sitesearch" value="https://www.sahil.cc">
                 </form>
             </li>
             <li class="menu">
@@ -196,7 +248,7 @@ ga('send', 'pageview');
         <section>
             <form class="search" method="get" action="//google.com/search">
                 <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="as_sitesearch" value="http://www.sahil.cc">
+                <input type="hidden" name="as_sitesearch" value="https://www.sahil.cc">
             </form>
         </section>
 
@@ -205,7 +257,7 @@ ga('send', 'pageview');
             <ul class="links">
                 
                     <li>
-                        <a href="http://www.sahil.cc/">
+                        <a href="https://www.sahil.cc/">
                             <h3>
                                 <i class="fa fa-home">&nbsp;</i>Home
                             </h3>
@@ -213,7 +265,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/about/">
+                        <a href="https://www.sahil.cc/about/">
                             <h3>
                                 <i class="fa fa-id-card-o">&nbsp;</i>About
                             </h3>
@@ -221,7 +273,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/quotes/">
+                        <a href="https://www.sahil.cc/quotes/">
                             <h3>
                                 <i class="fa fa-list">&nbsp;</i>Quotes
                             </h3>
@@ -229,7 +281,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/categories/">
+                        <a href="https://www.sahil.cc/categories/">
                             <h3>
                                 <i class="fa fa-sitemap">&nbsp;</i>Categories
                             </h3>
@@ -245,7 +297,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/contact/">
+                        <a href="https://www.sahil.cc/contact/">
                             <h3>
                                 <i class="fa fa-envelope-o">&nbsp;</i>Contact
                             </h3>
@@ -256,7 +308,7 @@ ga('send', 'pageview');
         </section>
 
     
-        <section id="recent-posts">
+        <section class="recent-posts">
             <div class="mini-posts">
                 <header>
                     <h3>Recent Posts</h3>
@@ -270,7 +322,31 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a></h3>
+                                <h3><a href="https://www.sahil.cc/post/2018/rooting-one-plus-one/">Rooting One Plus One</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-15'>
+                                    February 15, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.sahil.cc/post/2018/everything-about-yaml/">Everything About Yaml And Invision</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-14'>
+                                    February 14, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2017-12-06'>
@@ -282,7 +358,7 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h3>
+                                <h3><a href="https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2017-12-06'>
@@ -294,23 +370,11 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a></h3>
+                                <h3><a href="https://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2017-11-07'>
                                     November 7, 2017</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/tooling-update/">Tooling Update</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2017-10-24'>
-                                    October 24, 2017</time>
                             </header>
                             
 
@@ -340,8 +404,9 @@ ga('send', 'pageview');
             
 
 
+
 <li>
-  <a href="//twitter.com/share?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&text=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP&via=_sahilahuja" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&amp;text=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP&amp;via=_sahilahuja" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -349,31 +414,38 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
   
+
+
 
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
 </li>
 
 
+
+
 <li>
-  <a href="//reddit.com/submit?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&amp;title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
 </li>
 
 
+
+
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&amp;title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -381,6 +453,7 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
@@ -393,15 +466,17 @@ ga('send', 'pageview');
     
     
   
+
 
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&amp;body=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
 </li>
+
 
         </ul>
     </section>
@@ -415,7 +490,7 @@ ga('send', 'pageview');
   <header>
     <div class="title">
         
-            <h1><a href="http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/">LDAP authentication through Apache for svn, trac or anything else for that matter :P</a></h1>
+            <h1><a href="https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/">LDAP authentication through Apache for svn, trac or anything else for that matter :P</a></h1>
             
         
         
@@ -441,8 +516,9 @@ ga('send', 'pageview');
         
 
 
+
 <li>
-  <a href="//twitter.com/share?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&text=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP&via=_sahilahuja" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&amp;text=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP&amp;via=_sahilahuja" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -450,31 +526,38 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
   
+
+
 
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
 </li>
 
 
+
+
 <li>
-  <a href="//reddit.com/submit?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&amp;title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
 </li>
 
 
+
+
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f&amp;title=LDAP%20authentication%20through%20Apache%20for%20svn%2c%20trac%20or%20anything%20else%20for%20that%20matter%20%3aP" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -482,6 +565,7 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
@@ -494,15 +578,17 @@ ga('send', 'pageview');
     
     
   
+
 
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&amp;body=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
 </li>
+
 
       </ul>
     </section>
@@ -559,34 +645,46 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
 
   <footer>
     <ul class="stats">
-    
+  <li class="categories">
+    <ul>
         
-
-        
-        
-            <li>
+            
+            
+                <i class="fa fa-folder"></i>
                 
                 
-                    
-
-                    
-
-                    
-                        <i class="fa fa-sitemap">&nbsp;</i>
-                    
-
-                    
-                        Category
-                    
+                <li><a class="article-category-link" href="https://www.sahil.cc/categories/nitt">nitt</a></li>
                 
-            </li>
+            
         
-    
-
-    
-    
-        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
-    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/delta">delta</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/httpd">httpd</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/ldap">ldap</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/svn">svn</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/trac">trac</a></li>
+                
+            
+        
+    </ul>
+  </li>
 </ul>
 
   </footer>
@@ -619,12 +717,12 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
 
 <ul class="actions pagination">
     
-        <li><a href="http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/"
+        <li><a href="https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/"
                 class="button big previous">CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</a></li>
     
 
     
-        <li><a href="http://www.sahil.cc/post/2008/things-done-in-college-technology/"
+        <li><a href="https://www.sahil.cc/post/2008/things-done-in-college-technology/"
                 class="button big next">Things done in college - technology</a></li>
     
 </ul>
@@ -639,7 +737,7 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
     
     
       
-        <img src="http://www.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo">
+        <a href='https://www.sahil.cc/'><img src="https://www.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo" /></a>
       
     
     
@@ -650,6 +748,11 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
     
     
       <ul class="icons">
+        
+          
+    <li><a href="https://www.sahil.cc/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
         
         
   <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
@@ -675,6 +778,8 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
 
 
   <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
 
 
 
@@ -744,7 +849,7 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
   </section>
 
   
-  <section id="recent-posts">
+  <section class="recent-posts">
     <div class="mini-posts">
       <header>
         <h3>Recent Posts</h3>
@@ -760,7 +865,35 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
           <article class="mini-post">
             <header>
               <h3>
-                <a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a>
+                <a href="https://www.sahil.cc/post/2018/rooting-one-plus-one/">Rooting One Plus One</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-15'>
+                February 15, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.sahil.cc/post/2018/everything-about-yaml/">Everything About Yaml And Invision</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-14'>
+                February 14, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a>
               </h3>
               
               <time class="published" datetime='2017-12-06'>
@@ -774,7 +907,7 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
           <article class="mini-post">
             <header>
               <h3>
-                <a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a>
+                <a href="https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a>
               </h3>
               
               <time class="published" datetime='2017-12-06'>
@@ -788,25 +921,11 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
           <article class="mini-post">
             <header>
               <h3>
-                <a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a>
+                <a href="https://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a>
               </h3>
               
               <time class="published" datetime='2017-11-07'>
                 November 7, 2017
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="http://www.sahil.cc/post/2017/tooling-update/">Tooling Update</a>
-              </h3>
-              
-              <time class="published" datetime='2017-10-24'>
-                October 24, 2017
               </time>
             </header>
             
@@ -828,93 +947,13 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
   
   
   
-  
-    <section id="categories">
-      <header>
-        <h3>
-          <a href="http://www.sahil.cc/categories/">Categories</a>
-        </h3>
-      </header>
-        
-          
-        
-
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">45</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
-                <span style="float:right;">28</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">17</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pragyan/">pragyan</a>
-                <span style="float:right;">6</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/guide/">guide</a>
-                <span style="float:right;">5</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        </p>
-        
-    </section>
-  
 
   
   
     <section id="mini-bio">
-      <h3>About</h1>
+      <h3>About</h3>
       <p>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.</p>
-      <a href="http://www.sahil.cc/about/" class="button">Learn More</a>
+      <a href="https://www.sahil.cc/about/" class="button">Learn More</a>
     </section>
   
 
@@ -922,6 +961,11 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
   <section id="footer">
     
       <ul class="icons">
+        
+          
+    <li><a href="https://www.sahil.cc/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
         
         
   <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
@@ -947,6 +991,8 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
 
 
   <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
 
 
 
@@ -1022,33 +1068,49 @@ require ldap-group cn=webteam,ou=Groups,ou=Webteam,dc=delta,dc=nitt.edu
   </section>
 </section>
 
-</div>
-<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
 
-
-
-  
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
-  <script src="http://www.sahil.cc/js/util.js"></script>
-  <script src="http://www.sahil.cc/js/main.js"></script>
-  <script src="http://www.sahil.cc/js/backToTop.js"></script>
-
-
-
-
+    
       
-  
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+        
+        
+        
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://www.sahil.cc/js/util.js"></script>
+      <script src="https://www.sahil.cc/js/main.js"></script>
+      <script src="https://www.sahil.cc/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 
-
-<script>hljs.initHighlightingOnLoad();</script>
-</body>
+  </body>
 </html>
 

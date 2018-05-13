@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Review on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/categories/review/</link>
+    <link>https://www.sahil.cc/categories/review/</link>
     <description>Recent content in Review on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 25 Nov 2016 05:24:39 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/categories/review/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/categories/review/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Issues while renewing Passport - the JS one</title>
-      <link>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
+      <link>https://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
+      <guid>https://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
       <description>&lt;p&gt;No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>A Good Hexo Tutorial</title>
-      <link>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</link>
+      <link>https://www.sahil.cc/post/2016/a-good-hexo-tutorial/</link>
       <pubDate>Thu, 24 Nov 2016 11:24:14 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</guid>
+      <guid>https://www.sahil.cc/post/2016/a-good-hexo-tutorial/</guid>
       <description>&lt;p&gt;No I am not going to write a tutorial for everything under the sun if it already exists.&lt;/p&gt;
 
 &lt;p&gt;Just recently found a great tutorial for Hexo - &lt;a href=&#34;https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/&#34;&gt;https://www.cgmartin.com/2016/01/03/getting-started-with-hexo-blog/&lt;/a&gt;&lt;/p&gt;

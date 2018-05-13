@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Analytics on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/analytics/</link>
+    <link>https://www.sahil.cc/tags/analytics/</link>
     <description>Recent content in Analytics on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 28 Mar 2017 11:00:26 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/analytics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tracking hostname in Google Analytics</title>
-      <link>http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</link>
+      <link>https://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</link>
       <pubDate>Tue, 28 Mar 2017 11:00:26 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
+      <guid>https://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</guid>
       <description>&lt;p&gt;Google analytics gives us the ability to modify tracked through filters. The following screenshot tells us how to modify Request URI and add the hostname to it:
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Measuring the ripples - cross domain tracking</title>
-      <link>http://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</link>
+      <link>https://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</link>
       <pubDate>Sun, 25 Dec 2016 14:24:56 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</guid>
+      <guid>https://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</guid>
       <description>About cross domain tracking: https://support.google.com/analytics/answer/1033876
 To setup cross domain tracking from either Google Analytics or Google Tag Manager: https://support.google.com/analytics/answer/1034342
 To setup Analytic Reports to include the domain name: https://support.google.com/analytics/answer/1034342#Next</description>

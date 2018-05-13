@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fds on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/fds/</link>
+    <link>https://www.sahil.cc/tags/fds/</link>
     <description>Recent content in Fds on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 04 Apr 2008 01:18:08 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/fds/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/fds/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora Directory Server Rocks!!!</title>
-      <link>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</link>
+      <link>https://www.sahil.cc/post/2008/fedora-directory-server-rocks/</link>
       <pubDate>Fri, 04 Apr 2008 01:18:08 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</guid>
+      <guid>https://www.sahil.cc/post/2008/fedora-directory-server-rocks/</guid>
       <description>Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
 Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
 First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &amp;quot;cn=Manager,dc=pragyan,dc=org&amp;quot; -f base.ldif **invalid credentials (49)**</description>

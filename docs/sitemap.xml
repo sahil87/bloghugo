@@ -3,1183 +3,1205 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/uefi-secureboot-hell/</loc>
+    <loc>https://www.sahil.cc/post/2018/rooting-one-plus-one/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/post/2018/everything-about-yaml/</loc>
+    <lastmod>2018-02-14T17:52:49+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/post/2017/uefi-secureboot-hell/</loc>
     <lastmod>2017-12-06T23:54:46+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</loc>
+    <loc>https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</loc>
     <lastmod>2017-12-06T23:00:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/reacting-with-a-vengence/</loc>
+    <loc>https://www.sahil.cc/post/2017/reacting-with-a-vengence/</loc>
     <lastmod>2017-11-07T13:23:33+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/tooling-update/</loc>
+    <loc>https://www.sahil.cc/post/2017/tooling-update/</loc>
     <lastmod>2017-10-24T20:56:23+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/researching-png-resizing/</loc>
+    <loc>https://www.sahil.cc/post/2017/researching-png-resizing/</loc>
     <lastmod>2017-10-24T13:33:58+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</loc>
+    <loc>https://www.sahil.cc/post/2017/switching-from-hexo-to-hugo/</loc>
     <lastmod>2017-10-18T23:56:14+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</loc>
+    <loc>https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</loc>
     <lastmod>2017-08-27T23:20:16+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</loc>
+    <loc>https://www.sahil.cc/post/2017/tracking-hostname-in-google-analytics/</loc>
     <lastmod>2017-03-28T11:00:26+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/to-frame-or-not-to-frame/</loc>
+    <loc>https://www.sahil.cc/post/2017/to-frame-or-not-to-frame/</loc>
     <lastmod>2017-03-01T20:46:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/this-too-happens/</loc>
+    <loc>https://www.sahil.cc/post/2017/this-too-happens/</loc>
     <lastmod>2017-02-02T07:50:04+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/the-devops-docks/</loc>
+    <loc>https://www.sahil.cc/post/2017/the-devops-docks/</loc>
     <lastmod>2017-01-28T12:33:35+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/jus-rants/</loc>
+    <loc>https://www.sahil.cc/post/2017/jus-rants/</loc>
     <lastmod>2017-01-20T12:33:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2017/github-2016-report-card/</loc>
+    <loc>https://www.sahil.cc/post/2017/github-2016-report-card/</loc>
     <lastmod>2017-01-07T12:33:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</loc>
+    <loc>https://www.sahil.cc/post/2016/measuring-the-ripples-cross-domain-tracking/</loc>
     <lastmod>2016-12-25T14:24:56+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</loc>
+    <loc>https://www.sahil.cc/post/2016/the-nodejs-toolbox-tnt/</loc>
     <lastmod>2016-12-20T01:48:40+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/not-funny-one-of-every-six-times/</loc>
+    <loc>https://www.sahil.cc/post/2016/not-funny-one-of-every-six-times/</loc>
     <lastmod>2016-12-17T14:27:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</loc>
+    <loc>https://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</loc>
     <lastmod>2016-12-17T03:33:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</loc>
+    <loc>https://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/live-long-and-prosper-spock/</loc>
+    <loc>https://www.sahil.cc/post/2016/live-long-and-prosper-spock/</loc>
     <lastmod>2016-12-05T18:05:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/about/</loc>
+    <loc>https://www.sahil.cc/about/</loc>
     <lastmod>2016-12-01T02:17:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</loc>
+    <loc>https://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</loc>
     <lastmod>2016-11-25T05:24:39+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/quotes/</loc>
+    <loc>https://www.sahil.cc/quotes/</loc>
     <lastmod>2016-11-24T13:21:15+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/a-good-hexo-tutorial/</loc>
+    <loc>https://www.sahil.cc/post/2016/a-good-hexo-tutorial/</loc>
     <lastmod>2016-11-24T11:24:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</loc>
+    <loc>https://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</loc>
     <lastmod>2016-11-23T16:43:52+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/good-git/</loc>
+    <loc>https://www.sahil.cc/post/2016/good-git/</loc>
     <lastmod>2016-11-22T20:26:16+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/hello-world/</loc>
+    <loc>https://www.sahil.cc/post/2016/hello-world/</loc>
     <lastmod>2016-11-18T00:51:14+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2016/intel-edison-arduino-project/</loc>
+    <loc>https://www.sahil.cc/post/2016/intel-edison-arduino-project/</loc>
     <lastmod>2016-03-20T01:19:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2010/the-point-of-living/</loc>
+    <loc>https://www.sahil.cc/post/2010/the-point-of-living/</loc>
     <lastmod>2010-12-06T16:41:23+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</loc>
+    <loc>https://www.sahil.cc/post/2010/bangalore-international-airport-shuttle-service-timings-and-route/</loc>
     <lastmod>2010-01-25T01:48:06+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2009/creating-a-super-pendrive/</loc>
+    <loc>https://www.sahil.cc/post/2009/creating-a-super-pendrive/</loc>
     <lastmod>2009-11-15T01:11:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</loc>
+    <loc>https://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</loc>
     <lastmod>2009-11-14T19:19:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2009/httpd-with-selinux/</loc>
+    <loc>https://www.sahil.cc/post/2009/httpd-with-selinux/</loc>
     <lastmod>2009-10-22T14:47:13+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2009/making-fedora-work-offline/</loc>
+    <loc>https://www.sahil.cc/post/2009/making-fedora-work-offline/</loc>
     <lastmod>2009-10-22T01:00:44+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/india-and-mr-god/</loc>
+    <loc>https://www.sahil.cc/post/2008/india-and-mr-god/</loc>
     <lastmod>2008-10-29T11:38:57+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/talk-about-punctuality/</loc>
+    <loc>https://www.sahil.cc/post/2008/talk-about-punctuality/</loc>
     <lastmod>2008-06-30T01:40:05+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/so-many-things-so-less-time/</loc>
+    <loc>https://www.sahil.cc/post/2008/so-many-things-so-less-time/</loc>
     <lastmod>2008-06-30T00:57:48+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/fedora-9-released/</loc>
+    <loc>https://www.sahil.cc/post/2008/fedora-9-released/</loc>
     <lastmod>2008-05-22T16:50:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/college-nostalgia/</loc>
+    <loc>https://www.sahil.cc/post/2008/college-nostalgia/</loc>
     <lastmod>2008-05-22T12:06:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/the-gods-must-be-crazy/</loc>
+    <loc>https://www.sahil.cc/post/2008/the-gods-must-be-crazy/</loc>
     <lastmod>2008-05-22T11:23:10+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</loc>
+    <loc>https://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</loc>
     <lastmod>2008-05-22T11:12:34+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</loc>
+    <loc>https://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</loc>
     <lastmod>2008-05-20T03:12:59+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/things-done-in-college-technology/</loc>
+    <loc>https://www.sahil.cc/post/2008/things-done-in-college-technology/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</loc>
+    <loc>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</loc>
     <lastmod>2008-05-20T02:07:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</loc>
+    <loc>https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</loc>
     <lastmod>2008-05-11T14:47:18+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</loc>
+    <loc>https://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</loc>
     <lastmod>2008-05-05T15:58:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</loc>
+    <loc>https://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</loc>
     <lastmod>2008-05-03T08:59:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</loc>
+    <loc>https://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</loc>
     <lastmod>2008-05-03T08:39:43+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/final-report-and-files/</loc>
+    <loc>https://www.sahil.cc/post/2008/final-report-and-files/</loc>
     <lastmod>2008-05-03T04:34:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/t-shirt-quotes/</loc>
+    <loc>https://www.sahil.cc/post/2008/t-shirt-quotes/</loc>
     <lastmod>2008-04-14T23:39:25+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/life/</loc>
+    <loc>https://www.sahil.cc/post/2008/life/</loc>
     <lastmod>2008-04-10T12:49:58+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</loc>
+    <loc>https://www.sahil.cc/post/2008/fedora-directory-server-rocks/</loc>
     <lastmod>2008-04-04T01:18:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</loc>
+    <loc>https://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</loc>
     <lastmod>2008-02-11T07:50:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2007/back-to-square-one/</loc>
+    <loc>https://www.sahil.cc/post/2007/back-to-square-one/</loc>
     <lastmod>2007-12-16T19:03:03+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2007/trip-to-goa/</loc>
+    <loc>https://www.sahil.cc/post/2007/trip-to-goa/</loc>
     <lastmod>2007-12-08T15:49:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</loc>
+    <loc>https://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</loc>
     <lastmod>2007-12-08T15:18:31+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2007/stereoscopy/</loc>
+    <loc>https://www.sahil.cc/post/2007/stereoscopy/</loc>
     <lastmod>2007-06-06T22:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2007/normal-forms/</loc>
+    <loc>https://www.sahil.cc/post/2007/normal-forms/</loc>
     <lastmod>2007-06-04T10:47:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/a-few-notes-on-exposure/</loc>
+    <loc>https://www.sahil.cc/post/2006/a-few-notes-on-exposure/</loc>
     <lastmod>2006-12-15T03:13:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/a-digital-photographers-heaven/</loc>
+    <loc>https://www.sahil.cc/post/2006/a-digital-photographers-heaven/</loc>
     <lastmod>2006-12-15T02:33:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/a-dream-come-true/</loc>
+    <loc>https://www.sahil.cc/post/2006/a-dream-come-true/</loc>
     <lastmod>2006-12-14T06:11:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/my-sister-my-inspiration/</loc>
+    <loc>https://www.sahil.cc/post/2006/my-sister-my-inspiration/</loc>
     <lastmod>2006-12-14T05:14:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/i-got-a-new-monitor/</loc>
+    <loc>https://www.sahil.cc/post/2006/i-got-a-new-monitor/</loc>
     <lastmod>2006-11-25T04:09:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</loc>
+    <loc>https://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</loc>
     <lastmod>2006-11-25T03:48:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/coming-back-home/</loc>
+    <loc>https://www.sahil.cc/post/2006/coming-back-home/</loc>
     <lastmod>2006-11-25T03:28:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</loc>
+    <loc>https://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</loc>
     <lastmod>2006-11-24T13:46:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/file-sharing-on-lan/</loc>
+    <loc>https://www.sahil.cc/post/2006/file-sharing-on-lan/</loc>
     <lastmod>2006-07-10T03:57:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/</loc>
+    <loc>https://www.sahil.cc/post/2006/its-so-easy-resetting-the-root-password-i-mean/</loc>
     <lastmod>2006-07-10T03:01:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/</loc>
+    <loc>https://www.sahil.cc/post/2006/programs-like-these-make-life-easy-fedora-frog/</loc>
     <lastmod>2006-07-09T22:33:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/just-a-thought..../</loc>
+    <loc>https://www.sahil.cc/post/2006/just-a-thought..../</loc>
     <lastmod>2006-07-09T16:12:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</loc>
+    <loc>https://www.sahil.cc/post/2006/installing-xgnokii-for-n-gage-in-fedora-core-5/</loc>
     <lastmod>2006-07-09T07:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</loc>
+    <loc>https://www.sahil.cc/post/2006/mobiles-with-fedora-core-5/</loc>
     <lastmod>2006-07-09T01:56:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/things-to-remember/</loc>
+    <loc>https://www.sahil.cc/post/2006/things-to-remember/</loc>
     <lastmod>2006-07-05T10:39:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/project-complete/</loc>
+    <loc>https://www.sahil.cc/post/2006/project-complete/</loc>
     <lastmod>2006-06-26T19:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/gpl-hijacking/</loc>
+    <loc>https://www.sahil.cc/post/2006/gpl-hijacking/</loc>
     <lastmod>2006-06-25T09:17:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/gplmpllgpl/</loc>
+    <loc>https://www.sahil.cc/post/2006/gplmpllgpl/</loc>
     <lastmod>2006-06-25T07:57:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/intro/</loc>
+    <loc>https://www.sahil.cc/post/2006/intro/</loc>
     <lastmod>2006-06-25T07:54:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</loc>
+    <loc>https://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</loc>
     <lastmod>2006-06-24T20:26:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/iit-b-project/</loc>
+    <loc>https://www.sahil.cc/post/2006/iit-b-project/</loc>
     <lastmod>2006-06-21T18:24:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</loc>
+    <loc>https://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</loc>
     <lastmod>2006-06-21T05:37:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/prayan-rocks/</loc>
+    <loc>https://www.sahil.cc/post/2006/prayan-rocks/</loc>
     <lastmod>2006-06-21T05:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/surging-ahead/</loc>
+    <loc>https://www.sahil.cc/post/2006/surging-ahead/</loc>
     <lastmod>2006-06-07T08:44:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/finalizing-the-panel/</loc>
+    <loc>https://www.sahil.cc/post/2006/finalizing-the-panel/</loc>
     <lastmod>2006-06-06T13:27:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/meeting-the-professor/</loc>
+    <loc>https://www.sahil.cc/post/2006/meeting-the-professor/</loc>
     <lastmod>2006-06-06T13:21:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/designing-the-panel/</loc>
+    <loc>https://www.sahil.cc/post/2006/designing-the-panel/</loc>
     <lastmod>2006-06-06T13:16:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/started-report/</loc>
+    <loc>https://www.sahil.cc/post/2006/started-report/</loc>
     <lastmod>2006-06-06T13:14:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/going-ahead/</loc>
+    <loc>https://www.sahil.cc/post/2006/going-ahead/</loc>
     <lastmod>2006-06-06T13:07:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/plan-b/</loc>
+    <loc>https://www.sahil.cc/post/2006/plan-b/</loc>
     <lastmod>2006-06-06T13:06:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/relaxing/</loc>
+    <loc>https://www.sahil.cc/post/2006/relaxing/</loc>
     <lastmod>2006-06-06T13:04:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/planning-ahead/</loc>
+    <loc>https://www.sahil.cc/post/2006/planning-ahead/</loc>
     <lastmod>2006-06-06T13:02:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/stuck/</loc>
+    <loc>https://www.sahil.cc/post/2006/stuck/</loc>
     <lastmod>2006-06-06T13:01:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/report-presentation/</loc>
+    <loc>https://www.sahil.cc/post/2006/report-presentation/</loc>
     <lastmod>2006-06-06T12:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/playing-around/</loc>
+    <loc>https://www.sahil.cc/post/2006/playing-around/</loc>
     <lastmod>2006-06-06T12:56:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/project-at-iit-bombay/</loc>
+    <loc>https://www.sahil.cc/post/2006/project-at-iit-bombay/</loc>
     <lastmod>2006-05-30T02:01:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/last-row-of-the-sun-lab/</loc>
+    <loc>https://www.sahil.cc/post/2006/last-row-of-the-sun-lab/</loc>
     <lastmod>2006-05-28T18:42:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/a-glimpse-of-whats-about-to-come/</loc>
+    <loc>https://www.sahil.cc/post/2006/a-glimpse-of-whats-about-to-come/</loc>
     <lastmod>2006-05-26T06:36:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/project-going-fast-ahead/</loc>
+    <loc>https://www.sahil.cc/post/2006/project-going-fast-ahead/</loc>
     <lastmod>2006-05-25T04:30:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/tomcat-started/</loc>
+    <loc>https://www.sahil.cc/post/2006/tomcat-started/</loc>
     <lastmod>2006-05-24T04:29:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/trip-to-pune/</loc>
+    <loc>https://www.sahil.cc/post/2006/trip-to-pune/</loc>
     <lastmod>2006-05-22T03:56:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/aamchi-mumbai-kelon-ka-din/</loc>
+    <loc>https://www.sahil.cc/post/2006/aamchi-mumbai-kelon-ka-din/</loc>
     <lastmod>2006-05-20T20:13:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/day-7/</loc>
+    <loc>https://www.sahil.cc/post/2006/day-7/</loc>
     <lastmod>2006-05-17T20:53:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/starting-work/</loc>
+    <loc>https://www.sahil.cc/post/2006/starting-work/</loc>
     <lastmod>2006-05-17T17:59:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/java-with-mysql/</loc>
+    <loc>https://www.sahil.cc/post/2006/java-with-mysql/</loc>
     <lastmod>2006-05-15T20:58:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/interfacing-with-c/</loc>
+    <loc>https://www.sahil.cc/post/2006/interfacing-with-c/</loc>
     <lastmod>2006-05-13T13:31:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/blog-for-tracking-development-of-pcbo/</loc>
+    <loc>https://www.sahil.cc/post/2006/blog-for-tracking-development-of-pcbo/</loc>
     <lastmod>2006-05-12T14:09:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/2006/here-is-a-way-to-search-great-things-through-google/</loc>
+    <loc>https://www.sahil.cc/post/2006/here-is-a-way-to-search-great-things-through-google/</loc>
     <lastmod>2006-04-22T11:21:00+05:30</lastmod>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/3d/</loc>
+    <loc>https://www.sahil.cc/tags/3d/</loc>
     <lastmod>2007-06-06T22:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/algorithms/</loc>
+    <loc>https://www.sahil.cc/tags/algorithms/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/analytics/</loc>
+    <loc>https://www.sahil.cc/tags/analytics/</loc>
     <lastmod>2017-03-28T11:00:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/ansible/</loc>
+    <loc>https://www.sahil.cc/tags/android/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/tags/ansible/</loc>
     <lastmod>2017-01-28T12:33:35+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/arduino/</loc>
+    <loc>https://www.sahil.cc/tags/arduino/</loc>
     <lastmod>2016-03-20T01:19:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/authentication/</loc>
+    <loc>https://www.sahil.cc/tags/authentication/</loc>
     <lastmod>2016-11-25T05:24:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/aws/</loc>
+    <loc>https://www.sahil.cc/tags/aws/</loc>
     <lastmod>2016-12-17T03:33:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/backup/</loc>
+    <loc>https://www.sahil.cc/tags/backup/</loc>
     <lastmod>2009-11-14T19:19:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/bangalore/</loc>
+    <loc>https://www.sahil.cc/tags/bangalore/</loc>
     <lastmod>2010-01-25T01:48:06+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/bash/</loc>
+    <loc>https://www.sahil.cc/tags/bash/</loc>
     <lastmod>2016-12-17T14:27:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/blog/</loc>
-    <lastmod>2017-12-06T23:54:46+05:30</lastmod>
+    <loc>https://www.sahil.cc/categories/blog/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/camera/</loc>
+    <loc>https://www.sahil.cc/tags/camera/</loc>
     <lastmod>2006-12-15T03:13:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/</loc>
-    <lastmod>2017-12-06T23:54:46+05:30</lastmod>
+    <loc>https://www.sahil.cc/categories/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/chat/</loc>
+    <loc>https://www.sahil.cc/tags/chat/</loc>
     <lastmod>2007-12-08T15:18:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/chennai/</loc>
+    <loc>https://www.sahil.cc/tags/chennai/</loc>
     <lastmod>2007-12-16T19:03:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/contact/</loc>
+    <loc>https://www.sahil.cc/contact/</loc>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/dalal/</loc>
+    <loc>https://www.sahil.cc/tags/dalal/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/database/</loc>
+    <loc>https://www.sahil.cc/tags/database/</loc>
     <lastmod>2007-06-04T10:47:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/delta/</loc>
+    <loc>https://www.sahil.cc/tags/delta/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/devops/</loc>
+    <loc>https://www.sahil.cc/tags/devops/</loc>
     <lastmod>2017-10-24T20:56:23+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/digikam/</loc>
+    <loc>https://www.sahil.cc/tags/digikam/</loc>
     <lastmod>2009-11-14T19:19:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/dovecot/</loc>
+    <loc>https://www.sahil.cc/tags/dovecot/</loc>
     <lastmod>2008-05-03T08:39:43+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/errors/</loc>
+    <loc>https://www.sahil.cc/tags/errors/</loc>
     <lastmod>2008-05-11T14:47:18+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/es6/</loc>
+    <loc>https://www.sahil.cc/tags/es6/</loc>
     <lastmod>2017-01-20T12:33:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/express/</loc>
+    <loc>https://www.sahil.cc/tags/express/</loc>
     <lastmod>2016-11-25T05:24:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/faridabad/</loc>
+    <loc>https://www.sahil.cc/tags/faridabad/</loc>
     <lastmod>2008-05-22T11:23:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/fds/</loc>
+    <loc>https://www.sahil.cc/tags/fds/</loc>
     <lastmod>2008-04-04T01:18:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/fedora/</loc>
+    <loc>https://www.sahil.cc/tags/fedora/</loc>
     <lastmod>2017-12-06T23:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/fun/</loc>
+    <loc>https://www.sahil.cc/tags/fun/</loc>
     <lastmod>2016-12-17T14:27:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/git/</loc>
+    <loc>https://www.sahil.cc/tags/git/</loc>
     <lastmod>2017-01-07T12:33:08+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/gnokii/</loc>
+    <loc>https://www.sahil.cc/tags/gnokii/</loc>
     <lastmod>2006-07-09T07:58:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/goa/</loc>
+    <loc>https://www.sahil.cc/tags/goa/</loc>
     <lastmod>2007-12-08T15:49:31+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/god/</loc>
+    <loc>https://www.sahil.cc/tags/god/</loc>
     <lastmod>2008-10-29T11:38:57+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/google/</loc>
+    <loc>https://www.sahil.cc/tags/google/</loc>
     <lastmod>2017-03-28T11:00:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/gparted/</loc>
+    <loc>https://www.sahil.cc/tags/gparted/</loc>
     <lastmod>2009-11-15T01:11:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/gpl/</loc>
+    <loc>https://www.sahil.cc/tags/gpl/</loc>
     <lastmod>2006-06-25T09:17:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/gradle/</loc>
+    <loc>https://www.sahil.cc/tags/gradle/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/grub/</loc>
+    <loc>https://www.sahil.cc/tags/grub/</loc>
     <lastmod>2009-11-15T01:11:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/guide/</loc>
-    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
+    <loc>https://www.sahil.cc/categories/guide/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/hexo/</loc>
+    <loc>https://www.sahil.cc/tags/hexo/</loc>
     <lastmod>2016-11-24T11:24:14+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/home/</loc>
+    <loc>https://www.sahil.cc/tags/home/</loc>
     <lastmod>2008-05-22T11:23:10+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/html/</loc>
+    <loc>https://www.sahil.cc/tags/html/</loc>
     <lastmod>2017-03-01T20:46:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/httpd/</loc>
+    <loc>https://www.sahil.cc/tags/httpd/</loc>
     <lastmod>2009-10-22T14:47:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/hugo/</loc>
+    <loc>https://www.sahil.cc/tags/hugo/</loc>
     <lastmod>2017-10-18T23:56:14+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/java/</loc>
+    <loc>https://www.sahil.cc/tags/java/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/js/</loc>
+    <loc>https://www.sahil.cc/tags/js/</loc>
     <lastmod>2017-03-01T20:46:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/jwt/</loc>
+    <loc>https://www.sahil.cc/tags/jwt/</loc>
     <lastmod>2016-11-23T16:43:52+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/lan/</loc>
+    <loc>https://www.sahil.cc/tags/lan/</loc>
     <lastmod>2006-07-10T03:57:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/ldap/</loc>
+    <loc>https://www.sahil.cc/tags/ldap/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/life/</loc>
+    <loc>https://www.sahil.cc/tags/life/</loc>
     <lastmod>2010-12-06T16:41:23+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/linux/</loc>
+    <loc>https://www.sahil.cc/tags/linux/</loc>
     <lastmod>2017-12-06T23:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/linuxmint/</loc>
+    <loc>https://www.sahil.cc/tags/linuxmint/</loc>
     <lastmod>2017-12-06T23:54:46+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/live/</loc>
+    <loc>https://www.sahil.cc/tags/live/</loc>
     <lastmod>2009-11-15T01:11:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/mail/</loc>
+    <loc>https://www.sahil.cc/tags/mail/</loc>
     <lastmod>2008-05-03T08:39:43+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/men/</loc>
+    <loc>https://www.sahil.cc/tags/men/</loc>
     <lastmod>2008-05-22T11:12:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/mobile/</loc>
+    <loc>https://www.sahil.cc/tags/mobile/</loc>
     <lastmod>2006-07-09T01:56:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/mobx/</loc>
+    <loc>https://www.sahil.cc/tags/mobx/</loc>
     <lastmod>2017-10-24T20:56:23+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/nfs/</loc>
+    <loc>https://www.sahil.cc/tags/nfs/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/nitt/</loc>
+    <loc>https://www.sahil.cc/tags/nitt/</loc>
+    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/categories/nitt/</loc>
     <lastmod>2008-05-22T16:50:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/nitt/</loc>
-    <lastmod>2008-05-22T12:06:54+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.sahil.cc/tags/node/</loc>
+    <loc>https://www.sahil.cc/tags/node/</loc>
     <lastmod>2016-12-20T01:48:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/nokia/</loc>
+    <loc>https://www.sahil.cc/tags/nokia/</loc>
     <lastmod>2006-07-09T07:58:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/octa/</loc>
+    <loc>https://www.sahil.cc/tags/octa/</loc>
     <lastmod>2008-05-22T12:06:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/offline/</loc>
+    <loc>https://www.sahil.cc/tags/offline/</loc>
     <lastmod>2009-10-22T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/open-source/</loc>
+    <loc>https://www.sahil.cc/tags/open-source/</loc>
     <lastmod>2006-06-25T09:17:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/opensource/</loc>
+    <loc>https://www.sahil.cc/tags/opensource/</loc>
     <lastmod>2006-06-25T07:57:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/p2p/</loc>
+    <loc>https://www.sahil.cc/tags/p2p/</loc>
     <lastmod>2006-07-10T03:57:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/pcbo/</loc>
+    <loc>https://www.sahil.cc/tags/pcbo/</loc>
+    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/categories/pcbo/</loc>
     <lastmod>2008-05-03T04:34:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/pcbo/</loc>
-    <lastmod>2008-05-20T02:35:28+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.sahil.cc/tags/photography/</loc>
+    <loc>https://www.sahil.cc/tags/photography/</loc>
     <lastmod>2009-11-14T19:19:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/png/</loc>
+    <loc>https://www.sahil.cc/tags/png/</loc>
     <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/post/</loc>
-    <lastmod>2017-12-06T23:54:46+05:30</lastmod>
+    <loc>https://www.sahil.cc/post/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/postfix/</loc>
+    <loc>https://www.sahil.cc/tags/postfix/</loc>
     <lastmod>2008-05-05T15:58:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/pragyan/</loc>
-    <lastmod>2008-02-11T07:50:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.sahil.cc/tags/pragyan/</loc>
+    <loc>https://www.sahil.cc/tags/pragyan/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/quotes/</loc>
+    <loc>https://www.sahil.cc/categories/pragyan/</loc>
+    <lastmod>2008-02-11T07:50:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/tags/quotes/</loc>
     <lastmod>2008-04-14T23:39:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/rants/</loc>
+    <loc>https://www.sahil.cc/tags/rants/</loc>
     <lastmod>2017-01-20T12:33:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/react/</loc>
+    <loc>https://www.sahil.cc/tags/react/</loc>
     <lastmod>2017-11-07T13:23:33+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/reset/</loc>
+    <loc>https://www.sahil.cc/tags/reset/</loc>
     <lastmod>2006-07-10T03:01:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/categories/review/</loc>
+    <loc>https://www.sahil.cc/categories/review/</loc>
     <lastmod>2016-11-25T05:24:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/root/</loc>
-    <lastmod>2006-07-10T03:01:00+00:00</lastmod>
+    <loc>https://www.sahil.cc/tags/root/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/s3/</loc>
+    <loc>https://www.sahil.cc/tags/s3/</loc>
     <lastmod>2016-12-17T03:33:51+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/</loc>
-    <lastmod>2017-12-06T23:54:46+05:30</lastmod>
+    <loc>https://www.sahil.cc/</loc>
+    <lastmod>2018-02-15T14:33:39+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/series/</loc>
+    <loc>https://www.sahil.cc/series/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/sex/</loc>
+    <loc>https://www.sahil.cc/tags/sex/</loc>
     <lastmod>2008-05-22T11:12:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/share/</loc>
+    <loc>https://www.sahil.cc/tags/share/</loc>
     <lastmod>2006-07-10T03:57:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/shortcuts/</loc>
+    <loc>https://www.sahil.cc/tags/shortcuts/</loc>
     <lastmod>2017-08-27T23:20:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/spock/</loc>
+    <loc>https://www.sahil.cc/tags/spock/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/ssl/</loc>
+    <loc>https://www.sahil.cc/tags/ssl/</loc>
     <lastmod>2008-05-20T02:35:28+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/stereoscopy/</loc>
+    <loc>https://www.sahil.cc/tags/stereoscopy/</loc>
     <lastmod>2007-06-06T22:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/svn/</loc>
+    <loc>https://www.sahil.cc/tags/svn/</loc>
     <lastmod>2008-05-20T02:07:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/</loc>
+    <loc>https://www.sahil.cc/tags/</loc>
     <lastmod>2007-06-06T22:21:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/test/</loc>
+    <loc>https://www.sahil.cc/tags/test/</loc>
     <lastmod>2017-10-18T23:56:14+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/testing/</loc>
+    <loc>https://www.sahil.cc/tags/testing/</loc>
     <lastmod>2016-12-06T02:44:45+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/todo/</loc>
+    <loc>https://www.sahil.cc/tags/todo/</loc>
     <lastmod>2017-10-24T13:33:58+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/tools/</loc>
+    <loc>https://www.sahil.cc/tags/tools/</loc>
     <lastmod>2016-12-20T01:48:40+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/trac/</loc>
+    <loc>https://www.sahil.cc/tags/trac/</loc>
     <lastmod>2008-05-20T02:07:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/tracking/</loc>
+    <loc>https://www.sahil.cc/tags/tracking/</loc>
     <lastmod>2017-03-28T11:00:26+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/trichy/</loc>
+    <loc>https://www.sahil.cc/tags/trichy/</loc>
     <lastmod>2007-12-16T19:03:03+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/tshirt/</loc>
+    <loc>https://www.sahil.cc/tags/tshirt/</loc>
     <lastmod>2008-04-14T23:39:25+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/tutorial/</loc>
+    <loc>https://www.sahil.cc/tags/tutorial/</loc>
     <lastmod>2016-03-20T01:19:13+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/ubuntu/</loc>
+    <loc>https://www.sahil.cc/tags/ubuntu/</loc>
+    <lastmod>2018-02-14T17:52:49+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/tags/unicode/</loc>
     <lastmod>2017-08-27T23:20:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/unicode/</loc>
-    <lastmod>2017-08-27T23:20:16+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.sahil.cc/tags/update/</loc>
+    <loc>https://www.sahil.cc/tags/update/</loc>
     <lastmod>2009-10-22T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/usb/</loc>
+    <loc>https://www.sahil.cc/tags/usb/</loc>
     <lastmod>2009-11-15T01:11:27+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/web/</loc>
+    <loc>https://www.sahil.cc/tags/web/</loc>
     <lastmod>2016-11-25T05:24:39+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/webstorm/</loc>
+    <loc>https://www.sahil.cc/tags/webstorm/</loc>
     <lastmod>2017-08-27T23:20:16+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/women/</loc>
+    <loc>https://www.sahil.cc/tags/women/</loc>
     <lastmod>2008-05-22T11:12:34+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/worth/</loc>
+    <loc>https://www.sahil.cc/tags/worth/</loc>
     <lastmod>2008-04-10T12:49:58+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.sahil.cc/tags/yum/</loc>
+    <loc>https://www.sahil.cc/tags/yaml/</loc>
+    <lastmod>2018-02-14T17:52:49+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.sahil.cc/tags/yum/</loc>
     <lastmod>2009-10-22T01:00:44+00:00</lastmod>
     <priority>0</priority>
   </url>

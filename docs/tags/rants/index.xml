@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rants on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/rants/</link>
+    <link>https://www.sahil.cc/tags/rants/</link>
     <description>Recent content in Rants on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Fri, 20 Jan 2017 12:33:25 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/rants/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/rants/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>J(u)S Rants</title>
-      <link>http://www.sahil.cc/post/2017/jus-rants/</link>
+      <link>https://www.sahil.cc/post/2017/jus-rants/</link>
       <pubDate>Fri, 20 Jan 2017 12:33:25 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2017/jus-rants/</guid>
+      <guid>https://www.sahil.cc/post/2017/jus-rants/</guid>
       <description>A few cool JS articles: It&amp;rsquo;s The Future How it feels to learn JavaScript in 2016 JavaScript Fatigue Fatigue</description>
     </item>
     
     <item>
       <title>Issues while renewing Passport - the JS one</title>
-      <link>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
+      <link>https://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
+      <guid>https://www.sahil.cc/post/2016/issues-while-renewing-passport-the-js-one/</guid>
       <description>&lt;p&gt;No, am not talking about my actual passport, which also needs to be renewed soon by the way. Am talking about PassportJS.
 &lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>http://www.sahil.cc/post/2016/hello-world/</link>
+      <link>https://www.sahil.cc/post/2016/hello-world/</link>
       <pubDate>Fri, 18 Nov 2016 00:51:14 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/hello-world/</guid>
+      <guid>https://www.sahil.cc/post/2016/hello-world/</guid>
       <description>My very first post after a very very long haitus!
 Too much has happened. It&amp;rsquo;s overwhelming. The hope is with this blog sanity prevails the world becomes a happier place.
 First things first :  Test the powers of Hexo and come up with a URL scheme Import all previous blog (or at-leat point to them) Ensure all DNS setting are properly set Test if the blog works online First write about why it took me so long to write a blog and how and why I am so thankful hexo exists  Of course - if you know me you know that 3 happens first!</description>
@@ -44,19 +44,19 @@ First things first :  Test the powers of Hexo and come up with a URL scheme Impo
     
     <item>
       <title>My sister, my inspiration</title>
-      <link>http://www.sahil.cc/post/2006/my-sister-my-inspiration/</link>
+      <link>https://www.sahil.cc/post/2006/my-sister-my-inspiration/</link>
       <pubDate>Thu, 14 Dec 2006 05:14:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/my-sister-my-inspiration/</guid>
+      <guid>https://www.sahil.cc/post/2006/my-sister-my-inspiration/</guid>
       <description>Pooja    A lot happened when my closest sister Pooja came to Delhi to her nani&amp;rsquo;s house. She had come to collect the fittjee scholarship she had gotten because of coming within the top 50 all over India in one of fittjee&amp;rsquo;s scholarship test.</description>
     </item>
     
     <item>
       <title>Intro.</title>
-      <link>http://www.sahil.cc/post/2006/intro/</link>
+      <link>https://www.sahil.cc/post/2006/intro/</link>
       <pubDate>Sun, 25 Jun 2006 07:54:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/intro/</guid>
+      <guid>https://www.sahil.cc/post/2006/intro/</guid>
       <description>Gud4Nothin is the name I use while playing UT in the Octagon. It&amp;rsquo;s my alias. It represents me in my fullness.</description>
     </item>
     

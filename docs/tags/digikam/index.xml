@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digikam on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/digikam/</link>
+    <link>https://www.sahil.cc/tags/digikam/</link>
     <description>Recent content in Digikam on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 14 Nov 2009 19:19:03 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/digikam/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/digikam/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Digikam Caveats - things to make sure using Digikam</title>
-      <link>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
+      <link>https://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
+      <guid>https://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
       <description>I have been bitten. And so I post this in the hope that some needy soul finds this before he/she/it gets bitten too.
 Problem: Digikam saves image tags (ratings/captions that you spend hours editing) in its internal database. When you switch to a newer linux version, lose this information - unless you are careful enough to copy over the digikam.db4 file - which I was. The second problem is that if you move around or copy your files using a file browser, you lose this information ( !</description>
     </item>
     
     <item>
       <title>A digital photographer&#39;s heaven</title>
-      <link>http://www.sahil.cc/post/2006/a-digital-photographers-heaven/</link>
+      <link>https://www.sahil.cc/post/2006/a-digital-photographers-heaven/</link>
       <pubDate>Fri, 15 Dec 2006 02:33:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/a-digital-photographers-heaven/</guid>
+      <guid>https://www.sahil.cc/post/2006/a-digital-photographers-heaven/</guid>
       <description>The more I use digiKam, the more I appreciate it. I can&amp;rsquo;t imagine managing my photos without it! (sorry windoze user :P )
 The one feature the really struck me was the advanced search features. In digiKam you can create complicated search queries and can store the resulting photos as a group!</description>
     </item>
     
     <item>
       <title>Using digiKam for managing photos.</title>
-      <link>http://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</link>
+      <link>https://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</link>
       <pubDate>Sat, 25 Nov 2006 03:48:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</guid>
+      <guid>https://www.sahil.cc/post/2006/using-digikam-for-managing-photos/</guid>
       <description>Today I discovered one of the coolest softwares to manage photos from a digicam! The software&amp;rsquo;s name is digiKam.
 The thing I liked the most about the software is the date view and the album view.
 I own a Sony W70. It has 2 modes of connecting to the computer (both use the USB connecting cable provided with the camera). One is the &amp;ldquo;USB Mass Storage mode&amp;rdquo; and the other is the &amp;ldquo;PTP/IP Camera&amp;rdquo; mode.</description>

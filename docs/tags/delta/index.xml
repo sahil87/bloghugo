@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Delta on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/delta/</link>
+    <link>https://www.sahil.cc/tags/delta/</link>
     <description>Recent content in Delta on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 20 May 2008 02:35:28 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/delta/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/delta/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Things done in college - technology</title>
-      <link>http://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
+      <link>https://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
+      <guid>https://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
       <description>Here is a list of things I have done in the past three years. I have written for the sake of personal record.
 As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.</description>
     </item>
     
     <item>
       <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
-      <link>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <link>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <guid>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
       <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
 Here is how it is done :
 For SVN :
@@ -36,10 +36,10 @@ For SVN :
     
     <item>
       <title>Things I have done in the past 6 months..</title>
-      <link>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</link>
+      <link>https://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</link>
       <pubDate>Fri, 24 Nov 2006 13:46:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</guid>
+      <guid>https://www.sahil.cc/post/2006/things-i-have-done-in-the-past-6-months/</guid>
       <description> Become central webteam member. Become the manager of Pragyan and Dalal Street. Give shape to delta. To make it at least be able to stand in comparison with Spider. Coin up the concept of Neo&amp;hellip; A portal to test and implement new delta services. Suggest the concept of pingufest.  </description>
     </item>
     

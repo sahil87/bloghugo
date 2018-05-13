@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nitt on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/categories/nitt/</link>
+    <link>https://www.sahil.cc/categories/nitt/</link>
     <description>Recent content in Nitt on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Thu, 22 May 2008 16:50:28 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/categories/nitt/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/categories/nitt/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Fedora 9 Released!!!</title>
-      <link>http://www.sahil.cc/post/2008/fedora-9-released/</link>
+      <link>https://www.sahil.cc/post/2008/fedora-9-released/</link>
       <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/fedora-9-released/</guid>
+      <guid>https://www.sahil.cc/post/2008/fedora-9-released/</guid>
       <description>And it rocks!!
 The first thing you notice after fedora 9 is the blazing faaaast startup and shutdown times.
 Now, before I say anything else about Fedora 9, here are a few screenshots :
@@ -27,10 +27,10 @@ Here&amp;rsquo;s Gnome in F9 :
     
     <item>
       <title>College Nostalgia...</title>
-      <link>http://www.sahil.cc/post/2008/college-nostalgia/</link>
+      <link>https://www.sahil.cc/post/2008/college-nostalgia/</link>
       <pubDate>Thu, 22 May 2008 12:06:54 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/college-nostalgia/</guid>
+      <guid>https://www.sahil.cc/post/2008/college-nostalgia/</guid>
       <description>Here are a few pics and videos I took on the last day of college :
   Dsc09076
       Dsc09086
@@ -40,38 +40,38 @@ Here&amp;rsquo;s Gnome in F9 :
     
     <item>
       <title>There are websites for everything, even washing your clothes..</title>
-      <link>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</link>
+      <link>https://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</link>
       <pubDate>Thu, 22 May 2008 11:12:34 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</guid>
+      <guid>https://www.sahil.cc/post/2008/there-are-websites-for-everything-even-washing-your-clothes/</guid>
       <description>What Makes Married Men Want to Have Affairs? &amp;ndash; New York Magazine &amp;gt; Consider the Website meet2cheat, in which married people find one another for recreational sex; it charges $59 for a man’s three-month entry fee, $9 for a woman. Cheating wives are harder to come by. Wow. Nice article. Says men are more prone to infidelity (cheating on someone). Quite right.</description>
     </item>
     
     <item>
       <title>Adios College!!!</title>
-      <link>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</link>
+      <link>https://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</link>
       <pubDate>Tue, 20 May 2008 03:12:59 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</guid>
+      <guid>https://www.sahil.cc/post/2008/leaving-college-at-last-yipeeeeee/</guid>
       <description>Here&amp;rsquo;s the farewell cake we gave our juniors. It was DELICIOUS.</description>
     </item>
     
     <item>
       <title>Things done in college - technology</title>
-      <link>http://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
+      <link>https://www.sahil.cc/post/2008/things-done-in-college-technology/</link>
       <pubDate>Tue, 20 May 2008 02:35:28 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
+      <guid>https://www.sahil.cc/post/2008/things-done-in-college-technology/</guid>
       <description>Here is a list of things I have done in the past three years. I have written for the sake of personal record.
 As a member of Delta : Created a &amp;ldquo;PC Based Oscilloscope&amp;rdquo; in IIT Bombay, as a summer project. Used java servlets on the server side and a java applet on the client side. Was responsible for the whole of the software side - 2006 Summers Worked in Pragyan CMS V1, which finally got implemented in our college website - 2005-2007 Made Dalal Street, a stock market simulator using java servlets on the server side and using eclipse to make a java based ui compiled using gcj to eliminate the need of jvm to run the final executable - 2006 Dec - 2007 Jan Used CVS for the development of Dalal Street, understood the importance of a code versioning system.</description>
     </item>
     
     <item>
       <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
-      <link>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <link>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <guid>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
       <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
 Here is how it is done :
 For SVN :
@@ -80,10 +80,10 @@ For SVN :
     
     <item>
       <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
-      <link>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
+      <link>https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
+      <guid>https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
       <description>Yup.
 SVN IS MAD.
 Sorry, SVN and HTTPD team up to drive people crazy.
@@ -94,19 +94,19 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     
     <item>
       <title>Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</title>
-      <link>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</link>
+      <link>https://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</link>
       <pubDate>Mon, 05 May 2008 15:58:25 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</guid>
+      <guid>https://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/</guid>
       <description>What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.</description>
     </item>
     
     <item>
       <title>public_html web server - without mod_userdir</title>
-      <link>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
+      <link>https://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
       <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
+      <guid>https://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
       <description>Hell, what does the title mean??
 It means this :
 Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles
@@ -115,10 +115,10 @@ Most people use mod_userdir to allow ~username directories in their webservers. 
     
     <item>
       <title>Mail with postfix and ldap</title>
-      <link>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</link>
+      <link>https://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</link>
       <pubDate>Sat, 03 May 2008 08:39:43 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</guid>
+      <guid>https://www.sahil.cc/post/2008/mail-with-postfix-and-ldap/</guid>
       <description>Yes, it&amp;rsquo;s possible. I did it for the pragyan.org server.
 The setup we used was :
  /var/mail/virtual/%u: the inboxes of different users, /var/mail/virtual/PragyanMail/%u/%f: the different folders in mailboxes of different users.  It&amp;rsquo;s much easily setup than one thinks initially.
@@ -129,10 +129,10 @@ But, as with anything else, basics first
     
     <item>
       <title>T-shirt Quotes</title>
-      <link>http://www.sahil.cc/post/2008/t-shirt-quotes/</link>
+      <link>https://www.sahil.cc/post/2008/t-shirt-quotes/</link>
       <pubDate>Mon, 14 Apr 2008 23:39:25 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/t-shirt-quotes/</guid>
+      <guid>https://www.sahil.cc/post/2008/t-shirt-quotes/</guid>
       <description>I was asked by Piyush Mundhra to come up with a one-liner for my personlized Pragyan Core T-Shirt. These are the ones I liked :
 Smile. It confuses People.
 I am not BOSSY! I just have better ideas.
@@ -143,10 +143,10 @@ The nice thing about standards is that you have so many to choose from.</descrip
     
     <item>
       <title>Life</title>
-      <link>http://www.sahil.cc/post/2008/life/</link>
+      <link>https://www.sahil.cc/post/2008/life/</link>
       <pubDate>Thu, 10 Apr 2008 12:49:58 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/life/</guid>
+      <guid>https://www.sahil.cc/post/2008/life/</guid>
       <description>Only yesterday I was having a discussion with Purnima on the way while escorting her to the station. How should you spend your life such that you have no regrets about it in your death bed?
 I haven&amp;rsquo;t figured out the answer for myself yet.
 I tend to try to achieve as much as possible. But why?
@@ -155,10 +155,10 @@ A part of the answer is my thirst for knowledge, my unending desire to make sure
     
     <item>
       <title>Fedora Directory Server Rocks!!!</title>
-      <link>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</link>
+      <link>https://www.sahil.cc/post/2008/fedora-directory-server-rocks/</link>
       <pubDate>Fri, 04 Apr 2008 01:18:08 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/fedora-directory-server-rocks/</guid>
+      <guid>https://www.sahil.cc/post/2008/fedora-directory-server-rocks/</guid>
       <description>Having gone through the hell of installing an LDAP server once, I thought I could I could install the openldap server on the old server that we had to shift to.
 Anshu had already broken his head on it and was at the verge of losing his sanity. And so i stepped in.
 First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. ldapadd -W -x -D &amp;quot;cn=Manager,dc=pragyan,dc=org&amp;quot; -f base.ldif **invalid credentials (49)**</description>
@@ -166,10 +166,10 @@ First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. lda
     
     <item>
       <title>A tryst with a first year :)</title>
-      <link>http://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</link>
+      <link>https://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</link>
       <pubDate>Sat, 08 Dec 2007 15:18:31 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</guid>
+      <guid>https://www.sahil.cc/post/2007/a-tryst-with-a-first-year/</guid>
       <description>(08:51:38 PM) lucky:hi..
 (08:51:44 PM) sahil:hi
 (08:51:48 PM) sahil:who are you?
@@ -188,10 +188,10 @@ First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. lda
     
     <item>
       <title>Stereoscopy</title>
-      <link>http://www.sahil.cc/post/2007/stereoscopy/</link>
+      <link>https://www.sahil.cc/post/2007/stereoscopy/</link>
       <pubDate>Wed, 06 Jun 2007 22:21:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2007/stereoscopy/</guid>
+      <guid>https://www.sahil.cc/post/2007/stereoscopy/</guid>
       <description>&lt;p&gt;Today is a great day!!&lt;/p&gt;
 
 &lt;p&gt;For the first time I was able to cross view. And only today I found out the type of stereograms I used to play with were parallel viewing. To find the difference between them go &lt;a href=&#34;http://phillips.personal.nccu.edu.tw/3d/3-D.html&#34;&gt;here&lt;/a&gt; or &lt;a href=&#34;http://www.angelfire.com/ca/erker/freeview.html&#34;&gt;here&lt;/a&gt;. (Gosh! &lt;a href=&#34;http://en.wikipedia.org/&#34;&gt;wikipedia&lt;/a&gt; articles for cross view and parallel view don&amp;rsquo;t exist. I could create one someday!)
@@ -201,10 +201,10 @@ First I checked /etc/openldap/slapd.conf, line by line. Everything was fine. lda
     
     <item>
       <title>Normal forms</title>
-      <link>http://www.sahil.cc/post/2007/normal-forms/</link>
+      <link>https://www.sahil.cc/post/2007/normal-forms/</link>
       <pubDate>Mon, 04 Jun 2007 10:47:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2007/normal-forms/</guid>
+      <guid>https://www.sahil.cc/post/2007/normal-forms/</guid>
       <description>Sitting here in Morgan Stanley, it&amp;rsquo;s hard to find free time. Things are always on the run.
 But one day, I did find free time, and did what I had wanted to do for a very long time - learn about Normal forms in RDBMS.
 Here is what I gathered from these websites :
@@ -215,10 +215,10 @@ Here is what I gathered from these websites :
     
     <item>
       <title>Sunlab</title>
-      <link>http://www.sahil.cc/post/2006/last-row-of-the-sun-lab/</link>
+      <link>https://www.sahil.cc/post/2006/last-row-of-the-sun-lab/</link>
       <pubDate>Sun, 28 May 2006 18:42:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/last-row-of-the-sun-lab/</guid>
+      <guid>https://www.sahil.cc/post/2006/last-row-of-the-sun-lab/</guid>
       <description>Last Row of the SUN lab Here&amp;rsquo;s a great blog to keep yourself updated about the last row of SUN lab!! ;)</description>
     </item>
     

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>S3 on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/s3/</link>
+    <link>https://www.sahil.cc/tags/s3/</link>
     <description>Recent content in S3 on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 17 Dec 2016 03:33:51 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/s3/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/s3/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DNS redirection to URL through Route 53 and S3</title>
-      <link>http://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</link>
+      <link>https://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</link>
       <pubDate>Sat, 17 Dec 2016 03:33:51 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</guid>
+      <guid>https://www.sahil.cc/post/2016/dns-redirection-to-url-through-route-53-and-s3/</guid>
       <description>&lt;p&gt;I recently needed to redirect a DNS (like links.sportscafe.in) to a path (like &lt;a href=&#34;http://trello.com/abc&#34;&gt;http://trello.com/abc&lt;/a&gt;). Here is what finally helped me: &lt;a href=&#34;http://stackoverflow.com/a/14289082/1233476&#34;&gt;http://stackoverflow.com/a/14289082/1233476&lt;/a&gt;
 &lt;/p&gt;</description>
     </item>

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Httpd on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/httpd/</link>
+    <link>https://www.sahil.cc/tags/httpd/</link>
     <description>Recent content in Httpd on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Thu, 22 Oct 2009 14:47:13 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/httpd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/httpd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>httpd with SElinux</title>
-      <link>http://www.sahil.cc/post/2009/httpd-with-selinux/</link>
+      <link>https://www.sahil.cc/post/2009/httpd-with-selinux/</link>
       <pubDate>Thu, 22 Oct 2009 14:47:13 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2009/httpd-with-selinux/</guid>
+      <guid>https://www.sahil.cc/post/2009/httpd-with-selinux/</guid>
       <description>Giving httpd access to other folders (apart from default SElinux allowed folders):
  system-config-selinux rocks!! Go to System-&amp;gt; Administration -&amp;gt; SELinux Management (or system-config-selinux from command line). Type httpd in Filter and press enter. You will see that files that allow httpd write access have the Selinux File Type httpd_cache_t:s0. So.. now you know what to do right? Say you want to give httpd write access to folder /var/lib/dokuwiki/data/cache, then add a new file labelling using the Add button with the following details: File specifications: /var/lib/dokuwiki/data/cache(/.</description>
     </item>
     
     <item>
       <title>LDAP authentication through Apache for svn, trac or anything else for that matter :P</title>
-      <link>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
+      <link>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</link>
       <pubDate>Tue, 20 May 2008 02:07:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
+      <guid>https://www.sahil.cc/post/2008/ldap-authentication-through-apache-for-svn-trac-or-anything-else-for-that-matter-p/</guid>
       <description>Apache can be used as an access method for things like svn, trac, and even a whole file system through webdav. And apache also supports authentication through LDAP. Hence Apache can be used to authenticate the services that it provides through LDAP.
 Here is how it is done :
 For SVN :
@@ -36,10 +36,10 @@ For SVN :
     
     <item>
       <title>CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</title>
-      <link>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
+      <link>https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</link>
       <pubDate>Sun, 11 May 2008 14:47:18 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
+      <guid>https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/</guid>
       <description>Yup.
 SVN IS MAD.
 Sorry, SVN and HTTPD team up to drive people crazy.
@@ -50,10 +50,10 @@ I just came across two (or maybe three) of their misdoing in my effort to setup 
     
     <item>
       <title>public_html web server - without mod_userdir</title>
-      <link>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
+      <link>https://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</link>
       <pubDate>Sat, 03 May 2008 08:59:43 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
+      <guid>https://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/</guid>
       <description>Hell, what does the title mean??
 It means this :
 Allow people to put files in the public_html folder in their home directories and allow it to be seen through the web server of that server in this format : http://servername/~username/hisorherfiles

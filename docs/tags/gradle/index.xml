@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gradle on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/gradle/</link>
+    <link>https://www.sahil.cc/tags/gradle/</link>
     <description>Recent content in Gradle on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Tue, 06 Dec 2016 02:44:45 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rube Goldberg Machine - Gradle Setup</title>
-      <link>http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</link>
+      <link>https://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</link>
       <pubDate>Tue, 06 Dec 2016 02:44:45 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</guid>
-      <description></description>
+      <guid>https://www.sahil.cc/post/2016/rube-goldberg-machine-gradle-setup/</guid>
+      <description>A Rube Goldberg machine is a contraption, invention, device, or apparatus that is deliberately over-engineered to perform a simple task in a complicated fashion, generally including a chain reaction.                               Self Operating Napkin    My Convolution: To learn algorithms, I started a Coursera course, to run examples of which I needed a Java Project setup locally, in which I needed to input stuff, for which I needed a testing framework, hence I tried to find the best testing framework, and found out about Spock and also needed a project dependency manager like Maven/Ant/Gradle, and chose Gradle as the dependency manager of choice, and learnt Groovy to be able to write Gradle DSL.</description>
     </item>
     
   </channel>

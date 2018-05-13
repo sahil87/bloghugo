@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/categories/</link>
+    <link>https://www.sahil.cc/categories/</link>
     <description>Recent content in Categories on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 06 Dec 2017 23:54:46 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2018 14:33:39 +0530</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Blog</title>
-      <link>http://www.sahil.cc/categories/blog/</link>
-      <pubDate>Wed, 06 Dec 2017 23:54:46 +0530</pubDate>
+      <link>https://www.sahil.cc/categories/blog/</link>
+      <pubDate>Thu, 15 Feb 2018 14:33:39 +0530</pubDate>
       
-      <guid>http://www.sahil.cc/categories/blog/</guid>
+      <guid>https://www.sahil.cc/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guide</title>
-      <link>http://www.sahil.cc/categories/guide/</link>
-      <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
+      <link>https://www.sahil.cc/categories/guide/</link>
+      <pubDate>Thu, 15 Feb 2018 14:33:39 +0530</pubDate>
       
-      <guid>http://www.sahil.cc/categories/guide/</guid>
+      <guid>https://www.sahil.cc/categories/guide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Nitt</title>
-      <link>http://www.sahil.cc/categories/nitt/</link>
+      <link>https://www.sahil.cc/categories/nitt/</link>
       <pubDate>Thu, 22 May 2008 16:50:28 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/categories/nitt/</guid>
+      <guid>https://www.sahil.cc/categories/nitt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pcbo</title>
-      <link>http://www.sahil.cc/categories/pcbo/</link>
+      <link>https://www.sahil.cc/categories/pcbo/</link>
       <pubDate>Sat, 03 May 2008 04:34:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/categories/pcbo/</guid>
+      <guid>https://www.sahil.cc/categories/pcbo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pragyan</title>
-      <link>http://www.sahil.cc/categories/pragyan/</link>
+      <link>https://www.sahil.cc/categories/pragyan/</link>
       <pubDate>Mon, 11 Feb 2008 07:50:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/categories/pragyan/</guid>
+      <guid>https://www.sahil.cc/categories/pragyan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Review</title>
-      <link>http://www.sahil.cc/categories/review/</link>
+      <link>https://www.sahil.cc/categories/review/</link>
       <pubDate>Fri, 25 Nov 2016 05:24:39 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/categories/review/</guid>
+      <guid>https://www.sahil.cc/categories/review/</guid>
       <description></description>
     </item>
     

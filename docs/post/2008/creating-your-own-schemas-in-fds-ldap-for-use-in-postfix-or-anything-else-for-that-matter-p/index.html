@@ -2,6 +2,32 @@
 
 <html>
     <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "https://www.sahil.cc"
+        },
+        "articleSection" : "post",
+        "name" : "Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P",
+        "headline" : "Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P",
+        "description" : "What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2008",
+        "datePublished": "2008-05-05 15:58:25 &#43;0000 UTC",
+        "dateModified" : "2008-05-05 15:58:25 &#43;0000 UTC",
+        "url" : "https://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/",
+        "wordCount" : "470",
+        "keywords" : [ "fedora","ldap","postfix","Blog" ]
+    }
+    </script>
         
             
                 <title>Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</title>
@@ -10,8 +36,23 @@
 
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="generator" content="Hugo 0.36" />
+        <meta name="generator" content="Hugo 0.40.3" />
         
+  
+    
+  
+
+  
+
+  <link rel="apple-touch-icon-precomposed" href='https://www.sahil.cc/favicon/apple-touch-icon-precomposed.png'>
+  <link rel="icon" href='https://www.sahil.cc/favicon/favicon.png'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/favicon/mstile.png'>
+  <meta name="application-name" content="Sahil&#39;s Journal">
+  <meta name="msapplication-tooltip" content="One day at a time. One problem at a time.">
+  <meta name="msapplication-config" content='/favicon/ieconfig.xml'>
+
 
 
         
@@ -31,7 +72,7 @@
         <meta property="og:title" content="Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P" />
 <meta property="og:description" content="What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/" />
+<meta property="og:url" content="https://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/" />
 
 
 
@@ -49,6 +90,10 @@
 
 
 
+        <meta property="og:image" content="https://www.sahil.cc/images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
         
 <meta itemprop="name" content="Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P">
 <meta itemprop="description" content="What I needed for mailman like functioning while making postfix work with ldap was an attribute that stores content of type DN (Distinguished Name) i.e. a node address, or holding a data type that stores nothing but data of type that can hold address of the data type itself.">
@@ -74,8 +119,9 @@
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
-            <link rel="stylesheet" href="http://www.sahil.cc/css/main.css">
-            <link rel="stylesheet" href="http://www.sahil.cc/css/add-on.css">
+            <link rel="stylesheet" href="https://www.sahil.cc/css/main.css">
+            <link rel="stylesheet" href="https://www.sahil.cc/css/add-on.css">
+            <link rel="stylesheet" href="https://www.sahil.cc/css/academicons.min.css">
         
 
         
@@ -83,17 +129,21 @@
                 
             
                 
-                    <link rel="stylesheet" href="http://www.sahil.cc/css/syntax.css">
+                    <link rel="stylesheet" href="https://www.sahil.cc/css/syntax.css">
                 
             
                 
-                    <link rel="stylesheet" href="http://www.sahil.cc/css/bugfix.css">
+                    <link rel="stylesheet" href="https://www.sahil.cc/css/bugfix.css">
                 
             
         
 
-        
-            
+
+  
+    
+
+
+      
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -104,7 +154,6 @@ ga('create', 'UA-87967706-1', 'auto');
 ga('send', 'pageview');
 </script>
 
-        
     </head>
     <body>
 
@@ -115,32 +164,32 @@ ga('send', 'pageview');
     
 <header id="header">
     
-      <h1><a href="http://www.sahil.cc/">post</a></h1>
+      <h1><a href="https://www.sahil.cc/">post</a></h1>
     
 
     <nav class="links">
         <ul>
             
                 <li>
-                    <a href="http://www.sahil.cc/">
+                    <a href="https://www.sahil.cc/">
                             <i class="fa fa-home">&nbsp;</i>Home
                     </a>
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/about/">
+                    <a href="https://www.sahil.cc/about/">
                             <i class="fa fa-id-card-o">&nbsp;</i>About
                     </a>
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/quotes/">
+                    <a href="https://www.sahil.cc/quotes/">
                             <i class="fa fa-list">&nbsp;</i>Quotes
                     </a>
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/categories/">
+                    <a href="https://www.sahil.cc/categories/">
                             <i class="fa fa-sitemap">&nbsp;</i>Categories
                     </a>
                 </li>
@@ -152,7 +201,7 @@ ga('send', 'pageview');
                 </li>
             
                 <li>
-                    <a href="http://www.sahil.cc/contact/">
+                    <a href="https://www.sahil.cc/contact/">
                             <i class="fa fa-envelope-o">&nbsp;</i>Contact
                     </a>
                 </li>
@@ -170,7 +219,7 @@ ga('send', 'pageview');
                 <a class="fa-search" href="#search">Search</a>
                 <form id="search" method="get" action="//google.com/search">
                     <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="http://www.sahil.cc">
+                    <input type="hidden" name="as_sitesearch" value="https://www.sahil.cc">
                 </form>
             </li>
             <li class="menu">
@@ -187,7 +236,7 @@ ga('send', 'pageview');
         <section>
             <form class="search" method="get" action="//google.com/search">
                 <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="as_sitesearch" value="http://www.sahil.cc">
+                <input type="hidden" name="as_sitesearch" value="https://www.sahil.cc">
             </form>
         </section>
 
@@ -196,7 +245,7 @@ ga('send', 'pageview');
             <ul class="links">
                 
                     <li>
-                        <a href="http://www.sahil.cc/">
+                        <a href="https://www.sahil.cc/">
                             <h3>
                                 <i class="fa fa-home">&nbsp;</i>Home
                             </h3>
@@ -204,7 +253,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/about/">
+                        <a href="https://www.sahil.cc/about/">
                             <h3>
                                 <i class="fa fa-id-card-o">&nbsp;</i>About
                             </h3>
@@ -212,7 +261,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/quotes/">
+                        <a href="https://www.sahil.cc/quotes/">
                             <h3>
                                 <i class="fa fa-list">&nbsp;</i>Quotes
                             </h3>
@@ -220,7 +269,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/categories/">
+                        <a href="https://www.sahil.cc/categories/">
                             <h3>
                                 <i class="fa fa-sitemap">&nbsp;</i>Categories
                             </h3>
@@ -236,7 +285,7 @@ ga('send', 'pageview');
                     </li>
                 
                     <li>
-                        <a href="http://www.sahil.cc/contact/">
+                        <a href="https://www.sahil.cc/contact/">
                             <h3>
                                 <i class="fa fa-envelope-o">&nbsp;</i>Contact
                             </h3>
@@ -247,7 +296,7 @@ ga('send', 'pageview');
         </section>
 
     
-        <section id="recent-posts">
+        <section class="recent-posts">
             <div class="mini-posts">
                 <header>
                     <h3>Recent Posts</h3>
@@ -261,7 +310,31 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a></h3>
+                                <h3><a href="https://www.sahil.cc/post/2018/rooting-one-plus-one/">Rooting One Plus One</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-15'>
+                                    February 15, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.sahil.cc/post/2018/everything-about-yaml/">Everything About Yaml And Invision</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-14'>
+                                    February 14, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2017-12-06'>
@@ -273,7 +346,7 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h3>
+                                <h3><a href="https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2017-12-06'>
@@ -285,23 +358,11 @@ ga('send', 'pageview');
                 
                         <article class="mini-post">
                             <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a></h3>
+                                <h3><a href="https://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a></h3>
                                 
                                 <time class="published" datetime=
                                     '2017-11-07'>
                                     November 7, 2017</time>
-                            </header>
-                            
-
-                        </article>
-                
-                        <article class="mini-post">
-                            <header>
-                                <h3><a href="http://www.sahil.cc/post/2017/tooling-update/">Tooling Update</a></h3>
-                                
-                                <time class="published" datetime=
-                                    '2017-10-24'>
-                                    October 24, 2017</time>
                             </header>
                             
 
@@ -331,8 +392,9 @@ ga('send', 'pageview');
             
 
 
+
 <li>
-  <a href="//twitter.com/share?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&text=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP&via=_sahilahuja" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&amp;text=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP&amp;via=_sahilahuja" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -340,31 +402,38 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
   
+
+
 
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
 </li>
 
 
+
+
 <li>
-  <a href="//reddit.com/submit?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&amp;title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
 </li>
 
 
+
+
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&amp;title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -372,6 +441,7 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
@@ -384,15 +454,17 @@ ga('send', 'pageview');
     
     
   
+
 
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&amp;body=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
 </li>
+
 
         </ul>
     </section>
@@ -406,7 +478,7 @@ ga('send', 'pageview');
   <header>
     <div class="title">
         
-            <h1><a href="http://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/">Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</a></h1>
+            <h1><a href="https://www.sahil.cc/post/2008/creating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p/">Creating your own schemas in FDS Ldap for use in postfix (or anything else for that matter) :P</a></h1>
             
         
         
@@ -432,8 +504,9 @@ ga('send', 'pageview');
         
 
 
+
 <li>
-  <a href="//twitter.com/share?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&text=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP&via=_sahilahuja" target="_blank" class="share-btn twitter">
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&amp;text=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP&amp;via=_sahilahuja" target="_blank" class="share-btn twitter">
     <i class="fa fa-twitter"></i>
     <p>Twitter</p>
     </a>
@@ -441,31 +514,38 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
   
+
+
 
 
 
 <li>
-  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn facebook">
     <i class="fa fa-facebook"></i>
     <p>Facebook</p>
     </a>
 </li>
 
 
+
+
 <li>
-  <a href="//reddit.com/submit?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn reddit">
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&amp;title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn reddit">
     <i class="fa fa-reddit-alien"></i>
     <p>Reddit</p>
   </a>
 </li>
 
 
+
+
 <li>
-  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn linkedin">
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f&amp;title=Creating%20your%20own%20schemas%20in%20FDS%20Ldap%20for%20use%20in%20postfix%20%28or%20anything%20else%20for%20that%20matter%29%20%3aP" target="_blank" class="share-btn linkedin">
       <i class="fa fa-linkedin"></i>
       <p>LinkedIn</p>
     </a>
@@ -473,6 +553,7 @@ ga('send', 'pageview');
 
 
 
+
   
     
     
@@ -485,15 +566,17 @@ ga('send', 'pageview');
     
     
   
+
 
 
 
 <li>
-  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&body=http%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
+  <a href="mailto:?subject=Check out this post by Sahil%20Ahuja&amp;body=https%3a%2f%2fwww.sahil.cc%2fpost%2f2008%2fcreating-your-own-schemas-in-fds-ldap-for-use-in-postfix-or-anything-else-for-that-matter-p%2f" target="_blank" class="share-btn email">
     <i class="fa fa-envelope"></i>
     <p>Email</p>
   </a>
 </li>
+
 
       </ul>
     </section>
@@ -510,7 +593,7 @@ ga('send', 'pageview');
 
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script src="http://www.sahil.cc/js/load-photoswipe.js"></script>
+<script src="https://www.sahil.cc/js/load-photoswipe.js"></script>
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
@@ -568,13 +651,13 @@ What I needed for mailman like functioning while making postfix work with ldap w
 <p>In openldap, I used a schemas called evolutionPerson and evolutionPersonList (available with my fedora openldap distribution by moving evolutionperson.schema in /usr/share/evolution-data-server-1.12/ to /etc/opanldap/schemas/). evolutionPerson is very similar to inetOrgPerson class, which stores basically everything that could ever be used to describe a person. The reason I chose evolutionPerson over inetOrgPerson was the availablity of the evolutionPersonList class. Its attributes are : mail, contact and listnName, where both mail and contact can contain more than one values. mail and listName attribute type is text, and contact attribute type is DN. contact&rsquo;s were used to create groups, and mail&rsquo;s were used to forward the email to a third party server. Here is a screenshot of the same in action :</p>
 
 <p>
-<link rel="stylesheet" href="http://www.sahil.cc/css/hugo-easy-gallery.css" />
+<link rel="stylesheet" href="https://www.sahil.cc/css/hugo-easy-gallery.css" />
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="http://www.sahil.cc/images/2008/openldap.jpg" />
+      <img itemprop="thumbnail" src="https://www.sahil.cc/images/2008/openldap.jpg" />
     </div>
-    <a href="http://www.sahil.cc/images/2008/openldap.jpg" itemprop="contentUrl"></a>
+    <a href="https://www.sahil.cc/images/2008/openldap.jpg" itemprop="contentUrl"></a>
       <figcaption><h4>OpenLdap</h4>
       </figcaption>
   </figure>
@@ -595,9 +678,9 @@ What I needed for mailman like functioning while making postfix work with ldap w
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="http://www.sahil.cc/images/2008/myworkspace.jpg" />
+      <img itemprop="thumbnail" src="https://www.sahil.cc/images/2008/myworkspace.jpg" />
     </div>
-    <a href="http://www.sahil.cc/images/2008/myworkspace.jpg" itemprop="contentUrl"></a>
+    <a href="https://www.sahil.cc/images/2008/myworkspace.jpg" itemprop="contentUrl"></a>
       <figcaption><h4>Me, showing off my workspace</h4>
       </figcaption>
   </figure>
@@ -615,9 +698,9 @@ What I needed for mailman like functioning while making postfix work with ldap w
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="http://www.sahil.cc/images/2008/dsconsoleattributes.jpg" />
+      <img itemprop="thumbnail" src="https://www.sahil.cc/images/2008/dsconsoleattributes.jpg" />
     </div>
-    <a href="http://www.sahil.cc/images/2008/dsconsoleattributes.jpg" itemprop="contentUrl"></a>
+    <a href="https://www.sahil.cc/images/2008/dsconsoleattributes.jpg" itemprop="contentUrl"></a>
       <figcaption><h4>DNS Console Attributes</h4>
       </figcaption>
   </figure>
@@ -641,9 +724,9 @@ What I needed for mailman like functioning while making postfix work with ldap w
 <div class="box" style="max-width:300px">
   <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
     <div class="img">
-      <img itemprop="thumbnail" src="http://www.sahil.cc/images/2008/dsconsoleobjectclass.jpg" />
+      <img itemprop="thumbnail" src="https://www.sahil.cc/images/2008/dsconsoleobjectclass.jpg" />
     </div>
-    <a href="http://www.sahil.cc/images/2008/dsconsoleobjectclass.jpg" itemprop="contentUrl"></a>
+    <a href="https://www.sahil.cc/images/2008/dsconsoleobjectclass.jpg" itemprop="contentUrl"></a>
       <figcaption><h4>DNS Console Objectclass</h4>
       </figcaption>
   </figure>
@@ -659,34 +742,40 @@ That&rsquo;s it!!</li>
 
   <footer>
     <ul class="stats">
-    
+  <li class="categories">
+    <ul>
         
-
-        
-        
-            <li>
+            
+            
+                <i class="fa fa-folder"></i>
                 
                 
-                    
-
-                    
-
-                    
-                        <i class="fa fa-sitemap">&nbsp;</i>
-                    
-
-                    
-                        Category
-                    
+                <li><a class="article-category-link" href="https://www.sahil.cc/categories/nitt">nitt</a></li>
                 
-            </li>
+            
         
-    
-
-    
-    
-        <li><a href='http://www.sahil.cc/categories/nitt'>nitt</a></li>
-    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+            
+            
+                <i class="fa fa-tags"></i>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/fedora">fedora</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/ldap">ldap</a></li>
+                
+                
+                <li><a class="article-category-link" href="https://www.sahil.cc/tags/postfix">postfix</a></li>
+                
+            
+        
+    </ul>
+  </li>
 </ul>
 
   </footer>
@@ -719,12 +808,12 @@ That&rsquo;s it!!</li>
 
 <ul class="actions pagination">
     
-        <li><a href="http://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/"
+        <li><a href="https://www.sahil.cc/post/2008/public-html-web-server-without-mod-userdir/"
                 class="button big previous">public_html web server - without mod_userdir</a></li>
     
 
     
-        <li><a href="http://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/"
+        <li><a href="https://www.sahil.cc/post/2008/crazy-svn-httpd-errors-301-302/"
                 class="button big next">CrAzY SVN / HTTPD Errors!!! (301, 302 .....)</a></li>
     
 </ul>
@@ -739,7 +828,7 @@ That&rsquo;s it!!</li>
     
     
       
-        <img src="http://www.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo">
+        <a href='https://www.sahil.cc/'><img src="https://www.sahil.cc/img/avatar.png" width="105" alt="Coder Dojo" /></a>
       
     
     
@@ -750,6 +839,11 @@ That&rsquo;s it!!</li>
     
     
       <ul class="icons">
+        
+          
+    <li><a href="https://www.sahil.cc/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
         
         
   <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
@@ -775,6 +869,8 @@ That&rsquo;s it!!</li>
 
 
   <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
 
 
 
@@ -844,7 +940,7 @@ That&rsquo;s it!!</li>
   </section>
 
   
-  <section id="recent-posts">
+  <section class="recent-posts">
     <div class="mini-posts">
       <header>
         <h3>Recent Posts</h3>
@@ -860,7 +956,35 @@ That&rsquo;s it!!</li>
           <article class="mini-post">
             <header>
               <h3>
-                <a href="http://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a>
+                <a href="https://www.sahil.cc/post/2018/rooting-one-plus-one/">Rooting One Plus One</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-15'>
+                February 15, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.sahil.cc/post/2018/everything-about-yaml/">Everything About Yaml And Invision</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-14'>
+                February 14, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.sahil.cc/post/2017/uefi-secureboot-hell/">UEFI Secureboot Hell</a>
               </h3>
               
               <time class="published" datetime='2017-12-06'>
@@ -874,7 +998,7 @@ That&rsquo;s it!!</li>
           <article class="mini-post">
             <header>
               <h3>
-                <a href="http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a>
+                <a href="https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/">Does SELinux save you against rm -rf ?</a>
               </h3>
               
               <time class="published" datetime='2017-12-06'>
@@ -888,25 +1012,11 @@ That&rsquo;s it!!</li>
           <article class="mini-post">
             <header>
               <h3>
-                <a href="http://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a>
+                <a href="https://www.sahil.cc/post/2017/reacting-with-a-vengence/">Reacting With a Vengence</a>
               </h3>
               
               <time class="published" datetime='2017-11-07'>
                 November 7, 2017
-              </time>
-            </header>
-            
-
-          </article>
-        
-          <article class="mini-post">
-            <header>
-              <h3>
-                <a href="http://www.sahil.cc/post/2017/tooling-update/">Tooling Update</a>
-              </h3>
-              
-              <time class="published" datetime='2017-10-24'>
-                October 24, 2017
               </time>
             </header>
             
@@ -928,93 +1038,13 @@ That&rsquo;s it!!</li>
   
   
   
-  
-    <section id="categories">
-      <header>
-        <h3>
-          <a href="http://www.sahil.cc/categories/">Categories</a>
-        </h3>
-      </header>
-        
-          
-        
-
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/blog/">blog</a>
-                <span style="float:right;">45</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pcbo/">pcbo</a>
-                <span style="float:right;">28</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/nitt/">nitt</a>
-                <span style="float:right;">17</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/pragyan/">pragyan</a>
-                <span style="float:right;">6</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/guide/">guide</a>
-                <span style="float:right;">5</span>
-              
-            </header>
-          </article>
-        </p>
-        
-        <p>
-          <article>
-            <header>
-              
-                <a href="http://www.sahil.cc/categories/review/">review</a>
-                <span style="float:right;">2</span>
-              
-            </header>
-          </article>
-        </p>
-        
-    </section>
-  
 
   
   
     <section id="mini-bio">
-      <h3>About</h1>
+      <h3>About</h3>
       <p>The programmer, like the poet, works only slightly removed from pure thought-stuff. He builds his castles in the air, from air, creating by exertion of the imagination.</p>
-      <a href="http://www.sahil.cc/about/" class="button">Learn More</a>
+      <a href="https://www.sahil.cc/about/" class="button">Learn More</a>
     </section>
   
 
@@ -1022,6 +1052,11 @@ That&rsquo;s it!!</li>
   <section id="footer">
     
       <ul class="icons">
+        
+          
+    <li><a href="https://www.sahil.cc/index.xml" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a></li>
+
+
         
         
   <li><a href="//github.com/sahil87" target="_blank" title="GitHub" class="fa fa-github"></a></li>
@@ -1047,6 +1082,8 @@ That&rsquo;s it!!</li>
 
 
   <li><a href="//linkedin.com/in/ahujasahil" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
 
 
 
@@ -1122,33 +1159,49 @@ That&rsquo;s it!!</li>
   </section>
 </section>
 
-</div>
-<a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
 
-
-
-  
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
-  <script src="http://www.sahil.cc/js/util.js"></script>
-  <script src="http://www.sahil.cc/js/main.js"></script>
-  <script src="http://www.sahil.cc/js/backToTop.js"></script>
-
-
-
-
+    
       
-  
+    
+
+    
+      
+      
+      
+        <script src="//cdn.bootcss.com/highlight.js//highlight.min.js"></script>
+        
+        
+        
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://www.sahil.cc/js/util.js"></script>
+      <script src="https://www.sahil.cc/js/main.js"></script>
+      <script src="https://www.sahil.cc/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
 
-
-<script>hljs.initHighlightingOnLoad();</script>
-</body>
+  </body>
 </html>
 

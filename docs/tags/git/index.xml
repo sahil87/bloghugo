@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/git/</link>
+    <link>https://www.sahil.cc/tags/git/</link>
     <description>Recent content in Git on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Sat, 07 Jan 2017 12:33:08 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Github 2016 Report Card</title>
-      <link>http://www.sahil.cc/post/2017/github-2016-report-card/</link>
+      <link>https://www.sahil.cc/post/2017/github-2016-report-card/</link>
       <pubDate>Sat, 07 Jan 2017 12:33:08 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2017/github-2016-report-card/</guid>
-      <description></description>
+      <guid>https://www.sahil.cc/post/2017/github-2016-report-card/</guid>
+      <description>My 2016 Commits                               Github 2016 Commits    A great tool https://githubreportcard.reflect.io/ helped me visualize the same in more detail:   Github Report Card 2016    In comparison to 2015    Github 2015 Commits    </description>
     </item>
     
     <item>
       <title>Good Git!</title>
-      <link>http://www.sahil.cc/post/2016/good-git/</link>
+      <link>https://www.sahil.cc/post/2016/good-git/</link>
       <pubDate>Tue, 22 Nov 2016 20:26:16 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/good-git/</guid>
+      <guid>https://www.sahil.cc/post/2016/good-git/</guid>
       <description>&lt;h2 id=&#34;most-used-but-yet-unremembered-git-commands&#34;&gt;Most used (but yet unremembered) git commands&lt;/h2&gt;
 
 &lt;!-- 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.sahil.cc/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.sahil.cc/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34; style=&#34;max-width:300px&#34;&gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.sahil.cc/images/2016/caveman4.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.sahil.cc/images/2016/caveman4.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.sahil.cc/images/2016/caveman4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.sahil.cc/images/2016/caveman4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;Caveman Fire&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;

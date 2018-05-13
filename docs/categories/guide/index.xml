@@ -2,22 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Guide on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/categories/guide/</link>
+    <link>https://www.sahil.cc/categories/guide/</link>
     <description>Recent content in Guide on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
-    <lastBuildDate>Sun, 27 Aug 2017 23:20:16 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2018 14:33:39 +0530</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/categories/guide/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/categories/guide/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Rooting One Plus One</title>
+      <link>https://www.sahil.cc/post/2018/rooting-one-plus-one/</link>
+      <pubDate>Thu, 15 Feb 2018 14:33:39 +0530</pubDate>
+      
+      <guid>https://www.sahil.cc/post/2018/rooting-one-plus-one/</guid>
+      <description>How to root OnePlus One  Install TWRP recovery steps Install Lineage OS 14.1 based on Android 7 and GApps using the &amp;ldquo;Install&amp;rdquo; option on TWRP via sd card. Link to the guide.  A few lessons learnt along the way  Ensure the USB wire being used can also transfer data Useful commands: sh adb devices -l fastboot devices fastboot oem unlock fastboot flash recovery /path/on/laptop/recovery.img adb push /path/on/laptop/supersu-v2.</description>
+    </item>
+    
+    <item>
+      <title>Everything About Yaml And Invision</title>
+      <link>https://www.sahil.cc/post/2018/everything-about-yaml/</link>
+      <pubDate>Wed, 14 Feb 2018 17:52:49 +0530</pubDate>
+      
+      <guid>https://www.sahil.cc/post/2018/everything-about-yaml/</guid>
+      <description>Everything there is to know about yaml condensed in a great blog post here
+Also, I was facing an issue in Ubuntu of not being able to copy by Alt + Dragging objects. This post saved my day.
+Pressing the Super (windows) key along with Alt while dragging items prevents the default window drag in Ubuntu.</description>
+    </item>
+    
+    <item>
       <title>Typing Unicode Characters in Ubuntu</title>
-      <link>http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</link>
+      <link>https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</link>
       <pubDate>Sun, 27 Aug 2017 23:20:16 +0530</pubDate>
       
-      <guid>http://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
+      <guid>https://www.sahil.cc/post/2017/typing-unicode-characters-in-ubuntu/</guid>
       <description>&lt;p&gt;Ever since I decided that &lt;code&gt;&amp;#96;&lt;/code&gt; was the best means to toggle Yakuake (which has been my lifeline for an integral part of the way I work for a long time now), typing &lt;code&gt;&amp;#96;&lt;/code&gt; whenever I needed it has been hell.
 
 After going through a great deal and self doubt, the final outcome deserves being documented.&lt;/p&gt;</description>
@@ -25,19 +45,19 @@ After going through a great deal and self doubt, the final outcome deserves bein
     
     <item>
       <title>The DevOps Docks</title>
-      <link>http://www.sahil.cc/post/2017/the-devops-docks/</link>
+      <link>https://www.sahil.cc/post/2017/the-devops-docks/</link>
       <pubDate>Sat, 28 Jan 2017 12:33:35 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2017/the-devops-docks/</guid>
-      <description></description>
+      <guid>https://www.sahil.cc/post/2017/the-devops-docks/</guid>
+      <description>A cool way to vomit out all Ansible variables: https://coderwall.com/p/13lh6w/dump-all-variables                               Ansible Vomit    </description>
     </item>
     
     <item>
       <title>Live long and prosper - Spock</title>
-      <link>http://www.sahil.cc/post/2016/live-long-and-prosper-spock/</link>
+      <link>https://www.sahil.cc/post/2016/live-long-and-prosper-spock/</link>
       <pubDate>Mon, 05 Dec 2016 18:05:28 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/live-long-and-prosper-spock/</guid>
+      <guid>https://www.sahil.cc/post/2016/live-long-and-prosper-spock/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://spockframework.org/&#34;&gt;Spock&lt;/a&gt; is the new kid in town in the &lt;a href=&#34;https://en.wikipedia.org/wiki/Unit_testing&#34;&gt;crowded&lt;/a&gt; world of testing frameworks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://accu.org/index.php/journals/2203&#34;&gt;Here&lt;/a&gt; is an article on Spock where the author tries to vent out years in frustration over JUnit in a very professionally demeanor.&lt;/p&gt;</description>
@@ -45,10 +65,10 @@ After going through a great deal and self doubt, the final outcome deserves bein
     
     <item>
       <title>JWT: JSON Web Token - Passing on the secret without letting the neighours know</title>
-      <link>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
+      <link>https://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</link>
       <pubDate>Wed, 23 Nov 2016 16:43:52 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
+      <guid>https://www.sahil.cc/post/2016/jwt-json-web-token-passing-on-the-secret-without-letting-the-neighours-know/</guid>
       <description>&lt;p&gt;Login is still a tough problem! It&amp;rsquo;s been 5 years since I left coding professionally and still parts of this remain unresolved.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -56,20 +76,20 @@ After going through a great deal and self doubt, the final outcome deserves bein
     
     <item>
       <title>Good Git!</title>
-      <link>http://www.sahil.cc/post/2016/good-git/</link>
+      <link>https://www.sahil.cc/post/2016/good-git/</link>
       <pubDate>Tue, 22 Nov 2016 20:26:16 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2016/good-git/</guid>
+      <guid>https://www.sahil.cc/post/2016/good-git/</guid>
       <description>&lt;h2 id=&#34;most-used-but-yet-unremembered-git-commands&#34;&gt;Most used (but yet unremembered) git commands&lt;/h2&gt;
 
 &lt;!-- 
-&lt;link rel=&#34;stylesheet&#34; href=&#34;http://www.sahil.cc/css/hugo-easy-gallery.css&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://www.sahil.cc/css/hugo-easy-gallery.css&#34; /&gt;
 &lt;div class=&#34;box&#34; style=&#34;max-width:300px&#34;&gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;http://www.sahil.cc/images/2016/caveman4.jpg&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://www.sahil.cc/images/2016/caveman4.jpg&#34; /&gt;
     &lt;/div&gt;
-    &lt;a href=&#34;http://www.sahil.cc/images/2016/caveman4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+    &lt;a href=&#34;https://www.sahil.cc/images/2016/caveman4.jpg&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;&lt;h4&gt;Caveman Fire&lt;/h4&gt;
       &lt;/figcaption&gt;
   &lt;/figure&gt;

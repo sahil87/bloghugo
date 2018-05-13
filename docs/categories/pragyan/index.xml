@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pragyan on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/categories/pragyan/</link>
+    <link>https://www.sahil.cc/categories/pragyan/</link>
     <description>Recent content in Pragyan on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Mon, 11 Feb 2008 07:50:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/categories/pragyan/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/categories/pragyan/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Woes of a Pragyan Girlfriend</title>
-      <link>http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</link>
+      <link>https://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</link>
       <pubDate>Mon, 11 Feb 2008 07:50:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</guid>
+      <guid>https://www.sahil.cc/post/2008/woes-of-a-pragyan-girlfriend/</guid>
       <description>Why it is the biggest mistake of your lifetime to go out with a member of the website development team of one of the most spectacular technical festivals in India..
 Springtime is here- a season of new beginnings, love, laughter and happiness. A great situation for budding relationships you may think. But will the blossom stand the frost of the web team lab of NIT Trichy. I can assure you that it is a trial by fire.</description>
     </item>
     
     <item>
       <title>Just a thought....</title>
-      <link>http://www.sahil.cc/post/2006/just-a-thought..../</link>
+      <link>https://www.sahil.cc/post/2006/just-a-thought..../</link>
       <pubDate>Sun, 09 Jul 2006 16:12:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/just-a-thought..../</guid>
+      <guid>https://www.sahil.cc/post/2006/just-a-thought..../</guid>
       <description>We could document the development of pragyan by setting up a wiki, just for that, on our lan.
 Please comment&amp;hellip;</description>
     </item>
     
     <item>
       <title>Things to Remember</title>
-      <link>http://www.sahil.cc/post/2006/things-to-remember/</link>
+      <link>https://www.sahil.cc/post/2006/things-to-remember/</link>
       <pubDate>Wed, 05 Jul 2006 10:39:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/things-to-remember/</guid>
+      <guid>https://www.sahil.cc/post/2006/things-to-remember/</guid>
       <description>To make the following modules :
 A picture gallery (For events such as laser show)regms - registration management (To be used for making any kind of forms)quizms - quizesforumarticle (a normal page)tbms - a mangement system for mysql tables - a standardized way of displaying values in a table - for example, displaying results in quizms
 All these moudules must be accessible from the main site builder. (Thats the main idea of having modules - a list of types of pages to choose from)</description>
@@ -45,10 +45,10 @@ All these moudules must be accessible from the main site builder. (Thats the mai
     
     <item>
       <title>Programming Ethics to be followed...</title>
-      <link>http://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</link>
+      <link>https://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</link>
       <pubDate>Sat, 24 Jun 2006 20:26:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</guid>
+      <guid>https://www.sahil.cc/post/2006/programming-ethics-to-be-followed.../</guid>
       <description>It is high time that we at Octa start following standard programming practices.
 Two major steps to be followed this time during Pragyan coding are:
 To develop pragyan using CVS.To make use of the DOxygen documentation system for automatic documentation and will develop our code in accordance with the DOxygen system.We will have to be absolutely sure that the above mentioned guidelines are followed before commencing any work.</description>
@@ -56,20 +56,20 @@ To develop pragyan using CVS.To make use of the DOxygen documentation system for
     
     <item>
       <title>Why we would make a new cms.....</title>
-      <link>http://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</link>
+      <link>https://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</link>
       <pubDate>Wed, 21 Jun 2006 05:37:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</guid>
+      <guid>https://www.sahil.cc/post/2006/why-we-would-make-a-new-cms...../</guid>
       <description>Because we want extreme customisability&amp;hellip;..
 There are many open source cms available but - none of them supports the amount of customizability we require. Our aim here is to make a website which will be used only in the course event. But the cms available are built for web-site management. We don&amp;rsquo;t want that. We want to host an event, that calls for rapid updates, browsing of online files, edited source code AND having a WYSIWYG editor at the same time, not to mention extensive support for features like quiz, report, user-management etc.</description>
     </item>
     
     <item>
       <title>PRAYAN ROCKS!!!!</title>
-      <link>http://www.sahil.cc/post/2006/prayan-rocks/</link>
+      <link>https://www.sahil.cc/post/2006/prayan-rocks/</link>
       <pubDate>Wed, 21 Jun 2006 05:30:00 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2006/prayan-rocks/</guid>
+      <guid>https://www.sahil.cc/post/2006/prayan-rocks/</guid>
       <description>Hi guys&amp;hellip;
 This is a new blog to keep track of pragyan&amp;rsquo;s website development..</description>
     </item>

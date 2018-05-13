@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yaml on Sahil&#39;s Journal</title>
+    <link>https://www.sahil.cc/tags/yaml/</link>
+    <description>Recent content in Yaml on Sahil&#39;s Journal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 14 Feb 2018 17:52:49 +0530</lastBuildDate>
+    
+	<atom:link href="https://www.sahil.cc/tags/yaml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Everything About Yaml And Invision</title>
+      <link>https://www.sahil.cc/post/2018/everything-about-yaml/</link>
+      <pubDate>Wed, 14 Feb 2018 17:52:49 +0530</pubDate>
+      
+      <guid>https://www.sahil.cc/post/2018/everything-about-yaml/</guid>
+      <description>Everything there is to know about yaml condensed in a great blog post here
+Also, I was facing an issue in Ubuntu of not being able to copy by Alt + Dragging objects. This post saved my day.
+Pressing the Super (windows) key along with Alt while dragging items prevents the default window drag in Ubuntu.</description>
+    </item>
+    
+  </channel>
+</rss>

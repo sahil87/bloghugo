@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on Sahil&#39;s Journal</title>
-    <link>http://www.sahil.cc/tags/linux/</link>
+    <link>https://www.sahil.cc/tags/linux/</link>
     <description>Recent content in Linux on Sahil&#39;s Journal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please mention source if you want to quote or reproduce.</copyright>
     <lastBuildDate>Wed, 06 Dec 2017 23:00:00 +0530</lastBuildDate>
     
-	<atom:link href="http://www.sahil.cc/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.sahil.cc/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Does SELinux save you against rm -rf ?</title>
-      <link>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</link>
+      <link>https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</link>
       <pubDate>Wed, 06 Dec 2017 23:00:00 +0530</pubDate>
       
-      <guid>http://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</guid>
+      <guid>https://www.sahil.cc/post/2017/does-selinux-save-you-against-rm-rf/</guid>
       <description>Always wondered if there is way in SELinux to disable the deadly rm -rf at / path.
 Could never find the time to experiment in a VM to find out. Have you?
 Oh, and the best thing about Hugo is that can now type blogs directly from the terminal =:D</description>
@@ -25,10 +25,10 @@ Oh, and the best thing about Hugo is that can now type blogs directly from the t
     
     <item>
       <title>Digikam Caveats - things to make sure using Digikam</title>
-      <link>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
+      <link>https://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</link>
       <pubDate>Sat, 14 Nov 2009 19:19:03 +0000</pubDate>
       
-      <guid>http://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
+      <guid>https://www.sahil.cc/post/2009/digikam-caveats-things-to-make-sure-using-digikam/</guid>
       <description>I have been bitten. And so I post this in the hope that some needy soul finds this before he/she/it gets bitten too.
 Problem: Digikam saves image tags (ratings/captions that you spend hours editing) in its internal database. When you switch to a newer linux version, lose this information - unless you are careful enough to copy over the digikam.db4 file - which I was. The second problem is that if you move around or copy your files using a file browser, you lose this information ( !</description>
     </item>
